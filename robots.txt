@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Sitemap: https://zacharykai.net/sitemap.xml
 
 User-agent: *
@@ -5,3 +6,12 @@ Allow: /
 
 Disallow: /assets/pdfs/
 Disallow: /assets/scripts/
+=======
+Sitemap: https://zacharykai.net/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Disallow: /assets/scripts/
+Disallow: /assets/pdfs/
+>>>>>>> origin/main

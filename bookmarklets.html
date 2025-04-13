@@ -1,13 +1,21 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
+=======
+<html lang="en"><head>
+>>>>>>> origin/main
 <meta charset="utf-8">
 <title>Bookmarklets | Zachary Kai</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
+<<<<<<< HEAD
 <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
+=======
+<link rel="webmention" href="https://webmention.io/zacharykai.net/webmention">
+>>>>>>> origin/main
 <link rel="canonical" href="https://zacharykai.net/bookmarklets">
 <meta name="date" content="2025-03-14">
 <meta name="last-modified" content="2025-03-16">
@@ -76,19 +84,32 @@
 <hr>
 <h2 id="rss-finder">RSS Feed Finder</h2>
 <p>This'll find RSS feeds for the site you're visiting.</p>
+<<<<<<< HEAD
 <pre><code>javascript:(function(){var feeds=[];var links=document.getElementsByTagName('link');for(var i=0;i<links.length;i++){var link=links[i];var type=link.getAttribute('type');var rel=link.getAttribute('rel');var href=link.getAttribute('href');if(href&&(type==='application/rss+xml'||type==='application/atom+xml'||(rel==='alternate'&&(type==='application/rss+xml'||type==='application/atom+xml')))){if(href.indexOf('http')!==0){if(href.startsWith('/')){href=window.location.origin+href;}else{href=window.location.href.substring(0,window.location.href.lastIndexOf('/')+1)+href;}}feeds.push(href);}}if(feeds.length>0){window.open(feeds[0],'_blank');}else{alert('No RSS feeds found on this page.');}})();
 </code></pre>
+=======
+<pre><code>javascript:(function(){var feeds=[];var links=document.getElementsByTagName('link');for(var i=0;i<links.length;i++){var link="links[i];var" type="link.getAttribute('type');var" rel="link.getAttribute('rel');var" href="link.getAttribute('href');if(href&amp;&amp;(type==='application/rss+xml'||type==='application/atom+xml'||(rel==='alternate'&amp;&amp;(type==='application/rss+xml'||type==='application/atom+xml')))){if(href.indexOf('http')!==0){if(href.startsWith('/')){href=window.location.origin+href;}else{href=window.location.href.substring(0,window.location.href.lastIndexOf('/')+1)+href;}}feeds.push(href);}}if(feeds.length">0){window.open(feeds[0],'_blank');}else{alert('No RSS feeds found on this page.');}})();
+</links.length;i++){var></code></pre>
+>>>>>>> origin/main
 <details>
 <summary>Expanded Code</summary>
 <pre><code>javascript:(function(){
     var feeds = [];
     var links = document.getElementsByTagName('link');
+<<<<<<< HEAD
     for (var i = 0; i < links.length; i++) {
+=======
+    for (var i = 0; i &lt; links.length; i++) {
+>>>>>>> origin/main
         var link = links[i];
         var type = link.getAttribute('type');
         var rel = link.getAttribute('rel');
         var href = link.getAttribute('href');
+<<<<<<< HEAD
         if (href && (type === 'application/rss+xml' || type === 'application/atom+xml' || (rel === 'alternate' && (type === 'application/rss+xml' || type === 'application/atom+xml')))) {
+=======
+        if (href &amp;&amp; (type === 'application/rss+xml' || type === 'application/atom+xml' || (rel === 'alternate' &amp;&amp; (type === 'application/rss+xml' || type === 'application/atom+xml')))) {
+>>>>>>> origin/main
             if (href.indexOf('http') !== 0) {
                 if (href.startsWith('/')) {
                     href = window.location.origin + href;
@@ -99,7 +120,11 @@
             feeds.push(href);
         }
     }
+<<<<<<< HEAD
     if (feeds.length > 0) {
+=======
+    if (feeds.length &gt; 0) {
+>>>>>>> origin/main
         // Open the first RSS feed in the browser's default RSS viewer
         window.open(feeds[0], '_blank');
     } else {
@@ -112,24 +137,40 @@
 <hr>
 <h2 id="webmention-checker">Webmention Checker</h2>
 <p>This checks for a site's webmention endpoint.</p>
+<<<<<<< HEAD
 <pre><code>javascript:(function(){function findWebmentionsEndpoint(){const e=document.querySelectorAll('link[rel="webmention"]');if(e.length>0)return e[0].getAttribute('href');const t=document.querySelectorAll('a[rel="webmention"]');if(t.length>0)return t[0].getAttribute('href');const n=document.querySelector('meta[http-equiv="Link"]');if(n){const o=n.getAttribute('content'),r=o.match(/<([^>]+)>;\s*rel=(?:%22|%27)webmention(?:%22|%27)/);if(r)return r[1]}return null}alert(findWebmentionsEndpoint()||'No webmentions endpoint found');})();
+=======
+<pre><code>javascript:(function(){function findWebmentionsEndpoint(){const e=document.querySelectorAll('link[rel="webmention"]');if(e.length&gt;0)return e[0].getAttribute('href');const t=document.querySelectorAll('a[rel="webmention"]');if(t.length&gt;0)return t[0].getAttribute('href');const n=document.querySelector('meta[http-equiv="Link"]');if(n){const o=n.getAttribute('content'),r=o.match(/&lt;([^&gt;]+)&gt;;\s*rel=(?:%22|%27)webmention(?:%22|%27)/);if(r)return r[1]}return null}alert(findWebmentionsEndpoint()||'No webmentions endpoint found');})();
+>>>>>>> origin/main
 </code></pre>
 <details>
 <summary>Expanded Code</summary>
 <pre><code>(function() {
     function findWebmentionsEndpoint() {
         const linkTags = document.querySelectorAll('link[rel="webmention"]');
+<<<<<<< HEAD
         if (linkTags.length > 0) {
             return linkTags[0].getAttribute('href');
         }  
         const headerLinks = document.querySelectorAll('a[rel="webmention"]');
         if (headerLinks.length > 0) {
+=======
+        if (linkTags.length &gt; 0) {
+            return linkTags[0].getAttribute('href');
+        }  
+        const headerLinks = document.querySelectorAll('a[rel="webmention"]');
+        if (headerLinks.length &gt; 0) {
+>>>>>>> origin/main
             return headerLinks[0].getAttribute('href');
         }
         const headers = document.querySelector('meta[http-equiv="Link"]');
         if (headers) {
             const content = headers.getAttribute('content');
+<<<<<<< HEAD
             const match = content.match(/<([^>]+)>;\s*rel=(?:%22|%27)webmention(?:%22|%27)/);
+=======
+            const match = content.match(/&lt;([^&gt;]+)&gt;;\s*rel=(?:%22|%27)webmention(?:%22|%27)/);
+>>>>>>> origin/main
             if (match) {
                 return match[1];
             }
@@ -144,7 +185,11 @@
 <hr>
 <h2 id="word-counter">Word Counter</h2>
 <p>This counts how many words within the <code>main</code> HTML element and the estimated reading time.</p>
+<<<<<<< HEAD
 <pre><code>javascript:(function(){const main=document.querySelector('main');if(!main){alert('No main tag found on this page!');return;}const text=main.textContent.trim();const words=text.split(/\s+/).filter(word=>word.length>0);const wordCount=words.length;const avgReadingSpeed=200;const readingTimeMinutes=wordCount/avgReadingSpeed;const mins=Math.floor(readingTimeMinutes);const secs=Math.floor((readingTimeMinutes-mins)*60);const readingTime=`${mins}:${secs.toString().padStart(2,'0')}`;alert(`The main tag contains ${wordCount} words.\nEstimated reading time: ${readingTime} mins`);})();</code></pre>
+=======
+<pre><code>javascript:(function(){const main=document.querySelector('main');if(!main){alert('No main tag found on this page!');return;}const text=main.textContent.trim();const words=text.split(/\s+/).filter(word=&gt;word.length&gt;0);const wordCount=words.length;const avgReadingSpeed=200;const readingTimeMinutes=wordCount/avgReadingSpeed;const mins=Math.floor(readingTimeMinutes);const secs=Math.floor((readingTimeMinutes-mins)*60);const readingTime=`${mins}:${secs.toString().padStart(2,'0')}`;alert(`The main tag contains ${wordCount} words.\nEstimated reading time: ${readingTime} mins`);})();</code></pre>
+>>>>>>> origin/main
 <details>
 <summary>Expanded Code</summary>
 <pre><code>javascript:(function() {
@@ -158,7 +203,11 @@
   // Extract text content and trim whitespace
   const text = main.textContent.trim();
   // Split text into words and filter out empty strings
+<<<<<<< HEAD
   const words = text.split(/\s+/).filter(word => word.length > 0);
+=======
+  const words = text.split(/\s+/).filter(word =&gt; word.length &gt; 0);
+>>>>>>> origin/main
   // Count the number of words
   const wordCount = words.length;
   // Define average reading speed (words per minute)
@@ -177,6 +226,7 @@ Estimated reading time: ${readingTime} mins`);
 </code></pre>
 </details>
 <p>•--♡--•</p>
+<<<<<<< HEAD
 <p class="essentials"><strong>Copy & Share</strong>: <a href="/bookmarklets">zacharykai.net/bookmarklets</a></p>
 <p class="essentials"><strong>Reply Via</strong>: <a href="mailto:hi@zacharykai.net">Email</a> | <a href="https://webmention.io/zacharykai.net/webmention" target="_blank" rel="noopener">Webmention</a></p>
 </main>
@@ -186,3 +236,19 @@ Estimated reading time: ${readingTime} mins`);
 <p class="elsewhere">Elsewhere || <a href="https://github.com/zk-codes" target="_blank" rel="noopener">Github</a> | <a href="https://indieweb.org/User:Zacharykai.net" target="_blank" rel="noopener">Indieweb</a> | <a href="https://archive.org/details/@zacharykai" target="_blank" rel="noopener">Internet Archive</a> | <a href="https://ko-fi.com/zacharykai" target="_blank" rel="noopener">Ko-Fi</a> | <a href="https://www.linkedin.com/in/zachary-kai/" target="_blank" rel="noopener">Linkedin</a></p> </footer>
 </body>
 </html>
+=======
+<p class="essentials"><strong>Copy &amp; Share</strong>: <a href="/bookmarklets">zacharykai.net/bookmarklets</a></p>
+</main>
+<section class="h-card vcard">
+<section class="h-card-image"><img class="u-photo" loading="lazy" src="/assets/zk_icon.png" alt="Zachary Kai's avatar."></section>
+<section class="h-card-content">
+<p><strong><a class="u-url p-name" href="https://zacharykai.net" rel="me"><span class="fn">Zachary Kai</span></a></strong> — <span class="p-pronouns">he/him</span> | <a class="u-email email" href="mailto:hi@zacharykai.net" rel="me">hi@zacharykai.net</a></p>
+<p class="p-note">Zachary Kai is a space fantasy writer, offbeat queer, traveler, zinester, and avowed generalist. The internet is his livelihood and lifeline.</p>
+</section>
+</section>
+<p><a href="#top" class="essentials">Read again...</a></p>
+<footer><p>Est. 2024 || <a href="/about">About</a> | <a href="/changelog">Changelog</a> | <a href="/cv">CV</a> | <a href="/colophon">Colophon</a> | <a href="/contact">Contact</a> | <a href="/newsletter/">Newsletter</a> | <a href="/resume">Resume</a> | <a href="/assets/rss.xml">RSS</a> |  <a href="/sitemap">Sitemap</a></p>
+<p class="elsewhere">Elsewhere || <a href="https://indieweb.org/User:Zacharykai.net" target="_blank">Indieweb</a> | <a href="https://archive.org/details/@zacharykai" target="_blank">Internet Archive</a> | <a href="https://ko-fi.com/zacharykai" target="_blank">Ko-Fi</a></p> </footer>
+
+</body></html>
+>>>>>>> origin/main
