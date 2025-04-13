@@ -1,0 +1,54 @@
+/* Images */
+img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.caption {
+    font-size: 0.85em;
+    color: var(--main-color);
+    text-align: center;
+    font-style: italic;
+}
+
+/* Image layouts */
+.image-duo,
+.image-trio,
+.image-sextet {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.image-duo img {
+    width: calc(50% - 5px);
+}
+
+.image-trio img {
+    width: calc(33.33% - 7px);
+}
+
+.image-sextet img {
+    width: calc(14% - 7px);
+}
+
+/* Banner images */
+.banner-88x31 {
+    image-rendering: pixelated;
+}
+
+@media (max-width: 768px) {
+    .image-duo,
+    .image-trio {
+        flex-direction: column;
+    }
+    
+    .image-duo img,
+    .image-trio img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

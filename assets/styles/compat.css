@@ -1,0 +1,53 @@
+/* Backward compatibility */
+
+/* IE fallbacks */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    body {
+        background-color: #f6e6cf;
+        font-family: "Palatino Linotype", serif;
+        color: #503832;
+        font-size: 20px;
+    }
+
+    header, main, footer, pre, .h-card {
+        border: 3px #503832 double;
+        padding: 15px;
+    }
+
+    .button, button {
+        background-color: #503832;
+        color: #f6e6cf;
+    }
+}
+
+/* Ensure flex layout works in older browsers */
+.image-duo, .image-trio, .image-sextet, .h-card {
+    display: block\9; /* IE9 fallback */
+}
+
+/* CSS for older browsers */
+@supports not (--var: 0) {
+    body {
+        background-color: #f6e6cf;
+        font-family: "Palatino Linotype", serif;
+        color: #503832;
+        font-size: 20px;
+    }
+
+    header, main, footer, pre, .h-card, hr {
+        border: 3px #503832 double;
+    }
+
+    .quotes {
+        border-left: 3px #503832 double;
+    }
+
+    p:target:not(#top) {
+        background-color: #ffd6a5;
+    }
+
+    .button, button {
+        background-color: #503832;
+        color: #f6e6cf;
+    }
+}

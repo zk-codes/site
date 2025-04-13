@@ -1,0 +1,68 @@
+/* Forms */
+form {
+    border-top: var(--border-style);
+    border-bottom: var(--border-style);
+    padding: 15px 0;
+}
+
+fieldset {
+    border: none;
+    border-bottom: var(--border-style);
+    margin: 15px 0;
+    padding: 10px 0;
+}
+
+fieldset:first-of-type {
+    margin-top: 0;
+}
+
+/* Form elements */
+textarea, 
+select,
+input:not(.button):not([type="radio"]):not([type="checkbox"]) {
+    font-size: var(--base-font-size);
+    line-height: 1.5;
+    font-family: var(--font-family);
+    margin: 15px 0;
+    width: 100%;
+    padding: var(--container-padding);
+    border: 1px solid var(--main-color);
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Radio and Checkbox Groups */
+.radio-group, 
+.checkbox-group {
+    margin: 10px 0;
+}
+
+/* Radio button and checkbox labels */
+.radio-label, 
+.checkbox-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Individual radio buttons */
+input[type="radio"], 
+input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.button, 
+button {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+    font-size: var(--base-font-size);
+    line-height: 1.5;
+    font-family: var(--font-family);
+    margin: 5px 0;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}

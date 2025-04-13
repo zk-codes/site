@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Force HTTPS and remove www
+    RewriteCond %{HTTPS} off [OR]
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    
+    # Skip all rewrite rules for the assets directory
+    RewriteRule ^assets/ - [L]
+    
+    # General rule to redirect all PHP files to their clean URL versions
+    RewriteCond %{THE_REQUEST} \s/+(.+)\.php[\s?] [NC]
+    RewriteRule ^(.+)\.php$ /$1 [R=301,L]
+    
+    # Internally rewrite clean URLs back to their PHP files
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.php -f
+    RewriteRule ^(.+)$ /$1.php [L]
+    
+    # Remove .html extension and handle redirects
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html -f
+    RewriteRule ^(.+?)/?$ /$1.html [L,NC]
+    
+    # Custom 404 Page
+    ErrorDocument 404 /404.html
+</IfModule>
+SetEnv FASTMAIL_SMTP_USERNAME jodie@yarnbay.org
+SetEnv FASTMAIL_SMTP_PASSWORD 3x36936l9b753r7g
+SetEnv WEBMENTION_API_TOKEN yq0B5bdXV0B_tmEBLYr1zw
