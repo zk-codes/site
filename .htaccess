@@ -1,0 +1,50 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    # Force HTTPS And Remove WWW
+    RewriteCond %{HTTPS} off [OR]
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    
+    # Skip Rewrite Rules For Assets Subdirectory
+    RewriteRule ^assets/ - [L]
+    
+    # Redirect All PHP Files To Clean URL Versions
+    RewriteCond %{THE_REQUEST} \s/+(.+)\.php[\s?] [NC]
+    RewriteRule ^(.+)\.php$ /$1 [R=301,L]
+    
+    # Internally Rewrite Clean URLs Back To Their PHP Files
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.php -f
+    RewriteRule ^(.+)$ /$1.php [L]
+    
+    # Remove .html Extension And Handle Redirects
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html -f
+    RewriteRule ^(.+?)/?$ /$1.html [L,NC]
+    
+    # Elsewhere Profile Redirects
+    Redirect 301 /github https://github.com/zk-codes
+    Redirect 301 /indieweb https://indieweb.org/User:Zacharykai.net
+    Redirect 301 /internet-archive https://archive.org/details/@zacharykai
+    Redirect 301 /ko-fi https://ko-fi.com/zacharykai
+    Redirect 301 /linkedin https://www.linkedin.com/in/zacharykai/
+    Redirect 301 /paypal https://www.paypal.com/ncp/payment/G7XX72GHH9Z9A
+    Redirect 301 /stripe https://buy.stripe.com/14kdSW2Xw11h3PW8wI
+    Redirect 301 /webmention https://webmention.io/zacharykai.net/webmention
+
+    # Other Link Redirects
+    Redirect 301 /source https://github.com/zk-codes/site
+
+    # Custom 404 Page
+    ErrorDocument 404 /404.html
+
+</IfModule>
+
+# Environmental Variables For PHP Scripts
+
+    SetEnv FASTMAIL_SMTP_USERNAME jodie@yarnbay.org
+    SetEnv FASTMAIL_SMTP_PASSWORD 3x36936l9b753r7g
+    SetEnv WEBMENTION_API_TOKEN yq0B5bdXV0B_tmEBLYr1zw

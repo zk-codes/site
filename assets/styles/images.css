@@ -1,0 +1,70 @@
+/* Images */
+
+img, picture, source {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+main > p > img, 
+article > p > img {
+    padding: 10px 0;
+}
+
+.caption {
+    font-size: 0.85em;
+    color: var(--main-color);
+    text-align: center;
+    font-style: italic;
+}
+
+/* Image Layouts */
+
+.image-duo,
+.image-trio,
+.image-sextet {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.image-duo > picture,
+.image-duo > img {
+    width: calc(50% - 5px);
+    padding: 0;
+}
+
+.image-trio > picture,
+.image-trio > img {
+    width: calc(33.33% - 7px);
+    padding: 0;
+}
+
+.image-sextet > picture,
+.image-sextet > img {
+    width: calc(14% - 7px);
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .image-duo,
+    .image-trio {
+        flex-direction: column;
+    }
+    
+    .image-duo > picture,
+    .image-duo > img,
+    .image-trio > picture,
+    .image-trio > img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Banner Images */
+
+.banner-88x31 {
+    image-rendering: pixelated;
+}

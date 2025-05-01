@@ -1,0 +1,99 @@
+/* Code */
+
+code {
+    font-family: monospace, "Courier New", sans-serif;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-x: auto;
+    max-width: 100%;
+    border: var(--border-style);
+    padding: var(--container-padding);
+    margin: 10px 0;
+}
+
+/* H-Card */
+
+.h-card {
+    display: flex;
+    border: var(--border-style);
+    padding: var(--container-padding);
+    margin: 25px 0;
+    margin-bottom: 0;
+}
+
+.h-card-image {
+    flex: 0 0 140px;
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+
+.h-card-content {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+/* Utilities */
+
+.essentials {
+    font-size: 0.75em;
+    line-height: 1;
+}
+
+.essentials:last-of-type {
+    margin-bottom: 5px;
+}
+
+.essentials li {
+    line-height: 1.2;
+}
+
+.elsewhere {
+    border-top: var(--border-style);
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.postmeta {
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-size: 0.75em;
+    border-bottom: var(--border-style);
+}
+
+.quotes {
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: var(--border-style);
+    font-style: italic;
+}
+
+#post-end {
+    padding-top: var(--container-padding);
+    border-top: var(--border-style);
+}
+
+p:target:not(#top) {
+    background-color: var(--highlight-color);
+}
+
+@media (max-width: 768px) {
+    .h-card {
+        flex-direction: column;
+    }
+    
+    .h-card-image {
+        flex: 0 0 auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .h-card-content {
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+/* Main CSS file that imports all modular styles */
+
+/* Import base styles first */
+@import url('styles/base.css');
+
+/* Import component styles */
+@import url('styles/images.css');
+@import url('styles/forms.css');
+@import url('styles/utilities.css');
+
+/* Backward compatibility */
+@import url('styles/compat.css');

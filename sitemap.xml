@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<!-- HOME --> <url><loc>https://zacharykai.net/</loc><lastmod>2025-04-13</lastmod></url>
+
+<!-- PAGES -->
+    <!-- 404 --> <url><loc>https://zacharykai.net/404</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- About --> <url><loc>https://zacharykai.net/about</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Accessibility --> <url><loc>https://zacharykai.net/accessibility</loc><lastmod>2025-04-15</lastmod></url>
+    <!-- Avatars --> <url><loc>https://zacharykai.net/avatars</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Beverage --> <url><loc>https://zacharykai.net/beverage</loc><lastmod>2025-04-21</lastmod></url>
+    <!-- Blogroll --> <url><loc>https://zacharykai.net/blogroll</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Bookmarklets --> <url><loc>https://zacharykai.net/bookmarklets</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Bookmarks --> <url><loc>https://zacharykai.net/bookmarks</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Books --> <url><loc>https://zacharykai.net/books</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Buttons --> <url><loc>https://zacharykai.net/buttons</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Changelog --> <url><loc>https://zacharykai.net/changelog</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Collages --> <url><loc>https://zacharykai.net/collages</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Colophon --> <url><loc>https://zacharykai.net/colophon</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Contact --> <url><loc>https://zacharykai.net/contact</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- CV --> <url><loc>https://zacharykai.net/cv</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Defaults --> <url><loc>https://zacharykai.net/defaults</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Digital Art --> <url><loc>https://zacharykai.net/digital-art</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Drawings --> <url><loc>https://zacharykai.net/drawings</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- FAQ --> <url><loc>https://zacharykai.net/faq</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Gods Eyes --> <url><loc>https://zacharykai.net/gods-eyes</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Guestbook --> <url><loc>https://zacharykai.net/guestbook</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Hello --> <url><loc>https://zacharykai.net/hello</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Ideas --> <url><loc>https://zacharykai.net/ideas</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Interests --> <url><loc>https://zacharykai.net/interests</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Jots --> <url><loc>https://zacharykai.net/jots</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Media Kit --> <url><loc>https://zacharykai.net/media-kit</loc><lastmod>2025-04-14</lastmod></url>
+    <!-- Mentions --> <url><loc>https://zacharykai.net/mentions</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Music --> <url><loc>https://zacharykai.net/music</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Now --> <url><loc>https://zacharykai.net/now</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Photos --> <url><loc>https://zacharykai.net/photos</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Press --> <url><loc>https://zacharykai.net/press</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Principles --> <url><loc>https://zacharykai.net/principles</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Projects --> <url><loc>https://zacharykai.net/projects</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Quotes --> <url><loc>https://zacharykai.net/quotes</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Random --> <url><loc>https://zacharykai.net/random</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Recipes --> <url><loc>https://zacharykai.net/recipes</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Resume --> <url><loc>https://zacharykai.net/resume</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Save --> <url><loc>https://zacharykai.net/save</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Search --> <url><loc>https://zacharykai.net/search</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Sitemap --> <url><loc>https://zacharykai.net/sitemap</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Spotify --> <url><loc>https://zacharykai.net/spotify</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Statistics --> <url><loc>https://zacharykai.net/statistics</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Successful --> <url><loc>https://zacharykai.net/successful</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Testimonials --> <url><loc>https://zacharykai.net/testimonials</loc><lastmod>2025-04-29</lastmod></url>
+    <!-- Trades --> <url><loc>https://zacharykai.net/trades</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- UnOffice Hours --> <url><loc>https://zacharykai.net/unoffice-hours</loc><lastmod>2025-04-14</lastmod></url>
+    <!-- Uses --> <url><loc>https://zacharykai.net/uses</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Wants --> <url><loc>https://zacharykai.net/wants</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Webmentions --> <url><loc>https://zacharykai.net/webmentions</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Webrings --> <url><loc>https://zacharykai.net/webrings</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Words --> <url><loc>https://zacharykai.net/words</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Workshops --> <url><loc>https://zacharykai.net/workshops</loc><lastmod>2025-04-13</lastmod></url>
+
+<!-- FANFIC -->
+    <!-- At Ease, Soldier --> <url><loc>https://zacharykai.net/fanfic/aes/loc><lastmod>2025-04-23</lastmod></url>
+
+<!-- FORMS -->
+    <!-- Space Fantasy Reader Survey --> <url><loc>https://zacharykai.net/forms/spacefantasy</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- What Fantasy Subgenre Are You? --> <url><loc>https://zacharykai.net/forms/fantasygenre</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- What Website Page Are You? --> <url><loc>https://zacharykai.net/forms/pagetype</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- What Programming Language Are You? --> <url><loc>https://zacharykai.net/forms/programming</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- What Scifi Subgenre Are You? --> <url><loc>https://zacharykai.net/forms/scifigenre</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- What Zine Type Are You? --> <url><loc>https://zacharykai.net/forms/zinetype</loc><lastmod>2025-04-13</lastmod></url>
+
+<!-- GIFTS -->
+    <!-- Things You'd Perhaps Enjoy --> <url><loc>https://zacharykai.net/gifts/rdec24</loc><lastmod>2025-04-13</lastmod></url>
+
+<!-- LISTS -->
+    <!-- Fanfic Writers Collective --> <url><loc>https://zacharykai.net/lists/fanfiction</loc><lastmod>2025-04-14</lastmod></url>
+    <!-- Oceania Web Atlas --> <url><loc>https://zacharykai.net/lists/oceania</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Queer Web Directory --> <url><loc>https://zacharykai.net/lists/queer</loc><lastmod>2025-04-13</lastmod></url>
+
+<!-- NEWSLETTERS -->
+    <!-- Newsletter Index --> <url><loc>https://zacharykai.net/newsletter/index</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Jan 2025 --> <url><loc>https://zacharykai.net/newsletter/jan25</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Feb 2025 --> <url><loc>https://zacharykai.net/newsletter/feb25</loc><lastmod>2025-04-13</lastmod></url>
+
+<!-- NOTES -->
+    <!-- Notes Index --> <url><loc>https://zacharykai.net/notes/index</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- 35 Things That Made My 2024 --> <url><loc>https://zacharykai.net/notes/24list</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Goals For 2025 --> <url><loc>https://zacharykai.net/notes/25goals</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Are.na Workshop Dec 2024 --> <url><loc>https://zacharykai.net/notes/agwdec24</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Are.na Workshop Aug 2024 --> <url><loc>https://zacharykai.net/notes/aw824</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Brisbane Writers Festival 2024 --> <url><loc>https://zacharykai.net/notes/bhw24</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Blog Questions Challenge --> <url><loc>https://zacharykai.net/notes/blogqna25</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Indieweb Carnival Feb 2025 --> <url><loc>https://zacharykai.net/notes/icfeb25</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Indieweb Carnival Mar 2025 --> <url><loc>https://zacharykai.net/notes/icmar25</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Indieweb Movie Club Apr 2025 --> <url><loc>https://zacharykai.net/notes/iwmapr25</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Liminal 2024 --> <url><loc>https://zacharykai.net/notes/lf24</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Mildura Writers Festival 2024 --> <url><loc>https://zacharykai.net/notes/mwf24</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Mildura Zine Fair 2024 --> <url><loc>https://zacharykai.net/notes/mzf24</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Minds Within Mine --> <url><loc>https://zacharykai.net/notes/mwm</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Music Questions Challenge --> <url><loc>https://zacharykai.net/notes/musicqna</loc><lastmod>2025-04-19</lastmod></url>
+    <!-- Punchy Prose --> <url><loc>https://zacharykai.net/notes/pp</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Proust Questionnaire --> <url><loc>https://zacharykai.net/notes/proust</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Site Ideas --> <url><loc>https://zacharykai.net/notes/site-ideas</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- The Colbert Questionert --> <url><loc>https://zacharykai.net/notes/colbert</loc><lastmod>2025-04-19</lastmod></url>
+    <!-- Things To Do While Waiting --> <url><loc>https://zacharykai.net/notes/waiting</loc><lastmod>2025-04-19</lastmod></url>
+    <!-- Writing Sparks --> <url><loc>https://zacharykai.net/notes/sparks</loc><lastmod>2025-04-13</lastmod></url>
+
+<!-- STORIES -->
+    <!-- Stories Index --> <url><loc>https://zacharykai.net/stories/index</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- BYATU --> <url><loc>https://zacharykai.net/stories/break</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- BTW --> <url><loc>https://zacharykai.net/stories/worlds</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- DSHTT --> <url><loc>https://zacharykai.net/stories/truth</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- NSTWH --> <url><loc>https://zacharykai.net/stories/wild</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- NGO --> <url><loc>https://zacharykai.net/stories/options</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- OSAAT --> <url><loc>https://zacharykai.net/stories/seed</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- OU --> <url><loc>https://zacharykai.net/stories/undoing</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- PITS --> <url><loc>https://zacharykai.net/stories/poetry</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- TFZ --> <url><loc>https://zacharykai.net/stories/zenith</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- TTUG --> <url><loc>https://zacharykai.net/stories/gate</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- WAYST --> <url><loc>https://zacharykai.net/stories/why</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- WTW --> <url><loc>https://zacharykai.net/stories/wired</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- YCTPH --> <url><loc>https://zacharykai.net/stories/pull</loc><lastmod>2025-04-13</lastmod></url>
+
+<!-- ZINES -->
+    <!-- Zines Index --> <url><loc>https://zacharykai.net/zines/index</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Dreaming Of Escapes --> <url><loc>https://zacharykai.net/zines/de</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Don't Throw Any Of Yourself Away --> <url><loc>https://zacharykai.net/zines/dtaoya</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Fabled Fantasy --> <url><loc>https://zacharykai.net/zines/ff</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Gardening Growth --> <url><loc>https://zacharykai.net/zines/gg</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Indie Musicalities --> <url><loc>https://zacharykai.net/zines/im</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Letters For The Longhaul --> <url><loc>https://zacharykai.net/zines/lfl</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Nature Nurture --> <url><loc>https://zacharykai.net/zines/nn</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Noteworthy Non-Fiction --> <url><loc>https://zacharykai.net/zines/nwn</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Pushing The Character Limit --> <url><loc>https://zacharykai.net/zines/ptcl</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Recomended Romantica --> <url><loc>https://zacharykai.net/zines/rr</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Splendid Scifi --> <url><loc>https://zacharykai.net/zines/ss</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- The Baking Brain --> <url><loc>https://zacharykai.net/zines/bb</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Vintage Vignettes --> <url><loc>https://zacharykai.net/zines/vv</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Yearning For YA --> <url><loc>https://zacharykai.net/zines/yy</loc><lastmod>2025-04-13</lastmod></url>
+
+</urlset>
