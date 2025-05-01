@@ -1,7 +1,9 @@
-.DS_Store
-compiled/
-/doc/
-*~
-*.bak
-\#*
-.\#*
+# Folders
+
+.useradmin/
+.vscode/
+/assets/pdfs/resumes
+
+# Files (Root Directory)
+
+.htaccess
