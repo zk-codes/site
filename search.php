@@ -136,7 +136,7 @@ $pages = [
     [
         'title' => 'CV',
         'url' => '/cv',
-        'content' => 'My skills, experience, and qualifications.'
+        'content' => 'My skills, experience, qualifications, and testimonials.'
     ],
     [
         'title' => 'Defaults',

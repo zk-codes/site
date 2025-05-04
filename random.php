@@ -42,7 +42,6 @@ $pages = [
     '/sitemap',
     '/spotify',
     '/statistics',
-    '/testimonials',
     '/til',
     '/trades',
     '/unoffice-hours',
