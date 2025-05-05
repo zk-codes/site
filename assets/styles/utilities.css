@@ -17,6 +17,24 @@ pre {
     margin: 10px 0;
 }
 
+/* Blockquotes */
+
+blockquote {
+    margin-left: 1.5em;
+    padding-left: 1.2em;
+    margin-bottom: 2em;
+    border-left: var(--border-style);
+}
+
+blockquote:last-of-type {
+    margin-bottom: 0;
+}
+
+blockquote p {
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
 /* H-Card */
 
 .h-card {
