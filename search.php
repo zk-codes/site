@@ -12,7 +12,7 @@ $pages = [
     [
         'title' => 'Blogroll',
         'url' => '/blogroll',
-        'content' => 'What I like to read on the internet.'
+        'content' => 'What I like to enjoy, read, and watch on the internet. Plus my favorite 88x31 buttons.'
     ],
     [
         'title' => 'Bookmarks',
@@ -87,6 +87,11 @@ $pages = [
 
     // Gifts
     [
+        'title' => 'Gifts',
+        'url' => '/gifts/',
+        'content' => 'Herein you\'ll find a list of all gifts I\'ve created for folks.'
+    ],
+    [
         'title' => 'Things You\'d Perhaps Enjoy',
         'url' => '/gifts/rdec24',
         'content' => 'Things I wish to share with you, hoping you\'ll enjoy them.'
@@ -126,7 +131,7 @@ $pages = [
     [
         'title' => 'Colophon',
         'url' => '/colophon',
-        'content' => 'More information about this site.'
+        'content' => 'More information about this site, and guiding tenents for how I approach my internet existence'
     ],
     [
         'title' => 'Contact',
@@ -169,11 +174,6 @@ $pages = [
         'content' => 'What fascinates me.'
     ],
     [
-        'title' => 'Media Kit',
-        'url' => '/media-kit',
-        'content' => 'Information about me and the books I\'ve written.'
-    ],
-    [
         'title' => 'Now',
         'url' => '/now',
         'content' => 'What I\'m currently working on.'
@@ -181,12 +181,7 @@ $pages = [
     [
         'title' => 'Press',
         'url' => '/press',
-        'content' => 'Where I\'ve been featured.'
-    ],
-    [
-        'title' => 'Principles',
-        'url' => '/principles',
-        'content' => 'Guiding tenents for how I approach my internet existence.'
+        'content' => 'Where I\'ve been featured and my media kit.'
     ],
     [
         'title' => 'Projects',

@@ -13,7 +13,6 @@
     <!-- Bookmarklets --> <url><loc>https://zacharykai.net/bookmarklets</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Bookmarks --> <url><loc>https://zacharykai.net/bookmarks</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Books --> <url><loc>https://zacharykai.net/books</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Buttons --> <url><loc>https://zacharykai.net/buttons</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Changelog --> <url><loc>https://zacharykai.net/changelog</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Collages --> <url><loc>https://zacharykai.net/collages</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Colophon --> <url><loc>https://zacharykai.net/colophon</loc><lastmod>2025-04-13</lastmod></url>
@@ -29,13 +28,11 @@
     <!-- Ideas --> <url><loc>https://zacharykai.net/ideas</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Interests --> <url><loc>https://zacharykai.net/interests</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Jots --> <url><loc>https://zacharykai.net/jots</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Media Kit --> <url><loc>https://zacharykai.net/media-kit</loc><lastmod>2025-04-14</lastmod></url>
     <!-- Mentions --> <url><loc>https://zacharykai.net/mentions</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Music --> <url><loc>https://zacharykai.net/music</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Now --> <url><loc>https://zacharykai.net/now</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Photos --> <url><loc>https://zacharykai.net/photos</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Press --> <url><loc>https://zacharykai.net/press</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Principles --> <url><loc>https://zacharykai.net/principles</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Projects --> <url><loc>https://zacharykai.net/projects</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Quotes --> <url><loc>https://zacharykai.net/quotes</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Random --> <url><loc>https://zacharykai.net/random</loc><lastmod>2025-04-13</lastmod></url>
@@ -68,6 +65,7 @@
     <!-- What Zine Type Are You? --> <url><loc>https://zacharykai.net/forms/zinetype</loc><lastmod>2025-04-13</lastmod></url>
 
 <!-- GIFTS -->
+    <!-- Gifts Index --> <url><loc>https://zacharykai.net/gifts/</loc><lastmod>2025-05-25</lastmod></url>
     <!-- Things You'd Perhaps Enjoy --> <url><loc>https://zacharykai.net/gifts/rdec24</loc><lastmod>2025-04-13</lastmod></url>
 
 <!-- LISTS -->

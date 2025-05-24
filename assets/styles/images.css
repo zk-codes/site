@@ -1,4 +1,4 @@
-/* Images */
+/* Core Image Styles */
 
 img, picture, source {
     max-width: 100%;
@@ -6,10 +6,14 @@ img, picture, source {
     box-sizing: border-box;
 }
 
-main > p > img, 
+/* General Images */
+
+main > p > img,
 article > p > img {
     padding: 10px 0;
 }
+
+/* Captions */
 
 .caption {
     font-size: 0.85em;
@@ -22,49 +26,94 @@ article > p > img {
 
 .image-duo,
 .image-trio,
-.image-sextet {
+.image-group {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
     max-width: 100%;
     margin: 10px 0;
 }
 
+/* Image Sizing Rules */
+
+/* Duo Layout */
+
 .image-duo > picture,
-.image-duo > img {
+.image-duo > img,
+.image-duo > a > picture,
+.image-duo > a > img {
     width: calc(50% - 5px);
     padding: 0;
 }
 
+/* Trio */
+
 .image-trio > picture,
-.image-trio > img {
-    width: calc(33.33% - 7px);
-    padding: 0;
+.image-trio > img,
+.image-trio > a > picture,
+.image-trio > a > img {
+    flex: 1 1 calc(33.33% - 7px);
+    min-width: 0;
 }
 
-.image-sextet > picture,
-.image-sextet > img {
-    width: calc(14% - 7px);
+/* Button Group Layout */
+
+.image-group > picture,
+.image-group > img,
+.image-group > a > picture,
+.image-group > a > img {
+    flex: 1 1 0;
+    height: auto;
+    max-height: 31px;
+    object-fit: contain;
     padding: 0;
+    image-rendering: pixelated;
 }
+
+.image-group > * {
+    margin: 0 5px;
+}
+
+/* Responsive Layouts */
 
 @media (max-width: 768px) {
+
+    .image-duo,
+    .image-trio,
+    .image-group {
+        width: 100%;
+    }
+
     .image-duo,
     .image-trio {
         flex-direction: column;
     }
-    
+
     .image-duo > picture,
     .image-duo > img,
+    .image-duo > a > picture,
+    .image-duo > a > img,
     .image-trio > picture,
-    .image-trio > img {
-        width: 100%;
+    .image-trio > img,
+    .image-trio > a > picture,
+    .image-trio > a > img {
+        flex: 1 1 100%;
         margin-bottom: 10px;
     }
-}
 
-/* Banner Images */
+    .image-group {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.banner-88x31 {
-    image-rendering: pixelated;
+    .image-group > picture,
+    .image-group > img,
+    .image-group > a > picture,
+    .image-group > a > img {
+        flex: none;
+        height: 31px;
+        width: auto;
+    }
 }
