@@ -1,20 +1,12 @@
-/* Core Image Styles */
+/* Core Media Styles */
 
-img, picture, source {
+img, picture, video, canvas, svg {
     max-width: 100%;
     height: auto;
     box-sizing: border-box;
 }
 
-/* General Images */
-
-main > p > img,
-article > p > img {
-    padding: 10px 0;
-}
-
-/* Captions */
-
+/* Caption style (optional) */
 .caption {
     font-size: 0.85em;
     color: var(--main-color);
@@ -22,98 +14,10 @@ article > p > img {
     font-style: italic;
 }
 
-/* Image Layouts */
+/* Image Group */
 
-.image-duo,
-.image-trio,
 .image-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    max-width: 100%;
-    margin: 10px 0;
-}
-
-/* Image Sizing Rules */
-
-/* Duo Layout */
-
-.image-duo > picture,
-.image-duo > img,
-.image-duo > a > picture,
-.image-duo > a > img {
-    width: calc(50% - 5px);
-    padding: 0;
-}
-
-/* Trio */
-
-.image-trio > picture,
-.image-trio > img,
-.image-trio > a > picture,
-.image-trio > a > img {
-    flex: 1 1 calc(33.33% - 7px);
-    min-width: 0;
-}
-
-/* Button Group Layout */
-
-.image-group > picture,
-.image-group > img,
-.image-group > a > picture,
-.image-group > a > img {
-    flex: 1 1 0;
-    height: auto;
-    max-height: 31px;
-    object-fit: contain;
-    padding: 0;
-    image-rendering: pixelated;
-}
-
-.image-group > * {
-    margin: 0 5px;
-}
-
-/* Responsive Layouts */
-
-@media (max-width: 768px) {
-
-    .image-duo,
-    .image-trio,
-    .image-group {
-        width: 100%;
-    }
-
-    .image-duo,
-    .image-trio {
-        flex-direction: column;
-    }
-
-    .image-duo > picture,
-    .image-duo > img,
-    .image-duo > a > picture,
-    .image-duo > a > img,
-    .image-trio > picture,
-    .image-trio > img,
-    .image-trio > a > picture,
-    .image-trio > a > img {
-        flex: 1 1 100%;
-        margin-bottom: 10px;
-    }
-
-    .image-group {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .image-group > picture,
-    .image-group > img,
-    .image-group > a > picture,
-    .image-group > a > img {
-        flex: none;
-        height: 31px;
-        width: auto;
-    }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
+  gap: 0.5rem;
 }

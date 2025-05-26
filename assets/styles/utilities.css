@@ -96,10 +96,6 @@ blockquote p {
     border-top: var(--border-style);
 }
 
-details:last-of-type {
-    margin-bottom: 1.2em;
-}
-
 p:target:not(#top) {
     background-color: var(--highlight-color);
 }
