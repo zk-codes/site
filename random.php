@@ -7,7 +7,6 @@ $pages = [
     '/about',
     '/accessibility',
     '/avatars',
-    '/beverage',
     '/blogroll',
     '/bookmarklets',
     '/bookmarks',

@@ -109,11 +109,6 @@ $pages = [
         'content' => 'Implemented and planned features.'
     ],
     [
-        'title' => 'Beverage',
-        'url' => '/beverage',
-        'content' => 'If I\'m in your vicinity, I\'d love to meet you!'
-    ],
-    [
         'title' => 'Bookmarklets',
         'url' => '/bookmarklets',
         'content' => 'Useful snippets of Javascript.'
@@ -136,7 +131,7 @@ $pages = [
     [
         'title' => 'Contact',
         'url' => '/contact',
-        'content' => 'Details on how to email me (please do!)'
+        'content' => 'Details on how to email, meet, or message me (please do!)'
     ],
     [
         'title' => 'CV',
