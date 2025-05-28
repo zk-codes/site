@@ -75,18 +75,6 @@ $pages = [
         'content' => 'The zines I\'ve made.'
     ],
 
-    // Gifts
-    [
-        'title' => 'Gifts',
-        'url' => '/gifts/',
-        'content' => 'Herein you\'ll find a list of all gifts I\'ve created for folks.'
-    ],
-    [
-        'title' => 'Things You\'d Perhaps Enjoy',
-        'url' => '/gifts/rdec24',
-        'content' => 'Things I wish to share with you, hoping you\'ll enjoy them.'
-    ],
-
     // Pages
     [
         'title' => 'About',
@@ -316,6 +304,11 @@ $pages = [
         'title' => 'Things To Do While Waiting',
         'url' => '/notes/waiting',
         'content' => 'You\'ve entered what I call liminal time. And this, dear reader, isn\'t a curse. It\'s an opportunity.'
+    ],
+    [
+        'title' => 'Things You\'d Perhaps Enjoy',
+        'url' => '/gifts/rdec24',
+        'content' => 'Things I wish to share with you, hoping you\'ll enjoy them.'
     ],
     [
         'title' => 'Writing Sparks',
