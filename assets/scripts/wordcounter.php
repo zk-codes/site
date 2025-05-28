@@ -1,29 +1,70 @@
 <?php
 
-// Configure The Directory And File Pattern
-$directory = '/';
-$filePattern = '*.html';
+// Configure The Base Directory
+$baseDirectory = __DIR__;
 
 // Files To Exclude From Processing
-$excludedFiles = ['cv.html', 'index.html', 'resume.html','/assets/templates'];
+    // By Basename (e.g. 'index.html')
+    $excludedFiles = ['cv.html', 'index.html', 'resume.html'];
+    // By Directory Path Relative To $baseDirectory (e.g. '/assets/templates')
+    $excludedPaths = ['/assets/templates'];
 
-// Iterating Over Each HTML File
-foreach (glob($directory . '/' . $filePattern) as $file) {
-    // Get The File's Base Name For Exclusions
-    $fileName = basename($file);
+// Prepare Excluded Directory Absolute Paths For Checking
+$excludedFullPaths = [];
+foreach ($excludedPaths as $dir) {
+    $fullPath = realpath($baseDirectory . $dir);
+    if ($fullPath !== false) {
+        $excludedFullPaths[] = $fullPath . DIRECTORY_SEPARATOR;
+    }
+}
 
-    // Skip Excluded Files
-    if (in_array($fileName, $excludedFiles)) {
-        echo "Skipping excluded file: '{$file}'\n";
+// Iterating Over Each HTML File Recursively
+$iterator = new RecursiveIteratorIterator(
+    new RecursiveDirectoryIterator($baseDirectory, FilesystemIterator::SKIP_DOTS),
+    RecursiveIteratorIterator::LEAVES_ONLY
+);
+
+foreach ($iterator as $file) {
+    // Ensure Processing HTML Files Only
+    if (!$file->isFile() || $file->getExtension() !== 'html') {
         continue;
     }
 
-    $html = file_get_contents($file);
+    // Get Full Path And Basename For Current File
+    $filePath = $file->getPathname(); 
+    $fileName = $file->getBasename();
 
-    // Find Content Inside <main>
+    // Skip Excluded Files By Basename
+    if (in_array($fileName, $excludedFiles)) {
+        echo "Skipping excluded file (by basename): '{$filePath}'\n";
+        continue;
+    }
+
+    // Skip Files Inside Excluded Directories
+    $fileRealPath = realpath($filePath);
+    $skippedInDir = false;
+    foreach ($excludedFullPaths as $excludedFullPath) {
+        if ($fileRealPath !== false && strpos($fileRealPath, $excludedFullPath) === 0) {
+            echo "Skipping file in excluded directory: '{$filePath}'\n";
+            $skippedInDir = true;
+            break;
+        }
+    }
+    if ($skippedInDir) {
+        continue;
+    }
+
+    // Read File Content With Error Handling
+    $html = file_get_contents($filePath);
+    if ($html === false) {
+        echo "Error: Could not read content from file: '{$filePath}'\n";
+        continue;
+    }
+
+    // Find Content Inside <main> tag
     if (preg_match('/<main[^>]*>(.*?)<\/main>/is', $html, $matches)) {
 
-    // Strip Tags And Count Words
+        // Strip Tags And Count Words
         $textContent = strip_tags($matches[1]);
         $wordCount = str_word_count($textContent);
 
@@ -36,7 +77,7 @@ foreach (glob($directory . '/' . $filePattern) as $file) {
             $totalSeconds = 1;
         }
 
-        // Format The Reading Time
+        // Format Reading Time
         $minutes = floor($totalSeconds / 60);
         $seconds = $totalSeconds % 60;
         $formattedReadingTime = sprintf('%d:%02d', $minutes, $seconds);
@@ -45,21 +86,25 @@ foreach (glob($directory . '/' . $filePattern) as $file) {
         $newStatsContent = "<p><strong>Statistics</strong> &rarr; Word Count: {$wordCount} | Reading Time: {$formattedReadingTime}</p>";
 
         // Check If Statistics Pattern Already Exists
-        if (preg_match('/<p><strong>Statistics<\/strong> &rarr; Word Count:.*? \| Reading Time:.*?<\/p>/is', $html)) {
+        $statsPattern = '/<p><strong>Statistics<\/strong> &rarr; Word Count:.*? \| Reading Time:.*?<\/p>/is';
+        if (preg_match($statsPattern, $html)) {
             // Replace Existing Statistics Pattern
-            $updatedHtml = preg_replace('/<p><strong>Statistics<\/strong> &rarr; Word Count:.*? \| Reading Time:.*?<\/p>/is', $newStatsContent, $html);
+            $updatedHtml = preg_replace($statsPattern, $newStatsContent, $html);
         } else {
-            // If Not Found, Add After Closing </main> Tag
-            $updatedHtml = preg_replace('/(<\/main>)/is', "$1\n{$newStatsContent}", $html);
+            // Insert New Statistics Pattern Just Before Closing </main> Tag
+            $updatedHtml = preg_replace('/(<\/main>)/is', "{$newStatsContent}\n$1", $html);
         }
 
-        // Save Changes
-        file_put_contents($file, $updatedHtml);
-        echo "Updated '{$file}' with word count: {$wordCount} and reading time: {$formattedReadingTime}\n";
+        // Save Changes With Error Handling
+        if (file_put_contents($filePath, $updatedHtml) === false) {
+            echo "Error: Could not write updated content to file: '{$filePath}'\n";
+        } else {
+            echo "Updated '{$filePath}' with word count: {$wordCount} and reading time: {$formattedReadingTime}\n";
+        }
 
     // If No <main> Tag Found
     } else {
-        echo "No <main> tag found in '{$file}', skipping statistics update.\n";
+        echo "No <main> tag found in '{$filePath}', skipping statistics update.\n";
     }
 }
 
