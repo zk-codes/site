@@ -5,11 +5,6 @@
 $pages = [
     // Collections
     [
-        'title' => 'Avatars',
-        'url' => '/avatars',
-        'content' => 'Picture makers I\'ve used to represent myself.'
-    ],
-    [
         'title' => 'Blogroll',
         'url' => '/blogroll',
         'content' => 'What I like to enjoy, read, and watch on the internet. Plus my favorite 88x31 buttons.'
@@ -42,12 +37,12 @@ $pages = [
     [
         'title' => 'Mentions',
         'url' => '/mentions',
-        'content' => 'Recording my responses to other folks\' sites/posts.'
+        'content' => 'Recording my webmentions: sent and recieved.'
     ],
     [
         'title' => 'Music',
         'url' => '/music',
-        'content' => 'My favorite songs.'
+        'content' => 'My favorite songs and three years of Spotify listening stats.'
     ],
     [
         'title' => 'Photos',
@@ -63,11 +58,6 @@ $pages = [
         'title' => 'Recipes',
         'url' => '/recipes',
         'content' => 'Tested, simplified favorites.'
-    ],
-    [
-        'title' => 'Spotify Stats',
-        'url' => '/spotify',
-        'content' => 'Three years of listening.'
     ],
     [
         'title' => 'Wants',
@@ -101,7 +91,7 @@ $pages = [
     [
         'title' => 'About',
         'url' => '/about',
-        'content' => 'My mini autobiography.'
+        'content' => 'My mini autobiography and picture makers I\'ve used to represent myself.'
     ],
     [
         'title' => 'Accessibility',
@@ -126,7 +116,7 @@ $pages = [
     [
         'title' => 'Colophon',
         'url' => '/colophon',
-        'content' => 'More information about this site, and guiding tenents for how I approach my internet existence'
+        'content' => 'More about this site, internet existence principles, numbers, and esoterica.'
     ],
     [
         'title' => 'Contact',
@@ -197,16 +187,6 @@ $pages = [
         'title' => 'Search',
         'url' => '/search',
         'content' => 'Use it to find what you\'re looking for.'
-    ],
-    [
-        'title' => 'Statistics',
-        'url' => '/statistics',
-        'content' => 'Numbers and esoterica from my web presence.'
-    ],
-    [
-        'title' => 'Testimonials',
-        'url' => '/testimonials',
-        'content' => 'Kind words from folks.'
     ],
     [
         'title' => 'Today I Learned',

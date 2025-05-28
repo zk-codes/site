@@ -6,7 +6,6 @@ $base_url = 'https://zacharykai.net';
 $pages = [
     '/about',
     '/accessibility',
-    '/avatars',
     '/blogroll',
     '/bookmarklets',
     '/bookmarks',
@@ -37,8 +36,6 @@ $pages = [
     '/save',
     '/search',
     '/sitemap',
-    '/spotify',
-    '/statistics',
     '/til',
     '/trades',
     '/unoffice-hours',
