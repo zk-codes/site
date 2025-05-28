@@ -3,6 +3,23 @@
 // Configure The Base Directory
 $baseDirectory = __DIR__;
 
+// Git Repository Root Detection
+$gitRepoRoot = '';
+$gitOutput = [];
+$gitReturnVar = 0;
+
+// Try To Find Git Repository Root
+exec("git rev-parse --show-toplevel 2>&1", $gitOutput, $gitReturnVar);
+
+if ($gitReturnVar === 0 && !empty($gitOutput[0])) {
+    $gitRepoRoot = rtrim($gitOutput[0], DIRECTORY_SEPARATOR);
+    echo "Git repository root detected: '{$gitRepoRoot}'\n";
+} else {
+    echo "Warning: Couldn't detect Git repository root. Git commands might not work as expected. Output: " . implode("\n", $gitOutput) . "\n";
+    // Fallback To baseDirectory If Git Root Can't Be Found
+    $gitRepoRoot = $baseDirectory;
+}
+
 // Files To Exclude From Processing
     // By Basename (e.g. 'index.html')
     $excludedFiles = ['cv.html', 'index.html', 'resume.html'];
@@ -94,7 +111,7 @@ foreach ($iterator as $file) {
         if (preg_match($copySharePattern, $html)) {
             $updatedHtml = preg_replace($copySharePattern, "$1\n{$newStatsContent}", $html);
         } else {
-            // Fallback: If "Copy & share" Tag Not Found, Insert Before Closing </main> Tag
+            // Fallback: If "Copy & Share" Tag Not Found, Insert Before Closing </main> Tag
             $updatedHtml = preg_replace('/(<\/main>)/is', "{$newStatsContent}\n$1", $html);
         }
 
@@ -104,15 +121,18 @@ foreach ($iterator as $file) {
         } else {
             echo "Updated '{$filePath}' with word count: {$wordCount} and reading time: {$formattedReadingTime}\n";
 
-            // Add File To Git staging
+            // Add File To Git Staging From The Repository Root
+            $relativeFilePath = ltrim(str_replace($gitRepoRoot, '', $filePath), DIRECTORY_SEPARATOR);
+            $gitAddCommand = "cd " . escapeshellarg($gitRepoRoot) . " && git add " . escapeshellarg($relativeFilePath) . " 2>&1";
+
             $gitAddOutput = [];
             $gitAddReturnVar = 0;
-            exec("git add " . escapeshellarg($filePath), $gitAddOutput, $gitAddReturnVar);
+            exec($gitAddCommand, $gitAddOutput, $gitAddReturnVar);
 
             if ($gitAddReturnVar === 0) {
-                echo "Successfully added '{$filePath}' to Git staging.\n";
+                echo "Successfully added '{$relativeFilePath}' to Git staging.\n";
             } else {
-                echo "Error adding '{$filePath}' to Git staging. Output: " . implode("\n", $gitAddOutput) . "\n";
+                echo "Error adding '{$relativeFilePath}' to Git staging. Command: '{$gitAddCommand}'. Output: " . implode("\n", $gitAddOutput) . "\n";
             }
         }
 
