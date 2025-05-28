@@ -31,7 +31,7 @@ foreach ($iterator as $file) {
     }
 
     // Get Full Path And Basename For Current File
-    $filePath = $file->getPathname(); 
+    $filePath = $file->getPathname();
     $fileName = $file->getBasename();
 
     // Skip Excluded Files By Basename
@@ -61,6 +61,10 @@ foreach ($iterator as $file) {
         continue;
     }
 
+    // Remove Any Existing Statistics Pattern From The HTML
+    $statsPattern = '/<p><strong>Statistics<\/strong> &rarr; Word Count:.*? \| Reading Time:.*?<\/p>/is';
+    $html = preg_replace($statsPattern, '', $html);
+
     // Find Content Inside <main> tag
     if (preg_match('/<main[^>]*>(.*?)<\/main>/is', $html, $matches)) {
 
@@ -85,13 +89,12 @@ foreach ($iterator as $file) {
         // Full Statistics Pattern To Update
         $newStatsContent = "<p><strong>Statistics</strong> &rarr; Word Count: {$wordCount} | Reading Time: {$formattedReadingTime}</p>";
 
-        // Check If Statistics Pattern Already Exists
-        $statsPattern = '/<p><strong>Statistics<\/strong> &rarr; Word Count:.*? \| Reading Time:.*?<\/p>/is';
-        if (preg_match($statsPattern, $html)) {
-            // Replace Existing Statistics Pattern
-            $updatedHtml = preg_replace($statsPattern, $newStatsContent, $html);
+        // Find "Copy & Share" Tag And Insert The New Statistics After It
+        $copySharePattern = '/(<p><strong>Copy &amp; share<\/strong><\/p>)/is';
+        if (preg_match($copySharePattern, $html)) {
+            $updatedHtml = preg_replace($copySharePattern, "$1\n{$newStatsContent}", $html);
         } else {
-            // Insert New Statistics Pattern Just Before Closing </main> Tag
+            // Fallback: If "Copy & share" Tag Not Found, Insert Before Closing </main> Tag
             $updatedHtml = preg_replace('/(<\/main>)/is', "{$newStatsContent}\n$1", $html);
         }
 
@@ -100,12 +103,26 @@ foreach ($iterator as $file) {
             echo "Error: Could not write updated content to file: '{$filePath}'\n";
         } else {
             echo "Updated '{$filePath}' with word count: {$wordCount} and reading time: {$formattedReadingTime}\n";
+
+            // Add File To Git staging
+            $gitAddOutput = [];
+            $gitAddReturnVar = 0;
+            exec("git add " . escapeshellarg($filePath), $gitAddOutput, $gitAddReturnVar);
+
+            if ($gitAddReturnVar === 0) {
+                echo "Successfully added '{$filePath}' to Git staging.\n";
+            } else {
+                echo "Error adding '{$filePath}' to Git staging. Output: " . implode("\n", $gitAddOutput) . "\n";
+            }
         }
 
-    // If No <main> Tag Found
+    // If No <main> Tag Found, Or No content For Statistics Salculation
     } else {
-        echo "No <main> tag found in '{$filePath}', skipping statistics update.\n";
+        echo "No <main> tag found in '{$filePath}', or no content for statistics calculation.\n";
     }
 }
+
+// Notify When Finished
+echo "Processing complete!\n";
 
 ?>
