@@ -3,9 +3,9 @@
 /.usermin
 /.vscode
 /assets/pdfs/resumes/
-/assets/in_progress
-/assets/scripts/cron
-/assets/scripts/phpmailer
+/assets/in_progress/
+/assets/scripts/cron/
+/assets/scripts/phpmailer/
 
 # Files
 
