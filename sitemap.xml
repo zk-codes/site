@@ -6,7 +6,6 @@
 <!-- PAGES -->
     <!-- 404 --> <url><loc>https://zacharykai.net/404</loc><lastmod>2025-04-13</lastmod></url>
     <!-- About --> <url><loc>https://zacharykai.net/about</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Accessibility --> <url><loc>https://zacharykai.net/accessibility</loc><lastmod>2025-04-15</lastmod></url>
     <!-- Blogroll --> <url><loc>https://zacharykai.net/blogroll</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Bookmarklets --> <url><loc>https://zacharykai.net/bookmarklets</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Bookmarks --> <url><loc>https://zacharykai.net/bookmarks</loc><lastmod>2025-04-13</lastmod></url>
@@ -49,7 +48,6 @@
     <!-- Workshops --> <url><loc>https://zacharykai.net/workshops</loc><lastmod>2025-04-13</lastmod></url>
 
 <!-- FANFIC -->
-    <!-- At Ease, Soldier --> <url><loc>https://zacharykai.net/fanfic/aes/loc><lastmod>2025-04-23</lastmod></url>
 
 <!-- LISTS -->
     <!-- Fanfic Writers Collective --> <url><loc>https://zacharykai.net/lists/fanfiction</loc><lastmod>2025-04-14</lastmod></url>
@@ -87,6 +85,7 @@
 
 <!-- STORIES -->
     <!-- Stories Index --> <url><loc>https://zacharykai.net/stories/index</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- AES --> <url><loc>https://zacharykai.net/stories/aes</loc><lastmod>2025-05-28</lastmod></url>
     <!-- BYATU --> <url><loc>https://zacharykai.net/stories/break</loc><lastmod>2025-04-13</lastmod></url>
     <!-- BTW --> <url><loc>https://zacharykai.net/stories/worlds</loc><lastmod>2025-04-13</lastmod></url>
     <!-- DSHTT --> <url><loc>https://zacharykai.net/stories/truth</loc><lastmod>2025-04-13</lastmod></url>

@@ -82,11 +82,6 @@ $pages = [
         'content' => 'My mini autobiography and picture makers I\'ve used to represent myself.'
     ],
     [
-        'title' => 'Accessibility',
-        'url' => '/accessibility',
-        'content' => 'Implemented and planned features.'
-    ],
-    [
         'title' => 'Bookmarklets',
         'url' => '/bookmarklets',
         'content' => 'Useful snippets of Javascript.'
@@ -104,7 +99,7 @@ $pages = [
     [
         'title' => 'Colophon',
         'url' => '/colophon',
-        'content' => 'More about this site, internet existence principles, numbers, and esoterica.'
+        'content' => 'More about this site, accessibility, internet existence principles, numbers, and esoterica.'
     ],
     [
         'title' => 'Contact',

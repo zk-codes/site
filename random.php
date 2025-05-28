@@ -5,7 +5,6 @@ $base_url = 'https://zacharykai.net';
 // Page Index
 $pages = [
     '/about',
-    '/accessibility',
     '/blogroll',
     '/bookmarklets',
     '/bookmarks',
