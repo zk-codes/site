@@ -147,6 +147,11 @@ $pages = [
         'content' => 'What fascinates me.'
     ],
     [
+        'title' => 'Jots',
+        'url' => '/jots',
+        'content' => 'My microblog, with occasional today-I-learned updates.'
+    ],
+    [
         'title' => 'Now',
         'url' => '/now',
         'content' => 'What I\'m currently working on.'
@@ -175,11 +180,6 @@ $pages = [
         'title' => 'Search',
         'url' => '/search',
         'content' => 'Use it to find what you\'re looking for.'
-    ],
-    [
-        'title' => 'Today I Learned',
-        'url' => '/til',
-        'content' => 'Interesting tidbits I\'ve learned.'
     ],
     [
         'title' => 'Trades',

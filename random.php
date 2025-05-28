@@ -36,7 +36,6 @@ $pages = [
     '/save',
     '/search',
     '/sitemap',
-    '/til',
     '/trades',
     '/unoffice-hours',
     '/uses',
