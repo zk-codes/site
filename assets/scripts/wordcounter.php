@@ -25,10 +25,10 @@ if ($gitReturnVar === 0 && !empty($gitOutput[0])) {
 flush();
 
 
-// Git Repository Root Detection (kept for git add command later)
+// Git Repository Root Detection
 $gitRepoRoot = '';
-$gitOutput = []; // Reset output for this specific exec
-$gitReturnVar = 0; // Reset return var for this specific exec
+$gitOutput = [];
+$gitReturnVar = 0;
 
 // Try To Find Git Repository Root
 exec("git rev-parse --show-toplevel 2>&1", $gitOutput, $gitReturnVar);
@@ -40,10 +40,9 @@ if ($gitReturnVar === 0 && !empty($gitOutput[0])) {
     $gitRepoRoot = $baseDirectory;
 }
 
-
 // Files To Exclude From Processing
     // By Basename (e.g. 'index.html')
-    $excludedFiles = ['.gitingore', '.htaccess', 'ClAUDE.md', 'cv.html', 'index.html', 'humans.txt', 'LICENSE', 'random.php', 'resume.html', 'robots.txt', 'search.php', 'sitemap.xml'];
+    $excludedFiles = ['.gitingore', '.htaccess', 'ClAUDE.md', 'cv.html', 'index.html', 'humans.txt', 'LICENSE', 'random.php', 'resume.html', 'robots.txt', 'search.php', 'successful.html', 'sitemap.xml'];
     echo "Excluded Files (basename): " . implode(', ', $excludedFiles) . "\n"; // Debug: Show excluded files
     // By Directory Path Relative To $baseDirectory (e.g. '/assets/templates')
     // Added '/assets/scripts' as it's now under the baseDirectory
