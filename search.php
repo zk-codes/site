@@ -410,7 +410,7 @@ if ($searchTerm !== '') {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <title>Search | Zachary Kai</title>
