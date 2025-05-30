@@ -1,227 +1,210 @@
 <?php
+/**
+ * HTML Word Counter & Reading Time Calculator
+ * 
+ * This script processes HTML files in a directory, counts words in the <main> tag,
+ * calculates reading time, and inserts statistics into each file.
+ * 
+ * Features:
+ * - Recursively processes all HTML files in a directory
+ * - Counts words only within <main> content areas
+ * - Calculates reading time based on 200 words per minute
+ * - Inserts statistics after "Copy & Share" sections
+ * - Excludes specified files and directories
+ * - Adds processed files to Git staging
+ */
 
-// Enable Implicit Flushing To Send Output Immediately
+// ================================
+// CONFIGURATION
+// ================================
+
+// Enable immediate output display
 ob_implicit_flush(true);
 
-// Configure The Base Directory
-// Set baseDirectory to the detected Git repository root
-$baseDirectory = ''; 
-$gitOutput = [];
-$gitReturnVar = 0;
+// Files to exclude from processing (case-insensitive)
+$excludedFiles = [
+    '.gitignore', '.htaccess', 'ClAUDE.md', 'cv.html', 'index.html', 
+    'humans.txt', 'LICENSE', 'random.php', 'resume.html', 'robots.txt', 
+    'search.php', 'successful.html', 'sitemap.xml'
+];
 
-// Try To Find Git Repository Root To Use As Base Directory
-echo "Attempting to detect Git repository root for base directory...\n";
-flush();
-exec("git rev-parse --show-toplevel 2>&1", $gitOutput, $gitReturnVar);
+// Directories to exclude from processing
+$excludedPaths = [
+    '.git', 'assets/templates', 'assets/scripts', 'assets/imgs', 'assets/buttons'
+];
+
+// ================================
+// DIRECTORY SETUP
+// ================================
+
+// Determine base directory (current working directory or Git root)
+$baseDirectory = getcwd();
+$gitOutput = [];
+exec('git rev-parse --show-toplevel 2>/dev/null', $gitOutput, $gitReturnVar);
 
 if ($gitReturnVar === 0 && !empty($gitOutput[0])) {
-    $baseDirectory = rtrim($gitOutput[0], DIRECTORY_SEPARATOR);
-    echo "Base Directory set to Git repository root: '{$baseDirectory}'\n";
+    $baseDirectory = rtrim($gitOutput[0], "/\\");
+    echo "Using Git repository root: '{$baseDirectory}'\n";
 } else {
-    // Fallback: If Git root can't be found, use the script's own directory
-    $baseDirectory = __DIR__;
-    echo "Warning: Couldn't detect Git repository root. Base Directory defaulting to script's directory: '{$baseDirectory}'. Output: " . implode("\n", $gitOutput) . "\n";
-}
-flush();
-
-
-// Git Repository Root Detection
-$gitRepoRoot = '';
-$gitOutput = [];
-$gitReturnVar = 0;
-
-// Try To Find Git Repository Root
-exec("git rev-parse --show-toplevel 2>&1", $gitOutput, $gitReturnVar);
-
-if ($gitReturnVar === 0 && !empty($gitOutput[0])) {
-    $gitRepoRoot = rtrim($gitOutput[0], DIRECTORY_SEPARATOR);
-} else {
-    // Fallback to the base directory if git root can't be found (should already be set above)
-    $gitRepoRoot = $baseDirectory;
+    echo "Using current directory: '{$baseDirectory}'\n";
 }
 
-// Files To Exclude From Processing
-    // By Basename (e.g. 'index.html')
-    $excludedFiles = ['.gitingore', '.htaccess', 'ClAUDE.md', 'cv.html', 'index.html', 'humans.txt', 'LICENSE', 'random.php', 'resume.html', 'robots.txt', 'search.php', 'successful.html', 'sitemap.xml'];
-    echo "Excluded Files (basename): " . implode(', ', $excludedFiles) . "\n"; // Debug: Show excluded files
-    // By Directory Path Relative To $baseDirectory (e.g. '/assets/templates')
-    // Added '/assets/scripts' as it's now under the baseDirectory
-    $excludedPaths = ['/assets/templates', '/assets/scripts'];
-    echo "Excluded Paths (relative): " . implode(', ', $excludedPaths) . "\n"; // Debug: Show excluded paths
-flush();
-
-// Prepare Excluded Directory Absolute Paths For Checking
+// Convert excluded paths to full system paths
 $excludedFullPaths = [];
 foreach ($excludedPaths as $dir) {
-    // Note: realpath can return false if path doesn't exist. Add error handling if needed.
-    $fullPath = realpath($baseDirectory . $dir);
-    if ($fullPath !== false) {
-        $excludedFullPaths[] = $fullPath . DIRECTORY_SEPARATOR;
-    } else {
-        echo "Warning: Excluded path '{$baseDirectory}{$dir}' could not be resolved.\n"; // Debug: warn if path doesn't exist
+    $fullPath = $baseDirectory . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $dir);
+    if (is_dir($fullPath)) {
+        $excludedFullPaths[] = rtrim($fullPath, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
     }
 }
-echo "Excluded Full Paths: " . implode(', ', $excludedFullPaths) . "\n"; // Debug: Show resolved excluded paths
-flush();
 
-// Initialize Counter For Processed Files
-$filesProcessedCount = 0;
+// ================================
+// FILE PROCESSING
+// ================================
 
-echo "\nStarting HTML file processing...\n";
-flush();
+$filesProcessed = 0;
+echo "\nProcessing HTML files...\n";
 
-// Iterating Over Each HTML File Recursively
+// Create recursive iterator to find all files
 $iterator = new RecursiveIteratorIterator(
-    new RecursiveDirectoryIterator($baseDirectory, FilesystemIterator::SKIP_DOTS),
-    RecursiveIteratorIterator::LEAVES_ONLY
+    new RecursiveDirectoryIterator($baseDirectory, FilesystemIterator::SKIP_DOTS)
 );
 
-// Debug: Flag To Check If Iterator Finds Any Files
-$iteratorFoundFiles = false; 
 foreach ($iterator as $file) {
-    // Debug: Set Flag Of At Least One File Is Found By Iterator
-    $iteratorFoundFiles = true; 
-
-    // Ensure Processing HTML Files Only
-    if (!$file->isFile() || $file->getExtension() !== 'html') {
-        // Only output skipping if it's a file but not HTML, or if it's not a file (like a directory)
-        if ($file->isFile() && $file->getExtension() !== 'html') {
-            echo "Skipping '{$file->getPathname()}': Not an HTML file (extension is '{$file->getExtension()}').\n";
-        } elseif (!$file->isFile()) {
-            // This case handles directories which RecursiveDirectoryIterator will also yield
-            // We don't need to report every directory, but can if desired for debugging
-            // echo "Skipping '{$file->getPathname()}': Not a file (likely a directory).\n";
-        }
-        flush();
+    // Only process HTML files
+    if (!$file->isFile() || strtolower($file->getExtension()) !== 'html') {
         continue;
     }
-
-    // Get Full Path And Basename For Current File
+    
     $filePath = $file->getPathname();
     $fileName = $file->getBasename();
-
-    echo "Processing '{$filePath}'... ";
-    flush();
-
-    // Skip Excluded Files By Basename
-    if (in_array($fileName, $excludedFiles)) {
-        echo "Skipping excluded file (by basename: '{$fileName}').\n"; // Debug: Specific skip reason
-        flush();
-        continue;
-    }
-
-    // Skip Files Inside Excluded Directories
-    $fileRealPath = realpath($filePath);
-    $skippedInDir = false;
-    foreach ($excludedFullPaths as $excludedFullPath) {
-        // On Windows, realpath might return different casing or backslashes.
-        // strpos is case-sensitive, so convert both to lowercase for comparison.
-        // Also, normalize directory separators.
-        $normalizedFileRealPath = str_replace('\\', '/', strtolower($fileRealPath));
-        $normalizedExcludedFullPath = str_replace('\\', '/', strtolower($excludedFullPath));
-
-        if ($fileRealPath !== false && strpos($normalizedFileRealPath, $normalizedExcludedFullPath) === 0) {
-            echo "Skipping file in excluded directory ('{$fileRealPath}' is in '{$excludedFullPath}').\n"; // Debug: Specific skip reason
-            $skippedInDir = true;
+    
+    // Skip files in excluded directories
+    $skipFile = false;
+    foreach ($excludedFullPaths as $excludedPath) {
+        if (strpos($filePath, $excludedPath) === 0) {
+            echo "Skipping '{$fileName}': In excluded directory\n";
+            $skipFile = true;
             break;
         }
     }
-    if ($skippedInDir) {
-        flush();
+    if ($skipFile) continue;
+    
+    // Skip explicitly excluded files
+    if (in_array(strtolower($fileName), array_map('strtolower', $excludedFiles))) {
+        echo "Skipping '{$fileName}': Excluded file\n";
         continue;
     }
-
-    // Read File Content With Error Handling
+    
+    echo "Processing '{$fileName}'... ";
+    
+    // ================================
+    // FILE CONTENT PROCESSING
+    // ================================
+    
+    // Read file content with error handling
     $html = file_get_contents($filePath);
     if ($html === false) {
-        echo "Error: Could not read content from '{$filePath}'.\n"; // Debug: Specific error
-        flush();
+        echo "Error reading file\n";
         continue;
     }
-
-    // Remove Any Existing Statistics Pattern From The HTML
-    $statsPattern = '/<p[^>]*>.*?Statistics.*?<\/p>/is';
-    $html = preg_replace($statsPattern, '', $html);
-
-    // Find Content Inside <main> tag
-    if (preg_match('/<main[^>]*>(.*?)<\/main>/is', $html, $matches)) {
-        echo "Found <main> tag in '{$filePath}'.\n"; // Debug: Main tag found
-
-        // Strip Tags And Count Words
-        $textContent = strip_tags($matches[1]);
-        $wordCount = str_word_count($textContent);
-
-        // Calculate Reading Time (200 Words Per Minute)
-        // Calculate Total Seconds
-        $totalSeconds = floor(($wordCount / 200) * 60);
-
-        // Ensure A Minimum 1 Second For Non-Zero Word Counts
-        if ($totalSeconds === 0 && $wordCount > 0) {
-            $totalSeconds = 1;
-        }
-
-        // Format Reading Time
+    
+    // Skip empty files
+    if (empty(trim($html))) {
+        echo "Skipping empty file\n";
+        continue;
+    }
+    
+    // Remove any existing statistics to avoid duplicates
+    $html = preg_replace('/\s*<p[^>]*><strong>Statistics<\/strong>[^<]*<\/p>\s*/i', '', $html);
+    
+    // ================================
+    // WORD COUNT CALCULATION
+    // ================================
+    
+    // Parse HTML using DOMDocument for reliable content extraction
+    $dom = new DOMDocument();
+    libxml_use_internal_errors(true); // Suppress HTML parsing warnings
+    $dom->loadHTML($html, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+    libxml_clear_errors();
+    
+    // Find and process main content
+    $mainElements = $dom->getElementsByTagName('main');
+    
+    if ($mainElements->length > 0) {
+        // Extract text content from main element
+        $mainContent = $mainElements->item(0)->textContent;
+        $wordCount = str_word_count(trim($mainContent));
+        echo "Found main tag with {$wordCount} words. ";
+        
+        // Calculate reading time (200 words per minute)
+        $totalSeconds = max(1, floor(($wordCount / 200) * 60));
         $minutes = floor($totalSeconds / 60);
         $seconds = $totalSeconds % 60;
-        $formattedReadingTime = sprintf('%d:%02d', $minutes, $seconds);
-
-        // Full Statistics Pattern To Update
-        $newStatsContent = "<p><strong>Statistics</strong> &rarr; Word Count: {$wordCount} | Reading Time: {$formattedReadingTime}</p>";
-
-        // Find "Copy & Share" Tag And Insert The New Statistics After It
-        $copySharePattern = '/(<p[^>]*>.*?<strong>Copy &amp; share<\/strong>.*?<\/p>)/is';
+        $readingTime = sprintf('%d:%02d', $minutes, $seconds);
+        
+        // ================================
+        // STATISTICS INSERTION
+        // ================================
+        
+        // Create statistics HTML
+        $statsContent = "<p><strong>Statistics</strong> &rarr; Word Count: {$wordCount} | Reading Time: {$readingTime}</p>";
+        
+        // Try to insert after "Copy & Share" paragraph (preferred location)
+        $copySharePattern = '/(<p[^>]*>.*?<strong>Copy (&amp;|&) Share<\/strong>.*?<\/p>)\s*(<hr>)/i';
         if (preg_match($copySharePattern, $html)) {
-            // Debug: Copy & Share Pattern Found
-            echo "Found 'Copy & Share' pattern in '{$filePath}'.\n";
-            $updatedHtml = preg_replace($copySharePattern, "$1\n{$newStatsContent}", $html);
+            $html = preg_replace($copySharePattern, "$1\n                $statsContent\n                $3", $html);
+            echo "Inserted after Copy & Share (before hr). ";
         } else {
-            // Debug: Copy & Share Pattern Not Found
-            echo "Did NOT find 'Copy & Share' pattern in '{$filePath}'. Inserting before </main>.\n";
-            // Fallback: If "Copy & Share" Tag Not Found, Insert Before Closing </main> Tag
-            $updatedHtml = preg_replace('/(<\/main>)/is', "{$newStatsContent}\n$1", $html);
-        }
-
-        // Save Changes With Error Handling
-        if (file_put_contents($filePath, $updatedHtml) === false) {
-            echo "Error: Could not write updated content to '{$filePath}'.\n";
-            flush();
-
-        } else {
-            echo "Updated '{$filePath}' with word count: {$wordCount} and reading time: {$formattedReadingTime}.\n";
-
-            // Increment The Counter
-            $filesProcessedCount++;
-
-            // Add File To Git Staging From The Repository Root
-            $relativeFilePath = ltrim(str_replace($gitRepoRoot, '', $filePath), DIRECTORY_SEPARATOR);
-            $gitAddCommand = "cd " . escapeshellarg($gitRepoRoot) . " && git add " . escapeshellarg($relativeFilePath) . " 2>&1";
-
-            $gitAddOutput = [];
-            $gitAddReturnVar = 0;
-            exec($gitAddCommand, $gitAddOutput, $gitAddReturnVar);
-
-            if ($gitAddReturnVar === 0) {
-                echo "Successfully added '{$relativeFilePath}' to Git staging.\n";
+            // Fallback: try to insert after Copy & Share without hr
+            $copyShareSimple = '/(<p[^>]*>.*?<strong>Copy (&amp;|&) Share<\/strong>.*?<\/p>)/i';
+            if (preg_match($copyShareSimple, $html)) {
+                $html = preg_replace($copyShareSimple, "$1\n                $statsContent", $html);
+                echo "Inserted after Copy & Share (no hr). ";
             } else {
-                echo "Error adding '{$relativeFilePath}' to Git staging. Command: '{$gitAddCommand}'. Output: " . implode("\n", $gitAddOutput) . "\n";
+                // Final fallback: insert before closing main tag
+                $html = preg_replace('/(\s*<\/main>)/i', "\n                $statsContent\n$1", $html);
+                echo "Inserted before </main>. ";
             }
-            flush();
         }
-
-    // If No <main> Tag Found, Or No content For Statistics Salculation
+        
+        // Fix main tag indentation for consistency
+        $html = preg_replace('/(\s*<\/main>)/', "\n        </main>", $html);
+        
+        // ================================
+        // FILE SAVING & GIT INTEGRATION
+        // ================================
+        
+        // Save updated file
+        if (file_put_contents($filePath, $html) !== false) {
+            echo "Updated with {$wordCount} words, reading time: {$readingTime}\n";
+            $filesProcessed++;
+            
+            // Add to Git staging if we're in a Git repository
+            if ($gitReturnVar === 0) {
+                $relativePath = str_replace($baseDirectory . DIRECTORY_SEPARATOR, '', $filePath);
+                exec("cd " . escapeshellarg($baseDirectory) . " && git add " . escapeshellarg($relativePath) . " 2>/dev/null");
+            }
+        } else {
+            echo "Error saving file\n";
+        }
+        
     } else {
-        echo "No <main> tag found or no content for statistics calculation in '{$filePath}'.\n"; // Debug: Main tag not found
-        flush();
+        // Handle files without main tags
+        echo "No <main> tag found. ";
+        
+        // Debug information for troubleshooting
+        if (preg_match('/<main[^>]*>/i', $html)) {
+            echo "Found <main> opening tag with regex but DOMDocument couldn't parse it.\n";
+        } else {
+            echo "No <main> tag found at all.\n";
+        }
     }
 }
 
-// Debug: Check If Iterator Found Any Files
-if (!$iteratorFoundFiles) { 
-    echo "DEBUG: The RecursiveDirectoryIterator did not find any files to process in '{$baseDirectory}'. Please check the directory path and its contents.\n";
-}
+// ================================
+// COMPLETION SUMMARY
+// ================================
 
-// Notify When Finished And Display Total
-echo "\nProcessing complete! Total HTML files processed: {$filesProcessedCount}\n";
-flush();
-
+echo "\nComplete! Processed {$filesProcessed} HTML files.\n";
 ?>
