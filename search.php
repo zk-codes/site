@@ -216,11 +216,6 @@ $pages = [
         'content' => 'What I appreciated in the year.'
     ],
     [
-        'title' => 'Are.na Channel As Gift (Dec 2024)',
-        'url' => '/notes/agwdec24',
-        'content' => 'Thoughts worth considering from the workshop.'
-    ],
-    [
         'title' => 'Are.na Walkthrough (Aug 2024)',
         'url' => '/notes/aw824',
         'content' => 'What I found interesting from the presentation.'
@@ -249,11 +244,6 @@ $pages = [
         'title' => 'Mildura Writers Festival (2024)',
         'url' => '/notes/mwf24',
         'content' => 'What I learned from attending.'
-    ],
-    [
-        'title' => 'Mildura Zine Fair (2024)',
-        'url' => '/notes/mzf24',
-        'content' => 'Reflections from attending.'
     ],
     [
         'title' => 'Minds Within Mine',
@@ -453,8 +443,7 @@ if ($searchTerm !== '') {
             <?php endif; ?>
             <p>•--♡--•</p>
             <section class="essentials">
-                <p><strong>Copy & Share</strong>: <a href="/">zacharykai.net/</a></p>
-                <p><strong>Statistics</strong> → Word Count:  | Reading Time:  mins</p>
+                <p><strong>Copy & Share</strong>: <a href="/search" class="u-url">zacharykai.net/search</a></p>
                 <hr>
                 <p>
                     <strong>Enjoyed This? Support What I Do:</strong>
