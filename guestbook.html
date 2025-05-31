@@ -62,23 +62,23 @@
                 <hr>
             <h2 id="sign">Sign The Guestbook</h2>
                 <form action="/assets/scripts/guestbook.php" method="POST">
-                    <label for="name">Write how you'd like me to refer to you:</label>
+                    <label for="name">Write how you'd like me to refer to you:*</label>
                     <br>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" required autocomplete="given-name">
                     <br>
-                    <label for="email">Type your email in here:</label>
+                    <label for="email">Type your email in here:*</label>
                     <br>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required autocomplete="email">
                     <br>
                     <label for="website">Enter your site's homepage URL (if you have one):</label>
                     <br>
-                    <input type="text" id="website" name="website">
+                    <input type="text" id="website" name="website" autocomplete="url">
                     <br>
-                    <label for="message">Write your entry here:</label>
+                    <label for="message">Write your entry here:*</label>
                     <br>
                     <textarea id="message" name="message" required></textarea>
                     <br>
-                    <label for="captcha">Type in this page's title:</label>
+                    <label for="captcha">Type in this page's title:*</label>
                     <br>
                     <input type="text" id="captcha" name="captcha" required>
                     <br>

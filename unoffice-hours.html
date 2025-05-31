@@ -46,29 +46,29 @@
                 </ul>
                 <p>Looking forward to talking to you!</p>
                 <form id="submission-form" action="/assets/scripts/unofficehours.php" method="post">
-                    <label for="name">Enter your name:</label>
+                    <label for="name">Enter your name:*</label>
                     <br>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" required autocomplete="given-name">
                     <br>
-                    <label for="email">Type your email address:</label>
+                    <label for="email">Type your email address:*</label>
                     <br>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required autocomplete="email">
                     <br>
-                    <label for="calltype">Would you prefer an audio-only or video call?</label>
+                    <label for="calltype">Would you prefer an audio-only or video call?*</label>
                     <select for="calltype" id="calltype" name="calltype" required>
                         <option value="select-an-option">--- Please Select An Option ---</option>
                         <option value="audio-only">Audio Only</option>
                         <option value="video">Video</option>
                     </select>
                     <br>
-                    <label for="timezone">Please write your timezone:</label>
-                    <input type="text" id="timezone" name="timezone" required>
+                    <label for="timezone">Please write your timezone:*</label>
+                    <input type="text" id="timezone" name="timezone" required autocomplete="country">
                     <br>
-                    <label for="intro">Write a short intro and what you'd like to discuss:</label>
+                    <label for="intro">Write a short intro and what you'd like to discuss:*</label>
                     <br>
                     <textarea type="text" id="intro" name="intro" required></textarea>
                     <br>
-                    <label for="captcha">Type in this page's title:</label>
+                    <label for="captcha">Type in this page's title:*</label>
                     <br>
                     <input type="text" id="captcha" name="captcha" required>
                     <br>

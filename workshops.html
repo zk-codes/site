@@ -98,19 +98,19 @@
             </ul>
             <p>Or fill out the form below!</p>
             <form action="/assets/scripts/workshops.php" method="POST">
-                <label for="name">Write how you'd like me to refer to you:</label>
+                <label for="name">Write how you'd like me to refer to you:*</label>
                 <br>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required autocomplete="given-name">
                 <br>
-                <label for="group-name">Put your group's name here:</label>
+                <label for="group-name">Put your group's name here:*</label>
                 <br>
                 <input type="text" id="group-name" name="group_name" required>
                 <br>
-                <label for="email">Type your email in here:</label>
+                <label for="email">Type your email in here:*</label>
                 <br>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required autocomplete="email">
                 <br>
-                <label for="workshop-type">Workshop you're interested in:</label>
+                <label for="workshop-type">Workshop you're interested in:*</label>
                 <br>
                 <select id="workshop-type" name="workshop_type" required>
                     <option value="">-- Select a workshop --</option>
@@ -121,23 +121,23 @@
                     <option value="Other">Other (please specify in message)</option>
                 </select>
                 <br>
-                <label for="participants">Approximate number of participants:</label>
+                <label for="participants">Approximate number of participants:*</label>
                 <br>
                 <input type="number" id="participants" name="participants" min="1" required>
                 <br>
-                <label for="age-range">Age range of participants:</label>
+                <label for="age-range">Age range of participants:*</label>
                 <br>
                 <input type="text" id="age-range" name="age_range" required>
                 <br>
-                <label for="potential-dates">Potential dates:</label>
+                <label for="potential-dates">Potential dates:*</label>
                 <br>
-                <input type="text" id="potential-dates" name="potential_dates">
+                <input type="text" id="potential-dates" name="potential_dates" required>
                 <br>
-                <label for="message">Additional details about your needs:</label>
+                <label for="message">Additional details about your needs:*</label>
                 <br>
                 <textarea id="message" name="message" required></textarea>
                 <br>
-                <label for="captcha">Type in this page's name:</label>
+                <label for="captcha">Type in this page's name:*</label>
                 <br>
                 <input type="text" id="captcha" name="captcha" required>
                 <br>

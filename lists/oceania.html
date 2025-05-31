@@ -189,22 +189,22 @@
                 <h3 id="join">Join The Directory</h3>
                 <p>Want your site to be featured in the Oceania Web Atlas? I'd love to hear from you! Use the form below or email me: <a href="mailto:hi@zacharykai.net">hi@zacharykai.net</a>. (You can also email me for removals or changes.)</p>
                 <form id="submission-form" action="/assets/scripts/oceania.php" method="post">
-                    <label for="name">Enter what you'd like me to call you:</label>
+                    <label for="name">Enter what you'd like me to call you:*</label>
                     <br>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" required autocomplete="given-name">
                     <br>
-                    <label for="email">Type your email address:</label>
+                    <label for="email">Type your email address:*</label>
                     <br>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required autocomplete="email">
                     <br>
-                    <label for="website">Write your homepage URL:</label>
-                    <input type="url" id="website" name="website" required>
+                    <label for="website">Write your homepage URL:*</label>
+                    <input type="url" id="website" name="website" required autocomplete="url">
                     <br>
-                    <label for="location">Put your location in Oceania:</label>
+                    <label for="location">Put your location in Oceania:*</label>
                     <br>
-                    <input type="text" id="location" name="location" required>
+                    <input type="text" id="location" name="location" required autocomplete="country">
                     <br>
-                    <label for="captcha">Type in this page's title:</label>
+                    <label for="captcha">Type in this page's title:*</label>
                     <br>
                     <input type="text" id="captcha" name="captcha" required>
                     <br>
