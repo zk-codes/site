@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* This is my humans.txt file. See humanstxt.org for details. */
 
 /* Folks */
@@ -10,30 +9,6 @@ Sites: zacharykai.net + roadlessread.com
 
 /* Site */
 
-(Human) Languages: English
-(Programming) Languages: CSS + HTML (Apache + XML)
-Tools: FileZilla, Notepad, WPX
-
-
-
-
-=======
-/* This is my humans.txt file. See humanstxt.org for details. */
-
-/* Folks */
-
-Hi! It's just me, Zachary Kai.
-
-Mail: hi@zacharykai.net
-Sites: zacharykai.net + roadlessread.com
-
-/* Site */
-
-(Human) Languages: English
-(Programming) Languages: CSS + HTML (Apache + XML)
-Tools: FileZilla, Notepad, WPX
-
-
-
-
->>>>>>> origin/main
+(Human) Languages: English + Spanish
+(Programming) Languages: CSS + HTML + PHP (Apache + XML)
+Tools: GitHub, VS Codium, WPX
