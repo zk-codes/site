@@ -7,10 +7,13 @@
         /* Black text for printing */
         color: #000;
         /* Slightly larger base font for print readability */
-        font-size: 1.2em; 
+        font-size: 1.1em; 
         margin: 0;
-        /* Standard print margins */
-        padding: 1cm; 
+        /* Print Margins */
+        padding-top: 0;
+        padding-left: 0.7cm;
+        padding-right: 0.7cm;
+        padding-bottom: 0.7cm;
         /* Allow content to span full print width */
         max-width: none; 
     }
@@ -65,7 +68,7 @@
 
     /* Utilities */
 
-    .essentials, .elsewhere, .postmeta, .quotes, #post-end {
+    .postmeta, #post-end {
         font-size: 0.9em;
         line-height: 1.2;
     }
@@ -77,9 +80,11 @@
     /* Hide Non-Essential Elements For Print */
 
     nav, aside, form, input, button, .button, .radio-group, .checkbox-group, .radio-label, .checkbox-label,
-    #top, p:target:not(#top), .caption, .acknowledgement, footer, .h-card
+    #top, p:target:not(#top), .caption, .acknowledgement, footer, .h-card, .essentials
      {
         display: none !important;
+        margin: 0;
+        padding: 0;
     }
 
     /* Ensure Images Print Well */
