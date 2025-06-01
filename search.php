@@ -50,11 +50,6 @@ $pages = [
         'content' => 'My gallery of shots.'
     ],
     [
-        'title' => 'Quotes',
-        'url' => '/quotes',
-        'content' => 'Sayings which resonates.'
-    ],
-    [
         'title' => 'Recipes',
         'url' => '/recipes',
         'content' => 'Tested, simplified favorites.'
@@ -63,11 +58,6 @@ $pages = [
         'title' => 'Wants',
         'url' => '/wants',
         'content' => 'Intentions and wishes.'
-    ],
-    [
-        'title' => 'Words Learned',
-        'url' => '/words',
-        'content' => 'Literary discoveries.'
     ],
     [
         'title' => 'Zines',
@@ -134,7 +124,7 @@ $pages = [
     [
         'title' => 'Ideas',
         'url' => '/ideas',
-        'content' => 'Things I\'d like to make (one day.)'
+        'content' => 'Things I\'d like to make (one day) and concepts that\'ve caught my attention (quotes, words learned).'
     ],
     [
         'title' => 'Interests',
