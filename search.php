@@ -157,11 +157,6 @@ $pages = [
         'content' => 'Where you\'ll find everything about my employability.'
     ],
     [
-        'title' => 'Save',
-        'url' => '/save',
-        'content' => 'Referral links for services I find useful (and you might too!)'
-    ],
-    [
         'title' => 'Search',
         'url' => '/search',
         'content' => 'Use it to find what you\'re looking for.'
@@ -174,7 +169,7 @@ $pages = [
     [
         'title' => 'Uses',
         'url' => '/uses',
-        'content' => 'The tech tooks I use.'
+        'content' => 'The tech tooks I use + referral links for services I find useful (and you might too!)'
     ],
     [
         'title' => 'Webrings',

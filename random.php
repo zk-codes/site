@@ -31,7 +31,6 @@ $pages = [
     '/projects',
     '/recipes',
     '/resume',
-    '/save',
     '/search',
     '/sitemap',
     '/trades',
