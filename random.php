@@ -64,6 +64,7 @@ $pages = [
     '/notes/rdec24',
     '/notes/site-ideas',
     '/notes/sparks',
+    '/notes/tooeasily',
     '/notes/waiting',
     '/stories/aes',
     '/stories/break',

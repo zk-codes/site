@@ -290,6 +290,11 @@ $pages = [
         'url' => '/notes/sparks',
         'content' => 'Prompts for braving the blank page.'
     ],
+    [
+        'title' => 'What Is This Feeling, If Not Love?',
+        'url' => '/notes/tooeasily',
+        'content' => 'I fall in love. All the time. And I don’t mean it in the conventional sense. The way I experience this concept has always been difficult to put into words.'
+    ],
 
     // Shoebox
     [
