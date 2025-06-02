@@ -12,7 +12,6 @@ $pages = [
     '/changelog',
     '/collages',
     '/colophon',
-    '/contact',
     '/cv',
     '/defaults',
     '/digital-art',

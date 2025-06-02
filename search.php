@@ -92,11 +92,6 @@ $pages = [
         'content' => 'More about this site, accessibility, internet existence principles, numbers, and esoterica.'
     ],
     [
-        'title' => 'Contact',
-        'url' => '/contact',
-        'content' => 'Details on how to email, meet, or message me (please do!)'
-    ],
-    [
         'title' => 'CV',
         'url' => '/cv',
         'content' => 'My skills, experience, qualifications, and testimonials.'
@@ -119,7 +114,7 @@ $pages = [
     [
         'title' => 'Hello',
         'url' => '/hello',
-        'content' => 'My prefered contact methods.'
+        'content' => 'Details on how to contact me: email, meet, or message me (please do!)'
     ],
     [
         'title' => 'Ideas',
