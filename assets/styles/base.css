@@ -34,15 +34,19 @@ h3 { font-size: 1.5em; }
 h4 { font-size: 1.30em;}
 a { color: inherit; }
 
+h1 {
+    margin-top: 0.55em;
+}
+
 /* Basic Layout Containers */
 
-header, main, footer, .acknowledgement {
+header:not(main > header), main, footer, .acknowledgement {
     border: var(--border-style);
     padding: var(--container-padding);
     margin: 1em 0;
 }
 
-header {
+header:not(main > header) {
     font-size: 1.2em;
 }
 

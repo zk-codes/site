@@ -403,8 +403,11 @@ if ($searchTerm !== '') {
         <p><a href="#top" class="essentials">Begin reading...</a></p>
         <header><nav><a href="/" title="My homepage.">Zachary Kai</a></nav></header>
         <main>
-            <h1 class="p-name">Search The Site</h1>
-            <p class="postmeta"><strong>Published</strong>: 17 Feb 2025 | <strong>Updated</strong>: 14 Apr 2025</p>
+            <header>
+                <p class="breadcrumbs"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a></p>
+                <h1 class="p-name">Search The Site</h1>
+                <p class="postmeta"><strong>Published</strong>: 17 Feb 2025 | <strong>Updated</strong>: 14 Apr 2025</p>
+            </header>
             <p id="top" class="p-summary">Use this form to enter your search term, and I'll see if I can find what you're looking for!</p>
             <form action="search.php" method="get">
                 <label for="q">Type in what you're looking for below:</label>
