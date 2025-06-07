@@ -55,11 +55,6 @@ $pages = [
         'content' => 'Tested, simplified favorites.'
     ],
     [
-        'title' => 'Wants',
-        'url' => '/wants',
-        'content' => 'Intentions and wishes.'
-    ],
-    [
         'title' => 'Zines',
         'url' => '/zines',
         'content' => 'The zines I\'ve made.'
@@ -69,7 +64,7 @@ $pages = [
     [
         'title' => 'About',
         'url' => '/about',
-        'content' => 'My mini autobiography and picture makers I\'ve used to represent myself.'
+        'content' => 'My mini autobiography, picture makers I\'ve used to represent myself, intentions and wishes.'
     ],
     [
         'title' => 'Bookmarklets',

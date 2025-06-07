@@ -35,10 +35,8 @@ $pages = [
     '/trades',
     '/unoffice-hours',
     '/uses',
-    '/wants',
     '/webrings',
     '/workshops',
-    '/zines',
     '/lists/fanfiction',
     '/lists/oceania',
     '/lists/queer',
@@ -77,7 +75,22 @@ $pages = [
     '/stories/wild',
     '/stories/wired',
     '/stories/worlds',
-    '/stories/zenith'
+    '/stories/zenith',
+    '/zines/',
+    '/zines/bb',
+    '/zines/de',
+    'zines/dtaoya',
+    '/zines/ff',
+    '/zines/gg',
+    '/zines/im',
+    '/zines/lfl',
+    '/zines/nn',
+    '/zines/nwn',
+    '/zines/ptcl',
+    '/zines/rr',
+    '/zines/ss',
+    '/zines/vv',
+    '/zines/yy'
 ];
 
 // Select Random Page
