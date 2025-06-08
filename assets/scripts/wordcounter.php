@@ -23,14 +23,14 @@ ob_implicit_flush(true);
 
 // Files to exclude from processing (case-insensitive)
 $excludedFiles = [
-    '.gitignore', '.htaccess', 'ClAUDE.md', 'cv.html', 'index.html', 
+    'default.html', '.gitignore', '.htaccess', 'ClAUDE.md', 'cv.html', 
     'humans.txt', 'LICENSE', 'random.php', 'resume.html', 'robots.txt', 
     'search.php', 'successful.html', 'sitemap.xml'
 ];
 
 // Directories to exclude from processing
 $excludedPaths = [
-    '.git', 'assets/templates', 'assets/scripts', 'assets/imgs', 'assets/buttons'
+    '.git', '/index.html', 'assets/scripts', 'assets/imgs', 'assets/buttons'
 ];
 
 // ================================
