@@ -137,11 +137,6 @@ $pages = [
         'content' => 'Where I\'ve been featured and my media kit.'
     ],
     [
-        'title' => 'Projects',
-        'url' => '/projects',
-        'content' => 'Things I\'m working on.'
-    ],
-    [
         'title' => 'Resume',
         'url' => '/resume',
         'content' => 'Where you\'ll find everything about my employability.'
