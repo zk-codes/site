@@ -1,0 +1,18 @@
+{
+  "short_name": "ZK",
+  "name": "Zachary Kai",
+  "icons": [
+    {
+      "src": "/assets/zk_icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "id": "/",
+  "background_color": "#f6e6cf",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#503832",
+  "description": "Zachary Kai's personal website"
+}
