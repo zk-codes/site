@@ -44,7 +44,6 @@ $pages = [
     '/newsletter/feb25',
     '/notes/24list',
     '/notes/25goals',
-    '/notes/aw824',
     '/notes/blogqna25',
     '/notes/colbert',
     '/notes/icfeb25',

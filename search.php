@@ -186,11 +186,6 @@ $pages = [
         'content' => 'What I appreciated in the year.'
     ],
     [
-        'title' => 'Are.na Walkthrough (Aug 2024)',
-        'url' => '/notes/aw824',
-        'content' => 'What I found interesting from the presentation.'
-    ],
-    [
         'title' => 'Blog Questions Challenge 2025',
         'url' => '/notes/blogqna25',
         'content' => 'My answers to the questions posed.'
