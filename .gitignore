@@ -2,13 +2,12 @@
 
 /.usermin
 /.vscode
-/assets/pdfs/resumes/
 /assets/in_progress/
 /assets/imgs/imgcompiler/
+/assets/pdfs
 /assets/scripts/cron/
 /assets/scripts/phpmailer/
 
 # Files
 
 .htaccess
-CLAUDE.md
