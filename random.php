@@ -43,7 +43,6 @@ $pages = [
     '/notes/25goals',
     '/notes/blogqna25',
     '/notes/colbert',
-    '/notes/icfeb25',
     '/notes/icmar25',
     '/notes/iwmapr25',
     '/notes/lf24',

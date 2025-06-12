@@ -206,11 +206,6 @@ $pages = [
         'content' => 'A litte insight into my musical tastes.'
     ],
     [
-        'title' => 'One Of A Thousand Ways',
-        'url' => '/notes/icfeb25',
-        'content' => 'My thoughts on affirmations.'
-    ],
-    [
         'title' => 'Proust\'s Questionnaire',
         'url' => '/notes/proust',
         'content' => 'My answers to these time-honored questions.'
