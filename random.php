@@ -25,7 +25,6 @@ $pages = [
     '/photos',
     '/press',
     '/recipes',
-    '/resume',
     '/search',
     '/sitemap',
     '/trades',
