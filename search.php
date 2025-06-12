@@ -15,24 +15,9 @@ $pages = [
         'content' => 'Links I\'ve found fascinating.'
     ],
     [
-        'title' => 'Collages',
-        'url' => '/collages',
-        'content' => 'Art made from other works.'
-    ],
-    [
-        'title' => 'Digital Art',
-        'url' => '/digital-art',
-        'content' => 'My portfolio of fanart and portraits.'
-    ],
-    [
-        'title' => 'Drawings',
-        'url' => '/drawings',
-        'content' => 'Works I\'ve drawn.'
-    ],
-    [
-        'title' => 'Gods\' Eyes',
-        'url' => '/gods-eyes',
-        'content' => 'All the ones I\'ve made.'
+        'title' => 'Art',
+        'url' => '/art',
+        'content' => 'My portfolio of collages, digital art, drawings and gods eyes.'
     ],
     [
         'title' => 'Mentions',
@@ -56,7 +41,7 @@ $pages = [
     ],
     [
         'title' => 'Zines',
-        'url' => '/zines',
+        'url' => '/zines/',
         'content' => 'The zines I\'ve made.'
     ],
 

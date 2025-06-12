@@ -6,19 +6,16 @@
 <!-- PAGES -->
     <!-- 404 --> <url><loc>https://zacharykai.net/404</loc><lastmod>2025-04-13</lastmod></url>
     <!-- About --> <url><loc>https://zacharykai.net/about</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Art --> <url><loc>https://zacharykai.net/art</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Blogroll --> <url><loc>https://zacharykai.net/blogroll</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Bookmarklets --> <url><loc>https://zacharykai.net/bookmarklets</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Bookmarks --> <url><loc>https://zacharykai.net/bookmarks</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Books --> <url><loc>https://zacharykai.net/books</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Changelog --> <url><loc>https://zacharykai.net/changelog</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Collages --> <url><loc>https://zacharykai.net/collages</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Colophon --> <url><loc>https://zacharykai.net/colophon</loc><lastmod>2025-04-13</lastmod></url>
     <!-- CV --> <url><loc>https://zacharykai.net/cv</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Defaults --> <url><loc>https://zacharykai.net/defaults</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Digital Art --> <url><loc>https://zacharykai.net/digital-art</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Drawings --> <url><loc>https://zacharykai.net/drawings</loc><lastmod>2025-04-13</lastmod></url>
     <!-- FAQ --> <url><loc>https://zacharykai.net/faq</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Gods Eyes --> <url><loc>https://zacharykai.net/gods-eyes</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Guestbook --> <url><loc>https://zacharykai.net/guestbook</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Hello --> <url><loc>https://zacharykai.net/hello</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Ideas --> <url><loc>https://zacharykai.net/ideas</loc><lastmod>2025-04-13</lastmod></url>
