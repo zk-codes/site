@@ -112,9 +112,14 @@ $pages = [
         'content' => 'My microblog, with occasional today-I-learned updates.'
     ],
     [
+        'title' => 'Newsletter',
+        'url' => '/newsletter',
+        'content' => 'Details on how to contact me: email, meet, or message me (please do!)'
+    ],
+    [
         'title' => 'Now',
         'url' => '/now',
-        'content' => 'What I\'m currently working on.'
+        'content' => 'A brief introduction to my newsletter, how you can choose to receive it, and all previous editions. Hope you enjoy reading!'
     ],
     [
         'title' => 'Press',
@@ -145,18 +150,6 @@ $pages = [
         'title' => 'Workshops',
         'url' => '/workshops',
         'content' => 'Would you like me to run one for your group?'
-    ],
-
-    // Newsletters
-    [
-        'title' => 'In Search Of Lost... Editions',
-        'url' => '/newsletter/jan25',
-        'content' => 'January 2025 newsletter.'
-    ],
-    [
-        'title' => 'A Retroactive Look',
-        'url' => '/newsletter/feb25',
-        'content' => 'February 2025 newsletter.'
     ],
 
     // Notes

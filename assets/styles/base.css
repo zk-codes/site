@@ -40,7 +40,7 @@ h1 {
 
 /* Basic Layout Containers */
 
-header:not(main > header), main, footer, .acknowledgement {
+header:not(main > header, article > header), main, footer, .acknowledgement {
     border: var(--border-style);
     padding: var(--container-padding);
     margin: 1em 0;

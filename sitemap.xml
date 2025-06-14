@@ -23,6 +23,7 @@
     <!-- Jots --> <url><loc>https://zacharykai.net/jots</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Mentions --> <url><loc>https://zacharykai.net/mentions</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Music --> <url><loc>https://zacharykai.net/music</loc><lastmod>2025-04-13</lastmod></url>
+    <!-- Newsletter --> <url><loc>https://zacharykai.net/newsletter/index</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Now --> <url><loc>https://zacharykai.net/now</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Photos --> <url><loc>https://zacharykai.net/photos</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Press --> <url><loc>https://zacharykai.net/press</loc><lastmod>2025-04-13</lastmod></url>
@@ -41,11 +42,6 @@
     <!-- Fanfic Writers Collective --> <url><loc>https://zacharykai.net/lists/fanfiction</loc><lastmod>2025-04-14</lastmod></url>
     <!-- Oceania Web Atlas --> <url><loc>https://zacharykai.net/lists/oceania</loc><lastmod>2025-04-13</lastmod></url>
     <!-- Queer Web Directory --> <url><loc>https://zacharykai.net/lists/queer</loc><lastmod>2025-04-13</lastmod></url>
-
-<!-- NEWSLETTERS -->
-    <!-- Newsletter Index --> <url><loc>https://zacharykai.net/newsletter/index</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Jan 2025 --> <url><loc>https://zacharykai.net/newsletter/jan25</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Feb 2025 --> <url><loc>https://zacharykai.net/newsletter/feb25</loc><lastmod>2025-04-13</lastmod></url>
 
 <!-- NOTES -->
     <!-- 35 Things That Made My 2024 --> <url><loc>https://zacharykai.net/notes/24list</loc><lastmod>2025-04-13</lastmod></url>
