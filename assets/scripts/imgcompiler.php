@@ -8,8 +8,13 @@
  * and then overwrites the original files with optimized JPEG versions (90% quality).
  *
  * This script is designed to be run from the command line from the main project folder.
+ * 
+ * It uses the 'gd' extension.
  *
- * Usage: php assets/scripts/imgcompiler.php
+ * Usage: 
+ * 
+ * cd C:\Users\mail\OneDrive\Documents\MEGA\projects\sites\zk
+ * php assets/scripts/imgcompiler.php
  *
  */
 
