@@ -107,6 +107,27 @@ p:target:not(#top) {
     background-color: var(--highlight-color);
 }
 
+/* Details */
+
+details {
+    margin-bottom: 0.5em;
+}
+
+summary h2, summary h3, summary h4 {
+    display: inline;
+    margin-bottom: 0.5em;
+}
+
+details:not(details details)[open] {
+    padding-bottom: 0.25em;
+}
+
+details:not(details details)[open] > summary {
+    padding-bottom: 0.5em;
+}
+
+/* Responsive Properties */
+
 @media (max-width: 768px) {
     .h-card {
         flex-direction: column;
