@@ -435,7 +435,7 @@ if ($searchTerm !== '') {
                 <a href="/changelog">Changelog</a> | 
                 <a href="/cv">CV</a> | 
                 <a href="/hello">Contact</a> | 
-                <a href="/newsletter/">Newsletter</a> | 
+                <a href="/newsletter">Newsletter</a> | 
                 <a href="/random">Random</a> | 
                 <a href="/assets/rss.xml">RSS</a> |  
                 <a href="/sitemap">Sitemap</a>
