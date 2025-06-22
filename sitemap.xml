@@ -19,7 +19,7 @@
         <loc>https://zacharykai.net/about</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>About</zk:title>
-        <zk:content>My mini autobiography, representative picture makers, intentions, and wishes.</zk:content>
+        <zk:content>My mini autobiography, press, representative avatars, intentions, and wishes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -222,16 +222,6 @@
         <zk:content>My gallery of shots.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
-    </url>
-    
-    <!-- Press -->
-    <url>
-        <loc>https://zacharykai.net/press</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:title>Press</zk:title>
-        <zk:content>Where I've been featured and my media kit.</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>about_me</zk:subcategory>
     </url>
     
     <!-- Random -->
