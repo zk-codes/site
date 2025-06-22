@@ -1,333 +1,96 @@
 <?php
 
 // Site Index
+$pages = [];
 
-$pages = [
-    // Collections
-    [
-        'title' => 'Blogroll',
-        'url' => '/blogroll',
-        'content' => 'What I like to enjoy, read, and watch on the internet. Plus my favorite 88x31 buttons.'
-    ],
-    [
-        'title' => 'Bookmarks',
-        'url' => '/bookmarks',
-        'content' => 'Links I\'ve found fascinating.'
-    ],
-    [
-        'title' => 'Art',
-        'url' => '/art',
-        'content' => 'My portfolio of collages, digital art, drawings and gods eyes.'
-    ],
-    [
-        'title' => 'Mentions',
-        'url' => '/mentions',
-        'content' => 'Recording my webmentions: sent and recieved.'
-    ],
-    [
-        'title' => 'Music',
-        'url' => '/music',
-        'content' => 'My favorite songs and three years of Spotify listening stats.'
-    ],
-    [
-        'title' => 'Photos',
-        'url' => '/photos',
-        'content' => 'My gallery of shots.'
-    ],
-    [
-        'title' => 'Recipes',
-        'url' => '/recipes',
-        'content' => 'Tested, simplified favorites.'
-    ],
-    [
-        'title' => 'Zines',
-        'url' => '/zines/',
-        'content' => 'The zines I\'ve made.'
-    ],
+// Path To Sitemap XML File
+$sitemapPath = $_SERVER['DOCUMENT_ROOT'] . '/sitemap.xml';
 
-    // Pages
-    [
-        'title' => 'About',
-        'url' => '/about',
-        'content' => 'My mini autobiography, picture makers I\'ve used to represent myself, intentions and wishes.'
-    ],
-    [
-        'title' => 'Bookmarklets',
-        'url' => '/bookmarklets',
-        'content' => 'Useful snippets of Javascript.'
-    ],
-    [
-        'title' => 'Books',
-        'url' => '/books',
-        'content' => 'All my novels, published, and soon-to-be.'
-    ],
-    [
-        'title' => 'Changelog',
-        'url' => '/changelog',
-        'content' => 'All site changes, reverse-chronologically.'
-    ],
-    [
-        'title' => 'Colophon',
-        'url' => '/colophon',
-        'content' => 'More about this site, accessibility, internet existence principles, numbers, and esoterica.'
-    ],
-    [
-        'title' => 'CV',
-        'url' => '/cv',
-        'content' => 'My skills, experience, qualifications, and testimonials.'
-    ],
-    [
-        'title' => 'Defaults',
-        'url' => '/defaults',
-        'content' => 'The default apps/tools I use.'
-    ],
-    [
-        'title' => 'FAQ',
-        'url' => '/faq',
-        'content' => 'Answers to questions.'
-    ],
-    [
-        'title' => 'Guestbook',
-        'url' => '/guestbook',
-        'content' => 'Go on, sign it!'
-    ],
-    [
-        'title' => 'Hello',
-        'url' => '/hello',
-        'content' => 'Details on how to contact me: email, meet, or message me (please do!)'
-    ],
-    [
-        'title' => 'Ideas',
-        'url' => '/ideas',
-        'content' => 'Things I\'d like to make (one day) and concepts that\'ve caught my attention (quotes, words learned).'
-    ],
-    [
-        'title' => 'Interests',
-        'url' => '/interests',
-        'content' => 'What fascinates me.'
-    ],
-    [
-        'title' => 'Jots',
-        'url' => '/jots',
-        'content' => 'My microblog, with occasional today-I-learned updates.'
-    ],
-    [
-        'title' => 'Newsletter',
-        'url' => '/newsletter',
-        'content' => 'Details on how to contact me: email, meet, or message me (please do!)'
-    ],
-    [
-        'title' => 'Now',
-        'url' => '/now',
-        'content' => 'A brief introduction to my newsletter, how you can choose to receive it, and all previous editions. Hope you enjoy reading!'
-    ],
-    [
-        'title' => 'Press',
-        'url' => '/press',
-        'content' => 'Where I\'ve been featured and my media kit.'
-    ],
-    [
-        'title' => 'Search',
-        'url' => '/search',
-        'content' => 'Use it to find what you\'re looking for.'
-    ],
-    [
-        'title' => 'Trades',
-        'url' => '/trades',
-        'content' => 'Swap with me (digitally or by mail!)'
-    ],
-    [
-        'title' => 'Uses',
-        'url' => '/uses',
-        'content' => 'The tech tooks I use + referral links for services I find useful (and you might too!)'
-    ],
-    [
-        'title' => 'Webrings',
-        'url' => '/webrings',
-        'content' => 'The ones I\'m part of.'
-    ],
-    [
-        'title' => 'Workshops',
-        'url' => '/workshops',
-        'content' => 'Would you like me to run one for your group?'
-    ],
+// Check If Sitemap File Exists
+if (file_exists($sitemapPath)) {
+    $dom = new DOMDocument();
 
-    // Notes
-    [
-        'title' => '35 Things That Made My 2024',
-        'url' => '/notes/24list',
-        'content' => 'What I appreciated in the year.'
-    ],
-    [
-        'title' => 'Authenticity On The Web',
-        'url' => '/notes/authenticity',
-        'content' => 'How did it come to mean so many conflicting things on the internet?'
-    ],
-    [
-        'title' => 'Blog Questions Challenge 2025',
-        'url' => '/notes/blogqna25',
-        'content' => 'My answers to the questions posed.'
-    ],
-    [
-        'title' => 'Goals For 2025',
-        'url' => '/notes/25goals',
-        'content' => 'Things I wish to achieve.'
-    ],
-    [
-        'title' => 'Indieweb Movie Club: Apr 2025',
-        'url' => '/notes/iwmapr25',
-        'content' => 'The Castle (1997)'
-    ],
-    [
-        'title' => 'Liminal Festival (2024)',
-        'url' => '/notes/lf24',
-        'content' => 'What I took from the conversations.'
-    ],
-    [
-        'title' => 'Mildura Writers Festival (2024)',
-        'url' => '/notes/mwf24',
-        'content' => 'What I learned from attending.'
-    ],
-    [
-        'title' => 'Minds Within Mine',
-        'url' => '/notes/mwm',
-        'content' => 'What my characters might say about me.'
-    ],
-    [
-        'title' => 'Music Questions Challenge',
-        'url' => '/notes/musicqna',
-        'content' => 'A litte insight into my musical tastes.'
-    ],
-    [
-        'title' => 'Proust\'s Questionnaire',
-        'url' => '/notes/proust',
-        'content' => 'My answers to these time-honored questions.'
-    ],
-    [
-        'title' => 'Punchy Prose',
-        'url' => '/notes/pp',
-        'content' => 'Words I watch for in my writing, to replace/remove for stronger prose.'
-    ],
-    [
-        'title' => 'Site Ideas',
-        'url' => '/notes/site-ideas',
-        'content' => 'Suggestions for what to put on your site.'
-    ],
-    [
-        'title' => 'The Unexpected Ambassador',
-        'url' => '/notes/icmar25',
-        'content' => 'To exist is to explain.'
-    ],
-    [
-        'title' => 'The Colbert Questionert',
-        'url' => '/notes/colbert',
-        'content' => 'My answers to these fifteen questions.'
-    ],
-    [
-        'title' => 'Things To Do While Waiting',
-        'url' => '/notes/waiting',
-        'content' => 'You\'ve entered what I call liminal time. And this, dear reader, isn\'t a curse. It\'s an opportunity.'
-    ],
-    [
-        'title' => 'Things You\'d Perhaps Enjoy',
-        'url' => '/gifts/rdec24',
-        'content' => 'Things I wish to share with you, hoping you\'ll enjoy them.'
-    ],
-    [
-        'title' => 'Writing Sparks',
-        'url' => '/notes/sparks',
-        'content' => 'Prompts for braving the blank page.'
-    ],
-    [
-        'title' => 'What Is This Feeling, If Not Love?',
-        'url' => '/notes/tooeasily',
-        'content' => 'I fall in love. All the time. And I don’t mean it in the conventional sense. The way I experience this concept has always been difficult to put into words.'
-    ],
+    // Error Handling
+    if ($dom->load($sitemapPath)) {
+        $xpath = new DOMXPath($dom);
 
-    // Shoebox
-    [
-        'title' => '404 Page',
-        'url' => '/404',
-        'content' => 'Just if you\'re curious.'
-    ],
-    [
-        'title' => 'Humans.txt',
-        'url' => '/humans.txt',
-        'content' => 'For the humans.'
-    ],
-    [
-        'title' => 'Robots.txt',
-        'url' => '/robots.txt',
-        'content' => 'For the bots.'
-    ],
+        // Register the custom namespace for Zachary Kai's sitemap extensions
+        $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+        $xpath->registerNamespace('zk', 'https://zacharykai.net/sitemap-ext');
 
-    // Stories
-    [
-        'title' => 'Break Yourself Against The Universe',
-        'url' => '/stories/break',
-        'content' => 'A lone survivor flees his ruined world, and with the unwanted help of his companion, he seeks redemption on a strange planet.'
-    ],
-    [
-        'title' => 'Bridging The Worlds',
-        'url' => '/stories/worlds',
-        'content' => 'At the edge of a war-ravaged world, she and her brother flee through a haunted abyss, chased by shadows. Their only hope lies in the light beyond.'
-    ],
-    [
-        'title' => 'Don\'t Show Her The Truth',
-        'url' => '/stories/truth',
-        'content' => 'A deaf assassin finds unlikely companionship with a mysterious woman on a strange planet. Survival, secrets, and unexpected bonds unfold.'
-    ],
-    [
-        'title' => 'Never Silence The Wild Heart',
-        'url' => '/stories/wild',
-        'content' => 'On a harsh desert planet, a restless teen dreams of the stars. When a mysterious ship arrives, will it bring the escape he craves?'
-    ],
-    [
-        'title' => 'No Good Options',
-        'url' => '/stories/options',
-        'content' => 'Loyalties clash as a reformed rebel faces an impossible choice. Destroy one last enemy or doom the universe. Seems simple, but there\'s a devastating catch.'
-    ],
-    [
-        'title' => 'One Seed At A Time',
-        'url' => '/stories/seed',
-        'content' => 'Post-apocalyptic hope blooms as a reluctant gardener cultivates survival. A tale of resilience, unlikely friendships, and humanity\'s rebirth.'
-    ],
-    [
-        'title' => 'Our Undoing',
-        'url' => '/stories/undoing',
-        'content' => 'In a city of acid rain and broken dreams, a scarred survivor plots revenge against a criminal syndicate while yearning to escape to paradise.'
-    ],
-    [
-        'title' => 'Poetry In The Stars',
-        'url' => '/stories/poetry',
-        'content' => 'A space-faring poet journeys through the seven galaxies, racing to capture fleeting moments in verse before her memories fade into the cosmic void.'
-    ],
-    [
-        'title' => 'The Freedom Zenith',
-        'url' => '/stories/zenith',
-        'content' => 'A ruined battleship is found after a century, and two siblings want to restore her to glory: but ancient weapons and dark secrets lie dormant in her halls.'
-    ],
-    [
-        'title' => 'Through The Universe Gate',
-        'url' => '/stories/gate',
-        'content' => 'A struggling concept artist dreams of distant worlds while supporting seven kids. Will his constant wishing be his salvation or a cosmic trap?'
-    ],
-    [
-        'title' => 'Why Are You Standing There?',
-        'url' => '/stories/why',
-        'content' => 'An ex-contractor, free from obligation, discovers they\'re not as alone as they thought on a desolate world. But their mysterious savior may doom them both.'
-    ],
-    [
-        'title' => 'Worshiping The Wired',
-        'url' => '/stories/wired',
-        'content' => 'A custodian reflects on maintaining Teratechne\'s gleaming data centers, where artificial minds contemplate in twilight while pilgrims seek enlightenment.'
-    ],
-    [
-        'title' => 'You Choose To Pull Through',
-        'url' => '/stories/pull',
-        'content' => 'A bookshop owner discovers an injured winged woman on their isolated moon: a descendant of long-lost travelers whose arrival could shatter decades of isolation.'
-    ],
-];
+        // Query all 'url' elements
+        $urlNodes = $xpath->query('//s:url');
+
+        foreach ($urlNodes as $urlNode) {
+            $url = '';
+            $title = '';
+            $content = '';
+
+            // Get the URL (loc)
+            $locNode = $xpath->query('s:loc', $urlNode)->item(0);
+            if ($locNode) {
+                $rawUrl = trim($locNode->nodeValue);
+                // Ensure the URL starts with / relative to the domain
+                $url = str_replace('https://zacharykai.net', '', $rawUrl);
+
+                // Handle the root URL specifically to ensure it's just '/'
+                if (empty($url)) { // If str_replace results in empty, it was the base domain
+                    $url = '/';
+                } elseif (substr($url, -1) === '/' && $url !== '/') {
+                    // Remove trailing slash for non-root directories like /zines/ -> /zines
+                    $url = rtrim($url, '/');
+                }
+            }
+
+            // Get the custom title (zk:title)
+            $titleNode = $xpath->query('zk:title', $urlNode)->item(0);
+            if ($titleNode) {
+                $title = trim($titleNode->nodeValue);
+            } else {
+                // Fallback: derive title from URL if zk:title is not present
+                if (!empty($url)) {
+                    $cleanedUrl = ltrim($url, '/'); // Remove leading slash
+                    $cleanedUrl = preg_replace('/\.(php|html|htm)$/i', '', $cleanedUrl); // Remove file extensions
+                    $parts = explode('/', $cleanedUrl);
+                    $lastPart = end($parts);
+                    if (empty($lastPart) || $lastPart === 'index') {
+                        // Handle cases like /zines/ or /zines/index
+                        if (count($parts) > 1) {
+                            $title = str_replace('-', ' ', prev($parts)); // Get parent folder name
+                        } else {
+                            $title = 'Homepage'; // Or whatever you prefer for the root
+                        }
+                    } else {
+                        $title = str_replace('-', ' ', $lastPart);
+                    }
+                    $title = ucwords($title); // Capitalize first letter of each word
+                    if ($title === '') $title = 'Homepage'; // Ensure homepage has a title
+                }
+            }
+
+            // Get the custom content (zk:content)
+            $contentNode = $xpath->query('zk:content', $urlNode)->item(0);
+            if ($contentNode) {
+                $content = trim($contentNode->nodeValue);
+            }
+
+            // Only add if URL and title are available and it's not the search page itself
+            if (!empty($url) && !empty($title) && $url !== '/search') {
+                $pages[] = [
+                    'title' => $title,
+                    'url' => $url,
+                    'content' => $content
+                ];
+            }
+        }
+    } else {
+        // Error loading sitemap
+        error_log("Failed to load sitemap.xml from $sitemapPath");
+    }
+} else {
+    // Sitemap file not found
+    error_log("Sitemap.xml not found at $sitemapPath");
+}
 
 $searchTerm = isset($_GET['q']) ? trim($_GET['q']) : '';
 $results = [];
@@ -335,7 +98,7 @@ $results = [];
 if ($searchTerm !== '') {
     foreach ($pages as $page) {
         // Check if the search term exists in the title or content.
-        if (stripos($page['title'], $searchTerm) !== false || stripos($page['content'], $searchTerm) !== false) {
+        if (stripos($page['title'], $searchTerm) !== false || stripos(strip_tags($page['content']), $searchTerm) !== false) {
             $results[] = $page;
         }
     }
@@ -425,7 +188,7 @@ if ($searchTerm !== '') {
             </section>
             <section class="h-card-content">
                 <p><strong><a class="u-url u-id p-name" href="https://zacharykai.net" rel="me"><span class="fn">Zachary Kai</span></a></strong> — <span class="p-pronouns">he/him</span> | <a class="u-email email" href="mailto:hi@zacharykai.net" rel="me">hi@zacharykai.net</a></p>
-                <p class="p-note">Zachary Kai is a space fantasy writer, offbeat queer, traveler, zinester, and avowed generalist. The internet is his livelihood and lifeline.</p>
+                <p class="p-note">Zachary Kai is a space fantasy writer, offbeat queer, traveler, zinester, and avowed generalist.</p>
             </section>
         </section>
         <section class="acknowledgement">

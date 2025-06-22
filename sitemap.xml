@@ -1,99 +1,687 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:zk="https://zacharykai.net/sitemap-ext">
 
-<!-- HOME --> <url><loc>https://zacharykai.net/</loc><lastmod>2025-04-13</lastmod></url>
+<!-- HOME -->
+
+    <url>
+        <loc>https://zacharykai.net/</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Homepage</zk:title>
+        <zk:content>My site. Explore my space fantasy writing, IndieWeb projects, and more.</zk:content>
+    </url>
 
 <!-- PAGES -->
-    <!-- 404 --> <url><loc>https://zacharykai.net/404</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- About --> <url><loc>https://zacharykai.net/about</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Art --> <url><loc>https://zacharykai.net/art</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Blogroll --> <url><loc>https://zacharykai.net/blogroll</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Bookmarklets --> <url><loc>https://zacharykai.net/bookmarklets</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Bookmarks --> <url><loc>https://zacharykai.net/bookmarks</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Books --> <url><loc>https://zacharykai.net/books</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Changelog --> <url><loc>https://zacharykai.net/changelog</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Colophon --> <url><loc>https://zacharykai.net/colophon</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- CV --> <url><loc>https://zacharykai.net/cv</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Defaults --> <url><loc>https://zacharykai.net/defaults</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- FAQ --> <url><loc>https://zacharykai.net/faq</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Guestbook --> <url><loc>https://zacharykai.net/guestbook</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Hello --> <url><loc>https://zacharykai.net/hello</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Ideas --> <url><loc>https://zacharykai.net/ideas</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Interests --> <url><loc>https://zacharykai.net/interests</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Jots --> <url><loc>https://zacharykai.net/jots</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Mentions --> <url><loc>https://zacharykai.net/mentions</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Music --> <url><loc>https://zacharykai.net/music</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Newsletter --> <url><loc>https://zacharykai.net/newsletter</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Now --> <url><loc>https://zacharykai.net/now</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Photos --> <url><loc>https://zacharykai.net/photos</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Press --> <url><loc>https://zacharykai.net/press</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Random --> <url><loc>https://zacharykai.net/random</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Recipes --> <url><loc>https://zacharykai.net/recipes</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Search --> <url><loc>https://zacharykai.net/search</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Sitemap --> <url><loc>https://zacharykai.net/sitemap</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Successful --> <url><loc>https://zacharykai.net/successful</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Trades --> <url><loc>https://zacharykai.net/trades</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- UnOffice Hours --> <url><loc>https://zacharykai.net/unoffice-hours</loc><lastmod>2025-04-14</lastmod></url>
-    <!-- Uses --> <url><loc>https://zacharykai.net/uses</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Webrings --> <url><loc>https://zacharykai.net/webrings</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Workshops --> <url><loc>https://zacharykai.net/workshops</loc><lastmod>2025-04-13</lastmod></url>
+
+    <!-- 404 -->
+    <url>
+        <loc>https://zacharykai.net/404</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>404 Page</zk:title>
+        <zk:content>Just if you're curious.</zk:content>
+    </url>
+
+    <!-- About -->
+    <url>
+        <loc>https://zacharykai.net/about</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>About</zk:title>
+        <zk:content>My mini autobiography, picture makers I've used to represent myself, intentions and wishes.</zk:content>
+    </url>
+
+    <!-- Art -->
+    <url>
+        <loc>https://zacharykai.net/art</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Art</zk:title>
+        <zk:content>My portfolio of collages, digital art, drawings and gods eyes.</zk:content>
+    </url>
+
+    <!-- Blogroll -->
+    <url>
+        <loc>https://zacharykai.net/blogroll</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Blogroll</zk:title>
+        <zk:content>What I like to enjoy, read, and watch on the internet. Plus my favorite 88x31 buttons.</zk:content>
+    </url>
+
+    <!-- Bookmarklets -->
+    <url>
+        <loc>https://zacharykai.net/bookmarklets</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Bookmarklets</zk:title>
+        <zk:content>Useful snippets of Javascript.</zk:content>
+    </url>
+
+    <!-- Bookmarks -->
+    <url>
+        <loc>https://zacharykai.net/bookmarks</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Bookmarks</zk:title>
+        <zk:content>Links I've found fascinating.</zk:content>
+    </url>
+
+    <!-- Books -->
+    <url>
+        <loc>https://zacharykai.net/books</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Books</zk:title>
+        <zk:content>All my novels, published, and soon-to-be.</zk:content>
+    </url>
+    
+    <!-- Changelog -->
+    <url>
+        <loc>https://zacharykai.net/changelog</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Changelog</zk:title>
+        <zk:content>All site changes, reverse-chronologically.</zk:content>
+    </url>
+    
+    <!-- Colophon -->
+    <url>
+        <loc>https://zacharykai.net/colophon</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Colophon</zk:title>
+        <zk:content>More about this site, accessibility, internet existence principles, numbers, and esoterica.</zk:content>
+    </url>
+    
+    <!-- CV -->
+    <url>
+        <loc>https://zacharykai.net/cv</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>CV</zk:title>
+        <zk:content>My skills, experience, qualifications, and testimonials.</zk:content>
+    </url>
+    
+    <!-- Defaults -->
+    <url>
+        <loc>https://zacharykai.net/defaults</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Defaults</zk:title>
+        <zk:content>The default apps/tools I use.</zk:content>
+    </url>
+    
+    <!-- FAQ -->
+    <url>
+        <loc>https://zacharykai.net/faq</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>FAQ</zk:title>
+        <zk:content>Answers to questions.</zk:content>
+    </url>
+    
+    <!-- Guestbook -->
+    <url>
+        <loc>https://zacharykai.net/guestbook</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Guestbook</zk:title>
+        <zk:content>Go on, sign it!</zk:content>
+    </url>
+    
+    <!-- Hello -->
+    <url>
+        <loc>https://zacharykai.net/hello</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Hello</zk:title>
+        <zk:content>Details on how to contact me: email, meet, or message me (please do!)</zk:content>
+    </url>
+    
+    <!-- Ideas -->
+    <url>
+        <loc>https://zacharykai.net/ideas</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Ideas</zk:title>
+        <zk:content>Things I'd like to make (one day) and concepts that've caught my attention (quotes, words learned).</zk:content>
+    </url>
+    
+    <!-- Interests -->
+    <url>
+        <loc>https://zacharykai.net/interests</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Interests</zk:title>
+        <zk:content>What fascinates me.</zk:content>
+    </url>
+    
+    <!-- Jots -->
+    <url>
+        <loc>https://zacharykai.net/jots</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Jots</zk:title>
+        <zk:content>My microblog, with occasional today-I-learned updates.</zk:content>
+    </url>
+    
+    <!-- Mentions -->
+    <url>
+        <loc>https://zacharykai.net/mentions</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Mentions</zk:title>
+        <zk:content>Recording my webmentions: sent and recieved.</zk:content>
+    </url>
+    
+    <!-- Music -->
+    <url>
+        <loc>https://zacharykai.net/music</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Music</zk:title>
+        <zk:content>My favorite songs and three years of Spotify listening stats.</zk:content>
+    </url>
+    
+    <!-- Newsletter -->
+    <url>
+        <loc>https://zacharykai.net/newsletter</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Newsletter</zk:title>
+        <zk:content>Details on how to contact me: email, meet, or message me (please do!)</zk:content>
+    </url>
+    
+    <!-- Now -->
+    <url>
+        <loc>https://zacharykai.net/now</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Now</zk:title>
+        <zk:content>A brief introduction to my newsletter, how you can choose to receive it, and all previous editions. Hope you enjoy reading!</zk:content>
+    </url>
+    
+    <!-- Photos -->
+    <url>
+        <loc>https://zacharykai.net/photos</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Photos</zk:title>
+        <zk:content>My gallery of shots.</zk:content>
+    </url>
+    
+    <!-- Press -->
+    <url>
+        <loc>https://zacharykai.net/press</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Press</zk:title>
+        <zk:content>Where I've been featured and my media kit.</zk:content>
+    </url>
+    
+    <!-- Random -->
+    <url>
+        <loc>https://zacharykai.net/random</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Random</zk:title>
+        <zk:content>Click this link to go to a random page on my site!</zk:content>
+    </url>
+    
+    <!-- Recipes -->
+    <url>
+        <loc>https://zacharykai.net/recipes</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Recipes</zk:title>
+        <zk:content>Tested, simplified favorites.</zk:content>
+    </url>
+    
+    <!-- Search -->
+    <url>
+        <loc>https://zacharykai.net/search</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Search</zk:title>
+        <zk:content>Use it to find what you're looking for.</zk:content>
+    </url>
+    
+    <!-- Sitemap -->
+    <url>
+        <loc>https://zacharykai.net/sitemap</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Sitemap</zk:title>
+        <zk:content>A curated index of everything on my site.</zk:content>
+    </url>
+
+    <!-- Successful -->
+    <url>
+        <loc>https://zacharykai.net/successful</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Successful</zk:title>
+        <zk:content>The page you get redirected to after a successful form submission.</zk:content>
+    </url>
+    
+    <!-- Trades -->
+    <url>
+        <loc>https://zacharykai.net/trades</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Trades</zk:title>
+        <zk:content>Swap with me (digitally or by mail!)</zk:content>
+    </url>
+   
+    <!-- UnOffice Hours -->
+    <url>
+        <loc>https://zacharykai.net/unoffice-hours</loc>
+        <lastmod>2025-04-14</lastmod>
+        <zk:title>Un Office Hours</zk:title>
+        <zk:content></zk:content>
+    </url>
+   
+    <!-- Uses -->
+    <url>
+        <loc>https://zacharykai.net/uses</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Uses</zk:title>
+        <zk:content>The tech tooks I use + referral links for services I find useful (and you might too!)</zk:content>
+    </url>
+   
+    <!-- Webrings -->
+    <url>
+        <loc>https://zacharykai.net/webrings</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Webrings</zk:title>
+        <zk:content>The ones I'm part of.</zk:content>
+    </url>
+    
+    <!-- Workshops -->
+    <url>
+        <loc>https://zacharykai.net/workshops</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Workshops</zk:title>
+        <zk:content>Would you like me to run one for your group?</zk:content>
+    </url>
 
 <!-- LISTS -->
-    <!-- Fanfic Writers Collective --> <url><loc>https://zacharykai.net/lists/fanfiction</loc><lastmod>2025-04-14</lastmod></url>
-    <!-- Oceania Web Atlas --> <url><loc>https://zacharykai.net/lists/oceania</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Queer Web Directory --> <url><loc>https://zacharykai.net/lists/queer</loc><lastmod>2025-04-13</lastmod></url>
+    
+    <!-- Fanfic Writers Collective -->
+    <url>
+        <loc>https://zacharykai.net/lists/fanfiction</loc>
+        <lastmod>2025-04-14</lastmod>
+        <zk:title>Fanfic Writers Collective</zk:title>
+        <zk:content>A directory of folks with sites writing fanfiction.</zk:content>
+    </url>
+    
+    <!-- Oceania Web Atlas -->
+    <url>
+        <loc>https://zacharykai.net/lists/oceania</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Oceania Web Atlas</zk:title>
+        <zk:content>A directory of sites by people living in or from Oceania.</zk:content>
+    </url>
+    
+    <!-- Queer Web Directory -->
+    <url>
+        <loc>https://zacharykai.net/lists/queer</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Queer Web Directory</zk:title>
+        <zk:content>A directory of sites by queer folks around the world.</zk:content>
+    </url>
 
 <!-- NOTES -->
-    <!-- 35 Things That Made My 2024 --> <url><loc>https://zacharykai.net/notes/24list</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Authenticity On The Web --> <url><loc>https://zacharykai.net/notes/uthenticity</loc><lastmod>2025-04-19</lastmod></url>
-    <!-- Blog Questions Challenge --> <url><loc>https://zacharykai.net/notes/blogqna25</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Goals For 2025 --> <url><loc>https://zacharykai.net/notes/25goals</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Indieweb Carnival Mar 2025 --> <url><loc>https://zacharykai.net/notes/icmar25</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Indieweb Movie Club Apr 2025 --> <url><loc>https://zacharykai.net/notes/iwmapr25</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Liminal 2024 --> <url><loc>https://zacharykai.net/notes/lf24</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Mildura Writers Festival 2024 --> <url><loc>https://zacharykai.net/notes/mwf24</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Minds Within Mine --> <url><loc>https://zacharykai.net/notes/mwm</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Music Questions Challenge --> <url><loc>https://zacharykai.net/notes/musicqna</loc><lastmod>2025-04-19</lastmod></url>
-    <!-- Punchy Prose --> <url><loc>https://zacharykai.net/notes/pp</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Proust Questionnaire --> <url><loc>https://zacharykai.net/notes/proust</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Site Ideas --> <url><loc>https://zacharykai.net/notes/site-ideas</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- The Colbert Questionert --> <url><loc>https://zacharykai.net/notes/colbert</loc><lastmod>2025-04-19</lastmod></url>
-    <!-- Things To Do While Waiting --> <url><loc>https://zacharykai.net/notes/waiting</loc><lastmod>2025-04-19</lastmod></url>
-    <!-- Things You'd Perhaps Enjoy --> <url><loc>https://zacharykai.net/notes/rdec24</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- What Is This Feeling, If Not Love? --> <url><loc>https://zacharykai.net/notes/tooeasily</loc><lastmod>2025-04-19</lastmod></url>
-    <!-- Writing Sparks --> <url><loc>https://zacharykai.net/notes/sparks</loc><lastmod>2025-04-13</lastmod></url>
+
+    <!-- 35 Things That Made My 2024 -->
+    <url>
+        <loc>https://zacharykai.net/notes/24list</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>35 Things That Made My 2024</zk:title>
+        <zk:content>What I appreciated in the year.</zk:content>
+    </url>
+    
+    <!-- Authenticity On The Web -->
+    <url>
+        <loc>https://zacharykai.net/notes/authenticity</loc>
+        <lastmod>2025-04-19</lastmod>
+        <zk:title>Authenticity On The Web</zk:title>
+        <zk:content>How did it come to mean so many conflicting things on the internet?</zk:content>
+    </url>
+    
+    <!-- Blog Questions Challenge -->
+    <url>
+        <loc>https://zacharykai.net/notes/blogqna25</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Blog Questions Challenge 2025</zk:title>
+        <zk:content>My answers to the questions posed.</zk:content>
+    </url>
+    
+    <!-- Goals For 2025 -->
+    <url>
+        <loc>https://zacharykai.net/notes/25goals</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Goals For 2025</zk:title>
+        <zk:content>Things I wish to achieve.</zk:content>
+    </url>
+    
+    <!-- Indieweb Carnival Mar 2025 -->
+    <url>
+        <loc>https://zacharykai.net/notes/icmar25</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>The Unexpected Ambassador</zk:title>
+        <zk:content>To exist is to explain.</zk:content>
+    </url>
+    
+    <!-- Indieweb Movie Club Apr 2025 -->
+    <url>
+        <loc>https://zacharykai.net/notes/iwmapr25</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Indieweb Movie Club: Apr 2025</zk:title>
+        <zk:content>The Castle (1997)</zk:content>
+    </url>
+    
+    <!-- Liminal 2024 -->
+    <url>
+        <loc>https://zacharykai.net/notes/lf24</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Liminal Festival (2024)</zk:title>
+        <zk:content>What I took from the conversations.</zk:content>
+    </url>
+    
+    <!-- Mildura Writers Festival 2024 -->
+    <url>
+        <loc>https://zacharykai.net/notes/mwf24</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Mildura Writers Festival (2024)</zk:title>
+        <zk:content>What I learned from attending.</zk:content>
+    </url>
+    
+    <!-- Minds Within Mine -->
+    <url>
+        <loc>https://zacharykai.net/notes/mwm</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Minds Within Mine</zk:title>
+        <zk:content>What my characters might say about me.</zk:content>
+    </url>
+    
+    <!-- Music Questions Challenge -->
+    <url>
+        <loc>https://zacharykai.net/notes/musicqna</loc>
+        <lastmod>2025-04-19</lastmod>
+        <zk:title>Music Questions Challenge</zk:title>
+        <zk:content>A litte insight into my musical tastes.</zk:content>
+    </url>
+    
+    <!-- Punchy Prose -->
+    <url>
+        <loc>https://zacharykai.net/notes/pp</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Punchy Prose</zk:title>
+        <zk:content>Words I watch for in my writing, to replace/remove for stronger prose.</zk:content>
+    </url>
+    
+    <!-- Proust Questionnaire -->
+    <url>
+        <loc>https://zacharykai.net/notes/proust</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Proust's Questionnaire</zk:title>
+        <zk:content>My answers to these time-honored questions.</zk:content>
+    </url>
+    
+    <!-- Site Ideas -->
+    <url>
+        <loc>https://zacharykai.net/notes/site-ideas</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Site Ideas</zk:title>
+        <zk:content>Suggestions for what to put on your site.</zk:content>
+    </url>
+    
+    <!-- The Colbert Questionert -->
+    <url>
+        <loc>https://zacharykai.net/notes/colbert</loc>
+        <lastmod>2025-04-19</lastmod>
+        <zk:title>The Colbert Questionert</zk:title>
+        <zk:content>My answers to these fifteen questions.</zk:content>
+    </url>
+    
+    <!-- Things To Do While Waiting -->
+    <url>
+        <loc>https://zacharykai.net/notes/waiting</loc>
+        <lastmod>2025-04-19</lastmod>
+        <zk:title>Things To Do While Waiting</zk:title>
+        <zk:content>You've entered what I call liminal time. And this, dear reader, isn't a curse. It's an opportunity.</zk:content>
+    </url>
+    
+    <!-- Things You'd Perhaps Enjoy -->
+    <url>
+        <loc>https://zacharykai.net/notes/rdec24</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Things You'd Perhaps Enjoy</zk:title>
+        <zk:content>Things I wish to share with you, hoping you'll enjoy them.</zk:content>
+    </url>
+    
+    <!-- What Is This Feeling, If Not Love? -->
+    <url>
+        <loc>https://zacharykai.net/notes/tooeasily</loc>
+        <lastmod>2025-04-19</lastmod>
+        <zk:title>What Is This Feeling, If Not Love?</zk:title>
+        <zk:content>I fall in love. All the time. And I don’t mean it in the conventional sense. The way I experience this concept has always been difficult to put into words.</zk:content>
+    </url>
+    
+    <!-- Writing Sparks -->
+    <url>
+        <loc>https://zacharykai.net/notes/sparks</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Writing Sparks</zk:title>
+        <zk:content>Prompts for braving the blank page.</zk:content>
+    </url>
 
 <!-- STORIES -->
-    <!-- AES --> <url><loc>https://zacharykai.net/stories/aes</loc><lastmod>2025-05-28</lastmod></url>
-    <!-- BYATU --> <url><loc>https://zacharykai.net/stories/break</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- BTW --> <url><loc>https://zacharykai.net/stories/worlds</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- DSHTT --> <url><loc>https://zacharykai.net/stories/truth</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- NSTWH --> <url><loc>https://zacharykai.net/stories/wild</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- NGO --> <url><loc>https://zacharykai.net/stories/options</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- OSAAT --> <url><loc>https://zacharykai.net/stories/seed</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- OU --> <url><loc>https://zacharykai.net/stories/undoing</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- PITS --> <url><loc>https://zacharykai.net/stories/poetry</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- TFZ --> <url><loc>https://zacharykai.net/stories/zenith</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- TTUG --> <url><loc>https://zacharykai.net/stories/gate</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- WAYST --> <url><loc>https://zacharykai.net/stories/why</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- WTW --> <url><loc>https://zacharykai.net/stories/wired</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- YCTPH --> <url><loc>https://zacharykai.net/stories/pull</loc><lastmod>2025-04-13</lastmod></url>
+    
+    <!-- AES -->
+    <url>
+        <loc>https://zacharykai.net/stories/aes</loc>
+        <lastmod>2025-05-28</lastmod>
+        <zk:title>At Ease, Soldier</zk:title>
+        <zk:content>After decades of fractured identities, Bucky Barnes must confront his troubled past to reclaim himself and discover who he truly is.</zk:content>
+    </url>
+    
+    <!-- BYATU -->
+    <url>
+        <loc>https://zacharykai.net/stories/break</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Break Yourself Against The Universe</zk:title>
+        <zk:content>A lone survivor flees his ruined world, and with the unwanted help of his companion, he seeks redemption on a strange planet.</zk:content>
+    </url>
+    
+    <!-- BTW -->
+    <url>
+        <loc>https://zacharykai.net/stories/worlds</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Bridging The Worlds</zk:title>
+        <zk:content>At the edge of a war-ravaged world, she and her brother flee through a haunted abyss, chased by shadows. Their only hope lies in the light beyond.</zk:content>
+    </url>
+    
+    <!-- DSHTT -->
+    <url>
+        <loc>https://zacharykai.net/stories/truth</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Don't Show Her The Truth</zk:title>
+        <zk:content>A deaf assassin finds unlikely companionship with a mysterious woman on a strange planet. Survival, secrets, and unexpected bonds unfold.</zk:content>
+    </url>
+    
+    <!-- NSTWH -->
+    <url>
+        <loc>https://zacharykai.net/stories/wild</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Never Silence The Wild Heart</zk:title>
+        <zk:content>On a harsh desert planet, a restless teen dreams of the stars. When a mysterious ship arrives, will it bring the escape he craves?</zk:content>
+    </url>
+    
+    <!-- NGO -->
+    <url>
+        <loc>https://zacharykai.net/stories/options</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>No Good Options</zk:title>
+        <zk:content>Loyalties clash as a reformed rebel faces an impossible choice. Destroy one last enemy or doom the universe. Seems simple, but there's a devastating catch.</zk:content>
+    </url>
+    
+    <!-- OSAAT -->
+    <url>
+        <loc>https://zacharykai.net/stories/seed</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>One Seed At A Time</zk:title>
+        <zk:content>Post-apocalyptic hope blooms as a reluctant gardener cultivates survival. A tale of resilience, unlikely friendships, and humanity's rebirth.</zk:content>
+    </url>
+    
+    <!-- OU -->
+    <url>
+        <loc>https://zacharykai.net/stories/undoing</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Our Undoing</zk:title>
+        <zk:content>In a city of acid rain and broken dreams, a scarred survivor plots revenge against a criminal syndicate while yearning to escape to paradise.</zk:content>
+    </url>
+    
+    <!-- PITS -->
+    <url>
+        <loc>https://zacharykai.net/stories/poetry</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Poetry In The Stars</zk:title>
+        <zk:content>A space-faring poet journeys through the seven galaxies, racing to capture fleeting moments in verse before her memories fade into the cosmic void.</zk:content>
+    </url>
+    
+    <!-- TFZ -->
+    <url>
+        <loc>https://zacharykai.net/stories/zenith</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>The Freedom Zenith</zk:title>
+        <zk:content>A ruined battleship is found after a century, and two siblings want to restore her to glory: but ancient weapons and dark secrets lie dormant in her halls.</zk:content>
+    </url>
+    
+    <!-- TTUG -->
+    <url>
+        <loc>https://zacharykai.net/stories/gate</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Through The Universe Gate</zk:title>
+        <zk:content>A struggling concept artist dreams of distant worlds while supporting seven kids. Will his constant wishing be his salvation or a cosmic trap?</zk:content>
+    </url>
+    
+    <!-- WAYST -->
+    <url>
+        <loc>https://zacharykai.net/stories/why</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Why Are You Standing There?</zk:title>
+        <zk:content>An ex-contractor, free from obligation, discovers they're not as alone as they thought on a desolate world. But their mysterious savior may doom them both.</zk:content>
+    </url>
+    
+    <!-- WTW -->
+    <url>
+        <loc>https://zacharykai.net/stories/wired</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Worshiping The Wired</zk:title>
+        <zk:content>A custodian reflects on maintaining Teratechne's gleaming data centers, where artificial minds contemplate in twilight while pilgrims seek enlightenment.</zk:content>
+    </url>
+    
+    <!-- YCTPH -->
+    <url>
+        <loc>https://zacharykai.net/stories/pull</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>You Choose To Pull Through</zk:title>
+        <zk:content>A bookshop owner discovers an injured winged woman on their isolated moon: a descendant of long-lost travelers whose arrival could shatter decades of isolation.</zk:content>
+    </url>
 
 <!-- ZINES -->
-    <!-- Zines Index --> <url><loc>https://zacharykai.net/zines/index</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Dreaming Of Escapes --> <url><loc>https://zacharykai.net/zines/de</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Don't Throw Any Of Yourself Away --> <url><loc>https://zacharykai.net/zines/dtaoya</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Fabled Fantasy --> <url><loc>https://zacharykai.net/zines/ff</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Gardening Growth --> <url><loc>https://zacharykai.net/zines/gg</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Indie Musicalities --> <url><loc>https://zacharykai.net/zines/im</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Letters For The Longhaul --> <url><loc>https://zacharykai.net/zines/lfl</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Nature Nurture --> <url><loc>https://zacharykai.net/zines/nn</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Noteworthy Non-Fiction --> <url><loc>https://zacharykai.net/zines/nwn</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Pushing The Character Limit --> <url><loc>https://zacharykai.net/zines/ptcl</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Recomended Romantica --> <url><loc>https://zacharykai.net/zines/rr</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Splendid Scifi --> <url><loc>https://zacharykai.net/zines/ss</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- The Baking Brain --> <url><loc>https://zacharykai.net/zines/bb</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Vintage Vignettes --> <url><loc>https://zacharykai.net/zines/vv</loc><lastmod>2025-04-13</lastmod></url>
-    <!-- Yearning For YA --> <url><loc>https://zacharykai.net/zines/yy</loc><lastmod>2025-04-13</lastmod></url>
+    
+    <!-- Zines Index -->
+    <url>
+        <loc>https://zacharykai.net/zines/</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Zines</zk:title>
+        <zk:content>The zines I've made.</zk:content>
+    </url>
+    
+    <!-- Don't Throw Any Of Yourself Away -->
+    <url>
+        <loc>https://zacharykai.net/zines/dtaoya</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Don't Throw Any Of Yourself Away</zk:title>
+        <zk:content>Listening to yourself and your creative needs.</zk:content>
+    </url>
+    
+    <!-- Dreaming Of Escapes -->
+    <url>
+        <loc>https://zacharykai.net/zines/de</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Dreaming Of Escapes</zk:title>
+        <zk:content>A small essay on traveling and existing in liminal space.</zk:content>
+    </url>
+
+    <!-- Fabled Fantasy -->
+    <url>
+        <loc>https://zacharykai.net/zines/ff</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Fabled Fantasy</zk:title>
+        <zk:content>Selected fantasy book recommendations.</zk:content>
+    </url>
+    
+    <!-- Gardening Growth -->
+    <url>
+        <loc>https://zacharykai.net/zines/gg</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Gardening Growth</zk:title>
+        <zk:content>How I learned more about myself through gardening.</zk:content>
+    </url>
+    
+    <!-- Indie Musicalities -->
+    <url>
+        <loc>https://zacharykai.net/zines/im</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Indie Musicalities</zk:title>
+        <zk:content>Assorted music track recommendations.</zk:content>
+    </url>
+    
+    <!-- Letters For The Longhaul -->
+    <url>
+        <loc>https://zacharykai.net/zines/lfl</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Letters For The Longhaul</zk:title>
+        <zk:content>Letters for the longhaul as a metaphor for the written word.</zk:content>
+    </url>
+    
+    <!-- Nature Nurture -->
+    <url>
+        <loc>https://zacharykai.net/zines/nn</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Nature Nurture</zk:title>
+        <zk:content>A miniature essay on how we seemingly separate ourselves from nature.</zk:content>
+    </url>
+    
+    <!-- Noteworthy Non-Fiction -->
+    <url>
+        <loc>https://zacharykai.net/zines/nwn</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Noteworthy Non-Fiction</zk:title>
+        <zk:content>Several non-fiction book recommendations.</zk:content>
+    </url>
+    
+    <!-- Pushing The Character Limit -->
+    <url>
+        <loc>https://zacharykai.net/zines/ptcl</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Pushing The Character Limit</zk:title>
+        <zk:content>A fanzine for the eclectic art-rock band The 1975.</zk:content>
+    </url>
+    
+    <!-- Recomended Romantica -->
+    <url>
+        <loc>https://zacharykai.net/zines/rr</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Recomended Romantica</zk:title>
+        <zk:content>Romance novels worth reading.</zk:content>
+    </url>
+    
+    <!-- Splendid Scifi -->
+    <url>
+        <loc>https://zacharykai.net/zines/ss</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Splendid Scifi</zk:title>
+        <zk:content>Science fiction books to read.</zk:content>
+    </url>
+    
+    <!-- The Baking Brain -->
+    <url>
+        <loc>https://zacharykai.net/zines/bb</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>The Baking Brain</zk:title>
+        <zk:content>Learning about myself while experimenting with baking.</zk:content>
+    </url>
+    
+    <!-- Vintage Vignettes -->
+    <url>
+        <loc>https://zacharykai.net/zines/vv</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Vintage Vignettes</zk:title>
+        <zk:content>How the past is still something we can learn from.</zk:content>
+    </url>
+    
+    <!-- Yearning For YA -->
+    <url>
+        <loc>https://zacharykai.net/zines/yy</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Yearning For Ya</zk:title>
+        <zk:content>Young Adult novel recommendations.</zk:content>
+    </url>
 
 </urlset>
