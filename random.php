@@ -36,6 +36,7 @@ $pages = [
     '/lists/oceania',
     '/lists/queer',
     '/newsletter',
+    '/notes/authenticity',
     '/notes/24list',
     '/notes/25goals',
     '/notes/blogqna25',

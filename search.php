@@ -159,6 +159,11 @@ $pages = [
         'content' => 'What I appreciated in the year.'
     ],
     [
+        'title' => 'Authenticity On The Web',
+        'url' => '/notes/authenticity',
+        'content' => 'How did it come to mean so many conflicting things on the internet?'
+    ],
+    [
         'title' => 'Blog Questions Challenge 2025',
         'url' => '/notes/blogqna25',
         'content' => 'My answers to the questions posed.'
