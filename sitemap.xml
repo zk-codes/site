@@ -139,7 +139,7 @@
         <loc>https://zacharykai.net/hello</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>Hello</zk:title>
-        <zk:content>Details on how to contact me: email, meet, or message me (please do!)</zk:content>
+        <zk:content>Details on contacting me: email, meet, message, or trade with me (please do!)</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -264,16 +264,6 @@
         <zk:subcategory>site_info</zk:subcategory>
     </url>
 
-    <!-- Trades -->
-    <url>
-        <loc>https://zacharykai.net/trades</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:title>Trades</zk:title>
-        <zk:content>Swap with me (digitally or by mail!)</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>site_info</zk:subcategory>
-    </url>
-   
     <!-- UnOffice Hours -->
     <url>
         <loc>https://zacharykai.net/unoffice-hours</loc>
