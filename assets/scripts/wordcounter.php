@@ -23,9 +23,9 @@ ob_implicit_flush(true);
 
 // Files to exclude from processing (case-insensitive)
 $excludedFiles = [
-    'default.html', '.gitignore', '.htaccess', 'ClAUDE.md', 'cv.html', 
-    'humans.txt', 'LICENSE', 'random.php', 'resume.html', 'robots.txt', 
-    'search.php', 'successful.html', 'sitemap.xml'
+    'default.html', '.gitignore', '.htaccess', 'cv.html', 
+    'humans.txt', 'LICENSE', 'random.php', 'robots.txt', 
+    'search.php', 'sitemap.xml', 'sitemap.html', 'successful.html', 
 ];
 
 // Directories to exclude from processing

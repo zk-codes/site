@@ -8,24 +8,20 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Homepage</zk:title>
         <zk:content>My site. Explore my space fantasy writing, IndieWeb projects, and more.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
 
 <!-- PAGES -->
-
-    <!-- 404 -->
-    <url>
-        <loc>https://zacharykai.net/404</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:title>404 Page</zk:title>
-        <zk:content>Just if you're curious.</zk:content>
-    </url>
 
     <!-- About -->
     <url>
         <loc>https://zacharykai.net/about</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>About</zk:title>
-        <zk:content>My mini autobiography, picture makers I've used to represent myself, intentions and wishes.</zk:content>
+        <zk:content>My mini autobiography, representative picture makers, intentions, and wishes.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
 
     <!-- Art -->
@@ -34,6 +30,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Art</zk:title>
         <zk:content>My portfolio of collages, digital art, drawings and gods eyes.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
 
     <!-- Blogroll -->
@@ -41,7 +39,9 @@
         <loc>https://zacharykai.net/blogroll</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>Blogroll</zk:title>
-        <zk:content>What I like to enjoy, read, and watch on the internet. Plus my favorite 88x31 buttons.</zk:content>
+        <zk:content>What I like to enjoy on the internet. Plus my favorite 88x31 buttons.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
 
     <!-- Bookmarklets -->
@@ -50,6 +50,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Bookmarklets</zk:title>
         <zk:content>Useful snippets of Javascript.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
 
     <!-- Bookmarks -->
@@ -58,6 +60,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Bookmarks</zk:title>
         <zk:content>Links I've found fascinating.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
 
     <!-- Books -->
@@ -66,6 +70,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Books</zk:title>
         <zk:content>All my novels, published, and soon-to-be.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
     
     <!-- Changelog -->
@@ -74,6 +80,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Changelog</zk:title>
         <zk:content>All site changes, reverse-chronologically.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- Colophon -->
@@ -81,7 +89,9 @@
         <loc>https://zacharykai.net/colophon</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>Colophon</zk:title>
-        <zk:content>More about this site, accessibility, internet existence principles, numbers, and esoterica.</zk:content>
+        <zk:content>More on this site, accessibility, internet principles, numbers, and esoterica.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- CV -->
@@ -90,6 +100,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>CV</zk:title>
         <zk:content>My skills, experience, qualifications, and testimonials.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
     
     <!-- Defaults -->
@@ -98,6 +110,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Defaults</zk:title>
         <zk:content>The default apps/tools I use.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
     
     <!-- FAQ -->
@@ -106,6 +120,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>FAQ</zk:title>
         <zk:content>Answers to questions.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
     
     <!-- Guestbook -->
@@ -114,6 +130,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Guestbook</zk:title>
         <zk:content>Go on, sign it!</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- Hello -->
@@ -122,6 +140,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Hello</zk:title>
         <zk:content>Details on how to contact me: email, meet, or message me (please do!)</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- Ideas -->
@@ -129,7 +149,9 @@
         <loc>https://zacharykai.net/ideas</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>Ideas</zk:title>
-        <zk:content>Things I'd like to make (one day) and concepts that've caught my attention (quotes, words learned).</zk:content>
+        <zk:content>Things I'd like to make and concepts that've caught my attention.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
     
     <!-- Interests -->
@@ -138,6 +160,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Interests</zk:title>
         <zk:content>What fascinates me.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
     
     <!-- Jots -->
@@ -146,6 +170,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Jots</zk:title>
         <zk:content>My microblog, with occasional today-I-learned updates.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- Mentions -->
@@ -154,6 +180,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Mentions</zk:title>
         <zk:content>Recording my webmentions: sent and recieved.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- Music -->
@@ -162,6 +190,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Music</zk:title>
         <zk:content>My favorite songs and three years of Spotify listening stats.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
     
     <!-- Newsletter -->
@@ -169,7 +199,9 @@
         <loc>https://zacharykai.net/newsletter</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>Newsletter</zk:title>
-        <zk:content>Details on how to contact me: email, meet, or message me (please do!)</zk:content>
+        <zk:content>My monthlyish missive, with (hopefully) interesting esoterica, links, and reads.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
     
     <!-- Now -->
@@ -177,7 +209,9 @@
         <loc>https://zacharykai.net/now</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>Now</zk:title>
-        <zk:content>A brief introduction to my newsletter, how you can choose to receive it, and all previous editions. Hope you enjoy reading!</zk:content>
+        <zk:content>What I'm currently reading and working on.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
     
     <!-- Photos -->
@@ -186,6 +220,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Photos</zk:title>
         <zk:content>My gallery of shots.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
     
     <!-- Press -->
@@ -194,6 +230,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Press</zk:title>
         <zk:content>Where I've been featured and my media kit.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
     
     <!-- Random -->
@@ -202,6 +240,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Random</zk:title>
         <zk:content>Click this link to go to a random page on my site!</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- Recipes -->
@@ -210,6 +250,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Recipes</zk:title>
         <zk:content>Tested, simplified favorites.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
     
     <!-- Search -->
@@ -218,6 +260,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Search</zk:title>
         <zk:content>Use it to find what you're looking for.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- Sitemap -->
@@ -226,22 +270,18 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Sitemap</zk:title>
         <zk:content>A curated index of everything on my site.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
 
-    <!-- Successful -->
-    <url>
-        <loc>https://zacharykai.net/successful</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:title>Successful</zk:title>
-        <zk:content>The page you get redirected to after a successful form submission.</zk:content>
-    </url>
-    
     <!-- Trades -->
     <url>
         <loc>https://zacharykai.net/trades</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>Trades</zk:title>
         <zk:content>Swap with me (digitally or by mail!)</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
    
     <!-- UnOffice Hours -->
@@ -250,6 +290,8 @@
         <lastmod>2025-04-14</lastmod>
         <zk:title>Un Office Hours</zk:title>
         <zk:content></zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
    
     <!-- Uses -->
@@ -258,6 +300,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Uses</zk:title>
         <zk:content>The tech tooks I use + referral links for services I find useful (and you might too!)</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
     </url>
    
     <!-- Webrings -->
@@ -266,6 +310,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Webrings</zk:title>
         <zk:content>The ones I'm part of.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
     
     <!-- Workshops -->
@@ -274,9 +320,11 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Workshops</zk:title>
         <zk:content>Would you like me to run one for your group?</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
     </url>
 
-<!-- LISTS -->
+<!-- LISTS MOVED TO NOTES/RESOURCES -->
     
     <!-- Fanfic Writers Collective -->
     <url>
@@ -284,6 +332,8 @@
         <lastmod>2025-04-14</lastmod>
         <zk:title>Fanfic Writers Collective</zk:title>
         <zk:content>A directory of folks with sites writing fanfiction.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
     
     <!-- Oceania Web Atlas -->
@@ -292,6 +342,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Oceania Web Atlas</zk:title>
         <zk:content>A directory of sites by people living in or from Oceania.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
     
     <!-- Queer Web Directory -->
@@ -300,6 +352,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Queer Web Directory</zk:title>
         <zk:content>A directory of sites by queer folks around the world.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
 
 <!-- NOTES -->
@@ -310,6 +364,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>35 Things That Made My 2024</zk:title>
         <zk:content>What I appreciated in the year.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Authenticity On The Web -->
@@ -317,7 +373,9 @@
         <loc>https://zacharykai.net/notes/authenticity</loc>
         <lastmod>2025-04-19</lastmod>
         <zk:title>Authenticity On The Web</zk:title>
-        <zk:content>How did it come to mean so many conflicting things on the internet?</zk:content>
+        <zk:content>Why does it mean so many conflicting things on the internet?</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Blog Questions Challenge -->
@@ -326,6 +384,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Blog Questions Challenge 2025</zk:title>
         <zk:content>My answers to the questions posed.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Goals For 2025 -->
@@ -334,6 +394,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Goals For 2025</zk:title>
         <zk:content>Things I wish to achieve.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Indieweb Carnival Mar 2025 -->
@@ -342,6 +404,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>The Unexpected Ambassador</zk:title>
         <zk:content>To exist is to explain.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Indieweb Movie Club Apr 2025 -->
@@ -350,6 +414,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Indieweb Movie Club: Apr 2025</zk:title>
         <zk:content>The Castle (1997)</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
     
     <!-- Liminal 2024 -->
@@ -358,6 +424,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Liminal Festival (2024)</zk:title>
         <zk:content>What I took from the conversations.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Mildura Writers Festival 2024 -->
@@ -366,6 +434,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Mildura Writers Festival (2024)</zk:title>
         <zk:content>What I learned from attending.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Minds Within Mine -->
@@ -374,6 +444,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Minds Within Mine</zk:title>
         <zk:content>What my characters might say about me.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Music Questions Challenge -->
@@ -382,6 +454,8 @@
         <lastmod>2025-04-19</lastmod>
         <zk:title>Music Questions Challenge</zk:title>
         <zk:content>A litte insight into my musical tastes.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Punchy Prose -->
@@ -390,6 +464,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Punchy Prose</zk:title>
         <zk:content>Words I watch for in my writing, to replace/remove for stronger prose.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
     
     <!-- Proust Questionnaire -->
@@ -398,6 +474,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Proust's Questionnaire</zk:title>
         <zk:content>My answers to these time-honored questions.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Site Ideas -->
@@ -406,6 +484,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Site Ideas</zk:title>
         <zk:content>Suggestions for what to put on your site.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
     
     <!-- The Colbert Questionert -->
@@ -414,6 +494,8 @@
         <lastmod>2025-04-19</lastmod>
         <zk:title>The Colbert Questionert</zk:title>
         <zk:content>My answers to these fifteen questions.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Things To Do While Waiting -->
@@ -421,7 +503,9 @@
         <loc>https://zacharykai.net/notes/waiting</loc>
         <lastmod>2025-04-19</lastmod>
         <zk:title>Things To Do While Waiting</zk:title>
-        <zk:content>You've entered what I call liminal time. And this, dear reader, isn't a curse. It's an opportunity.</zk:content>
+        <zk:content>Liminal time isn't a curse. It's an opportunity.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
     
     <!-- Things You'd Perhaps Enjoy -->
@@ -430,6 +514,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Things You'd Perhaps Enjoy</zk:title>
         <zk:content>Things I wish to share with you, hoping you'll enjoy them.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
     
     <!-- What Is This Feeling, If Not Love? -->
@@ -437,7 +523,9 @@
         <loc>https://zacharykai.net/notes/tooeasily</loc>
         <lastmod>2025-04-19</lastmod>
         <zk:title>What Is This Feeling, If Not Love?</zk:title>
-        <zk:content>I fall in love. All the time. And I don’t mean it in the conventional sense. The way I experience this concept has always been difficult to put into words.</zk:content>
+        <zk:content>I do this all the time. And not in the conventional sense.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
     </url>
     
     <!-- Writing Sparks -->
@@ -446,6 +534,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Writing Sparks</zk:title>
         <zk:content>Prompts for braving the blank page.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
     </url>
 
 <!-- STORIES -->
@@ -456,6 +546,8 @@
         <lastmod>2025-05-28</lastmod>
         <zk:title>At Ease, Soldier</zk:title>
         <zk:content>After decades of fractured identities, Bucky Barnes must confront his troubled past to reclaim himself and discover who he truly is.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>fanfiction</zk:subcategory>
     </url>
     
     <!-- BYATU -->
@@ -464,6 +556,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Break Yourself Against The Universe</zk:title>
         <zk:content>A lone survivor flees his ruined world, and with the unwanted help of his companion, he seeks redemption on a strange planet.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- BTW -->
@@ -472,6 +566,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Bridging The Worlds</zk:title>
         <zk:content>At the edge of a war-ravaged world, she and her brother flee through a haunted abyss, chased by shadows. Their only hope lies in the light beyond.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- DSHTT -->
@@ -480,6 +576,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Don't Show Her The Truth</zk:title>
         <zk:content>A deaf assassin finds unlikely companionship with a mysterious woman on a strange planet. Survival, secrets, and unexpected bonds unfold.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- NSTWH -->
@@ -488,6 +586,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Never Silence The Wild Heart</zk:title>
         <zk:content>On a harsh desert planet, a restless teen dreams of the stars. When a mysterious ship arrives, will it bring the escape he craves?</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- NGO -->
@@ -496,6 +596,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>No Good Options</zk:title>
         <zk:content>Loyalties clash as a reformed rebel faces an impossible choice. Destroy one last enemy or doom the universe. Seems simple, but there's a devastating catch.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- OSAAT -->
@@ -504,6 +606,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>One Seed At A Time</zk:title>
         <zk:content>Post-apocalyptic hope blooms as a reluctant gardener cultivates survival. A tale of resilience, unlikely friendships, and humanity's rebirth.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- OU -->
@@ -512,6 +616,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Our Undoing</zk:title>
         <zk:content>In a city of acid rain and broken dreams, a scarred survivor plots revenge against a criminal syndicate while yearning to escape to paradise.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- PITS -->
@@ -520,6 +626,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Poetry In The Stars</zk:title>
         <zk:content>A space-faring poet journeys through the seven galaxies, racing to capture fleeting moments in verse before her memories fade into the cosmic void.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- TFZ -->
@@ -528,6 +636,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>The Freedom Zenith</zk:title>
         <zk:content>A ruined battleship is found after a century, and two siblings want to restore her to glory: but ancient weapons and dark secrets lie dormant in her halls.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- TTUG -->
@@ -536,6 +646,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Through The Universe Gate</zk:title>
         <zk:content>A struggling concept artist dreams of distant worlds while supporting seven kids. Will his constant wishing be his salvation or a cosmic trap?</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- WAYST -->
@@ -543,7 +655,9 @@
         <loc>https://zacharykai.net/stories/why</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>Why Are You Standing There?</zk:title>
-        <zk:content>An ex-contractor, free from obligation, discovers they're not as alone as they thought on a desolate world. But their mysterious savior may doom them both.</zk:content>
+        <zk:content>An ex-contractor, free from obligation, discovers they're not alone on a desolate world. But their mysterious savior may doom them both.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- WTW -->
@@ -552,6 +666,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Worshiping The Wired</zk:title>
         <zk:content>A custodian reflects on maintaining Teratechne's gleaming data centers, where artificial minds contemplate in twilight while pilgrims seek enlightenment.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
     
     <!-- YCTPH -->
@@ -559,7 +675,9 @@
         <loc>https://zacharykai.net/stories/pull</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:title>You Choose To Pull Through</zk:title>
-        <zk:content>A bookshop owner discovers an injured winged woman on their isolated moon: a descendant of long-lost travelers whose arrival could shatter decades of isolation.</zk:content>
+        <zk:content>A bookshop owner discovers an injured winged woman on their isolated moon: a descendant of long-lost travelers whose arrival changes everything.</zk:content>
+        <zk:category>stories</zk:category>
+        <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
 
 <!-- ZINES -->
@@ -570,6 +688,7 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Zines</zk:title>
         <zk:content>The zines I've made.</zk:content>
+        <zk:category>zines</zk:category>
     </url>
     
     <!-- Don't Throw Any Of Yourself Away -->
@@ -578,6 +697,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Don't Throw Any Of Yourself Away</zk:title>
         <zk:content>Listening to yourself and your creative needs.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Dreaming Of Escapes -->
@@ -586,6 +707,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Dreaming Of Escapes</zk:title>
         <zk:content>A small essay on traveling and existing in liminal space.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
 
     <!-- Fabled Fantasy -->
@@ -594,6 +717,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Fabled Fantasy</zk:title>
         <zk:content>Selected fantasy book recommendations.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Gardening Growth -->
@@ -602,6 +727,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Gardening Growth</zk:title>
         <zk:content>How I learned more about myself through gardening.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Indie Musicalities -->
@@ -610,6 +737,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Indie Musicalities</zk:title>
         <zk:content>Assorted music track recommendations.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Letters For The Longhaul -->
@@ -618,6 +747,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Letters For The Longhaul</zk:title>
         <zk:content>Letters for the longhaul as a metaphor for the written word.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Nature Nurture -->
@@ -626,6 +757,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Nature Nurture</zk:title>
         <zk:content>A miniature essay on how we seemingly separate ourselves from nature.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Noteworthy Non-Fiction -->
@@ -634,6 +767,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Noteworthy Non-Fiction</zk:title>
         <zk:content>Several non-fiction book recommendations.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Pushing The Character Limit -->
@@ -642,6 +777,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Pushing The Character Limit</zk:title>
         <zk:content>A fanzine for the eclectic art-rock band The 1975.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>quarter_size_zines</zk:subcategory>
     </url>
     
     <!-- Recomended Romantica -->
@@ -650,6 +787,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Recomended Romantica</zk:title>
         <zk:content>Romance novels worth reading.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Splendid Scifi -->
@@ -658,6 +797,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Splendid Scifi</zk:title>
         <zk:content>Science fiction books to read.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- The Baking Brain -->
@@ -666,6 +807,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>The Baking Brain</zk:title>
         <zk:content>Learning about myself while experimenting with baking.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Vintage Vignettes -->
@@ -674,6 +817,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Vintage Vignettes</zk:title>
         <zk:content>How the past is still something we can learn from.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
     
     <!-- Yearning For YA -->
@@ -682,6 +827,8 @@
         <lastmod>2025-04-13</lastmod>
         <zk:title>Yearning For Ya</zk:title>
         <zk:content>Young Adult novel recommendations.</zk:content>
+        <zk:category>zines</zk:category>
+        <zk:subcategory>mini_zines</zk:subcategory>
     </url>
 
 </urlset>

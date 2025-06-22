@@ -118,14 +118,6 @@ summary h2, summary h3, summary h4 {
     margin-bottom: 0.5em;
 }
 
-details:not(details details)[open] {
-    padding-bottom: 0.25em;
-}
-
-details:not(details details)[open] > summary {
-    padding-bottom: 0.5em;
-}
-
 /* Responsive Properties */
 
 @media (max-width: 768px) {
