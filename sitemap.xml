@@ -302,10 +302,10 @@
         <zk:content>Would you like me to run one for your group?</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
-    </url>
+    </url>   
 
-<!-- LISTS MOVED TO NOTES/RESOURCES -->
-    
+<!-- LISTS -->
+
     <!-- Fanfic Writers Collective -->
     <url>
         <loc>https://zacharykai.net/lists/fanfiction</loc>
@@ -434,6 +434,16 @@
         <lastmod>2025-04-19</lastmod>
         <zk:title>Music Questions Challenge</zk:title>
         <zk:content>A litte insight into my musical tastes.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
+    </url>
+
+    <!-- My 2025 Goals So Far -->
+    <url>
+        <loc>https://zacharykai.net/notes/25qreview</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>My 2025 Goals So Far</zk:title>
+        <zk:content>Let's do a six-month review and see how I went!</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
