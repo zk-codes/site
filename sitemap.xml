@@ -498,6 +498,16 @@
         <zk:subcategory>reflections</zk:subcategory>
     </url>
     
+    <!-- The Notification I Look Forward To The Most -->
+    <url>
+        <loc>https://zacharykai.net/notes/notifications</loc>
+        <lastmod>2025-06-24</lastmod>
+        <zk:title>The Notification I Look Forward To The Most</zk:title>
+        <zk:content>How am I supposed to do this phrase justice, given I’ve had my phone muted for years?</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
+    </url>
+
     <!-- Things To Do While Waiting -->
     <url>
         <loc>https://zacharykai.net/notes/waiting</loc>
