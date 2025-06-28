@@ -206,7 +206,6 @@ unset($category); // Unset reference to avoid issues
                     <ul>
                         <?php foreach ($categorized_pages as $cat_key => $category): ?>
                             <?php 
-                            // Check if the category has any URLs directly or within its subcategories
                             $has_urls = !empty($category['urls']);
                             $has_subcat_urls = false;
                             if (isset($category['subcategories']) && is_array($category['subcategories'])) {
@@ -220,25 +219,38 @@ unset($category); // Unset reference to avoid issues
                             ?>
                             <?php if ($has_urls || $has_subcat_urls || isset($category['index_page'])): ?>
                                 <li>
-                                    <?php if ($has_subcat_urls || ($cat_key === 'zines' && isset($category['index_page']))): // Only use details if there are subcategories with content, or if it's zines with its index page ?>
-                                        <details>
-                                            <summary>
-                                                <?php if ($cat_key === 'zines' && isset($category['index_page'])): ?>
-                                                    <a href="<?php echo htmlspecialchars($category['index_page']['url']); ?>"><?php echo htmlspecialchars($category['index_page']['title']); ?></a>
-                                                <?php else: ?>
-                                                    <a href="#<?php echo htmlspecialchars($cat_key); ?>"><?php echo htmlspecialchars($category['title']); ?></a>
-                                                <?php endif; ?>
-                                            </summary>
-                                            <ul>
+                                    <?php if ($cat_key === 'zines' && isset($category['index_page'])): ?>
+                                        <a href="<?php echo htmlspecialchars($category['index_page']['url']); ?>"><?php echo htmlspecialchars($category['index_page']['title']); ?></a>
+                                    <?php else: ?>
+                                        <a href="#<?php echo htmlspecialchars($cat_key); ?>"><?php echo htmlspecialchars($category['title']); ?></a>
+                                    <?php endif; ?>
+
+                                    <?php 
+                                    // Check if there are any sub-items (direct URLs or subcategories) to list under this category
+                                    $has_sub_items = (isset($category['urls']) && count($category['urls']) > (isset($category['index_page']) ? 1 : 0)) || $has_subcat_urls;
+
+                                    if ($has_sub_items): ?>
+                                        <ul>
+                                            <?php 
+                                            // List direct URLs of the category (excluding the index page if it exists and is already linked)
+                                            if (isset($category['urls']) && !empty($category['urls'])): ?>
+                                                <?php foreach ($category['urls'] as $page): ?>
+                                                    <?php if (!($cat_key === 'zines' && isset($category['index_page']) && $page['url'] === $category['index_page']['url'])): // Avoid duplicating zines index ?>
+                                                        <li><a href="<?php echo htmlspecialchars($page['url']); ?>"><?php echo htmlspecialchars($page['title']); ?></a></li>
+                                                    <?php endif; ?>
+                                                <?php endforeach; ?>
+                                            <?php endif; ?>
+
+                                            <?php 
+                                            // List subcategories
+                                            if (isset($category['subcategories']) && is_array($category['subcategories'])): ?>
                                                 <?php foreach ($category['subcategories'] as $subcat_key => $subcat): ?>
                                                     <?php if (!empty($subcat['urls'])): ?>
                                                         <li><a href="#<?php echo htmlspecialchars($subcat_key); ?>"><?php echo htmlspecialchars($subcat['title']); ?></a></li>
                                                     <?php endif; ?>
                                                 <?php endforeach; ?>
-                                            </ul>
-                                        </details>
-                                    <?php else: ?>
-                                        <a href="#<?php echo htmlspecialchars($cat_key); ?>"><?php echo htmlspecialchars($category['title']); ?></a>
+                                            <?php endif; ?>
+                                        </ul>
                                     <?php endif; ?>
                                 </li>
                             <?php endif; ?>
@@ -264,7 +276,7 @@ unset($category); // Unset reference to avoid issues
                 <?php if ($has_urls || $has_subcat_urls || isset($category['index_page'])): ?>
                     <hr>
                     <section id="<?php echo htmlspecialchars($cat_key); ?>">
-                        <h2 id="<?php echo htmlspecialchars($cat_key); ?>">
+                        <h2>
                             <?php if ($cat_key === 'zines' && isset($category['index_page'])): ?>
                                 <a href="<?php echo htmlspecialchars($category['index_page']['url']); ?>"><?php echo htmlspecialchars($category['index_page']['title']); ?></a>
                             <?php else: ?>
