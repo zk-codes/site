@@ -84,8 +84,8 @@ a {
   padding-right: 0;
 }
 
-a[href^="http://"]:not([href*="zacharykai.net"])::after,
-a[href^="https://"]:not([href*="zacharykai.net"])::after {
+a[href^="http://"]:not([href*="zacharykai.net"]):not(:has(img))::after,
+a[href^="https://"]:not([href*="zacharykai.net"]):not(:has(img))::after {
   content: url('/assets/imgs/svg/external_link.svg');
   display: inline;
   width: 0.8em;
