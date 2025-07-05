@@ -493,7 +493,7 @@
         <loc>https://zacharykai.net/notes/silknspiders</loc>
         <lastmod>2025-06-24</lastmod>
         <zk:title>Shot Silk And Sapphire Spiders</zk:title>
-        <zk:content>if there’s one thing I need to learn, it’s finding joy in nuance.</zk:content>
+        <zk:content>If there’s one thing I need to learn, it’s finding joy in nuance.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -506,6 +506,16 @@
         <zk:content>Suggestions for what to put on your site.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
+    </url>
+
+    <!-- Syzygy -->
+    <url>
+        <loc>https://zacharykai.net/notes/syzygy</loc>
+        <lastmod>2025-07-05</lastmod>
+        <zk:title>Syzygy</zk:title>
+        <zk:content>When I first encountered this word...I didn’t know how to pronounce it, let alone its meaning!</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>trades</zk:subcategory>
     </url>
     
     <!-- The Colbert Questionert -->
