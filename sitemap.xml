@@ -357,6 +357,16 @@
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
+
+    <!-- A Sense Of Place -->
+    <url>
+        <loc>https://zacharykai.net/notes/place</loc>
+        <lastmod>2025-07-05</lastmod>
+        <zk:title>A Sense Of Place</zk:title>
+        <zk:content>What a strange concept when your existence oscillates between countries, continents, and time zones.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>trades</zk:subcategory>
+    </url>
     
     <!-- Blog Questions Challenge -->
     <url>
