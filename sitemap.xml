@@ -378,6 +378,16 @@
         <zk:subcategory>reflections</zk:subcategory>
     </url>
     
+    <!-- How Travel Is An Engine For Writing -->
+    <url>
+        <loc>https://zacharykai.net/notes/writingengine</loc>
+        <lastmod>2025-07-05</lastmod>
+        <zk:title>How Travel Is An Engine For Writing</zk:title>
+        <zk:content>I thought about how it might make me a better writer.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>trades</zk:subcategory>
+    </url>
+
     <!-- Indieweb Carnival Mar 2025 -->
     <url>
         <loc>https://zacharykai.net/notes/icmar25</loc>
