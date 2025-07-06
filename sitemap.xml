@@ -313,7 +313,7 @@
         <zk:title>Fanfic Writers Collective</zk:title>
         <zk:content>A directory of folks with sites writing fanfiction.</zk:content>
         <zk:category>notes</zk:category>
-        <zk:subcategory>resources</zk:subcategory>
+        <zk:subcategory>lists</zk:subcategory>
     </url>
     
     <!-- Oceania Web Atlas -->
@@ -323,7 +323,7 @@
         <zk:title>Oceania Web Atlas</zk:title>
         <zk:content>A directory of sites by people living in or from Oceania.</zk:content>
         <zk:category>notes</zk:category>
-        <zk:subcategory>resources</zk:subcategory>
+        <zk:subcategory>lists</zk:subcategory>
     </url>
     
     <!-- Queer Web Directory -->
@@ -333,7 +333,17 @@
         <zk:title>Queer Web Directory</zk:title>
         <zk:content>A directory of sites by queer folks around the world.</zk:content>
         <zk:category>notes</zk:category>
-        <zk:subcategory>resources</zk:subcategory>
+        <zk:subcategory>lists</zk:subcategory>
+    </url>
+
+    <!-- Star Wars Webring -->
+    <url>
+        <loc>https://zacharykai.net/lists/starwars</loc>
+        <lastmod>2025-07-06</lastmod>
+        <zk:title>Star Wars Webring</zk:title>
+        <zk:content>A webring for folks who enjoy Star Wars</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>lists</zk:subcategory>
     </url>
 
 <!-- NOTES -->

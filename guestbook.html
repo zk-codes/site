@@ -77,7 +77,7 @@
                     <p><em>First  entry! This shows you what your entry will look like. Add yours <a href="#sign">via the form</a>, or <a href="mailto:hi@zacharykai.net">email me!</a></em>
                 <hr>
             <h2 id="sign">Sign The Guestbook</h2>
-                <form action="/assets/scripts/guestbook.php" method="POST">
+                <form action="/assets/scripts/submissions.php" method="POST">
                     <label for="name">Write how you'd like me to refer to you:*</label>
                     <br>
                     <input type="text" id="name" name="name" required autocomplete="given-name">
@@ -98,6 +98,7 @@
                     <br>
                     <input type="text" id="captcha" name="captcha" required>
                     <br>
+                    <input type="hidden" name="form_type" value="guestbook">
                     <button type="submit">Sign The Guestbook</button>
                 </form>
             <p>•--♡--•</p>

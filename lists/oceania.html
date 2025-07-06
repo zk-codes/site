@@ -202,7 +202,7 @@
                 </ul>
                 <h3 id="join">Join The Directory</h3>
                 <p>Want your site to be featured in the Oceania Web Atlas? I'd love to hear from you! Use the form below or email me: <a href="mailto:hi@zacharykai.net">hi@zacharykai.net</a>. (You can also email me for removals or changes.)</p>
-                <form id="submission-form" action="/assets/scripts/oceania.php" method="post">
+                <form id="submission-form" action="/assets/scripts/submissions.php" method="post">
                     <label for="name">Enter what you'd like me to call you:*</label>
                     <br>
                     <input type="text" id="name" name="name" required autocomplete="given-name">
@@ -222,6 +222,7 @@
                     <br>
                     <input type="text" id="captcha" name="captcha" required>
                     <br>
+                    <input type="hidden" name="form_type" value="oceania">
                     <button type="submit" value="Submit">Submit</button>
                 </form>
             </section>

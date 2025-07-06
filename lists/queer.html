@@ -133,7 +133,7 @@
                 <li>You can use a pseudonym if preferred</li>
                 <li>You can opt out of having your pronouns displayed</li>
             </ul>
-            <form id="submission-form" action="/assets/scripts/queer.php" method="post">
+            <form id="submission-form" action="/assets/scripts/submissions.php" method="post">
                 <label for="name">Type in what you'd like me to call you:*</label>
                 <br/>
                 <input type="text" id="name" name="name" required autocomplete="given-name"/>
@@ -154,6 +154,7 @@
                 <br>
                 <input type="text" id="captcha" name="captcha" required>
                 <br>
+                <input type="hidden" name="form_type" value="queer">
                 <button type="submit">Send Away!</button>
             </form>
             <h2 id="credits">Credits</h2>

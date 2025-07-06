@@ -105,7 +105,7 @@
                 <li>Potential dates</li>
             </ul>
             <p>Or fill out the form below!</p>
-            <form action="/assets/scripts/workshops.php" method="POST">
+            <form action="/assets/scripts/submissions.php" method="POST">
                 <label for="name">Write how you'd like me to refer to you:*</label>
                 <br>
                 <input type="text" id="name" name="name" required autocomplete="given-name">
@@ -149,6 +149,7 @@
                 <br>
                 <input type="text" id="captcha" name="captcha" required>
                 <br>
+                <input type="hidden" name="form_type" value="workshops">
                 <button type="submit">Submit Your Inquiry!</button>
             </form>
             <p>I'll respond ASAP with the details, pricing, and a workshop outline suited to your needs!</p>
