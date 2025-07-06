@@ -125,7 +125,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
         <link rel="canonical" href="https://zacharykai.net/lists/starwars"/>
         <meta name="date" content="2025-07-05"/>
         <meta name="last-modified" content="2025-07-05"/>
-        <meta name="description" content="A webring connecting Star Wars fan sites across the galaxy."/>
+        <meta name="description" content="A webring connecting Star Wars fans across the internet galaxy."/>
     </head>
     <body>
         <p><a href="#top" class="essentials">Begin reading...</a></p>
