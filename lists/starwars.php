@@ -16,6 +16,11 @@ $sites = [
         'site_name' => 'Joe Crawford',
         'site_url' => 'https://artlung.com/',
     ],
+    [
+        'id' => 3,
+        'site_name' => 'Leilukin\'s Hub',
+        'site_url' => 'https://leilukin.com/',
+    ],
 ];
 
 // Find Current Site Index Based On Referrer
@@ -176,7 +181,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
             <h2 id="guidelines">Submission Guidelines</h2>
             <p>To join, your site must be a personal one and actively maintained. And have the below code somewhere visible! (Format it and style it however you'd like, provided it's accessible.)</p>
             <p><pre><code>
-                <a href="https://zacharykai.net/lists/starwars">Star Wars Webring</a> → <a href="https://zacharykai.net/lists/starwars?action=prev">Previous</a> | <a href="https://zacharykai.net/lists/starwars?action=random">Random</a> | <a href="https://zacharykai.net/lists/starwars?action=next">Next</a>
+                <a href="https://zacharykai.net/lists/starwars">Star Wars Webring</a> &rarr; <a href="https://zacharykai.net/lists/starwars?action=prev">Previous</a> | <a href="https://zacharykai.net/lists/starwars?action=random">Random</a> | <a href="https://zacharykai.net/lists/starwars?action=next">Next</a>
             </code></pre></p>
             <h3 id="join">Join The Webring</h3>
             <p>Want to join the webring? Use the form below or <a href="/hello">contact me</a>!</p>
