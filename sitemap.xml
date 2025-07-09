@@ -750,6 +750,17 @@
         <zk:subcategory>halcyon_galaxy</zk:subcategory>
     </url>
 
+<!-- TOOLS -->
+
+    <!-- Circular Maze Maker -->
+    <url>
+        <loc>https://zacharykai.net/tools/circlemaze</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:title>Circular Maze Maker</zk:title>
+        <zk:content>Create a circular maze and its solution.</zk:content>
+        <zk:category>tools</zk:category>
+    </url>
+
 <!-- ZINES -->
     
     <!-- Zines Index -->

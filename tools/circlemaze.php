@@ -1,4 +1,11 @@
 <?php
+session_start(); // Start the session at the very beginning
+
+// Error Reporting
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 // --- Maze Generation & Solving Functions (Unchanged) ---
 
 /**
@@ -225,34 +232,44 @@ function drawCircularMazeImage(array $maze, ?array $solutionPath, int $endX, int
     return 'data:image/png;base64,' . base64_encode($imageData);
 }
 
-
 // --- Main Script Logic ---
 $maze_image_data = null;
 $solution_image_data = null;
+$captcha_error = '';
+
+$expected_captcha_phrase = "Circular Maze Maker";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // --- ADJUSTED DIMENSIONS ---
-    // Reduced sectors to make inner cells wider.
-    // Adjusted rings for a good visual balance.
-    $grid_cols = 24; // Number of sectors (columns)
-    $grid_rows = 10; // Number of rings (rows)
-    
-    // Define start and end points
-    // The maze starts at the center (ring 0) and ends on the outer ring.
-    $startX = 0;
-    $startY = 0;
-    $endX = rand(0, $grid_cols - 1);
-    $endY = $grid_rows - 1;
+    $user_captcha = trim($_POST['captcha'] ?? '');
 
-    // 1. Generate the maze structure
-    $maze = generateMazeData($grid_cols, $grid_rows);
-    
-    // 2. Solve the maze
-    $solutionPath = solveMaze($maze, $startX, $startY, $endX, $endY);
+    if (empty($user_captcha)) {
+        $captcha_error = "Please type the page's title.";
+    } elseif (strcasecmp($user_captcha, $expected_captcha_phrase) !== 0) {
+        $captcha_error = "Incorrect page title. Please try again.";
+    } else {
+        // --- ADJUSTED DIMENSIONS ---
+        // Reduced sectors to make inner cells wider.
+        // Adjusted rings for a good visual balance.
+        $grid_cols = 24; // Number of sectors (columns)
+        $grid_rows = 10; // Number of rings (rows)
+        
+        // Define start and end points
+        // The maze starts at the center (ring 0) and ends on the outer ring.
+        $startX = 0;
+        $startY = 0;
+        $endX = rand(0, $grid_cols - 1);
+        $endY = $grid_rows - 1;
 
-    // 3. Draw the images using the circular function
-    $maze_image_data = drawCircularMazeImage($maze, null, $endX, $endY);
-    $solution_image_data = drawCircularMazeImage($maze, $solutionPath, $endX, $endY);
+        // 1. Generate the maze structure
+        $maze = generateMazeData($grid_cols, $grid_rows);
+        
+        // 2. Solve the maze
+        $solutionPath = solveMaze($maze, $startX, $startY, $endX, $endY);
+
+        // 3. Draw the images using the circular function
+        $maze_image_data = drawCircularMazeImage($maze, null, $endX, $endY);
+        $solution_image_data = drawCircularMazeImage($maze, $solutionPath, $endX, $endY);
+    }
 }
 
 ?>
@@ -260,7 +277,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <title>Circular Maze Generator | Zachary Kai</title>
+        <title>Circular Maze Maker | Zachary Kai</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/assets/style.css">
@@ -272,58 +289,39 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <meta name="date" content="2025-07-09">
         <meta name="last-modified" content="2025-07-09">
         <meta name="description" content="A simple tool to generate a random circular maze and its solution.">
-        <style>
-            .maze-form, .maze-container {
-                text-align: center;
-            }
-            .maze-container img {
-                max-width: 100%;
-                height: auto;
-                display: block;
-                margin: 1em auto;
-                border: 1px solid #ddd;
-            }
-            .maze-container details { 
-                margin-top: 1.5em; 
-            }
-            .maze-form button {
-                font-size: 1.1em;
-                padding: 0.5em 1em;
-                cursor: pointer;
-            }
-        </style>
     </head>
     <body>
         <p><a href="#top" class="essentials">Begin reading...</a></p>
         <header><nav><a href="/">Zachary Kai</a></nav></header>
         <main>
             <header>
-                <p class="breadcrumbs"><a href="/">Homepage</a> • <a href="/tools">Tools</a> •</p>
-                <h1 class="p-name">Circular Maze Generator</h1>
+                <p class="breadcrumbs"><a href="/">Homepage</a> • <a href="/sitemap#tools">Tools</a></p>
+                <h1 class="p-name">Circular Maze Maker</h1>
                 <p class="postmeta">
-                    <strong>Published</strong>: <time class="dt-published" datetime="2025-07-09">09 Jul 2025</time> |
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-07-09">09 Jul 2025</time>
+                    <strong>Published</strong>: <time class="dt-published" datetime="2025-07-09">9 Jul 2025</time> |
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-07-09">9 Jul 2025</time>
                 </p>
             </header>
-            <p id="top" class="p-summary">A simple tool to generate a random circular maze. Click the button below to create a new puzzle and its solution, starting from the center.</p>
+            <p id="top" class="p-summary">Click the button to create a random circular maze and its solution!</p>
 
             <section class="maze-form">
                 <form action="/tools/circlemaze" method="post">
-                    <button type="submit">Generate New Maze</button>
+                    <label for="captcha">Type in this page's title:</label><br>
+                    <input type="text" id="captcha" name="captcha" required>
+                    <button type="submit">Make A Maze</button>
                 </form>
             </section>
 
             <?php if ($maze_image_data && $solution_image_data): ?>
             <section class="maze-container">
-                <hr>
-                <h2>Your Maze  Maze</h2>
-                <p>Right-click or long-press the image to save it.</p>
+                <h2>Your Circular Maze</h2>
+                <p>Happy puzzling! You can righ-click or long-press on the image to save it.</p>
                 <img src="<?= htmlspecialchars($maze_image_data) ?>" alt="Generated circular maze puzzle">
-
+                <hr>
                 <h2>Solution</h2>
                 <details>
-                    <summary><strong>Click to reveal the solution</strong></summary>
-                    <img src="<?= htmlspecialchars($solution_image_data) ?>" alt="Solution to the circular maze">
+                    <summary><strong>Click To Reveal The Solution</strong></summary>
+                    <img src="<?= htmlspecialchars($solution_image_data) ?>" alt="Solution to the circular maze" style="padding-top: 1.2em;">
                 </details>
             </section>
             <?php endif; ?>
@@ -331,7 +329,62 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p>•--♡--•</p>
             <section class="essentials">
                 <p><strong>Copy & Share</strong>: <a href="/tools/circlemaze" class="u-url">zacharykai.net/tools/circlemaze</a></p>
-                </section>
+                <p><strong>Statistics</strong> &rarr; Word Count: 44 | Reading Time: 0:13</p>
+                <hr>
+                <p>
+                    <strong>Enjoyed This? Support What I Do:</strong>
+                    <a href="/paypal" rel="noopener">PayPal</a> |
+                    <a href="/stripe" rel="noopener">Stripe</a>
+                </p>
+                <hr>
+                <p>
+                    <strong>Reply Via</strong>:
+                    <a href="/contact">Email</a> | 
+                    <a href="/guestbook">Guestbook</a> |
+                    <a href="/unoffice-hours">UnOffice Hours</a> | 
+                    <a href="/webmention" rel="noopener">Webmention</a>
+                </p>
+                <p>
+                    <strong>Found An Error?</strong>
+                    <a href="/contact" rel="noopener">Suggest An Edit</a> |
+                    <a href="/source" rel="noopener">View Source Code</a>
+                </p>
+            </section>
         </main>
-        </body>
+        <section class="h-card vcard">
+            <section class="h-card-image">
+                <picture>
+                    <source srcset="/assets/zk_icon.webp" type="image/webp">
+                    <img class="u-photo" loading="lazy" src="/assets/zk_icon.png" alt="Zachary Kai's digital drawing: 5 stacked books (blue/teal/green/purple, black spine designs), green plant behind top book, purple heart on either side.">
+                </picture>
+            </section>
+            <section class="h-card-content">
+                <p><strong><a class="u-url u-id p-name" href="https://zacharykai.net" rel="me"><span class="fn">Zachary Kai</span></a></strong> — <span class="p-pronouns">he/him</span> | <a class="u-email email" href="mailto:hi@zacharykai.net" rel="me">hi@zacharykai.net</a></p>
+                <p class="p-note">Zachary Kai is a space fantasy writer, offbeat queer, traveler, zinester, and avowed generalist. The internet is his livelihood and lifeline.</p>
+            </section>
+        </section>
+        <section class="acknowledgement">
+            <h2>Acknowledgement Of Country</h2>
+            <p>I acknowledge the folks whose lands I owe my existence to: the Koori people. The traditional owners, storytellers, and first peoples. This land's been tended and lived alongside for millennia with knowledge passed down through generations. What a legacy. May it prevail.</p>
+        </section>
+        <p><a href="#top" class="essentials">Read again...</a></p>
+        <footer>
+            <p>Est. 2024 || 
+                <a href="/about">About</a> | 
+                <a href="/colophon">Accessibility & Colophon</a> | 
+                <a href="/changelog">Changelog</a> | 
+                <a href="/cv">CV</a> | 
+                <a href="/hello">Contact</a> | 
+                <a href="/newsletter">Newsletter</a> | 
+                <a href="/random">Random</a> | 
+                <a href="/assets/rss.xml">RSS</a> |  
+                <a href="/sitemap">Sitemap</a>
+            </p>
+            <p class="elsewhere">Elsewhere || 
+                <a href="/github" rel="noopener">Github</a> | 
+                <a href="/indieweb" rel="noopener">Indieweb</a> | 
+                <a href="/internet-archive" rel="noopener">Internet Archive</a> | 
+                <a href="/linkedin" rel="noopener">Linkedin</a></p>
+        </footer>
+    </body>
 </html>
