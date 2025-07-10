@@ -144,6 +144,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
             break;
         
+        
+        // Static HTML Sites
+
+        case 'htmlsite':
+            $name = trim($_POST['name'] ?? '');
+            $email = trim($_POST['email'] ?? '');
+            $website = trim($_POST['website'] ?? '');
+            $captcha = trim($_POST['captcha'] ?? '');
+            $expected_captcha = 'Static HTML Site Directory';
+            
+            if (empty($name) || empty($email) || empty($website)) {
+                $response['message'] = "Please fill in all required fields.";
+                $valid_form = false;
+            } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                $response['message'] = "Please provide a valid email address.";
+                $valid_form = false;
+            } elseif (!preg_match('/^https?:\/\/.+\..+/i', $website)) {
+                $response['message'] = "Please provide a valid website URL starting with http:// or https://";
+                $valid_form = false;
+            } else {
+                $email_subject = "Static HTML Site Directory Submission";
+                $email_body .= "Name: $name\n";
+                $email_body .= "Email: $email\n";
+                $email_body .= "Website: $website\n";
+                $sender_email = $email;
+                $sender_name = $name;
+            }
+            break;
+        
         // Workshops
 
         case 'workshops':
