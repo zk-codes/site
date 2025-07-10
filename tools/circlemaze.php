@@ -288,7 +288,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <link rel="canonical" href="https://zacharykai.net/tools/circlemaze">
         <meta name="date" content="2025-07-09">
         <meta name="last-modified" content="2025-07-09">
-        <meta name="description" content="A simple tool to generate a random circular maze and its solution.">
+        <meta name="description" content="Click the button to create a random circular maze and its solution!">
     </head>
     <body>
         <p><a href="#top" class="essentials">Begin reading...</a></p>
@@ -315,7 +315,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php if ($maze_image_data && $solution_image_data): ?>
             <section class="maze-container">
                 <h2>Your Circular Maze</h2>
-                <p>Happy puzzling! You can righ-click or long-press on the image to save it.</p>
+                <p>Happy puzzling! You can right-click or long-press on the image to save it.</p>
                 <img src="<?= htmlspecialchars($maze_image_data) ?>" alt="Generated circular maze puzzle">
                 <hr>
                 <h2>Solution</h2>
