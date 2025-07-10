@@ -261,7 +261,7 @@ function drawKey($image, $isSolution, $config) {
     <body>
         <p><a href="#top" class="essentials">Begin reading...</a></p>
         <header><nav><a href="/">Zachary Kai</a></nav></header>
-        <main>
+        <main class="h-entry">
             <header>
                 <p class="breadcrumbs"><a href="/">Homepage</a> • <a href="/tools">Tools</a> •</p>
                 <h1 class="p-name">Cryptogram Generator</h1>

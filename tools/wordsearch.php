@@ -226,7 +226,7 @@ function generate_image($grid, $solution_words = [], $output_mode = 'base64') {
     <body>
         <p><a href="#top" class="essentials">Begin reading...</a></p>
         <header><nav><a href="/">Zachary Kai</a></nav></header>
-        <main>
+        <main class="h-entry">
             <header>
                 <p class="breadcrumbs"><a href="/">Homepage</a> • Tools •</p>
                 <h1 class="p-name">Word Search Generator</h1>
