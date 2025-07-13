@@ -90,7 +90,7 @@
     <body>
         <p><a href="#top" class="essentials">Begin reading...</a></p>
         <header><nav><a href="/">Zachary Kai</a></nav></header>
-        <main class="h-entry">
+        <main class="h-entry e-content">
             <header>
                 <p class="breadcrumbs"><a href="/">Homepage</a> • <a href="/tools">Tools</a> •</p>
                 <h1 class="p-name">Crossword Puzzle Creator</h1>
