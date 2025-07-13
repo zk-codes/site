@@ -199,28 +199,26 @@ function generate_image($grid, $solution_words = [], $output_mode = 'base64') {
     imagedestroy($im);
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <title>Word Search Generator | Zachary Kai</title>
+        <title>Word Search Maker | Zachary Kai</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="/assets/styles/print.css" media="print">
+        <link href="/assets/manifest.json" rel="manifest"/>
+        <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
+        <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
         <link rel="canonical" href="https://zacharykai.net/tools/wordsearch">
-        <meta name="description" content="A dynamic, server-side Word Search Generator. Input a list of words and receive a custom word search puzzle and corresponding answer key.">
+        <meta name="date" content="2025-07-13">
+        <meta name="last-modified" content="2025-07-13">
+        <meta name="description" content="Input a list of words and click the button to create a word search and its solution!">
         <style>
-            .word-search-form textarea { width: 100%; min-height: 150px; font-family: monospace; padding: 10px; font-size: 1rem; border: 1px solid #ccc; }
-            .word-search-form button { display: inline-block; padding: 10px 20px; background-color: #333; color: #fff; border: none; font-size: 1rem; cursor: pointer; margin-top: 10px; }
-            .word-search-results, .error-box, .warning-box { margin-top: 2em; border: 1px solid #ccc; padding: 1em; }
-            .error-box { border-color: #d9534f; color: #d9534f; background-color: #f2dede; }
-            .warning-box { border-color: #f0ad4e; color: #a17021; background-color: #fcf8e3; }
-            .word-search-results h2 { margin-top: 0; }
             .word-search-results img { max-width: 100%; height: auto; border: 1px solid #ddd; margin-top: 1em; }
-            /* **CHANGE**: Removed Roman numerals for a standard bulleted list. */
-            .word-list { column-count: 2; list-style-type: disc; margin-left: 2em;}
-            .download-links { margin: 1.5em 0; }
-            .download-links a { margin-right: 1em; font-weight: bold; }
+            .word-list { column-count: 2; margin-left: 2em;}
         </style>
     </head>
     <body>
@@ -228,42 +226,31 @@ function generate_image($grid, $solution_words = [], $output_mode = 'base64') {
         <header><nav><a href="/">Zachary Kai</a></nav></header>
         <main class="h-entry">
             <header>
-                <p class="breadcrumbs"><a href="/">Homepage</a> • Tools •</p>
-                <h1 class="p-name">Word Search Generator</h1>
+                <p class="breadcrumbs"><a href="/">Homepage</a> • <a href="/sitemap#tools">Tools</a></p>
+                <h1 class="p-name">Word Search Maker</h1>
                 <p class="postmeta">
-                    <strong>Published</strong>: <time class="dt-published" datetime="2025-07-08">08 Jul 2025</time>
+                    <strong>Published</strong>: <time class="dt-published" datetime="2025-07-13">13 Jul 2025</time> |
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-07-13">13 Jul 2025</time>
                 </p>
             </header>
 
-            <p id="top" class="p-summary">A dynamic tool to create your own word search puzzles. Enter your words below, separated by commas or new lines, to generate a high-resolution, printable 25x25 grid puzzle and its corresponding answer key.</p>
+            <p id="top" class="p-summary">Input a list of words and click the button to create a word search and its solution!</p>
             
             <section>
-                <h2>Create Your Puzzle</h2>
+                <h2>Create Your Word Search</h2>
                 <form action="/tools/wordsearch" method="post" class="word-search-form">
                     <label for="words">Enter your words (separated by new lines or commas):</label><br>
-                    <textarea id="words" name="words" required><?php echo isset($_POST['words']) ? htmlspecialchars($_POST['words']) : 'FINAL,VERSION,READABLE,HIGHLIGHT,BLUE,STANDARD,LIST,BULLETS,ZACHARYKAI,PUZZLE,SOLUTION,PHP,SERVER,DYNAMIC'; ?></textarea>
+                    <textarea id="words" name="words" required><?php echo isset($_POST['words']); ?></textarea>
                     <br>
                     <button type="submit">Generate Puzzle</button>
                 </form>
             </section>
 
             <?php if ($_SERVER['REQUEST_METHOD'] === 'POST'): ?>
-                <p>•--♡--•</p>
                 
-                <?php if (!empty($errors)): ?>
-                    <div class="error-box">
-                        <strong>Could not generate puzzle due to the following errors:</strong>
-                        <ul>
-                            <?php foreach ($errors as $error): ?>
-                                <li><?php echo htmlspecialchars($error); ?></li>
-                            <?php endforeach; ?>
-                        </ul>
-                    </div>
-                <?php endif; ?>
-
                 <?php if (!empty($generated_content)): ?>
                     <section class="word-search-results">
-                        <h2>Your Custom Word Search</h2>
+                        <h2>Your Word Search</h2>
 
                         <?php if (!empty($unplaced_words)): ?>
                         <div class="warning-box">
@@ -271,13 +258,8 @@ function generate_image($grid, $solution_words = [], $output_mode = 'base64') {
                             <?php echo htmlspecialchars(implode(', ', $unplaced_words)); ?>.
                         </div>
                         <?php endif; ?>
-                        
-                        <div class="download-links">
-                            <a href="/tools/wordsearch?download=puzzle"><strong>Download Puzzle PNG</strong></a>
-                            <a href="/tools/wordsearch?download=solution"><strong>Download Solution PNG</strong></a>
-                        </div>
 
-                        <h3>Words to Find</h3>
+                        <h3>Words To Find</h3>
                         <ul class="word-list">
                             <?php foreach ($generated_content['word_list'] as $word): ?>
                                 <li><?php echo htmlspecialchars($word); ?></li>
@@ -285,25 +267,78 @@ function generate_image($grid, $solution_words = [], $output_mode = 'base64') {
                         </ul>
                         
                         <hr>
+                        <h3>Puzzle</h3>
+                        <img src="<?php echo $generated_content['puzzle_uri']; ?>" alt="Word Search">
+                        <hr>
+                        <details style="padding-top: 1.2em;">
+                            <summary><strong>Click To Reveal The Solution</strong></summary>
+                            <h3>Solution</h3>
+                            <img src="<?php echo $generated_content['solution_uri']; ?>" alt="Word Search Solution">
+                        </details>
                         
-                        <h3>Puzzle Preview</h3>
-                        <img src="<?php echo $generated_content['puzzle_uri']; ?>" alt="Generated Word Search Puzzle Preview">
-
-                        <h3>Solution Preview</h3>
-                        <img src="<?php echo $generated_content['solution_uri']; ?>" alt="Generated Word Search Solution Preview">
                     </section>
                 <?php endif; ?>
             <?php endif; ?>
             
             <p>•--♡--•</p>
             <section class="essentials">
-                 <p><strong>Copy & Share</strong>: <a href="/tools/wordsearch" class="u-url">zacharykai.net/tools/wordsearch</a></p>
+                <p><strong>Copy & Share</strong>: <a href="/" class="u-url">zacharykai.net/</a></p>
+                <p><strong>Statistics</strong> &rarr; Word Count: 44 | Reading Time: 0:13</p>
+                <hr>
+                <p>
+                    <strong>Enjoyed This? Support What I Do:</strong>
+                    <a href="/paypal" rel="noopener">PayPal</a> |
+                    <a href="/stripe" rel="noopener">Stripe</a>
+                </p>
+                <hr>
+                <p>
+                    <strong>Reply Via</strong>:
+                    <a href="/contact">Email</a> | 
+                    <a href="/guestbook">Guestbook</a> |
+                    <a href="/unoffice-hours">UnOffice Hours</a> | 
+                    <a href="/webmention" rel="noopener">Webmention</a>
+                </p>
+                <p>
+                    <strong>Found An Error?</strong>
+                    <a href="/contact" rel="noopener">Suggest An Edit</a> |
+                    <a href="/source" rel="noopener">View Source Code</a>
+                </p>
             </section>
         </main>
+        <section class="h-card vcard">
+            <section class="h-card-image">
+                <picture>
+                    <source srcset="/assets/zk_icon.webp" type="image/webp">
+                    <img class="u-photo" loading="lazy" src="/assets/zk_icon.png" alt="Zachary Kai's digital drawing: 5 stacked books (blue/teal/green/purple, black spine designs), green plant behind top book, purple heart on either side.">
+                </picture>
+            </section>
+            <section class="h-card-content">
+                <p><strong><a class="u-url u-id p-name" href="https://zacharykai.net" rel="me"><span class="fn">Zachary Kai</span></a></strong> — <span class="p-pronouns">he/him</span> | <a class="u-email email" href="mailto:hi@zacharykai.net" rel="me">hi@zacharykai.net</a></p>
+                <p class="p-note">Zachary Kai is a space fantasy writer, offbeat queer, traveler, zinester, and avowed generalist. The internet is his livelihood and lifeline.</p>
+            </section>
+        </section>
+        <section class="acknowledgement">
+            <h2>Acknowledgement Of Country</h2>
+            <p>I acknowledge the folks whose lands I owe my existence to: the Koori people. The traditional owners, storytellers, and first peoples. This land's been tended and lived alongside for millennia with knowledge passed down through generations. What a legacy. May it prevail.</p>
+        </section>
+        <p><a href="#top" class="essentials">Read again...</a></p>
         <footer>
             <p>Est. 2024 || 
+                <a href="/about">About</a> | 
+                <a href="/colophon">Accessibility & Colophon</a> | 
+                <a href="/changelog">Changelog</a> | 
+                <a href="/cv">CV</a> | 
+                <a href="/hello">Contact</a> | 
+                <a href="/newsletter">Newsletter</a> | 
+                <a href="/random">Random</a> | 
+                <a href="/assets/rss.xml">RSS</a> |  
                 <a href="/sitemap">Sitemap</a>
             </p>
+            <p class="elsewhere">Elsewhere || 
+                <a href="/github" rel="noopener">Github</a> | 
+                <a href="/indieweb" rel="noopener">Indieweb</a> | 
+                <a href="/internet-archive" rel="noopener">Internet Archive</a> | 
+                <a href="/linkedin" rel="noopener">Linkedin</a></p>
         </footer>
     </body>
 </html>
