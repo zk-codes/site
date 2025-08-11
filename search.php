@@ -196,7 +196,7 @@ if ($searchTerm !== '') {
         </section>
         <section class="acknowledgement">
             <h2>Acknowledgement Of Country</h2>
-            <p>I acknowledge the folks whose lands I owe my existence to: the Koori people. The traditional owners, storytellers, and first peoples. This land's been tended and lived alongside for millennia with knowledge passed down through generations. What a legacy. May it prevail.</p>
+            <p>I owe my existence to the <a href="https://kht.org.au/" rel="noopener">Koori people's</a> lands: tended for millennia by the traditional owners and storytellers. What a legacy. May it prevail.</p>
         </section>
         <p><a href="#top" class="essentials">Read again...</a></p>
         <footer>
