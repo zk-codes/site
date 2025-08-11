@@ -165,3 +165,262 @@
         </footer>
     </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Bookmarklets | Zachary Kai</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="/assets/print.css" media="print">
+
+        <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
+        <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention"/>
+        <link rel="canonical" href="https://zacharykai.net/bookmarklets">
+        <meta name="date" content="2025-03-14">
+        <meta name="last-modified" content="2025-03-16">
+        <meta name="description" content="Herein you'll find my bookmarklets collection: snippets of JavaScript saved as bookmarks in my browser. Perhaps you'll find them useful too!">
+    </head>
+    <body>
+        <p><a href="#top" class="essentials">Begin reading...</a></p>
+        <header><nav><a href="/">Zachary Kai</a></nav></header>
+        <main class="h-entry e-content">
+            <header>
+                <p class="breadcrumbs"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a></p>
+                <h1 class="p-name">Bookmarklets</h1>
+                <p class="postmeta">
+                    <strong>Published</strong>: <time class="dt-published" datetime="2025-03-14">14 Mar 2025</time> | 
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-03-16">16 Mar 2025</time>
+                </p>
+            </header>
+            <section class="e-content">
+
+            </section>
+            <p id="top" class="p-summary">Herein you'll find my bookmarklets collection: snippets of JavaScript saved as bookmarks in my browser. Perhaps you'll find them useful too!</p>
+            <p><strong>Table Of Contents</strong></p>
+            <ul>
+                <li><a href="#color-inverter">Color Inverter</a></li>
+                <li><a href="#internet-archiver">Internet Archiver</a></li>
+                <li><a href="#rss-finder">RSS Feed Finder</a></li>
+                <li><a href="#webmention-checker">Webmention Checker</a></li>
+                <li><a href="#word-counter">Word Counter</a></li>
+            </ul>
+            <h2 id="color-inverter">Color Inverter</h2>
+            <p>This 'forces' dark mode or light mode on a page.</p>
+            <pre><code>javascript:(function(){const style=document.createElement('style');style.id='invert-colors-style';if(document.getElementById('invert-colors-style')){document.getElementById('invert-colors-style').remove()}else{style.textContent='html{filter:invert(100%)hue-rotate(180deg)}img,video,canvas{filter:invert(100%)hue-rotate(180deg)}';document.head.appendChild(style)}})();</code></pre>
+            <details>
+                <summary>Expanded Code</summary>
+                <pre><code>(function() {
+  // Create a new style element
+  const style = document.createElement('style');
+  // Give it an ID
+  style.id = 'invert-colors-style';
+  // Check if the style element exists
+  if (document.getElementById('invert-colors-style')) {
+    // If it exists, toggles effect off
+    document.getElementById('invert-colors-style').remove();
+  } else {
+    // If it doesn't, add CSS rules for inverting colors
+    style.textContent = `
+      html {
+        filter: invert(100%) hue-rotate(180deg);
+      }
+      // Apply inverse filter to media elements to revert to normal colors
+      img, video, canvas {
+        filter: invert(100%) hue-rotate(180deg);
+      }
+    `;
+    // Add style element to the page
+    document.head.appendChild(style);
+  }
+})();
+</code></pre>
+            </details>
+            <hr>
+            <h2 id="internet-archiver">Internet Archiver</h2>
+            <p>Upon click, this'll open a new tab which sends the previous tab to the Internet Archive for saving. When the page loads (it takes some time) it's finished.</p>
+            <pre><code>javascript:(function(){var url=encodeURIComponent(window.location.href);window.open('https://web.archive.org/save/'+url,'_blank');})();</code></pre>
+            <details>
+                <summary>Expanded Code</summary>
+                <pre><code>(function() {
+	// Get the current URL
+	var url = encodeURIComponent(window.location.href);
+	// Open the Wayback Machine's save page with the current URL
+	window.open('https://web.archive.org/save/' + url, '_blank');
+})();
+</code></pre>
+            </details>
+            <hr>
+            <h2 id="rss-finder">RSS Feed Finder</h2>
+            <p>This'll find RSS feeds for the site you're visiting.</p>
+            <pre><code>javascript:(function(){var feeds=[];var links=document.getElementsByTagName('link');for(var i=0;i&lt;links.length;i++){var link="links[i];var" type="link.getAttribute('type');var" rel="link.getAttribute('rel');var" href="link.getAttribute('href');if(href&amp;&amp;(type==='application/rss+xml'||type==='application/atom+xml'||(rel==='alternate'&amp;&amp;(type==='application/rss+xml'||type==='application/atom+xml')))){if(href.indexOf('http')!==0){if(href.startsWith('/')){href=window.location.origin+href;}else{href=window.location.href.substring(0,window.location.href.lastIndexOf('/')+1)+href;}}feeds.push(href);}}if(feeds.length&gt;0){window.open(feeds[0],'_blank');}else{alert('No RSS feeds found on this page.');}})();
+</code></pre>
+            <details>
+                <summary>Expanded Code</summary>
+                <pre><code>javascript:(function(){
+    var feeds = [];
+    var links = document.getElementsByTagName('link');
+    for (var i = 0; i &lt; links.length; i++) {
+        var link = links[i];
+        var type = link.getAttribute('type');
+        var rel = link.getAttribute('rel');
+        var href = link.getAttribute('href');
+        if (href &amp;&amp; (type === 'application/rss+xml' || type === 'application/atom+xml' || (rel === 'alternate' &amp;&amp; (type === 'application/rss+xml' || type === 'application/atom+xml')))) {
+            if (href.indexOf('http') !== 0) {
+                if (href.startsWith('/')) {
+                    href = window.location.origin + href;
+                } else {
+                    href = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1) + href;
+                }
+            }
+            feeds.push(href);
+        }
+    }
+    if (feeds.length &gt; 0) {
+        // Open the first RSS feed in the browser's default RSS viewer
+        window.open(feeds[0], '_blank');
+    } else {
+        // No RSS feed found, alert the user
+        alert('No RSS feeds found on this page.');
+    }
+})();
+</code></pre>
+            </details>
+            <hr>
+            <h2 id="webmention-checker">Webmention Checker</h2>
+            <p>This checks for a site's webmention endpoint.</p>
+            <pre><code>javascript:(function(){function findWebmentionsEndpoint(){const e=document.querySelectorAll('link[rel="webmention"]');if(e.length&gt;0)return e[0].getAttribute('href');const t=document.querySelectorAll('a[rel="webmention"]');if(t.length&gt;0)return t[0].getAttribute('href');const n=document.querySelector('meta[http-equiv="Link"]');if(n){const o=n.getAttribute('content'),r=o.match(/&lt;([^&gt;]+)&gt;;\s*rel=(?:%22|%27)webmention(?:%22|%27)/);if(r)return r[1]}return null}alert(findWebmentionsEndpoint()||'No webmentions endpoint found');})();
+</code></pre>
+            <details>
+                <summary>Expanded Code</summary>
+                <pre><code>(function() {
+    function findWebmentionsEndpoint() {
+        const linkTags = document.querySelectorAll('link[rel="webmention"]');
+        if (linkTags.length &gt; 0) {
+            return linkTags[0].getAttribute('href');
+        }  
+        const headerLinks = document.querySelectorAll('a[rel="webmention"]');
+        if (headerLinks.length &gt; 0) {
+            return headerLinks[0].getAttribute('href');
+        }
+        const headers = document.querySelector('meta[http-equiv="Link"]');
+        if (headers) {
+            const content = headers.getAttribute('content');
+            const match = content.match(/&lt;([^&gt;]+)&gt;;\s*rel=(?:%22|%27)webmention(?:%22|%27)/);
+            if (match) {
+                return match[1];
+            }
+        }
+        return null;
+    }
+    const result = findWebmentionsEndpoint();
+    alert(result || 'No webmentions endpoint found');
+})();
+</code></pre>
+            </details>
+            <hr>
+            <h2 id="word-counter">Word Counter</h2>
+            <p>This counts how many words within the <code>main</code> HTML element and the estimated reading time.</p>
+            <pre>
+                <code>
+                    javascript:(function(){const main=document.querySelector('main');if(!main){alert('No main tag found on this page!');return;}const text=main.textContent.trim();const words=text.split(/\s+/).filter(word=&gt;word.length&gt;0);const wordCount=words.length;const avgReadingSpeed=200;const readingTimeMinutes=wordCount/avgReadingSpeed;const mins=Math.floor(readingTimeMinutes);const secs=Math.floor((readingTimeMinutes-mins)*60);const readingTime=`${mins}:${secs.toString().padStart(2,'0')}`;alert(`The main tag contains ${wordCount} words.\nEstimated reading time: ${readingTime} mins`);})();
+                </code>
+            </pre>
+            <details>
+                <summary>Expanded Code</summary>
+                <pre>
+                    <code>
+                        javascript:(function() {
+                        // Find the main content area of the page
+                        const main = document.querySelector('main');
+                        // Check if the main tag exists
+                        if (!main) {
+                        alert('No main tag found on this page!');
+                        return;
+                        }
+                        // Extract text content and trim whitespace
+                        const text = main.textContent.trim();
+                        // Split text into words and filter out empty strings
+                        const words = text.split(/\s+/).filter(word =&gt; word.length &gt; 0);
+                        // Count the number of words
+                        const wordCount = words.length;
+                        // Define average reading speed (words per minute)
+                        const avgReadingSpeed = 200;
+                        // Calculate reading time in minutes
+                        const readingTimeMinutes = wordCount / avgReadingSpeed;
+                        // Convert to minutes and seconds
+                        const mins = Math.floor(readingTimeMinutes);
+                        const secs = Math.floor((readingTimeMinutes - mins) * 60);
+                        // Format reading time as mm:ss
+                        const readingTime = `${mins}:${secs.toString().padStart(2, '0')}`;
+                        // Display the result
+                        alert(`The main tag contains ${wordCount} words.
+                        Estimated reading time: ${readingTime} mins`);
+                        })();
+                    </code>
+                </pre>
+            </details>
+            <p>•--♡--•</p>
+            <section class="essentials">
+                <p><strong>Copy & Share</strong>: <a href="/bookmarklets" class="u-url">zacharykai.net/bookmarklets</a></p>
+                <p><strong>Statistics</strong> &rarr; Word Count: 904 | Reading Time: 4:31</p>
+                <hr>
+                <p>
+                    <strong>Enjoyed This? Support What I Do:</strong>
+                    <a href="/paypal" rel="noopener">PayPal</a> |
+                    <a href="/stripe" rel="noopener">Stripe</a>
+                </p>
+                <hr>
+                <p>
+                    <strong>Reply Via</strong>:
+                    <a href="/contact">Email</a> | 
+                    <a href="/guestbook">Guestbook</a> |
+                    <a href="/unoffice-hours">UnOffice Hours</a> | 
+                    <a href="/webmention" rel="noopener">Webmention</a>
+                </p>
+                <p>
+                    <strong>Found An Error?</strong>
+                    <a href="/contact" rel="noopener">Suggest An Edit</a> |
+                    <a href="/source" rel="noopener">View Source Code</a>
+                </p>
+            </section>
+        </main>
+        <section class="h-card vcard">
+            <section class="h-card-image">
+                <picture>
+                    <source srcset="/assets/zk_icon.webp" type="image/webp">
+                    <img class="u-photo" loading="lazy" src="/assets/zk_icon.png" alt="Zachary Kai's digital drawing: 5 stacked books (blue/teal/green/purple, black spine designs), green plant behind top book, purple heart on either side.">
+                </picture>
+            </section>
+            <section class="h-card-content">
+                <p><strong><a class="u-url u-id p-name" href="https://zacharykai.net" rel="me"><span class="fn">Zachary Kai</span></a></strong> — <span class="p-pronouns">he/him</span> | <a class="u-email email" href="mailto:hi@zacharykai.net" rel="me">hi@zacharykai.net</a></p>
+                <p class="p-note">Zachary Kai is a space fantasy writer, offbeat queer, traveler, zinester, and avowed generalist. The internet is his livelihood and lifeline.</p>
+            </section>
+        </section>
+        <section class="acknowledgement">
+            <h2>Acknowledgement Of Country</h2>
+            <p>I acknowledge the folks whose lands I owe my existence to: the Koori people. The traditional owners, storytellers, and first peoples. This land's been tended and lived alongside for millennia with knowledge passed down through generations. What a legacy. May it prevail.</p>
+        </section>
+        <p><a href="#top" class="essentials">Read again...</a></p>
+        <footer>
+            <p>Est. 2024 || 
+                <a href="/about">About</a> | 
+                <a href="/colophon">Accessibility & Colophon</a> | 
+                <a href="/changelog">Changelog</a> | 
+                <a href="/cv">CV</a> | 
+                <a href="/hello">Contact</a> | 
+                <a href="/newsletter">Newsletter</a> | 
+                <a href="/random">Random</a> | 
+                <a href="/assets/rss.xml">RSS</a> |  
+                <a href="/sitemap">Sitemap</a>
+            </p>
+            <p class="elsewhere">Elsewhere || 
+                <a href="/github" rel="noopener">Github</a> | 
+                <a href="/indieweb" rel="noopener">Indieweb</a> | 
+                <a href="/internet-archive" rel="noopener">Internet Archive</a> | 
+                <a href="/linkedin" rel="noopener">Linkedin</a></p>
+        </footer>
+    </body>
+</html>
