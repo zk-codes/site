@@ -134,6 +134,9 @@ if ($searchTerm !== '') {
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2025-04-14">14 Apr 2025</time>
                 </p>
             </header>
+            <section class="e-content">
+
+            </section>
             <p id="top" class="p-summary">Use this form to enter your search term, and I'll see if I can find what you're looking for!</p>
             <form action="search.php" method="get">
                 <label for="q">Type in what you're looking for below:</label>

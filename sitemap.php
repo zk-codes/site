@@ -199,6 +199,9 @@ unset($category); // Unset reference to avoid issues
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2025-06-22">22 Jun 2025</time>
                 </p>
             </header>
+            <section class="e-content">
+
+            </section>
             <p id="top" class="p-summary">Everything on my site (so far.) Please enjoy.</p>
             <section id="table-of-contents">
                 <details>
