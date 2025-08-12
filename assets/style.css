@@ -48,7 +48,6 @@ a {
 header:not(main > header, article > header),
 main,
 footer,
-.acknowledgement,
 pre {
     border: var(--border-style);
     padding: var(--container-padding);
@@ -60,13 +59,9 @@ header:not(main > header) {
 }
 
 footer {
-    font-size: 0.75em;
+    font-size: 0.78em;
     line-height: 1.6;
     margin-bottom: 0;
-}
-
-footer p:first-of-type {
-    margin-top: 5px;
 }
 
 /* Lists */
@@ -272,12 +267,6 @@ blockquote p {
 
 .essentials li {
     line-height: 1.2;
-}
-
-.elsewhere {
-    border-top: var(--border-style);
-    padding-top: 15px;
-    margin-bottom: 0;
 }
 
 .postmeta {
