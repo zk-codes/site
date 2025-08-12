@@ -107,61 +107,82 @@ if ($searchTerm !== '') {
 
 <!DOCTYPE html>
 <html lang="en-US">
+
+    <!-- Head -->
     <head>
+        <!-- Meta Tags -->
         <meta charset="utf-8">
-        <title>Search | Zachary Kai</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- File Links -->
         <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/assets/style.css">
         <link rel="stylesheet" href="/assets/print.css" media="print">
-
         <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
         <link rel="canonical" href="https://zacharykai.net/search">
+        <!-- Page Info -->
+        <title>Search | Zachary Kai</title>
         <meta name="date" content="2025-02-17">
         <meta name="last-modified" content="2025-04-14">
         <meta name="description" content="Enter your search term, and I'll see if I can find what you're looking for!">
     </head>
+
+    <!-- Body -->
     <body>
+
+        <!-- Skip Link -->
         <p><a href="#top" class="essentials">Begin reading...</a></p>
+
+        <!-- Site Header -->
         <header><nav><a href="/">Zachary Kai</a></nav></header>
+
+        <!-- Main Content -->
         <main class="h-entry e-content">
+
+            <!-- Page Header -->
             <header>
-                <p class="breadcrumbs"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a></p>
+                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a></p>
                 <h1 class="p-name">Search The Site</h1>
-                <p class="postmeta">
+                <p class="essentials">
                     <strong>Published</strong>: <time class="dt-published" datetime="2025-02-17">17 Feb 2025</time> | 
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2025-04-14">14 Apr 2025</time>
                 </p>
             </header>
+
+            <!-- Page Body -->
             <section class="e-content">
 
-            </section>
-            <p id="top" class="p-summary">Use this form to enter your search term, and I'll see if I can find what you're looking for!</p>
-            <form action="search.php" method="get">
-                <label for="q">Type in what you're looking for below:</label>
-                <br>
-                <input type="text" id="q" name="q" value="<?php echo htmlspecialchars($searchTerm); ?>" required>
-                <br>
-                <input class="button" type="submit" value="Search!">
-            </form>
-            <?php if ($searchTerm !== ''): ?>
-                <h2>Here's What I've Found For "<?php echo htmlspecialchars($searchTerm); ?>"</h2>
-                <?php if (!empty($results)): ?>
-                    <?php foreach ($results as $result): ?>
-                        <div class="result">
-                            <h3><a href="<?php echo htmlspecialchars($result['url']); ?>"><?php echo htmlspecialchars($result['title']); ?></a></h3>
-                            <p><?php echo htmlspecialchars($result['content']); ?></p>
-                        </div>
-                    <?php endforeach; ?>
-                <?php else: ?>
-                <p>No results found.</p>
+                <!-- Introduction -->
+                <p id="top" class="p-summary">Use this form to enter your search term, and I'll see if I can find what you're looking for!</p>
+                <form action="search.php" method="get">
+                    <label for="q">Type in what you're looking for below:</label>
+                    <br>
+                    <input type="text" id="q" name="q" value="<?php echo htmlspecialchars($searchTerm); ?>" required>
+                    <br>
+                    <input class="button" type="submit" value="Search!">
+                </form>
+                <?php if ($searchTerm !== ''): ?>
+                    <h2>Here's What I've Found For "<?php echo htmlspecialchars($searchTerm); ?>"</h2>
+                    <?php if (!empty($results)): ?>
+                        <?php foreach ($results as $result): ?>
+                            <div class="result">
+                                <h3><a href="<?php echo htmlspecialchars($result['url']); ?>"><?php echo htmlspecialchars($result['title']); ?></a></h3>
+                                <p><?php echo htmlspecialchars($result['content']); ?></p>
+                            </div>
+                        <?php endforeach; ?>
+                    <?php else: ?>
+                    <p>No results found.</p>
+                    <?php endif; ?>
                 <?php endif; ?>
-            <?php endif; ?>
-            <p>•--♡--•</p>
+                <p>•--♡--•</p>
+            </section>
+           
         </main>
 
-                <!-- H-Card -->
+        <!-- Back To Top Link -->
+        <p><a href="#top" class="essentials">Read again...</a></p>
+
+        <!-- H-Card -->
         <section class="h-card vcard">
             <section class="h-card-image">
                 <picture>
@@ -192,12 +213,9 @@ if ($searchTerm !== '') {
                 <strong>Reply Via</strong>:
                 <a href="/contact">Email</a> | 
                 <a href="/guestbook">Guestbook</a> |
+                <a href="/source" rel="noopener">View Source</a> |
                 <a href="/unoffice-hours">UnOffice Hours</a> | 
                 <a href="/webmention" rel="noopener">Webmention</a>
-                —
-                <strong>Found An Error?</strong>
-                <a href="/contact" rel="noopener">Contact Me</a> |
-                <a href="/source" rel="noopener">View Source</a>
             </p>
 
             <!-- Acknowledgement Of Country -->
@@ -207,15 +225,15 @@ if ($searchTerm !== '') {
             <p>
                 <strong>Est. 2024</strong> || 
                 <a href="/about">About</a> | 
+                <a href="/art">Art</a> | 
                 <a href="/colophon">Accessibility & Colophon</a> | 
                 <a href="/changelog">Changelog</a> |
-                <a href="/hello">Contact</a> | 
-                <a href="/guestbook">Guestbook</a> |
+                <a href="/jots">Jots</a> | 
                 <a href="/now">Now</a> |
                 <a href="/random">Random</a> | 
                 <a href="/assets/rss.xml">RSS</a> |  
-                <a href="/sitemap">Sitemap</a>
-
+                <a href="/sitemap">Sitemap</a> | 
+                <a href="/uses">Uses</a>
             </p>
 
             <!-- Elsewhere Links -->

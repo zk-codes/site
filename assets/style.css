@@ -249,43 +249,9 @@ blockquote p {
 
 /* Utility Classes */
 
-.breadcrumbs {
-    font-size: 0.75em;
-    line-height: 1;
-    margin: 0;
-    margin-top: 0.5em;
-}
-
 .essentials {
     font-size: 0.75em;
     line-height: 1;
-}
-
-.essentials:last-of-type {
-    margin-bottom: 5px;
-}
-
-.essentials li {
-    line-height: 1.2;
-}
-
-.postmeta {
-    margin-top: -10px;
-    padding-bottom: 10px;
-    font-size: 0.75em;
-    border-bottom: var(--border-style);
-}
-
-.quotes {
-    margin-left: 20px;
-    padding-left: 15px;
-    border-left: var(--border-style);
-    font-style: italic;
-}
-
-#post-end {
-    padding-top: var(--container-padding);
-    border-top: var(--border-style);
 }
 
 p:target:not(#top) {
@@ -356,10 +322,6 @@ summary h2, summary h3, summary h4 {
 
     header, main, footer, pre, .h-card, hr {
         border: 3px #503832 double;
-    }
-
-    .quotes {
-        border-left: 3px #503832 double;
     }
 
     p:target:not(#top) {

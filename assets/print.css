@@ -1,30 +1,22 @@
 @media print {
 
     /* Base Print Styles */
+
     body {
-        /* White background for printing */
         background-color: #fff;
-        /* Black text for printing */
         color: #000;
-        /* Slightly larger base font for print readability */
         font-size: 1.1em; 
         margin: 0;
-        /* Print Margins */
         padding-top: 0;
         padding-left: 0.7cm;
         padding-right: 0.7cm;
         padding-bottom: 0.7cm;
-        /* Allow content to span full print width */
         max-width: none; 
     }
-
-    /* Font family */
 
     body, textarea, select, input:not(.button):not([type="radio"]):not([type="checkbox"]), .button, button {
         font-family: var(--font-family);
     }
-
-    /* Typography Adjustments For Print */
 
     h1 { font-size: 2em; }
     h2 { font-size: 1.7em; }
@@ -32,29 +24,23 @@
     h4 { font-size: 1.2em;}
 
     a {
-        /* Ensure links are black */
         color: #000; 
-        /* Add underline for clarity on links */
         text-decoration: underline; 
     }
 
     /* Borders And Separators */
 
-    header, main, footer, .acknowledgement, form, fieldset, pre, blockquote, .elsewhere, .postmeta, #post-end, hr {
-        /* Ensure borders are black */
+    header, main, footer, form, fieldset, pre, blockquote, hr {
         border-color: #000 !important; 
-        /* Keep the original border style */
         border-style: var(--border-style); 
     }
 
     /* Code And Blockquotes */
 
     code, pre {
-        /* Slightly smaller for code blocks */
         font-size: 0.8em; 
         white-space: pre-wrap;
         word-wrap: break-word;
-        /* Lighter border for code blocks */
         border: 1px solid #ccc; 
         padding: 5px;
     }
@@ -62,46 +48,30 @@
     blockquote {
         margin-left: 1.5em;
         padding-left: 1.2em;
-        /* Lighter border for blockquotes */
         border-left: 1px solid #ccc; 
-    }
-
-    /* Utilities */
-
-    .postmeta, #post-end {
-        font-size: 0.9em;
-        line-height: 1.2;
-    }
-
-    .postmeta {
-        border-color: #ccc !important;
     }
 
     /* Hide Non-Essential Elements For Print */
 
     nav, aside, form, input, button, .button, .radio-group, .checkbox-group, .radio-label, .checkbox-label,
-    #top, p:target:not(#top), .caption, .acknowledgement, footer, .h-card, .essentials
+    #top, p:target:not(#top), .caption, footer, .h-card, .essentials
      {
         display: none !important;
         margin: 0;
         padding: 0;
     }
 
-    /* Ensure Images Print Well */
+    /* Images */
 
     img, picture, video, canvas, svg {
         max-width: 100%;
         height: auto;
-        /* Ensure images take up full line */
         display: block; 
-        /* Center images */
         margin: 1em auto; 
-        /* Avoid breaking images across pages */
         page-break-inside: avoid; 
     }
 
     .image-group {
-        /* Stack images in a group for print */
         display: block;
         margin: 1em 0;
     }
@@ -109,24 +79,21 @@
     /* Page Breaks */
 
     h1, h2, h3, h4 {
-        /* Avoid page breaks directly after headings */
         page-break-after: avoid; 
     }
 
     pre, blockquote {
-        /* Avoid breaking these elements across pages */
         page-break-inside: avoid; 
     }
 
     /* URLS */
 
     a[href]:after {
-        /* Show link URLs next to the link text */
         content: " (" attr(href) ")"; 
         font-size: 0.8em;
     }
     
-    /* Don't show URLs for internal links */
+    /* Don't Show For Internal Links */
     a[href^="#"]:after { 
         content: "";
     }
