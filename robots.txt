@@ -1,0 +1,8 @@
+Sitemap: https://zacharykai.net/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Disallow: /assets/in_progress
+Disallow: /assets/scripts/
+Disallow: /assets/pdfs/
