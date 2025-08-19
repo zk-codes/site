@@ -6,3 +6,22 @@
 # Files
 
 .htaccess
+# Folders
+
+/.usermin
+/.vscode
+
+# Files
+
+/assets/imgs/imgcompiler/
+/assets/pdfs
+
+# Scripts
+
+/assets/scripts/phpmailer/
+/assets/scripts/php-mf2/
+/assets/scripts/php-svg/
+
+# Files
+
+.htaccess
