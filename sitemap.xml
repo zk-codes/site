@@ -31,15 +31,6 @@
     </url>
 
     <url>
-        <zk:title>Blogroll</zk:title>
-        <loc>https://zacharykai.net/blogroll</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:content>What I like to enjoy on the internet. Plus my favorite 88x31 buttons.</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>collections</zk:subcategory>
-    </url>
-
-    <url>
         <zk:title>Bookmarklets</zk:title>
         <loc>https://zacharykai.net/bookmarklets</loc>
         <lastmod>2025-04-13</lastmod>
@@ -55,15 +46,6 @@
         <zk:content>Links I've found fascinating.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
-    </url>
-
-    <url>
-        <zk:title>Books</zk:title>
-        <loc>https://zacharykai.net/books</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:content>All my novels, published, and soon-to-be.</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>about_me</zk:subcategory>
     </url>
     
     <url>
@@ -83,34 +65,7 @@
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
-    
-    <url>
-        <zk:title>CV</zk:title>
-        <loc>https://zacharykai.net/cv</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:content>My skills, experience, qualifications, and testimonials.</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>about_me</zk:subcategory>
-    </url>
-    
-    <url>
-        <zk:title>Defaults</zk:title>
-        <loc>https://zacharykai.net/defaults</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:content>The default apps/tools I use.</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>collections</zk:subcategory>
-    </url>
-    
-    <url>
-        <zk:title>FAQ</zk:title>
-        <loc>https://zacharykai.net/faq</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:content>Answers to questions.</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>about_me</zk:subcategory>
-    </url>
-    
+
     <url>
         <zk:title>Guestbook</zk:title>
         <loc>https://zacharykai.net/guestbook</loc>
@@ -175,15 +130,6 @@
     </url>
     
     <url>
-        <zk:title>Newsletter</zk:title>
-        <loc>https://zacharykai.net/newsletter</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:content>My monthlyish missive, with (hopefully) interesting esoterica, links, and reads.</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>collections</zk:subcategory>
-    </url>
-    
-    <url>
         <zk:title>Now</zk:title>
         <loc>https://zacharykai.net/now</loc>
         <lastmod>2025-04-13</lastmod>
@@ -238,7 +184,7 @@
     </url>
 
     <url>
-        <zk:title>Un Office Hours</zk:title>
+        <zk:title>UnOffice Hours</zk:title>
         <loc>https://zacharykai.net/unoffice-hours</loc>
         <lastmod>2025-04-14</lastmod>
         <zk:content></zk:content>
@@ -254,24 +200,6 @@
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
-   
-    <url>
-        <zk:title>Webrings</zk:title>
-        <loc>https://zacharykai.net/webrings</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:content>The ones I'm part of.</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>site_info</zk:subcategory>
-    </url>
-    
-    <url>
-        <zk:title>Workshops</zk:title>
-        <loc>https://zacharykai.net/workshops</loc>
-        <lastmod>2025-04-13</lastmod>
-        <zk:content>Would you like me to run one for your group?</zk:content>
-        <zk:category>pages</zk:category>
-        <zk:subcategory>site_info</zk:subcategory>
-    </url>   
 
     <!-- LISTS -->
 

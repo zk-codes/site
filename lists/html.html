@@ -12,12 +12,12 @@
         <link rel="stylesheet" href="/assets/print.css" media="print">
         <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
-        <link rel="canonical" href="https://zacharykai.net/about">
+        <link rel="canonical" href="https://zacharykai.net/lists/statichtml">
         <!-- Page Info -->
-        <title>About | Zachary Kai</title>
-        <meta name="date" content="20XX-XX-XX">
-        <meta name="last-modified" content="20XX-XX-XX">
-        <meta name="description" content="">
+        <title>Static HTML Site Directory | Zachary Kai</title>
+        <meta name="date" content="2025-07-10">
+        <meta name="last-modified" content="2025-07-23">
+        <meta name="description" content="Herein you'll find a web directory of personal sites that run on static HTML.">
     </head>
 
     <!-- Body -->
@@ -38,11 +38,11 @@
 
             <!-- Page Header -->
             <header>
-                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a></p>
-                <h1 class="p-name">About</h1>
+                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#lists">Lists</a></p>
+                <h1 class="p-name">Static HTML Site Directory</h1>
                 <p class="essentials">
-                    <strong>Published</strong>: <time class="dt-published" datetime="20XX-XX-XX">XX XXX 20XX</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="20XX-XX-XX">XX XXX 20XX</time>
+                    <strong>Published</strong>: <time class="dt-published" datetime="2025-07-10">10 Jul 2025</time> | 
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-07-23">23 Jul 2025</time>
                 </p>
             </header>
 
@@ -50,7 +50,57 @@
             <section class="e-content">
 
                 <!-- Introduction -->
-                <p id="top" class="p-summary">/p>
+                <p id="top" class="p-summary">Herein you'll find a web directory of personal sites that run on static HTML.</p>
+                <details>
+                    <summary><strong>Table Of Contents</strong></summary>
+                    <ul>
+                        <li><a href="#sites">Sites</a></li>
+                        <li><a href="#guidelines">Submission Guidelines</a></li>
+                        <li><a href="#join">Join The Directory</a></li>
+                    </ul>
+                </details>
+                <hr>
+                <h2 id="sites">Sites</h2>
+                <p><em>Listed alphabetically by the person's name.</em></p>
+                <ul>
+                    <li><a href="https://sive.rs/" rel="noopener">Derek Sivers</a></li>
+                    <li><a href="https://doesnm.cc/" rel="noopener" class="u-inreply-to">Doesnm</a></li>
+                    <li><a href="https://write-on.org/" rel="noopener" class="u-inreply-to">Varve</a></li>
+                    <li><a href="https://wingpang.com" rel="noopener" class="u-inreply-to">Wing Pang</a></li>
+                </ul>
+                <hr>
+                <h2 id="guidelines">Submission Guidelines</h2>
+                <p>To be included in the Static HTML Sites directory:</p>
+                <ul>
+                    <li>Your site must use static HTML + CSS (some scripting for extra functionality is fine!)</li>
+                    <li>It must be your personal site or blog.</li>
+                    <li>The site should reflect something about yourself.</li>
+                </ul>
+                <h3 id="join">Join The Directory</h3>
+                <p>Want your site to be featured in the Static HTML Sites directory? I'd love to hear from you! Use the form below or <a href="/hello">contact me</a>. (Email me for removals or changes.)</p>
+                <form id="submission-form" action="/assets/scripts/submissions.php" method="post">
+                    <label for="name">Enter what you'd like me to call you:*</label>
+                    <br>
+                    <input type="text" id="name" name="name" required autocomplete="given-name">
+                    <br>
+                    <label for="email">Type your email address:*</label>
+                    <br>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                    <br>
+                    <label for="website">Write your homepage URL:*</label>
+                    <input type="url" id="website" name="website" required autocomplete="url">
+                    <br>
+                    <label for="captcha">Submission Check! Type in the title of <em>this</em> page:*</label>
+                    <br>
+                    <input type="text" id="captcha" name="captcha" required>
+                    <br>
+                    <input type="hidden" name="form_type" value="htmlsite">
+                    <button type="submit" value="Submit">Submit</button>
+                </form>
+                <h2 id="credits">Credits</h2>
+                <p>Thanks so much to Wing Pang and Varve for spotting errors!</p>
+                <p>•--♡--•</p>
+            </section>
            
         </main>
 
