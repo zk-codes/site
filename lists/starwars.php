@@ -26,6 +26,11 @@ $sites = [
         'site_name' => 'Alex Zee Comedy',
         'site_url' => 'https://alexzeecomedy.com/',
     ],
+    [
+        'id' => 5,
+        'site_name' => 'Stellar Archive',
+        'site_url' => 'https://4ster.nekoweb.org/',
+    ]
 ];
 
 // Find Current Site Index Based On Referrer
@@ -137,7 +142,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
         <!-- Page Info -->
         <title>Star Wars Webring | Zachary Kai</title>
         <meta name="date" content="2025-07-05">
-        <meta name="last-modified" content="2025-07-05">
+        <meta name="last-modified" content="2025-09-17">
         <meta name="description" content="A webring connecting Star Wars fans across the internet galaxy.">
     </head>
 
@@ -159,11 +164,11 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
 
             <!-- Page Header -->
             <header>
-                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#lists">Lists</a></p>
+                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#lists">Lists</a> ↴</p>
                 <h1 class="p-name">Star Wars Webring</h1>
                 <p class="essentials">
                     <strong>Published</strong>: <time class="dt-published" datetime="2025-07-05">5 Jul 2025</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-07-05">5 Jul 2025</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-09-17">17 Sep 2025</time>
                 </p>
             </header>
 
@@ -172,8 +177,9 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
 
                 <!-- Introduction -->
                 <p id="top" class="p-summary">A webring connecting Star Wars fan sites across the galaxy. May the Force be with you!</p>
-           
-                <p><strong>Disclaimer</strong>: This webring is a fan-created project and is not affiliated with Disney, Lucasfilm, or any official Star Wars entities. Star Wars is a trademark of Disney/Lucasfilm. All fan content is created for non-commercial purposes.</p>
+                <p><strong>Disclaimer</strong>: This is a fan-created project and not affiliated with Disney, Lucasfilm, or any official Star Wars entities. Star Wars is a trademark of Disney/Lucasfilm. All fan content is created for non-commercial purposes.</p>
+
+                <!-- Table Of Contents -->
                 <details>
                     <summary><strong>Table Of Contents</strong></summary>
                     <ul>
@@ -183,6 +189,8 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                         <li><a href="#join">Join The Webring</a></li>
                     </ul>
                 </details>
+
+                <!-- Navigation Links -->
                 <h2 id="navigate">Navigate The Galaxy</h2>
                 <p>Webrings are a classic way for folks to find others with similar interests! Use these links to explore other sites in the webring:</p>
                 <ul>
@@ -191,26 +199,22 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                     <li><a href="?action=prev">Previous Site</a> - Visit the previous site in the ring</li>
                     <li><a href="#members">View All Sites</a> - See the complete member list</li>
                 </ul>
-                <p></p>
-                <hr>
+
+                <!-- Members -->
                 <h2 id="members">Current Members</h2>
                 <p><em>Listed in order of joining.</em></p>
+                <ul>
+                    <?php foreach ($sites as $site): ?>
+                    <li><a href="<?php echo htmlspecialchars($site['site_url']); ?>" rel="noopener"><?php echo htmlspecialchars($site['site_name']); ?></a></li>
+                    <?php endforeach; ?>
+                </ul>
                 
-                <?php if (empty($sites)): ?>
-                    <p>No one yet. Check back soon!</p>
-                <?php else: ?>
-                    <ul>
-                        <?php foreach ($sites as $site): ?>
-                        <li><a href="<?php echo htmlspecialchars($site['site_url']); ?>" rel="noopener"><?php echo htmlspecialchars($site['site_name']); ?></a></li>
-                        <?php endforeach; ?>
-                    </ul>
-                <?php endif; ?>
-                
+                <!-- Guidelines -->
                 <h2 id="guidelines">Submission Guidelines</h2>
                 <p>To join, your site must be a personal one and actively maintained. And have the below code somewhere visible! (Format it and style it however you'd like, provided it's accessible.)</p>
-                <p><pre><code>
-                    &lt;a href="https://zacharykai.net/lists/starwars"&gt;Star Wars Webring&lt;/a&gt; &rarr; &lt;a href="https://zacharykai.net/lists/starwars?action=prev"&gt;Previous&lt;/a&gt; | &lt;a href="https://zacharykai.net/lists/starwars?action=random"&gt;Random&lt;/a&gt; | &lt;a href="https://zacharykai.net/lists/starwars?action=next"&gt;Next&lt;/a&gt;
-                </code></pre></p>
+                <p><pre><code>&lt;a href="https://zacharykai.net/lists/starwars"&gt;Star Wars Webring&lt;/a&gt; &rarr; &lt;a href="https://zacharykai.net/lists/starwars?action=prev"&gt;Previous&lt;/a&gt; | &lt;a href="https://zacharykai.net/lists/starwars?action=random"&gt;Random&lt;/a&gt; | &lt;a href="https://zacharykai.net/lists/starwars?action=next"&gt;Next&lt;/a&gt;</code></pre></p>
+
+                <!-- Join The Webring -->
                 <h3 id="join">Join The Webring</h3>
                 <p>Want to join the webring? Use the form below or <a href="/contact">contact me</a>!</p>
                 <ul>
@@ -219,6 +223,8 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                     <li>You can request changes or removal at any time</li>
                     <li>Email addresses are never displayed publicly</li>
                 </ul>
+
+                <!-- Submission Form -->
                 <form id="submission-form" action="/assets/scripts/submissions.php" method="post">
                     <label for="name">Write what you'd like me to call you:*</label>
                     <br/>
@@ -247,23 +253,9 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                     <input type="hidden" name="form_type" value="starwars">
                     <button type="submit">Join The Galaxy!</button>
                 </form>
+
                 <p>•--♡--•</p>
-                <section class="essentials">
-                    <p><strong>Copy & Share</strong>: <a href="/lists/starwars" class="u-url">zacharykai.net/lists/starwars</a></p>
-                    <p><strong>Statistics</strong> &rarr; Word Count: 44 | Reading Time: 0:13</p>
-                    <hr>
-                    <p>
-                        <strong>Enjoyed This? Support What I Do:</strong>
-                        <a href="/paypal" rel="noopener">PayPal</a> |
-                        <a href="/stripe" rel="noopener">Stripe</a>
-                    </p>
-                    <hr>
-                    <p>
-                        <strong>Found An Error?</strong>
-                        <a href="/source" rel="noopener">Suggest An Edit</a> |
-                        <a href="/source" rel="noopener">View Source Code</a>
-                    </p>
-                </section>
+
             </section>
            
         </main>
