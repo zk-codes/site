@@ -30,6 +30,11 @@ $sites = [
         'id' => 5,
         'site_name' => 'Stellar Archive',
         'site_url' => 'https://4ster.nekoweb.org/',
+    ],
+    [
+        'id' => 6,
+        'site_name' => 'Tuffgrounds II',
+        'site_url' => 'https://tuffgong.nekoweb.org/',
     ]
 ];
 
@@ -142,7 +147,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
         <!-- Page Info -->
         <title>Star Wars Webring | Zachary Kai</title>
         <meta name="date" content="2025-07-05">
-        <meta name="last-modified" content="2025-09-17">
+        <meta name="last-modified" content="2025-09-20">
         <meta name="description" content="A webring connecting Star Wars fans across the internet galaxy.">
     </head>
 
@@ -168,7 +173,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                 <h1 class="p-name">Star Wars Webring</h1>
                 <p class="essentials">
                     <strong>Published</strong>: <time class="dt-published" datetime="2025-07-05">5 Jul 2025</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-09-17">17 Sep 2025</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-09-20">20 Sep 2025</time>
                 </p>
             </header>
 
