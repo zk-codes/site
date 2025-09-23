@@ -231,13 +231,13 @@ blockquote p {
     margin-bottom: 0;
 }
 
-.h-card-image {
+#h-card-image {
     flex: 0 0 140px;
     margin-right: 30px;
     margin-bottom: 0;
 }
 
-.h-card-content {
+#h-card-content {
     flex: 1;
     margin-bottom: 0;
 }
