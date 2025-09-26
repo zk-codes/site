@@ -58,13 +58,58 @@
                 
                 <hr>
 
-                <!-- Latest Notes -->
+                <!-- Latest Notes: Script For Pulling In Latest Ones -->
                 <h2>Latest Notes</h2>
-                <ul>
-                    <li><a href="/notes/iwmapr25">IndieWeb Movie Club: Apr 2025</a> | 1 Apr 2025</li>
-                    <li><a href="/notes/icmar25">The Unexpected Ambassador</a> | 21 Mar 2025</li>
-                    <li><a href="/notes/pp">Punchy Prose</a> | 22 Feb 2025</li>
-                    <li><a href="/notes/icfeb25">One Of A Thousand Ways</a> | 7 Feb 2025</li>
+                    
+                    <ul>
+                        <?php
+                        $notesDir = __DIR__ . '/notes/';
+                        $files = scandir($notesDir);
+                        $posts = [];
+
+                        foreach ($files as $file) {
+                        if (pathinfo($file, PATHINFO_EXTENSION) === 'html') {
+                            $filePath = $notesDir . $file;
+                            $content = file_get_contents($filePath);
+                            $title = '';
+                            $dateAttr = '';
+
+                        // Extract Title & Remove " | Zachary Kai"
+                        if (preg_match('/<title>(.*?)<\/title>/s', $content, $matches)) {
+                            $fullTitle = trim($matches[1]);
+                            $title = preg_replace('/ \| Zachary Kai$/i', '', $fullTitle);
+                        }
+
+                        // Extract DateTime Attribute
+                        if (preg_match('/<time\s+class="dt-published"\s+datetime="([^"]+)">.*?<\/time>/s', $content, $matches)) {
+                            $dateAttr = $matches[1];
+                        }
+
+                        if (!empty($title) && !empty($dateAttr)) {
+                            $slug = pathinfo($file, PATHINFO_FILENAME);
+                            $formattedDisplayDate = date('j M Y', strtotime($dateAttr));
+                            $posts[] = [
+                                'title' => $title,
+                                'date_attr' => $dateAttr,
+                                'display_date' => $formattedDisplayDate,
+                                'url' => '/notes/' . $slug,
+                            ];
+                            }
+                            }
+                        }
+
+                        // Sort Posts In Descending Order
+                        usort($posts, function($a, $b) {
+                            return strtotime($b['date_attr']) - strtotime($a['date_attr']);
+                        });
+
+                        // Get Latest Six Posts
+                        $latestSixPosts = array_slice($posts, 0, 6);
+
+                        foreach ($latestSixPosts as $post) {
+                        echo '                    <li><a href="' . htmlspecialchars($post['url']) . '">' . htmlspecialchars($post['title']) . '</a> | ' . htmlspecialchars($post['display_date']) . '</li>' . "\n";
+                        }
+                    ?>
                 </ul>
                 
                 <hr>
