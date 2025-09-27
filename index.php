@@ -16,7 +16,7 @@
         <!-- Page Info -->
         <title>Zachary Kai</title>
         <meta name="date" content="2024-03-25">
-        <meta name="last-modified" content="2025-09-17">
+        <meta name="last-modified" content="2025-09-27">
         <meta name="description" content="Hi! I'm Zachary Kai, a scifi writer, and the sole operator of Road Less Read. Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler.">
     </head>
 
@@ -38,7 +38,7 @@
                 <h1 class="p-name">Zachary Kai</h1>
                 <p class="essentials">
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-03-25">25 Mar 2024</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-09-17">17 Sep 2025</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-09-17">27 Sep 2025</time>
                 </p>
             </header>
 
@@ -503,7 +503,6 @@
                         <strong>
                             <a href="https://webring.xxiivv.com/#zacharykai" rel="noopener">XXIIVV Webring</a>
                         </strong>
-                        <a href="https://webring.xxiivv.com/#zacharykai" rel="noopener"><img style="width: 1.5em; vertical-align: middle;" src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/></a>
                     </li>
                 </ul>
 

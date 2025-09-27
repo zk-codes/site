@@ -282,6 +282,26 @@ summary h2, summary h3, summary h4 {
     }
 }
 
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #350046;
+        color: white;
+    }
+
+    header:not(main > header, article > header),
+    main, footer, pre, .h-card {
+        border-color: var(--border-style);
+    }
+
+    a[rel="noopener"]:not(:has(img))::after {
+        content: url('/assets/imgs/svg/dark_external_link.svg');
+    }
+
+}
+
 /* Backward Compatibility */
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
