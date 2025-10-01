@@ -312,12 +312,30 @@
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
+
+    <url>
+        <zk:title>Indieweb Book Club: Oct 2025</zk:title>
+        <loc>https://zacharykai.net/notes/iwboct25</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:content>The Creative Act by Rick Rubin</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
+    </url>
     
     <url>
         <zk:title>Indieweb Movie Club: Apr 2025</zk:title>
         <loc>https://zacharykai.net/notes/iwmapr25</loc>
         <lastmod>2025-04-13</lastmod>
         <zk:content>The Castle (1997)</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
+    </url>
+
+    <url>
+        <zk:title>Indieweb Movie Club: Sep 2025</zk:title>
+        <loc>https://zacharykai.net/notes/iwmsep25</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:content>The Wild Robot (2024)</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
     </url>
