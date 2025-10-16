@@ -16,7 +16,7 @@
         <!-- Page Info -->
         <title>Zachary Kai</title>
         <meta name="date" content="2024-03-25">
-        <meta name="last-modified" content="2025-09-27">
+        <meta name="last-modified" content="2025-10-16">
         <meta name="description" content="Hi! I'm Zachary Kai, a scifi writer, and the sole operator of Road Less Read. Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler.">
     </head>
 
@@ -38,7 +38,7 @@
                 <h1 class="p-name">Zachary Kai</h1>
                 <p class="essentials">
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-03-25">25 Mar 2024</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-09-17">27 Sep 2025</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-10-16">16 Oct 2025</time>
                 </p>
             </header>
 
@@ -50,7 +50,7 @@
 
                 <!-- More About Me + Links -->
                 <p><strong>I'm seeking remote work! Here's my <a href="https://lunaseeker.com/cv" rel="noopener">CV</a>. Interested in seeing how I can help? <a href="/hello">Contact me</a>!</strong></p>
-                <p>I'm Australian, and oscillate between living there and overseas. Now? I'm in North Macedonia.</p>
+                <p>I'm Australian, and oscillate between living there and overseas. Now? I'm in Kosovo.</p>
                 <p>I run <a href="https://www.roadlessread.com/" rel="noopener">Road Less Read</a>, where I compile my book notes. I make <a href="/art">art</a> and <a href="/zines">zines</a>, take <a href="/photos">photos</a>, so I'd love <a href="/hello#trade">to trade</a>! I also have <a href="/workshops" rel="noopener">various offerings</a> (which you can partake in!)</p>
                 <p>See: <a href="/about">about me</a>, <a href="/now">what I'm working on</a>, <a href="/search">search the site</a>, and <a href="/sitemap">the sitemap</a> for everything else.</p>
                 <p id="rel-me">Meeting folks is a delight! <a href="/hello">Contact me</a>, <a href="/guestbook">sign the guestbook</a>, or <a href="/unoffice-hours">book an UnOffice Hours call</a>.</p>
