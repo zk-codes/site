@@ -16,7 +16,7 @@
         <!-- Page Info -->
         <title>Zachary Kai</title>
         <meta name="date" content="2024-03-25">
-        <meta name="last-modified" content="2025-10-16">
+        <meta name="last-modified" content="2025-10-24">
         <meta name="description" content="Hi! I'm Zachary Kai, a scifi writer, and the sole operator of Road Less Read. Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler.">
     </head>
 
@@ -38,7 +38,7 @@
                 <h1 class="p-name">Zachary Kai</h1>
                 <p class="essentials">
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-03-25">25 Mar 2024</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-10-16">16 Oct 2025</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-10-24">24 Oct 2025</time>
                 </p>
             </header>
 
@@ -124,7 +124,11 @@
 
                         <!-- 32-Bit Cafe -->
                         <a href="https://32bit.cafe/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/32bitcafe.jpg" alt="32-Bit Cafe">
+                            <img loading="lazy" src="/assets/buttons/greenteam.jpg" alt="32-Bit Cafe">
+                        </a>
+                        <!-- 512 KB Club -->
+                        <a href="https://32bit.cafe/" rel="noopener">
+                            <img loading="lazy" src="/assets/buttons/32bitcafe.jpg" alt="512 KB Club">
                         </a>
                         <!-- 32-Bit Cafe: Discourse -->
                         <a href="https://discourse.32bit.cafe/" rel="noopener">
@@ -197,6 +201,10 @@
                         <!-- Mewizard -->
                         <a href="https://mewizard.nekoweb.org/" rel="noopener">
                             <img loading="lazy" src="/assets/buttons/mewizard.png" alt="Mewizard">
+                        </a>
+                        <!-- Messy Mind -->
+                        <a href="https://messymind.me/" rel="noopener">
+                            <img loading="lazy" src="/assets/buttons/messymind.jpg" alt="Messy Mind">
                         </a>
                         <!-- Microformats -->
                         <a href="https://microformats.org/" rel="noopener">
@@ -293,6 +301,7 @@
                     <section class="image-group">
                         <img loading="lazy" src="/assets/buttons/88x31.jpg" alt="88x31">
                         <img loading="lazy" src="/assets/buttons/affection.jpg" alt="Made with affection.">
+                        <img loading="lazy" src="/assets/buttons/anothernet.jpg" alt="Another Internet Now">
                         <img loading="lazy" src="/assets/buttons/anybrowser.jpg" alt="Best viewed with any browser">
                         <img loading="lazy" src="/assets/buttons/bookmark.jpg" alt="Bookmark this page!">
                         <img loading="lazy" src="/assets/buttons/bdiwm.jpg" alt="Built during an IndieWeb meetup!">
@@ -301,7 +310,9 @@
                         <img loading="lazy" src="/assets/buttons/computer.jpg" alt="Get a computer!">
                         <img loading="lazy" src="/assets/buttons/firefox.jpg" alt="Get Firefox">
                         <img loading="lazy" src="/assets/buttons/ffmpeg.jpg" alt="ffmpeg now!">
+                        <img loading="lazy" src="/assets/buttons/guestbook.jpg" alt="Guestbook">
                         <img loading="lazy" src="/assets/buttons/html5.jpg" alt="HTML5">
+                        <img loading="lazy" src="/assets/buttons/indiemobile.jpg" alt="The IndieWeb is for everyone.">
                         <img loading="lazy" src="/assets/buttons/learnhtml.jpg" alt="HTML - Learn it today!">
                         <img loading="lazy" src="/assets/buttons/madeonlinux.jpg" alt="Made on GNU Linux">
                         <img loading="lazy" src="/assets/buttons/notepad.jpg" alt="Made with NotePad">
@@ -313,6 +324,7 @@
                         <img loading="lazy" src="/assets/buttons/rss.jpg" alt="RSS">
                         <img loading="lazy" src="/assets/buttons/smile.jpg" alt="Smile">
                         <img loading="lazy" src="/assets/buttons/nocookie.jpg" alt="This site is certified 100% cookie free!">
+                        <img loading="lazy" src="/assets/buttons/ublockorigin.jpg" alt="UBlock Origin">
                         <img loading="lazy" src="/assets/buttons/validhtml5.jpg" alt="Valid HTML5">
                         <img loading="lazy" src="/assets/buttons/validrss.jpg" alt="Valid RSS">
                         <img loading="lazy" src="/assets/buttons/vscodium.jpg" alt="VSCodium">
