@@ -438,6 +438,15 @@
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
+
+    <url>
+        <zk:title>Ten Pointless Things About Me</zk:title>
+        <loc>https://zacharykai.net/notes/pointless</loc>
+        <lastmod>2025-04-13</lastmod>
+        <zk:content>A compilation of useless yet fun facts.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>challenges</zk:subcategory>
+    </url>
     
     <url>
         <zk:title>The Colbert Questionert</zk:title>
