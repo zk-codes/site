@@ -49,7 +49,7 @@
                 <p id="top" class="p-summary">Hi! I'm Zachary Kai, a <a href="/books">space fantasy writer</a> (THE MARA FILES, DON'T BURN TOO BRIGHT). Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler.</p>
 
                 <!-- More About Me + Links -->
-                <p><strong>I'm seeking remote work! Here's my <a href="https://lunaseeker.com/cv" rel="noopener">CV</a>. Interested in seeing how I can help? <a href="/hello">Contact me</a>!</strong></p>
+                <p><strong>I'm seeking remote work! Here's my <a href="https://lunaseeker.com/cv">CV</a>. If I'd be a good fit, <a href="/hello">contact me</a>.</strong></p>
                 <p>I'm Australian, and oscillate between living there and overseas. Now? I'm in Kosovo.</p>
                 <p>I run <a href="https://www.roadlessread.com/" rel="noopener">Road Less Read</a>, where I compile my book notes. I make <a href="/art">art</a> and <a href="/zines">zines</a>, take <a href="/photos">photos</a>, so I'd love <a href="/hello#trade">to trade</a>! I also have <a href="/workshops" rel="noopener">various offerings</a> (which you can partake in!)</p>
                 <p>See: <a href="/about">about me</a>, <a href="/now">what I'm working on</a>, <a href="/search">search the site</a>, and <a href="/sitemap">the sitemap</a> for everything else.</p>
