@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="/assets/style.css">
         <link rel="stylesheet" href="/assets/print.css" media="print">
         <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
+        <link href="https://github.com/zk-codes" rel="me">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
         <link rel="canonical" href="https://zacharykai.net">
         <!-- Page Info -->
@@ -34,11 +35,11 @@
 
             <!-- Page Header -->
             <header>
-                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a></p>
+                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a> ↴</p>
                 <h1 class="p-name">Zachary Kai</h1>
                 <p class="essentials">
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-03-25">25 Mar 2024</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-10-24">24 Oct 2025</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-11-08">8 Nov 2025</time>
                 </p>
             </header>
 
@@ -46,10 +47,10 @@
             <section class="e-content">
 
                 <!-- Introduction -->
-                <p id="top" class="p-summary">Hi! I'm Zachary Kai, a <a href="/books">space fantasy writer</a> (THE MARA FILES, DON'T BURN TOO BRIGHT). Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler.</p>
+                <p id="top" class="p-summary">Hi! I'm Zachary Kai, a <a href="https://lunaseeker.com/catalog" rel="noopener">space fantasy writer</a>. Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler. An avowed generalist, and learning to be proud of it.</p>
 
                 <!-- More About Me + Links -->
-                <p><strong>I'm seeking remote work! Here's my <a href="https://lunaseeker.com/cv">CV</a>. If I'd be a good fit, <a href="/hello">contact me</a>.</strong></p>
+                <p><strong>I'm seeking remote work! Here's my <a href="https://lunaseeker.com/cv" rel="noopener">CV</a>. If I'd be a good fit, <a href="/hello">contact me</a>.</strong></p>
                 <p>I'm Australian, and oscillate between living there and overseas. Now? I'm in Kosovo.</p>
                 <p>I run <a href="https://www.roadlessread.com/" rel="noopener">Road Less Read</a>, where I compile my book notes. I make <a href="/art">art</a> and <a href="/zines">zines</a>, take <a href="/photos">photos</a>, so I'd love <a href="/hello#trade">to trade</a>! I also have <a href="/workshops" rel="noopener">various offerings</a> (which you can partake in!)</p>
                 <p>See: <a href="/about">about me</a>, <a href="/now">what I'm working on</a>, <a href="/search">search the site</a>, and <a href="/sitemap">the sitemap</a> for everything else.</p>
@@ -111,244 +112,11 @@
                         }
                     ?>
                 </ul>
-                
-                <hr>
-                
-                <!-- Buttons -->
-                <section>
-                    <h2 id="buttons">Buttons</h2>
-                    <p>Buttons are little internet images depicting other folks' sites, and more. Who knows what you might discover? Here's <a href="/assets/buttons/zk.png">my 88x31 button</a>, if you'd like it!</p>
-
-                    <!-- Folks' Sites -->
-                    <section class="image-group" style="margin-bottom: 1em;">
-
-                        <!-- 32-Bit Cafe -->
-                        <a href="https://32bit.cafe/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/greenteam.jpg" alt="32-Bit Cafe">
-                        </a>
-                        <!-- 512 KB Club -->
-                        <a href="https://32bit.cafe/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/32bitcafe.jpg" alt="512 KB Club">
-                        </a>
-                        <!-- 32-Bit Cafe: Discourse -->
-                        <a href="https://discourse.32bit.cafe/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/discourse.jpg" alt="32-Bit Cafe Discourse">
-                        </a>
-                        <!-- Alex Zee -->
-                        <a href="https://alexzeecomedy.com/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/alexzee.jpg" alt="Alex Zee Comedy">
-                        </a>
-                        <!-- Artlung -->
-                        <a href="https://artlung.com/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/artlung.jpg" alt="Artlung">
-                        </a>
-                        <!-- Ava's Space -->
-                        <a href="https://avas.space/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/avasspace.png" alt="Ava's Space">
-                        </a>
-                        <!-- Benji -->
-                        <a href="https://benji.dog/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/benji.jpg" alt="benji.dog">
-                        </a>
-                        <!-- Daryl Sun -->
-                        <a href="https://blog.darylsun.page/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/darylsun.jpg" alt="Daryl Sun">
-                        </a>
-                        <!-- Dead Garden -->
-                        <a href="https://dead.garden/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/deadgarden.jpg" alt="Dead Garden">
-                        </a>
-                        <!-- Flamed Fury -->
-                        <a href="https://flamedfury.com/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/flamedfury.jpg" alt="Flamed Fury">
-                        </a>
-                        <!-- Folkmoss -->
-                        <a href="https://folkmoss.bearblog.dev/" rel="noopener">
-                            <img class="button-images" loading="lazy" src="/assets/buttons/folkmoss.jpg" alt="Folkmoss">
-                        </a>
-                        <!-- Forever Like This -->
-                        <a href="https://foreverliketh.is/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/foreverlikethis.png" alt="Forever Like This">
-                        </a>
-                        <!-- GusBus -->
-                        <a href="https://gusbus.space/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/gusbus.jpg" alt="GusBus">
-                        </a>
-                        <!-- IndieWeb -->
-                        <a href="https://indieweb.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/indieweb.jpg" alt="IndieWeb">
-                        </a>
-                        <!-- Internet Archive -->
-                        <a href="https://archive.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/internetarchive.jpg" alt="Internet Archive">
-                        </a>
-                        <!-- James' Coffee Blog -->
-                        <a href="https://jamesg.blog/" rel="noopener">
-                            <img class="button-images" loading="lazy" src="/assets/buttons/jamescoffee.jpg" alt="James' Coffee Blog">
-                        </a>
-                        <!-- Kupietz -->
-                        <a href="https://www.michaelkupietz.com/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/kupietz.jpg" alt="Kupietz Arts + Code">
-                        </a>
-                        <!-- Leilukin -->
-                        <a href="https://leilukin.com/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/leilukin.png" alt="Leilukin">
-                        </a>
-                        <!-- Mark Sutherland -->
-                        <a href="https://marksuth.dev/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/marksuth.jpg" alt="Mark Sutherland">
-                        </a>
-                        <!-- Mewizard -->
-                        <a href="https://mewizard.nekoweb.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/mewizard.png" alt="Mewizard">
-                        </a>
-                        <!-- Messy Mind -->
-                        <a href="https://messymind.me/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/messymind.jpg" alt="Messy Mind">
-                        </a>
-                        <!-- Microformats -->
-                        <a href="https://microformats.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/microformats.jpg" alt="Microformats">
-                        </a>
-                        <!-- Museum Of Alexandra -->
-                        <a href="https://xandra.cc/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/museumofalexandra.jpg" alt="Museum Of Alexandra">
-                        </a>
-                        <!-- Mutt -->
-                        <a href="http://www.mutt.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/mutt.jpg" alt="Mutt">
-                        </a>
-                        <!-- NeoCoties -->
-                        <a href="https://neocities.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/neocities.jpg" alt="NeoCities">
-                        </a>
-                        <!-- OhHelloAna -->
-                        <a href="https://ohhelloana.blog/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/ohhelloana.jpg" alt="OhHelloAna">
-                        </a>
-                        <!-- Omg.lol -->
-                        <a href="https://home.omg.lol/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/omglol.jpg" alt="omg.lol">
-                        </a>
-                        <!-- Pixeliana -->
-                        <a href="https://pixeliana.neocities.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/pixeliana.jpg" alt="Pixeliana">
-                        </a>
-                        <!-- Ribo Zone -->
-                        <a href="https://ribo.zone/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/ribose.jpg" alt="Ribo Zone">
-                        </a>
-                        <!-- Rob Knight -->
-                        <a href="https://rknight.me/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/robbknight.jpg" alt="Robb Knight">
-                        </a>
-                        <!-- Sara Joy -->
-                        <a href="https://sarajoy.dev/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/sarajoy.png" alt="Sara Joy">
-                        </a>
-                        <!-- Shellsharks -->
-                        <a href="https://shellsharks.com/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/shellsharks.jpg" alt="Shellsharks">
-                        </a>
-                        <!-- Smallweb Subway -->
-                        <a href="https://gusbus.space/smallweb-subway/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/smallway.jpg" alt="Smallweb Subway">
-                        </a>
-                        <!-- Status Cafe -->
-                        <a href="https://status.cafe/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/statuscafe.jpg" alt="Status Cafe">
-                        </a>
-                        <!-- Tracy Durnell -->
-                        <a href="https://tracydurnell.com/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/tracydurnell.png" alt="Tracy Durnell">
-                        </a>
-                        <!-- TransRats -->
-                        <a href="https://transrats.neocities.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/transrats.jpg" alt="TransRats">
-                        </a>
-                        <!-- The People Pledge -->
-                        <a href="https://people.pledge.party/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/peoplepledge.jpg" alt="The People Pledge">
-                        </a>
-                        <!-- Vander Wal -->
-                        <a href="https://vanderwal.net/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/vdwal.jpg" alt="Vander Wal">
-                        </a>
-                        <!-- Velvet's Smoking Lounge -->
-                        <a href="https://velvet-boutique.neocities.org/index2" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/velvet.jpg" alt="Velvet's Smoking Lounge">
-                        </a>
-                        <!-- VLC -->
-                        <a href="https://www.videolan.org/vlc/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/getvlc.jpg" alt="Get VLC!">
-                        </a>
-                        <!-- Webmentions -->
-                        <a href="https://webmention.io/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/webmentions.jpg" alt="Webmentions">
-                        </a>
-                        <!-- Wikipedia -->
-                        <a href="https://wikipedia.org/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/wikipedia.jpg" alt="Wikipedia">
-                        </a>
-                        <!-- Wing Pang -->
-                        <a href="https://wingpang.com/" rel="noopener">
-                            <img loading="lazy" src="/assets/buttons/wingpang.jpg" alt="Wing Pang">
-                        </a>
-                    
-                    </section>
-
-                    <!-- Other Buttons -->
-                    <section class="image-group">
-                        <img loading="lazy" src="/assets/buttons/88x31.jpg" alt="88x31">
-                        <img loading="lazy" src="/assets/buttons/affection.jpg" alt="Made with affection.">
-                        <img loading="lazy" src="/assets/buttons/anothernet.jpg" alt="Another Internet Now">
-                        <img loading="lazy" src="/assets/buttons/anybrowser.jpg" alt="Best viewed with any browser">
-                        <img loading="lazy" src="/assets/buttons/bookmark.jpg" alt="Bookmark this page!">
-                        <img loading="lazy" src="/assets/buttons/bdiwm.jpg" alt="Built during an IndieWeb meetup!">
-                        <img loading="lazy" src="/assets/buttons/cc0.jpg" alt="cc0">
-                        <img loading="lazy" src="/assets/buttons/css.jpg" alt="CSS">
-                        <img loading="lazy" src="/assets/buttons/computer.jpg" alt="Get a computer!">
-                        <img loading="lazy" src="/assets/buttons/firefox.jpg" alt="Get Firefox">
-                        <img loading="lazy" src="/assets/buttons/ffmpeg.jpg" alt="ffmpeg now!">
-                        <img loading="lazy" src="/assets/buttons/guestbook.jpg" alt="Guestbook">
-                        <img loading="lazy" src="/assets/buttons/html5.jpg" alt="HTML5">
-                        <img loading="lazy" src="/assets/buttons/indiemobile.jpg" alt="The IndieWeb is for everyone.">
-                        <img loading="lazy" src="/assets/buttons/learnhtml.jpg" alt="HTML - Learn it today!">
-                        <img loading="lazy" src="/assets/buttons/madeonlinux.jpg" alt="Made on GNU Linux">
-                        <img loading="lazy" src="/assets/buttons/notepad.jpg" alt="Made with NotePad">
-                        <img loading="lazy" src="/assets/buttons/mobilefriendly.jpg" alt="Mobile Friendly">
-                        <img loading="lazy" src="/assets/buttons/shareware.jpg" alt="Pass the Shareware please!">
-                        <img loading="lazy" src="/assets/buttons/pizza.jpg" alt="Pizza Powered">
-                        <img loading="lazy" src="/assets/buttons/privacy.jpg" alt="Privacy is a human right">
-                        <img loading="lazy" src="/assets/buttons/righttorepair.jpg" alt="Right to repair">
-                        <img loading="lazy" src="/assets/buttons/rss.jpg" alt="RSS">
-                        <img loading="lazy" src="/assets/buttons/smile.jpg" alt="Smile">
-                        <img loading="lazy" src="/assets/buttons/nocookie.jpg" alt="This site is certified 100% cookie free!">
-                        <img loading="lazy" src="/assets/buttons/ublockorigin.jpg" alt="UBlock Origin">
-                        <img loading="lazy" src="/assets/buttons/validhtml5.jpg" alt="Valid HTML5">
-                        <img loading="lazy" src="/assets/buttons/validrss.jpg" alt="Valid RSS">
-                        <img loading="lazy" src="/assets/buttons/vscodium.jpg" alt="VSCodium">
-                        <img loading="lazy" src="/assets/buttons/www.jpg" alt="World Wide Web: connecting people since 1991">
-                        <img loading="lazy" src="/assets/buttons/queer.jpg" alt="You're telling me a queer coded this?">
-                    </section>
-                </section>
-                
-                <hr>
-
-                <!-- Directories -->
-                <h2 id="directories">Directories</h2>
-
-                <ul>
-                    <li><a href="https://indieblog.page/" rel="noopener">Indieblog Page</a></li>
-                    <li><a href="https://512kb.club/" rel="noopener">The 512KB Club</a></li>
-                    <li><a href="https://theforest.link/" rel="noopener">The Forest</a></li>
-                </ul>
 
                 <hr>
                 
                 <!-- Webrings -->
                 <h2 id="webrings">Webrings</h2>
-
                 <ul>
                     <li>
                         <!-- A11y Webring -->
