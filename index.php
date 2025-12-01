@@ -38,6 +38,7 @@
                 <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a> ↴</p>
                 <h1 class="p-name">Zachary Kai</h1>
                 <p class="essentials">
+                    <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-03-25">25 Mar 2024</time> | 
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2025-11-08">8 Nov 2025</time>
                 </p>

@@ -144,6 +144,7 @@ if ($searchTerm !== '') {
                 <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a></p>
                 <h1 class="p-name">Search The Site</h1>
                 <p class="essentials">
+                    <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2025-02-17">17 Feb 2025</time> | 
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2025-04-14">14 Apr 2025</time>
                 </p>

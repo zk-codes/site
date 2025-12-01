@@ -158,6 +158,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                 <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#lists">Lists</a></p>
                 <h1 class="p-name">Vintage Car Aesthetics Webring</h1>
                 <p class="essentials">
+                    <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2025-07-13">13 Jul 2025</time> | 
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2025-07-13">13 Jul 2025</time>
                 </p>
