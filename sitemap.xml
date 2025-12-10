@@ -43,6 +43,16 @@
     </url>
 
     <url>
+        <!-- Beverage -->
+        <zk:title>Beverage</zk:title>
+        <loc>https://zacharykai.net/beverage</loc>
+        <lastmod>2025-12-10</lastmod>
+        <zk:content>Would you like to meet for one? I would!</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
+    </url>
+
+    <url>
         <!-- Bookmarklets -->
         <zk:title>Bookmarklets</zk:title>
         <loc>https://zacharykai.net/bookmarklets</loc>
