@@ -16,7 +16,7 @@
         <zk:title>About</zk:title>
         <loc>https://zacharykai.net/about</loc>
         <lastmod>2025-04-13</lastmod>
-        <zk:content>My mini autobiography, press, representative avatars, intentions, and wishes.</zk:content>
+        <zk:content>My mini autobiography, press, intentions, and wishes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -28,6 +28,15 @@
         <zk:content>My portfolio of collages, digital art, drawings and gods eyes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+    </url>
+
+    <url>
+        <zk:title>Avatars</zk:title>
+        <loc>https://zacharykai.net/avatars</loc>
+        <lastmod>2025-12-10</lastmod>
+        <zk:content>My representative avatars, created for fun's sake.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>about_me</zk:subcategory>
     </url>
 
     <url>
