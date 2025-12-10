@@ -13,6 +13,7 @@
     <!-- PAGES -->
 
     <url>
+        <!-- About -->
         <zk:title>About</zk:title>
         <loc>https://zacharykai.net/about</loc>
         <lastmod>2025-04-13</lastmod>
@@ -22,6 +23,7 @@
     </url>
 
     <url>
+        <!-- Art -->
         <zk:title>Art</zk:title>
         <loc>https://zacharykai.net/art</loc>
         <lastmod>2025-04-13</lastmod>
@@ -31,6 +33,7 @@
     </url>
 
     <url>
+        <!-- Avatars -->
         <zk:title>Avatars</zk:title>
         <loc>https://zacharykai.net/avatars</loc>
         <lastmod>2025-12-10</lastmod>
@@ -40,6 +43,7 @@
     </url>
 
     <url>
+        <!-- Bookmarklets -->
         <zk:title>Bookmarklets</zk:title>
         <loc>https://zacharykai.net/bookmarklets</loc>
         <lastmod>2025-04-13</lastmod>
@@ -49,6 +53,7 @@
     </url>
 
     <url>
+        <!-- Bookmarks -->
         <zk:title>Bookmarks</zk:title>
         <loc>https://zacharykai.net/bookmarks</loc>
         <lastmod>2025-04-13</lastmod>
@@ -58,6 +63,7 @@
     </url>
     
     <url>
+        <!-- Changelog -->
         <zk:title>Changelog</zk:title>
         <loc>https://zacharykai.net/changelog</loc>
         <lastmod>2025-04-13</lastmod>
@@ -67,6 +73,7 @@
     </url>
     
     <url>
+        <!-- Colophon -->
         <zk:title>Colophon</zk:title>
         <loc>https://zacharykai.net/colophon</loc>
         <lastmod>2025-04-13</lastmod>
@@ -76,6 +83,7 @@
     </url>
 
     <url>
+        <!-- Guestbook -->
         <zk:title>Guestbook</zk:title>
         <loc>https://zacharykai.net/guestbook</loc>
         <lastmod>2025-04-13</lastmod>
@@ -85,6 +93,7 @@
     </url>
     
     <url>
+        <!-- Hello -->
         <zk:title>Hello</zk:title>
         <loc>https://zacharykai.net/hello</loc>
         <lastmod>2025-04-13</lastmod>
@@ -94,6 +103,7 @@
     </url>
     
     <url>
+        <!-- Ideas -->
         <zk:title>Ideas</zk:title>
         <loc>https://zacharykai.net/ideas</loc>
         <lastmod>2025-04-13</lastmod>
@@ -103,6 +113,7 @@
     </url>
     
     <url>
+        <!-- Interests -->
         <zk:title>Interests</zk:title>
         <loc>https://zacharykai.net/interests</loc>
         <lastmod>2025-04-13</lastmod>
@@ -112,6 +123,7 @@
     </url>
     
     <url>
+        <!-- Jots -->
         <zk:title>Jots</zk:title>
         <loc>https://zacharykai.net/jots</loc>
         <lastmod>2025-04-13</lastmod>
@@ -121,6 +133,7 @@
     </url>
     
     <url>
+        <!-- Mentions -->
         <zk:title>Mentions</zk:title>
         <loc>https://zacharykai.net/mentions</loc>
         <lastmod>2025-04-13</lastmod>
@@ -130,6 +143,7 @@
     </url>
     
     <url>
+        <!-- Music -->
         <zk:title>Music</zk:title>
         <loc>https://zacharykai.net/music</loc>
         <lastmod>2025-04-13</lastmod>
@@ -139,6 +153,7 @@
     </url>
     
     <url>
+        <!-- Now -->
         <zk:title>Now</zk:title>
         <loc>https://zacharykai.net/now</loc>
         <lastmod>2025-04-13</lastmod>
@@ -148,6 +163,7 @@
     </url>
     
     <url>
+        <!-- Photos -->
         <zk:title>Photos</zk:title>
         <loc>https://zacharykai.net/photos</loc>
         <lastmod>2025-04-13</lastmod>
@@ -157,6 +173,7 @@
     </url>
     
     <url>
+        <!-- Random -->
         <zk:title>Random</zk:title>
         <loc>https://zacharykai.net/random</loc>
         <lastmod>2025-04-13</lastmod>
@@ -166,6 +183,7 @@
     </url>
     
     <url>
+        <!-- Recipes -->
         <zk:title>Recipes</zk:title>
         <loc>https://zacharykai.net/recipes</loc>
         <lastmod>2025-04-13</lastmod>
@@ -175,6 +193,7 @@
     </url>
     
     <url>
+        <!-- Search -->
         <zk:title>Search</zk:title>
         <loc>https://zacharykai.net/search</loc>
         <lastmod>2025-04-13</lastmod>
@@ -184,6 +203,7 @@
     </url>
     
     <url>
+        <!-- Sitemap -->
         <zk:title>Sitemap</zk:title>
         <loc>https://zacharykai.net/sitemap</loc>
         <lastmod>2025-04-13</lastmod>
@@ -193,6 +213,7 @@
     </url>
 
     <url>
+        <!-- UnOffice Hours -->
         <zk:title>UnOffice Hours</zk:title>
         <loc>https://zacharykai.net/unoffice-hours</loc>
         <lastmod>2025-04-14</lastmod>
@@ -202,6 +223,7 @@
     </url>
    
     <url>
+        <!-- Uses -->
         <zk:title>Uses</zk:title>
         <loc>https://zacharykai.net/uses</loc>
         <lastmod>2025-04-13</lastmod>
@@ -213,6 +235,7 @@
     <!-- LISTS -->
 
     <url>
+        <!-- Fanfic Writers Collective -->
         <zk:title>Fanfic Writers Collective</zk:title>
         <loc>https://zacharykai.net/lists/fanfiction</loc>
         <lastmod>2025-04-14</lastmod>
@@ -222,6 +245,7 @@
     </url>
     
     <url>
+        <!-- Oceania Web Atlas -->
         <zk:title>Oceania Web Atlas</zk:title>
         <loc>https://zacharykai.net/lists/oceania</loc>
         <lastmod>2025-04-13</lastmod>
@@ -231,6 +255,7 @@
     </url>
     
     <url>
+        <!-- Queer Web Directory -->
         <zk:title>Queer Web Directory</zk:title>
         <loc>https://zacharykai.net/lists/queer</loc>
         <lastmod>2025-04-13</lastmod>
@@ -240,6 +265,7 @@
     </url>
 
     <url>
+        <!-- Star Wars Webring -->
         <zk:title>Star Wars Webring</zk:title>
         <loc>https://zacharykai.net/lists/starwars</loc>
         <lastmod>2025-07-06</lastmod>
@@ -249,6 +275,7 @@
     </url>
 
     <url>
+        <!-- Static HTML Site Directory -->
         <zk:title>Static HTML Site Directory</zk:title>
         <loc>https://zacharykai.net/lists/html</loc>
         <lastmod>2025-07-10</lastmod>
@@ -260,6 +287,7 @@
     <!-- NOTES -->
 
     <url>
+        <!-- 35 Things That Made My 2024 -->
         <zk:title>35 Things That Made My 2024</zk:title>
         <loc>https://zacharykai.net/notes/24list</loc>
         <lastmod>2025-04-13</lastmod>
@@ -269,6 +297,7 @@
     </url>
     
     <url>
+        <!-- Authenticity On The Web -->
         <zk:title>Authenticity On The Web</zk:title>
         <loc>https://zacharykai.net/notes/authenticity</loc>
         <lastmod>2025-04-19</lastmod>
@@ -278,6 +307,7 @@
     </url>
 
     <url>
+        <!-- A Sense Of Place -->
         <zk:title>A Sense Of Place</zk:title>
         <loc>https://zacharykai.net/notes/place</loc>
         <lastmod>2025-07-05</lastmod>
@@ -287,6 +317,7 @@
     </url>
     
     <url>
+        <!-- Blog Questions Challenge 2025 -->
         <zk:title>Blog Questions Challenge 2025</zk:title>
         <loc>https://zacharykai.net/notes/blogqna25</loc>
         <lastmod>2025-04-13</lastmod>
@@ -296,6 +327,7 @@
     </url>
     
     <url>
+        <!-- Goals For 2025 -->
         <zk:title>Goals For 2025</zk:title>
         <loc>https://zacharykai.net/notes/25goals</loc>
         <lastmod>2025-04-13</lastmod>
@@ -305,6 +337,7 @@
     </url>
     
     <url>
+        <!-- How Travel Is An Engine For Writing -->
         <zk:title>How Travel Is An Engine For Writing</zk:title>
         <loc>https://zacharykai.net/notes/writingengine</loc>
         <lastmod>2025-07-05</lastmod>
@@ -314,6 +347,7 @@
     </url>
 
     <url>
+        <!-- The Unexpected Ambassador -->
         <zk:title>The Unexpected Ambassador</zk:title>
         <loc>https://zacharykai.net/notes/icmar25</loc>
         <lastmod>2025-04-13</lastmod>
@@ -323,6 +357,7 @@
     </url>
 
     <url>
+        <!-- Indieweb Book Club: Oct 2025 -->
         <zk:title>Indieweb Book Club: Oct 2025</zk:title>
         <loc>https://zacharykai.net/notes/iwboct25</loc>
         <lastmod>2025-04-13</lastmod>
@@ -332,6 +367,7 @@
     </url>
     
     <url>
+        <!-- Indieweb Movie Club: Apr 2025 -->
         <zk:title>Indieweb Movie Club: Apr 2025</zk:title>
         <loc>https://zacharykai.net/notes/iwmapr25</loc>
         <lastmod>2025-04-13</lastmod>
@@ -341,6 +377,7 @@
     </url>
 
     <url>
+        <!-- Indieweb Movie Club: Sep 2025 -->
         <zk:title>Indieweb Movie Club: Sep 2025</zk:title>
         <loc>https://zacharykai.net/notes/iwmsep25</loc>
         <lastmod>2025-04-13</lastmod>
@@ -350,6 +387,7 @@
     </url>
     
     <url>
+        <!-- Liminal Festival (2024) -->
         <zk:title>Liminal Festival (2024)</zk:title>
         <loc>https://zacharykai.net/notes/lf24</loc>
         <lastmod>2025-04-13</lastmod>
@@ -359,6 +397,7 @@
     </url>
     
     <url>
+        <!-- Mildura Writers Festival (2024) -->
         <zk:title>Mildura Writers Festival (2024)</zk:title>
         <loc>https://zacharykai.net/notes/mwf24</loc>
         <lastmod>2025-04-13</lastmod>
@@ -368,6 +407,7 @@
     </url>
     
     <url>
+        <!-- Minds Within Mine -->
         <zk:title>Minds Within Mine</zk:title>
         <loc>https://zacharykai.net/notes/mwm</loc>
         <lastmod>2025-04-13</lastmod>
@@ -377,15 +417,17 @@
     </url>
     
     <url>
+        <!-- Music Questions Challenge -->
         <zk:title>Music Questions Challenge</zk:title>
         <loc>https://zacharykai.net/notes/musicqna</loc>
         <lastmod>2025-04-19</lastmod>
-        <zk:content>A litte insight into my musical tastes.</zk:content>
+        <zk:content>A little insight into my musical tastes.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
 
     <url>
+        <!-- My 2025 Goals So Far -->
         <zk:title>My 2025 Goals So Far</zk:title>
         <loc>https://zacharykai.net/notes/25qreview</loc>
         <lastmod>2025-04-13</lastmod>
@@ -395,6 +437,7 @@
     </url>
 
     <url>
+        <!-- No Going Back -->
         <zk:title>No Going Back</zk:title>
         <loc>https://zacharykai.net/notes/noreturn</loc>
         <lastmod>2025-04-19</lastmod>
@@ -404,6 +447,7 @@
     </url>
     
     <url>
+        <!-- Punchy Prose -->
         <zk:title>Punchy Prose</zk:title>
         <loc>https://zacharykai.net/notes/pp</loc>
         <lastmod>2025-04-13</lastmod>
@@ -413,6 +457,7 @@
     </url>
     
     <url>
+        <!-- Proust's Questionnaire -->
         <zk:title>Proust's Questionnaire</zk:title>
         <loc>https://zacharykai.net/notes/proust</loc>
         <lastmod>2025-04-13</lastmod>
@@ -422,6 +467,7 @@
     </url>
 
     <url>
+        <!-- Shot Silk And Sapphire Spiders -->
         <zk:title>Shot Silk And Sapphire Spiders</zk:title>
         <loc>https://zacharykai.net/notes/silknspiders</loc>
         <lastmod>2025-06-24</lastmod>
@@ -431,6 +477,7 @@
     </url>
     
     <url>
+        <!-- Site Ideas -->
         <zk:title>Site Ideas</zk:title>
         <loc>https://zacharykai.net/notes/site-ideas</loc>
         <lastmod>2025-04-13</lastmod>
@@ -440,6 +487,7 @@
     </url>
 
     <url>
+        <!-- Syzygy -->
         <zk:title>Syzygy</zk:title>
         <loc>https://zacharykai.net/notes/syzygy</loc>
         <lastmod>2025-07-05</lastmod>
@@ -449,6 +497,7 @@
     </url>
 
     <url>
+        <!-- Ten Pointless Things About Me -->
         <zk:title>Ten Pointless Things About Me</zk:title>
         <loc>https://zacharykai.net/notes/pointless</loc>
         <lastmod>2025-04-13</lastmod>
@@ -458,6 +507,7 @@
     </url>
     
     <url>
+        <!-- The Colbert Questionert -->
         <zk:title>The Colbert Questionert</zk:title>
         <loc>https://zacharykai.net/notes/colbert</loc>
         <lastmod>2025-04-19</lastmod>
@@ -467,6 +517,7 @@
     </url>
 
     <url>
+        <!-- The Fictional Worlds I'd Live In -->
         <zk:title>The Fictional Worlds I'd Live In</zk:title>
         <loc>https://zacharykai.net/notes/otherworlds</loc>
         <lastmod>2025-06-24</lastmod>
@@ -476,6 +527,7 @@
     </url>
     
     <url>
+        <!-- The Notification I Look Forward To The Most -->
         <zk:title>The Notification I Look Forward To The Most</zk:title>
         <loc>https://zacharykai.net/notes/notifications</loc>
         <lastmod>2025-06-24</lastmod>
@@ -485,6 +537,7 @@
     </url>
 
     <url>
+        <!-- Things To Do While Waiting -->
         <zk:title>Things To Do While Waiting</zk:title>
         <loc>https://zacharykai.net/notes/waiting</loc>
         <lastmod>2025-04-19</lastmod>
@@ -494,6 +547,7 @@
     </url>
     
     <url>
+        <!-- Things You'd Perhaps Enjoy -->
         <zk:title>Things You'd Perhaps Enjoy</zk:title>
         <loc>https://zacharykai.net/notes/rdec24</loc>
         <lastmod>2025-04-13</lastmod>
@@ -503,6 +557,7 @@
     </url>
     
     <url>
+        <!-- What Is This Feeling, If Not Love? -->
         <zk:title>What Is This Feeling, If Not Love?</zk:title>
         <loc>https://zacharykai.net/notes/tooeasily</loc>
         <lastmod>2025-04-19</lastmod>
@@ -512,6 +567,7 @@
     </url>
     
     <url>
+        <!-- Writing Sparks -->
         <zk:title>Writing Sparks</zk:title>
         <loc>https://zacharykai.net/notes/sparks</loc>
         <lastmod>2025-04-13</lastmod>
