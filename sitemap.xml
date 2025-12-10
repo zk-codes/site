@@ -73,6 +73,16 @@
     </url>
     
     <url>
+        <!-- Buttons -->
+        <zk:title>Buttons</zk:title>
+        <loc>https://zacharykai.net/buttons</loc>
+        <lastmod>2025-12-10</lastmod>
+        <zk:content>Little buttons directing you to delightful web corners.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
+    </url>
+
+    <url>
         <!-- Changelog -->
         <zk:title>Changelog</zk:title>
         <loc>https://zacharykai.net/changelog</loc>
