@@ -1,8 +1,21 @@
+# --- Essentials
+
 Sitemap: https://zacharykai.net/sitemap.xml
+
+# --- Allows
 
 User-agent: *
 Allow: /
 
-Disallow: /assets/in_progress
-Disallow: /assets/scripts/
-Disallow: /assets/pdfs/
+# --- Disallows
+
+# Folders
+
+Disallow: /assets/
+
+# Files
+
+Disallow /.gitignore
+Disallow: /LICENSE
+Disallow: /README.md
+Disallow: /successful

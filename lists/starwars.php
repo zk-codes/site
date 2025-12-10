@@ -140,7 +140,6 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
         <!-- File Links -->
         <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/assets/style.css">
-        <link rel="stylesheet" href="/assets/print.css" media="print">
         <link rel="alternate" type="application/rss+xml" title="Star Wars Webring" href="/assets/rss.xml">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
         <link rel="canonical" href="https://zacharykai.net/lists/starwars">

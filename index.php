@@ -6,18 +6,21 @@
         <!-- Meta Tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- File Links -->
-        <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="/assets/style.css">
-        <link rel="stylesheet" href="/assets/print.css" media="print">
-        <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
-        <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
-        <link rel="canonical" href="https://zacharykai.net">
-        <!-- Page Info -->
+        <!-- Page Title -->
         <title>Zachary Kai</title>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="/assets/style.css">
+        <!-- Page Info -->
         <meta name="date" content="2024-03-25">
         <meta name="last-modified" content="2025-10-24">
         <meta name="description" content="Hi! I'm Zachary Kai, a scifi writer, and the sole operator of Road Less Read. Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler.">
+        <!-- File Links -->
+        <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/print.css" media="print">
+        <!-- Relevant Links -->
+        <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
+        <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
+        <link rel="canonical" href="https://zacharykai.net">
     </head>
 
     <!-- Body -->
