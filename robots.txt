@@ -17,5 +17,7 @@ Disallow: /assets/
 
 Disallow /.gitignore
 Disallow: /LICENSE
+Disallow: /random
 Disallow: /README.md
+Disallow: /search
 Disallow: /successful
