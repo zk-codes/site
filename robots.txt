@@ -15,7 +15,8 @@ Disallow: /assets/
 
 # Files
 
-Disallow /.gitignore
+Disallow: /.gitignore
+Disallow: /humans.txt
 Disallow: /LICENSE
 Disallow: /random
 Disallow: /README.md
