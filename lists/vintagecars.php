@@ -242,30 +242,15 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                     <input type="hidden" name="form_type" value="vintage-cars">
                     <button type="submit">Join The Road!</button>
                 </form>
+                
                 <p>•--♡--•</p>
-                <section class="essentials">
-                    <p><strong>Copy & Share</strong>: <a href="/lists/vintage-cars" class="u-url">zacharykai.net/lists/vintage-cars</a></p>
-                    <p><strong>Statistics</strong> &rarr; Word Count: 44 | Reading Time: 0:13</p>
-                    <hr>
-                    <p>
-                        <strong>Enjoyed This? Support What I Do:</strong>
-                        <a href="/paypal" rel="noopener">PayPal</a> |
-                        <a href="/stripe" rel="noopener">Stripe</a>
-                    </p>
-                    <hr>
-                    <p>
-                        <strong>Reply Via</strong>:
-                        <a href="/contact">Email</a> | 
-                        <a href="/guestbook">Guestbook</a> |
-                        <a href="/unoffice-hours">UnOffice Hours</a> | 
-                        <a href="/webmention" rel="noopener">Webmention</a>
-                    </p>
-                    <p>
-                        <strong>Found An Error?</strong>
-                        <a href="/source" rel="noopener">Suggest An Edit</a> |
-                        <a href="/source" rel="noopener">View Source Code</a>
-                    </p>
-                </section>
+
+            </section>
+
+            <section>
+                <!-- Copy + Share -->
+                <p><strong>Copy + Share</strong>: <a href="/lists/vintagecars">zacharykai.net/lists/vintagecars</a></p>
+            </section>
            
         </main>
 

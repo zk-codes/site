@@ -475,6 +475,16 @@
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
+
+    <url>
+        <!-- 100 Things That Made My 2025 -->
+        <zk:title>100 Things That Made My 2025</zk:title>
+        <loc>https://zacharykai.net/notes/25list</loc>
+        <lastmod>2025-12-17</lastmod>
+        <zk:content>What I’m grateful for in the year.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
+    </url>
     
     <url>
         <!-- Authenticity On The Web -->

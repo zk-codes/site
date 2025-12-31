@@ -262,6 +262,11 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                 <p>•--♡--•</p>
 
             </section>
+
+            <section>
+                <!-- Copy + Share -->
+                <p><strong>Copy + Share</strong>: <a href="/lists/starwars">zacharykai.net/lists/starwars</a></p>
+            </section>
            
         </main>
 

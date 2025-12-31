@@ -175,7 +175,14 @@ if ($searchTerm !== '') {
                     <p>No results found.</p>
                     <?php endif; ?>
                 <?php endif; ?>
+
                 <p>•--♡--•</p>
+                
+            </section>
+
+            <section>
+                <!-- Copy + Share -->
+                <p><strong>Copy + Share</strong>: <a href="/defaults">zacharykai.net/defaults</a></p>
             </section>
            
         </main>

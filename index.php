@@ -290,6 +290,12 @@
                 </ul>
 
                 <p>•--♡--•</p>
+
+            </section>
+
+            <section>
+                <!-- Copy + Share -->
+                <p><strong>Copy + Share</strong>: <a href="/defaults">zacharykai.net/defaults</a></p>
             </section>
            
         </main>
