@@ -289,6 +289,7 @@
                     </li>
                 </ul>
 
+                <!-- Closing -->
                 <p>•--♡--•</p>
 
             </section>

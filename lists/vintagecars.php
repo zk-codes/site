@@ -243,6 +243,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                     <button type="submit">Join The Road!</button>
                 </form>
                 
+                <!-- Closing -->
                 <p>•--♡--•</p>
 
             </section>

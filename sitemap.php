@@ -330,7 +330,7 @@ unset($category); // Unset reference to avoid issues
 
             <section>
                 <!-- Copy + Share -->
-                <p><strong>Copy + Share</strong>: <a href="/defaults">zacharykai.net/defaults</a></p>
+                <p><strong>Copy + Share</strong>: <a href="/sitempa">zacharykai.net/sitemap</a></p>
             </section>
            
         </main>

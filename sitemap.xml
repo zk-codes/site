@@ -477,6 +477,16 @@
     </url>
 
     <url>
+        <!-- 40 Questions To Ask Every Year (2025) -->
+        <zk:title>40 Questions To Ask Every Year (2025)</zk:title>
+        <loc>https://zacharykai.net/notes/40qs25</loc>
+        <lastmod>2025-12-31</lastmod>
+        <zk:content>A guided list of reflections for the year.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>challenges</zk:subcategory>
+    </url>
+
+    <url>
         <!-- 100 Things That Made My 2025 -->
         <zk:title>100 Things That Made My 2025</zk:title>
         <loc>https://zacharykai.net/notes/25list</loc>
@@ -523,7 +533,17 @@
         <lastmod>2025-12-17</lastmod>
         <zk:content>Things I wish to achieve.</zk:content>
         <zk:category>notes</zk:category>
-        <zk:subcategory>reflections</zk:subcategory>
+        <zk:subcategory>goal_setting</zk:subcategory>
+    </url>
+
+    <url>
+        <!-- Goals For 2026 -->
+        <zk:title>Goals For 2026</zk:title>
+        <loc>https://zacharykai.net/notes/26goals</loc>
+        <lastmod>2025-12-31</lastmod>
+        <zk:content>What I want to do.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>goal_setting</zk:subcategory>
     </url>
     
     <url>

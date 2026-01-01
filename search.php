@@ -176,6 +176,7 @@ if ($searchTerm !== '') {
                     <?php endif; ?>
                 <?php endif; ?>
 
+                <!-- Closing -->
                 <p>•--♡--•</p>
                 
             </section>

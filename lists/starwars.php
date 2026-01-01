@@ -259,6 +259,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                     <button type="submit">Join The Galaxy!</button>
                 </form>
 
+                <!-- Closing -->
                 <p>•--♡--•</p>
 
             </section>
