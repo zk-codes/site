@@ -291,6 +291,10 @@ summary h2, summary h3, summary h4 {
         color: white;
     }
 
+    .caption {
+        color: white;
+    }
+
     header:not(main > header, article > header),
     main, footer, pre, .h-card {
         border-color: var(--border-style);

@@ -343,6 +343,16 @@
     </url>
 
     <url>
+        <!-- Top4 -->
+        <zk:title>Top 4</zk:title>
+        <loc>https://zacharykai.net/top4</loc>
+        <lastmod>2026-01-06</lastmod>
+        <zk:content>Lists of my top three plus one.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
+    </url>
+
+    <url>
         <!-- Trades -->
         <zk:title>Trades</zk:title>
         <loc>https://zacharykai.net/trades</loc>

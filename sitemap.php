@@ -187,7 +187,7 @@ unset($category); // Unset reference to avoid issues
         <!-- Page Info -->
         <title>Sitemap | Zachary Kai</title>
         <meta name="date" content="2024-06-26">
-        <meta name="last-modified" content="2026-01-04">
+        <meta name="last-modified" content="2026-01-06">
         <meta name="description" content="Herein are all pages, notes, and assorted miscellanea on this site so far. Always in progress. Enjoy your perusal and I hope you find (something) useful.">
     </head>
 
@@ -210,7 +210,7 @@ unset($category); // Unset reference to avoid issues
                 <p class="essentials">
                     <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-06-26">26 Jun 2024</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2026-01-04">4 Jan 2026</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2026-01-06">6 Jan 2026</time>
                 </p>
             </header>
 
