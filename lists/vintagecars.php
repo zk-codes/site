@@ -1,25 +1,12 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 // Webring Members
 
 $sites = [
     [
         'id' => 1,
-        'site_name' => 'Classic Wheels Hub',
-        'site_url' => 'https://example.com/classic-wheels/',
-    ],
-    [
-        'id' => 2,
-        'site_name' => 'Retro Rides Gallery',
-        'site_url' => 'https://example.com/retro-rides/',
-    ],
-    [
-        'id' => 3,
-        'site_name' => 'Vintage Auto Enthusiast',
-        'site_url' => 'https://example.com/vintage-auto/',
+        'site_name' => 'Zachary Kai',
+        'site_url' => 'https://zacharykai.net',
     ],
 ];
 
@@ -128,11 +115,11 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
         <link rel="stylesheet" href="/assets/style.css">
         <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
-        <link rel="canonical" href="https://zacharykai.net/lists/vintage-cars">
+        <link rel="canonical" href="https://zacharykai.net/lists/vintagecars">
         <!-- Page Info -->
-        <title>Vintage Car Aesthetics Webring | Zachary Kai</title>
-        <meta name="date" content="2025-07-13">
-        <meta name="last-modified" content="2025-07-13">
+        <title>Vintage Car Webring | Zachary Kai</title>
+        <meta name="date" content="2026-01-22">
+        <meta name="last-modified" content="2026-01-22">
         <meta name="description" content="A webring connecting enthusiasts of vintage car aesthetics and design.">
     </head>
 
@@ -155,21 +142,24 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
             <!-- Page Header -->
             <header>
                 <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#lists">Lists</a></p>
-                <h1 class="p-name">Vintage Car Aesthetics Webring</h1>
+                <h1 class="p-name">Vintage Car Webring</h1>
                 <p class="essentials">
                     <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
-                    <strong>Published</strong>: <time class="dt-published" datetime="2025-07-13">13 Jul 2025</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-07-13">13 Jul 2025</time>
+                    <strong>Published</strong>: <time class="dt-published" datetime="2026-01-22">22 Jan 2026</time> | 
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2026-01-22">22 Jan 2026</time>
                 </p>
             </header>
 
             <!-- Page Body -->
             <section class="e-content">
 
-                <!-- Introduction -->
-                <p id="top" class="p-summary">A webring connecting sites dedicated to the beautiful aesthetics and design of vintage cars.</p>
-                <p><strong>Disclaimer</strong>: This webring is a fan-created project and is not affiliated with any car manufacturers, brands, or official automotive entities. All fan content is created for non-commercial purposes.</p>
+                <section>
+                    <!-- Introduction -->
+                    <p id="top" class="p-summary">A webring connecting sites dedicated to the beautiful aesthetics and design of vintage cars.</p>
+                </section>
+                
                 <details>
+                    <!-- Table Of Contents -->
                     <summary><strong>Table Of Contents</strong></summary>
                     <ul>
                         <li><a href="#navigate">Navigate The Roads</a></li>
@@ -178,73 +168,87 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                         <li><a href="#join">Join The Webring</a></li>
                     </ul>
                 </details>
-                <h2 id="navigate">Navigate The Roads</h2>
-                <p>Webrings are a classic way for folks to find others with similar interests! Use these links to explore other sites in the webring:</p>
-                <ul>
-                    <li><a href="?action=random">Random Site</a> - Jump to a random member site</li>
-                    <li><a href="?action=next">Next Site</a> - Visit the next site in the ring</li>
-                    <li><a href="?action=prev">Previous Site</a> - Visit the previous site in the ring</li>
-                    <li><a href="#members">View All Sites</a> - See the complete member list</li>
-                </ul>
-                <p></p>
-                <hr>
-                <h2 id="members">Current Members</h2>
-                <p><em>Listed in order of joining.</em></p>
-                
-                <?php if (empty($sites)): ?>
-                    <p>No one yet. Check back soon!</p>
-                <?php else: ?>
+
+                <section>
+                    <!-- Navigate The Roads -->
+                    <h2 id="navigate">Navigate The Roads</h2>
+                    <p>Use these links to explore other sites in the webring:</p>
                     <ul>
-                        <?php foreach ($sites as $site): ?>
-                        <li><a href="<?php echo htmlspecialchars($site['site_url']); ?>" rel="noopener"><?php echo htmlspecialchars($site['site_name']); ?></a></li>
-                        <?php endforeach; ?>
+                        <li><a href="?action=random">Random Site</a> - Jump to a random member site</li>
+                        <li><a href="?action=next">Next Site</a> - Visit the next site in the ring</li>
+                        <li><a href="?action=prev">Previous Site</a> - Visit the previous site in the ring</li>
+                        <li><a href="#members">View All Sites</a> - See the complete member list</li>
                     </ul>
-                <?php endif; ?>
-                
-                <h2 id="guidelines">Submission Guidelines</h2>
-                <p>To join, your site must be a personal one and actively maintained. And have the below code somewhere visible! (Format it and style it however you'd like, provided it's accessible.)</p>
-                <p><pre><code>
-                    <a href="https://zacharykai.net/lists/vintage-cars">Vintage Car Aesthetics Webring</a> &rarr; <a href="https://zacharykai.net/lists/vintage-cars?action=prev">Previous</a> | <a href="https://zacharykai.net/lists/vintage-cars?action=random">Random</a> | <a href="https://zacharykai.net/lists/vintage-cars?action=next">Next</a>
-                </code></pre></p>
-                <h3 id="join">Join The Webring</h3>
-                <p>Want to join the webring? Use the form below or <a href="/hello">contact me</a>!</p>
-                <ul>
-                    <li>I'll check your site meets the guidelines</li>
-                    <li>Once approved, I'll email you with the HTML code for webring navigation</li>
-                    <li>You can request changes or removal at any time</li>
-                    <li>Email addresses are never displayed publicly</li>
-                </ul>
-                <form id="submission-form" action="/assets/scripts/submissions.php" method="post">
-                    <label for="name">Write what you'd like me to call you:*</label>
-                    <br/>
-                    <input type="text" id="name" name="name" required/>
-                    <br/>
-                    <label for="email">Enter in your email:*</label>
-                    <br/>
-                    <input type="email" id="email" name="email" required/>
-                    <br/>
-                    <label for="site_name">Type in your site's name:*</label>
-                    <br/>
-                    <input type="text" id="site_name" name="site_name" required/>
-                    <br/>
-                    <label for="site_url">Enter your site's URL:*</label>
-                    <br/>
-                    <input type="url" id="site_url" name="site_url" required/>
-                    <br/>
-                    <label for="favorite_car_era">Tell me your favorite vintage car era (e.g., "1950s American"):</label>
-                    <br/>
-                    <input type="text" id="favorite_car_era" name="favorite_car_era"/>
-                    <br/>
-                    <label for="captcha">Enter this page's title:*</label>
-                    <br>
-                    <input type="text" id="captcha" name="captcha" required>
-                    <br>
-                    <input type="hidden" name="form_type" value="vintage-cars">
-                    <button type="submit">Join The Road!</button>
-                </form>
-                
-                <!-- Closing -->
-                <p>•--♡--•</p>
+                    <p></p>
+                </section>
+
+                <hr>
+
+                <section>
+                    <!-- Current Members -->
+                    <h2 id="members">Current Members</h2>
+                    <p><em>Listed in order of joining.</em></p>
+
+                    <?php if (empty($sites)): ?>
+                        <p>No one yet. Check back soon!</p>
+                    <?php else: ?>
+                        <ul>
+                            <?php foreach ($sites as $site): ?>
+                            <li><a href="<?php echo htmlspecialchars($site['site_url']); ?>" rel="noopener"><?php echo htmlspecialchars($site['site_name']); ?></a></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
+                </section>
+
+                <section>
+                    <!-- Submission Guidelines -->
+                    <h2 id="guidelines">Submission Guidelines</h2>
+                    <p>To join, your site must be a personal one and actively maintained. And have the below code somewhere visible! (Format it and style it however you'd like, provided it's accessible.)</p>
+                    <p><pre><code>
+                        &lt;a href="https://zacharykai.net/lists/vintagecars"&gt;Vintage Car Aesthetics Webring&lt;/a&gt; &amp;rarr; &lt;a href="https://zacharykai.net/lists/vintagecars?action=prev"&gt;Previous&lt;/a&gt; | &lt;a href="https://zacharykai.net/lists/vintagecars?action=random"&gt;Random&lt;/a&gt; | &lt;a href="https://zacharykai.net/lists/vintagecars?action=next"&gt;Next&lt;/a&gt;
+                    </code></pre></p>
+
+                    <section>
+                        <!-- Join The Webring -->
+                        <h3 id="join">Join The Webring</h3>
+                        <p>Want to join the webring? Use the form below or <a href="/hello">contact me</a>!</p>
+                        <ul>
+                            <li>I'll check your site meets the guidelines</li>
+                            <li>Once approved, I'll add you to the list!</li>
+                            <li>You can request changes or removal at any time</li>
+                            <li>Email addresses are never displayed publicly</li>
+                        </ul>
+                        <!-- Submission Form -->
+                        <form id="submission-form" action="/assets/scripts/submissions.php" method="post">
+                            <!-- Name -->
+                            <label for="name">Write what you'd like me to call you:*</label> <br/>
+                            <input type="text" id="name" name="name" required/> <br/>
+                            <!-- Email -->
+                            <label for="email">Enter in your email:*</label> <br/>
+                            <input type="email" id="email" name="email" required/> <br/>
+                            <!-- Site Name -->
+                            <label for="site_name">Type in your site's name:*</label> <br/>
+                            <input type="text" id="site_name" name="site_name" required/> <br/>
+                            <!-- Site URL -->
+                            <label for="site_url">Enter your site's URL:*</label> <br/>
+                            <input type="url" id="site_url" name="site_url" required/> <br/>
+                            <!-- Favorite Car -->
+                            <label for="favorite_car_era">Tell me your favorite vintage car era:</label> <br/>
+                            <input type="text" id="favorite_car_era" name="favorite_car_era"/> <br/>
+                            <!-- Captcha -->
+                            <label for="captcha">Enter this page's title:*</label> <br>
+                            <input type="text" id="captcha" name="captcha" required> <br>
+                            <!-- Form Type -->
+                            <input type="hidden" name="form_type" value="vintagecars">
+                            <!-- Submit -->
+                            <button type="submit">Join The Road!</button>
+                        </form>
+                    </section>
+
+                    <!-- Closing -->
+                    <p>•--♡--•</p>
+
+                </section>
 
             </section>
 

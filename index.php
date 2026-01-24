@@ -118,176 +118,148 @@
 
                 <hr>
                 
-                <!-- Webrings -->
-                <h2 id="webrings">Webrings</h2>
-                <ul>
-                    <li>
-                        <!-- A11y Webring -->
-                        <strong>
-                            <a href="https://a11y-webring.club/" rel="noopener">a11y-webring.club</a>
-                        </strong>
-                        →
-                        <a rel="noopener" href="https://a11y-webring.club/prev">Previous</a>
-                        |
-                        <a rel="noopener" href="https://a11y-webring.club/random">Random</a>
-                        |
-                        <a rel="noopener" href="https://a11y-webring.club/next">Next</a>
-                    </li>
-                    <li>
-                        <!-- Bucketfish Webring -->
-                        <strong>
-                            <a href="https://webring.bucketfish.me" rel="noopener">Bucketfish Webring</a>
-                        </strong>
-                        →
-                        <a href="https://webring.bucketfish.me/redirect.html?to=prev&name=Zachary Kai" rel="noopener">Previous</a>
-                        |
-                        <a href="https://webring.bucketfish.me/redirect.html?to=next&name=Zachary Kai" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- Catppuccin Webring -->
-                        <strong>
-                            <a href="https://ctp-webr.ing/">Catppuccin Webring</a>
-                        </strong>
-                        →
-                        <a href="https://ctp-webr.ing/zacharykai/previous">Previous</a>
-                        |
-                        <a href="https://ctp-webr.ing/zacharykai/next">Next</a>
-                    </li>
-                    <li>
-                        <!-- CSS Joy Webring -->
-                        <strong>
-                            <a href="https://cs.sjoy.lol/" rel="noopener">CSS Joy Webring</a>
-                        </strong>
-                        →
-                        <a href="https://webri.ng/webring/cssjoy/previous?via=https://zacharykai.net/" rel="noopener">Previous</a>
-                        |
-                        <a href="https://webri.ng/webring/cssjoy/random?via=https://zacharykai.net/" rel="noopener">Random</a>
-                        |
-                        <a href="https://webri.ng/webring/cssjoy/next?via=https://zacharykai.net/" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- Design Systems Webring -->
-                        <strong>
-                            <a href="https://design-system.club/" rel="noopener">Design Systems Webring</a>
-                        </strong>
-                        →
-                        <a href="https://design-system.club/prev" rel="noopener">Previous</a>
-                        |
-                        <a href="https://design-system.club/random" rel="noopener">Random</a>
-                        |
-                        <a href="https://design-system.club/next" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- Ghostring -->
-                        <strong>
-                            <a href="https://ghostring.neocities.org/" rel="noopener">Ghostring</a>
-                        </strong>
-                        →
-                        <a href="https://ghostring.neocities.org/zacharykai/previous" rel="noopener">Previous</a>
-                        |
-                        <a href="https://ghostring.neocities.org/zacharykai/next" rel="noopener">Next</a> 
-                    </li>
-                    <li>
-                        <!-- IndieWeb Webring -->
-                        <strong>
-                            <a href="https://xn--sr8hvo.ws" rel="noopener">IndieWeb Webring 🕸💍</a> 
-                        </strong>
-                        →
-                        <a href="https://xn--sr8hvo.ws/previous" rel="noopener">Previous</a>
-                        |
-                        <a href="https://xn--sr8hvo.ws/next" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- Loop Webring -->
-                        <strong>
-                            <a href="https://loop.graycot.dev/webring.html?action=home" rel="noopener">Loop Webring</a>
-                        </strong>
-                        →
-                        <a href="https://loop.graycot.dev/webring.html?action=prev" rel="noopener">Previous</a>
-                        |
-                        <a href="https://loop.graycot.dev/webring.html?action=next" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- Meta Ring -->
-                        <strong>
-                            <a href="https://meta-ring.hedy.dev/" rel="noopener">Meta Ring</a>
-                        </strong>
-                        →
-                        <a href="https://meta-ring.hedy.dev/previous" rel="noopener">Previous</a>
-                        |
-                        <a href="https://meta-ring.hedy.dev/random" rel="noopener">Random</a>
-                        |
-                        <a href="https://meta-ring.hedy.dev/next" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- Muhokama.Fun Ring -->
-                        <strong>
-                            <a href="https://ring.muhokama.fun">Muhokama.Fun Ring</a>
-                        </strong>
-                        →
-                        <a href="https://ring.muhokama.fun/u/zacharykai/pred">Previous</a>
-                        |
-                        <a href="https://ring.muhokama.fun/u/zacharykai/succ">Next</a>
-                    </li>
-                    <li>
-                        <!-- Retronaut Webring -->
-                        <strong>
-                            <a href="https://webring.dinhe.net/" rel="noopener">Retronaut Webring</a>
-                        </strong>
-                        →
-                        <a href="https://webring.dinhe.net/prev/zacharykai.net" rel="noopener">Previous</a>
-                        |
-                        <a href="https://webring.dinhe.net/next/zacharykai.net" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- Star Wars Webring -->
-                        <strong>
-                            <a href="/lists/starwars" rel="noopener">Star Wars Webring</a>
-                        </strong>
-                        →
-                        <a href="/lists/starwars?action=prev" rel="noopener">Previous</a>
-                        |
-                        <a href="/lists/starwars?action=random" rel="noopener">Random</a>
-                        |
-                        <a href="/lists/starwars?action=next" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- The Claw Webring -->
-                        <strong>
-                            <a href="https://github.com/whitep4nth3r/the-claw-webring" rel="noopener">The Claw Webring</a>
-                        </strong>
-                    </li>
-                    <li>
-                        <!-- UnOffice Hours Webring -->
-                        <strong>
-                            <a href="https://unofficehours.com/" rel="noopener">UnOffice Hours Webring</a>
-                        </strong>
-                        →
-                        <a href="https://unofficehours.com/prev.html" rel="noopener">Previous</a>
-                        |
-                        <a href="https://unofficehours.com/random.html" rel="noopener">Random</a>
-                        |
-                        <a href="https://unofficehours.com/next.html" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- Webmaster Webring -->
-                        <strong>
-                            <a href="https://webmasterwebring.netlify.app">Webmaster Webring</a>
-                        </strong>
-                        →
-                        <a href="https://webmasterwebring.netlify.app?zacharykai-previous" rel="noopener">Previous</a>
-                        |
-                        <a href="https://webmasterwebring.netlify.app?zacharykai-random">Random</a>
-                        |
-                        <a href="https://webmasterwebring.netlify.app?zacharykai-next" rel="noopener">Next</a>
-                    </li>
-                    <li>
-                        <!-- XXIIVV Webring -->
-                        <strong>
-                            <a href="https://webring.xxiivv.com/#zacharykai" rel="noopener">XXIIVV Webring</a>
-                        </strong>
-                    </li>
-                </ul>
+                <section>
+                    <!-- Webrings -->
+                    <h2 id="webrings">Webrings</h2>
+
+                    <!-- List -->
+                    <details>
+                        <summary><strong>Go on! Explore the world wide web!</strong></summary>
+                        <ul>
+                            <li>
+                                <!-- A11y Webring -->
+                                <strong>
+                                    <a href="https://a11y-webring.club/" rel="noopener">a11y-webring.club</a> →
+                                </strong>
+                                <a rel="noopener" href="https://a11y-webring.club/prev">Previous</a> |
+                                <a rel="noopener" href="https://a11y-webring.club/random">Random</a> |
+                                <a rel="noopener" href="https://a11y-webring.club/next">Next</a>
+                            </li>
+                            <li>
+                                <!-- Bucketfish Webring -->
+                                <strong>
+                                    <a href="https://webring.bucketfish.me" rel="noopener">Bucketfish Webring</a> →
+                                </strong>
+                                <a href="https://webring.bucketfish.me/redirect.html?to=prev&name=Zachary Kai" rel="noopener">Previous</a> |
+                                <a href="https://webring.bucketfish.me/redirect.html?to=next&name=Zachary Kai" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Catppuccin Webring -->
+                                <strong>
+                                    <a href="https://ctp-webr.ing/">Catppuccin Webring</a> →
+                                </strong>
+                                <a href="https://ctp-webr.ing/zacharykai/previous">Previous</a> |
+                                <a href="https://ctp-webr.ing/zacharykai/next">Next</a>
+                            </li>
+                            <li>
+                                <!-- CSS Joy Webring -->
+                                <strong>
+                                    <a href="https://cs.sjoy.lol/" rel="noopener">CSS Joy Webring</a> →
+                                </strong>
+                                <a href="https://webri.ng/webring/cssjoy/previous?via=https://zacharykai.net/" rel="noopener">Previous</a> |
+                                <a href="https://webri.ng/webring/cssjoy/random?via=https://zacharykai.net/" rel="noopener">Random</a> |
+                                <a href="https://webri.ng/webring/cssjoy/next?via=https://zacharykai.net/" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Design Systems Webring -->
+                                <strong>
+                                    <a href="https://design-system.club/" rel="noopener">Design Systems Webring</a> →
+                                </strong>
+                                <a href="https://design-system.club/prev" rel="noopener">Previous</a> |
+                                <a href="https://design-system.club/random" rel="noopener">Random</a> |
+                                <a href="https://design-system.club/next" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Ghostring -->
+                                <strong>
+                                    <a href="https://ghostring.neocities.org/" rel="noopener">Ghostring</a> →
+                                </strong>
+                                <a href="https://ghostring.neocities.org/zacharykai/previous" rel="noopener">Previous</a> |
+                                <a href="https://ghostring.neocities.org/zacharykai/next" rel="noopener">Next</a> 
+                            </li>
+                            <li>
+                                <!-- IndieWeb Webring -->
+                                <strong>
+                                    <a href="https://xn--sr8hvo.ws" rel="noopener">IndieWeb Webring 🕸💍</a> →
+                                </strong>
+                                <a href="https://xn--sr8hvo.ws/previous" rel="noopener">Previous</a> |
+                                <a href="https://xn--sr8hvo.ws/next" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Loop Webring -->
+                                <strong>
+                                    <a href="https://loop.graycot.dev/webring.html?action=home" rel="noopener">Loop Webring</a> →
+                                </strong>
+                                <a href="https://loop.graycot.dev/webring.html?action=prev" rel="noopener">Previous</a> |
+                                <a href="https://loop.graycot.dev/webring.html?action=next" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Meta Ring -->
+                                <strong>
+                                    <a href="https://meta-ring.hedy.dev/" rel="noopener">Meta Ring</a> →
+                                </strong>
+                                <a href="https://meta-ring.hedy.dev/previous" rel="noopener">Previous</a> |
+                                <a href="https://meta-ring.hedy.dev/random" rel="noopener">Random</a> |
+                                <a href="https://meta-ring.hedy.dev/next" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Muhokama.Fun Ring -->
+                                <strong>
+                                    <a href="https://ring.muhokama.fun">Muhokama.Fun Ring</a> →
+                                </strong>
+                                <a href="https://ring.muhokama.fun/u/zacharykai/pred">Previous</a> |
+                                <a href="https://ring.muhokama.fun/u/zacharykai/succ">Next</a>
+                            </li>
+                            <li>
+                                <!-- Retronaut Webring -->
+                                <strong>
+                                    <a href="https://webring.dinhe.net/" rel="noopener">Retronaut Webring</a> →
+                                </strong>
+                                <a href="https://webring.dinhe.net/prev/zacharykai.net" rel="noopener">Previous</a> |
+                                <a href="https://webring.dinhe.net/next/zacharykai.net" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Star Wars Webring -->
+                                <strong>
+                                    <a href="/lists/starwars" rel="noopener">Star Wars Webring</a> →
+                                </strong>
+                                <a href="/lists/starwars?action=prev" rel="noopener">Previous</a> |
+                                <a href="/lists/starwars?action=random" rel="noopener">Random</a> |
+                                <a href="/lists/starwars?action=next" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- The Claw Webring -->
+                                <strong>
+                                    <a href="https://github.com/whitep4nth3r/the-claw-webring" rel="noopener">The Claw Webring</a>
+                                </strong>
+                            </li>
+                            <li>
+                                <!-- UnOffice Hours Webring -->
+                                <strong>
+                                    <a href="https://unofficehours.com/" rel="noopener">UnOffice Hours Webring</a> →
+                                </strong>
+                                <a href="https://unofficehours.com/prev.html" rel="noopener">Previous</a> |
+                                <a href="https://unofficehours.com/random.html" rel="noopener">Random</a> |
+                                <a href="https://unofficehours.com/next.html" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Webmaster Webring -->
+                                <strong>
+                                    <a href="https://webmasterwebring.netlify.app">Webmaster Webring</a> →
+                                </strong>
+                                <a href="https://webmasterwebring.netlify.app?zacharykai-previous" rel="noopener">Previous</a> |
+                                <a href="https://webmasterwebring.netlify.app?zacharykai-random">Random</a> |
+                                <a href="https://webmasterwebring.netlify.app?zacharykai-next" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- XXIIVV Webring -->
+                                <strong>
+                                    <a href="https://webring.xxiivv.com/#zacharykai" rel="noopener">XXIIVV Webring</a>
+                                </strong>
+                            </li>
+                        </ul>
+                    </details>
+                </section>
 
                 <!-- Closing -->
                 <p>•--♡--•</p>

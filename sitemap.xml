@@ -425,6 +425,16 @@
     <!-- LISTS -->
 
     <url>
+        <!-- Crosswinds + Currents Directory -->
+        <zk:title>Crosswinds + Currents</zk:title>
+        <loc>https://zacharykai.net/lists/crosscurrent</loc>
+        <lastmod>2026-01-16</lastmod>
+        <zk:content>A directory of sites by people living in or from Asia/the Pacific.</zk:content>
+        <zk:category>lists</zk:category>
+        <zk:subcategory>site_directories</zk:subcategory>
+    </url>
+
+    <url>
         <!-- Fanfic Writers Collective -->
         <zk:title>Fanfic Writers Collective</zk:title>
         <loc>https://zacharykai.net/lists/fanfiction</loc>
@@ -472,6 +482,16 @@
         <zk:content>A directory of sites running on Static HTML files.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+    </url>
+
+    <url>
+        <!-- Vintage Car Webring -->
+        <zk:title>Vintage Car Webring</zk:title>
+        <loc>https://zacharykai.net/lists/vintagecars</loc>
+        <lastmod>2026-01-22</lastmod>
+        <zk:content>A webring connecting enthusiasts of vintage car aesthetics and design.</zk:content>
+        <zk:category>lists</zk:category>
+        <zk:subcategory>webrings</zk:subcategory>
     </url>
 
     <!-- NOTES -->
