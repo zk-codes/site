@@ -587,6 +587,16 @@
     </url>
 
     <url>
+        <!-- Fanfiction Conversation With Sara Jaksa -->
+        <zk:title>Fanfiction Conversation With Sara Jaksa</zk:title>
+        <loc>https://zacharykai.net/notes/fanfic</loc>
+        <lastmod>2025-08-05</lastmod>
+        <zk:content>A conversation about fanfiction with Zachary Kai and Sara Jaksa.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>trades</zk:subcategory>
+    </url>
+
+    <url>
         <!-- The Unexpected Ambassador -->
         <zk:title>The Unexpected Ambassador</zk:title>
         <loc>https://zacharykai.net/notes/icmar25</loc>
@@ -814,6 +824,16 @@
         <zk:content>Prompts for braving the blank page.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
+    </url>
+
+    <url>
+        <!-- Conversation On Literature With Sara Jaksa -->
+        <zk:title>Conversation On Literature With Sara Jaksa</zk:title>
+        <loc>https://zacharykai.net/notes/literature</loc>
+        <lastmod>2026-01-15</lastmod>
+        <zk:content>A conversation about literature with Sara Jaksa.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>trades</zk:subcategory>
     </url>
 
 </urlset>
