@@ -555,6 +555,16 @@
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
+
+    <url>
+        <!-- Fanfiction Conversation With Sara Jaksa -->
+        <zk:title>Fanfiction Conversation With Sara Jaksa</zk:title>
+        <loc>https://zacharykai.net/notes/fanfic</loc>
+        <lastmod>2025-08-05</lastmod>
+        <zk:content>a discussion of fan culture and writing.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>trades</zk:subcategory>
+    </url>
     
     <url>
         <!-- Goals For 2025 -->
@@ -587,11 +597,11 @@
     </url>
 
     <url>
-        <!-- Fanfiction Conversation With Sara Jaksa -->
-        <zk:title>Fanfiction Conversation With Sara Jaksa</zk:title>
-        <loc>https://zacharykai.net/notes/fanfic</loc>
-        <lastmod>2025-08-05</lastmod>
-        <zk:content>A conversation about fanfiction with Zachary Kai and Sara Jaksa.</zk:content>
+        <!-- Literature Conversation With Sara Jaksa -->
+        <zk:title>Literature Conversation With Sara Jaksa</zk:title>
+        <loc>https://zacharykai.net/notes/literature</loc>
+        <lastmod>2026-01-15</lastmod>
+        <zk:content>a bookish discussion.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -612,6 +622,16 @@
         <loc>https://zacharykai.net/notes/icfeb26</loc>
         <lastmod>2026-02-01</lastmod>
         <zk:content>The theme is Intersecting Interests.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>indieweb_carnivals</zk:subcategory>
+    </url>
+
+    <url>
+        <!-- IndieWeb Fiction Carnival: Feb 2026 -->
+        <zk:title>IndieWeb Fiction Carnival: Feb 2026</zk:title>
+        <loc>https://zacharykai.net/notes/ifcfeb26</loc>
+        <lastmod>2026-02-01</lastmod>
+        <zk:content>The prompt is: we've got to dream past it.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
     </url>
@@ -834,16 +854,6 @@
         <zk:content>Prompts for braving the blank page.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
-    </url>
-
-    <url>
-        <!-- Conversation On Literature With Sara Jaksa -->
-        <zk:title>Conversation On Literature With Sara Jaksa</zk:title>
-        <loc>https://zacharykai.net/notes/literature</loc>
-        <lastmod>2026-01-15</lastmod>
-        <zk:content>A conversation about literature with Sara Jaksa.</zk:content>
-        <zk:category>notes</zk:category>
-        <zk:subcategory>trades</zk:subcategory>
     </url>
 
 </urlset>
