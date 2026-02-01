@@ -469,7 +469,7 @@
         <zk:title>Star Wars Webring</zk:title>
         <loc>https://zacharykai.net/lists/starwars</loc>
         <lastmod>2025-07-06</lastmod>
-        <zk:content>A webring for folks who enjoy Star Wars</zk:content>
+        <zk:content>For folks who enjoy Star Wars.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>webrings</zk:subcategory>
     </url>
@@ -489,7 +489,7 @@
         <zk:title>Vintage Car Webring</zk:title>
         <loc>https://zacharykai.net/lists/vintagecars</loc>
         <lastmod>2026-01-22</lastmod>
-        <zk:content>A webring connecting enthusiasts of vintage car aesthetics and design.</zk:content>
+        <zk:content>Connecting vintage car aesthetics and design enthusiasts.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>webrings</zk:subcategory>
     </url>
@@ -602,6 +602,16 @@
         <loc>https://zacharykai.net/notes/icmar25</loc>
         <lastmod>2025-12-17</lastmod>
         <zk:content>To exist is to explain.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>indieweb_carnivals</zk:subcategory>
+    </url>
+
+    <url>
+        <!-- IndieWeb Carnival: Feb 2026 -->
+        <zk:title>IndieWeb Carnival: Feb 2026</zk:title>
+        <loc>https://zacharykai.net/notes/icfeb26</loc>
+        <lastmod>2026-02-01</lastmod>
+        <zk:content>The theme is Intersecting Interests.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
     </url>
