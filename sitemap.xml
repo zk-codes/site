@@ -485,6 +485,16 @@
     </url>
 
     <url>
+        <!-- Title Traders -->
+        <zk:title>Title Traders</zk:title>
+        <loc>https://zacharykai.net/lists/titletrade</loc>
+        <lastmod>2026-02-01</lastmod>
+        <zk:content>a directory of folks willing to trade blog post titles as a collaborative effort.</zk:content>
+        <zk:category>lists</zk:category>
+        <zk:subcategory>site_directories</zk:subcategory>
+    </url>
+
+    <url>
         <!-- Vintage Car Webring -->
         <zk:title>Vintage Car Webring</zk:title>
         <loc>https://zacharykai.net/lists/vintagecars</loc>
