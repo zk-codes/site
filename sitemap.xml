@@ -5,7 +5,7 @@
         <zk:title>Homepage</zk:title>
         <loc>https://zacharykai.net/</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My site. Explore my space fantasy writing, IndieWeb projects, and more.</zk:content>
+        <zk:content>my site. Explore my space fantasy writing, IndieWeb projects, and more.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -17,7 +17,7 @@
         <zk:title>About</zk:title>
         <loc>https://zacharykai.net/about</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My mini autobiography, press, intentions, and wishes.</zk:content>
+        <zk:content>my mini autobiography, press, intentions, and wishes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -27,7 +27,7 @@
         <zk:title>Accessibility</zk:title>
         <loc>https://zacharykai.net/accessibility</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What features this site has/are planned.</zk:content>
+        <zk:content>what features this site has/are planned.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -37,7 +37,7 @@
         <zk:title>Art</zk:title>
         <loc>https://zacharykai.net/art</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My portfolio of collages, digital art, drawings and gods eyes.</zk:content>
+        <zk:content>my portfolio of collages, digital art, drawings and gods eyes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -47,7 +47,7 @@
         <zk:title>Avatars</zk:title>
         <loc>https://zacharykai.net/avatars</loc>
         <lastmod>2025-12-10</lastmod>
-        <zk:content>My representative avatars, created for fun's sake.</zk:content>
+        <zk:content>my representative avatars, created for fun's sake.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -57,7 +57,7 @@
         <zk:title>Beverage</zk:title>
         <loc>https://zacharykai.net/beverage</loc>
         <lastmod>2025-12-10</lastmod>
-        <zk:content>Would you like to meet for one? I would!</zk:content>
+        <zk:content>would you like to meet for one? I would!</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -67,7 +67,7 @@
         <zk:title>Bookmarklets</zk:title>
         <loc>https://zacharykai.net/bookmarklets</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Useful snippets of Javascript.</zk:content>
+        <zk:content>useful snippets of Javascript.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>useful_things</zk:subcategory>
     </url>
@@ -77,7 +77,7 @@
         <zk:title>Bookmarks</zk:title>
         <loc>https://zacharykai.net/bookmarks</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Links I've found fascinating.</zk:content>
+        <zk:content>links I've found fascinating.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -87,7 +87,7 @@
         <zk:title>Buttons</zk:title>
         <loc>https://zacharykai.net/buttons</loc>
         <lastmod>2025-12-10</lastmod>
-        <zk:content>Little buttons directing you to delightful web corners.</zk:content>
+        <zk:content>little buttons directing you to delightful web corners.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -97,7 +97,7 @@
         <zk:title>Changelog</zk:title>
         <loc>https://zacharykai.net/changelog</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>All site changes, reverse-chronologically.</zk:content>
+        <zk:content>all site changes, reverse-chronologically.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -107,7 +107,7 @@
         <zk:title>Collages</zk:title>
         <loc>https://zacharykai.net/collages</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>The ones I've made from paper and glue.</zk:content>
+        <zk:content>the ones I've made from paper and glue.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -117,7 +117,7 @@
         <zk:title>Colophon</zk:title>
         <loc>https://zacharykai.net/colophon</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>More on this site, accessibility, internet principles, numbers, and esoterica.</zk:content>
+        <zk:content>more on this site, accessibility, internet principles, numbers, and esoterica.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -127,7 +127,7 @@
         <zk:title>Defaults</zk:title>
         <loc>https://zacharykai.net/defaults</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>The usual tools I use for various purposes.</zk:content>
+        <zk:content>the usual tools I use for various purposes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -137,7 +137,7 @@
         <zk:title>Digital Art</zk:title>
         <loc>https://zacharykai.net/digital-art</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Pieces I've drawn on the tablet/computer.</zk:content>
+        <zk:content>pieces I've drawn on the tablet/computer.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -147,7 +147,7 @@
         <zk:title>Gods' Eyes</zk:title>
         <loc>https://zacharykai.net/gods-eyes</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My portfolio of the ones I've made.</zk:content>
+        <zk:content>my portfolio of the ones I've made.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -157,7 +157,7 @@
         <zk:title>Guestbook</zk:title>
         <loc>https://zacharykai.net/guestbook</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Go on, sign it!</zk:content>
+        <zk:content>go on, sign it!</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -167,7 +167,7 @@
         <zk:title>Hello</zk:title>
         <loc>https://zacharykai.net/hello</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Details on contacting me: email, meet, message, or trade with me (please do!)</zk:content>
+        <zk:content>details on contacting me: email, meet, message, or trade with me (please do!)</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -177,7 +177,7 @@
         <zk:title>Ideas</zk:title>
         <loc>https://zacharykai.net/ideas</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Things I'd like to make and concepts that've caught my attention.</zk:content>
+        <zk:content>things I'd like to make and concepts that've caught my attention.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -187,7 +187,7 @@
         <zk:title>Interests</zk:title>
         <loc>https://zacharykai.net/interests</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What fascinates me.</zk:content>
+        <zk:content>what fascinates me.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -197,7 +197,7 @@
         <zk:title>Jots</zk:title>
         <loc>https://zacharykai.net/jots</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My microblog, with occasional today-I-learned updates.</zk:content>
+        <zk:content>my microblog, with occasional today-I-learned updates.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -207,7 +207,7 @@
         <zk:title>Mentions</zk:title>
         <loc>https://zacharykai.net/mentions</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Recording my webmentions: sent and recieved.</zk:content>
+        <zk:content>recording my webmentions: sent and recieved.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -217,7 +217,7 @@
         <zk:title>Music</zk:title>
         <loc>https://zacharykai.net/music</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My favorite songs and three years of Spotify listening stats.</zk:content>
+        <zk:content>my favorite songs and three years of Spotify listening stats.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -227,7 +227,7 @@
         <zk:title>Now</zk:title>
         <loc>https://zacharykai.net/now</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What I'm currently reading and working on.</zk:content>
+        <zk:content>what I'm currently reading and working on.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -237,7 +237,7 @@
         <zk:title>Photos</zk:title>
         <loc>https://zacharykai.net/photos</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My gallery of shots.</zk:content>
+        <zk:content>my gallery of shots.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -247,7 +247,7 @@
         <zk:title>Principles</zk:title>
         <loc>https://zacharykai.net/principles</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>The things that guide my internet existence.</zk:content>
+        <zk:content>the things that guide my internet existence.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -257,7 +257,7 @@
         <zk:title>Quotes</zk:title>
         <loc>https://zacharykai.net/quotes</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Interesting sayings I've gathered.</zk:content>
+        <zk:content>interesting sayings I've gathered.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -267,7 +267,7 @@
         <zk:title>Random</zk:title>
         <loc>https://zacharykai.net/random</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Click this link to go to a random page on my site!</zk:content>
+        <zk:content>click this link to go to a random page on my site!</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -277,7 +277,7 @@
         <zk:title>Recipes</zk:title>
         <loc>https://zacharykai.net/recipes</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Tested, simplified favorites.</zk:content>
+        <zk:content>tested, simplified favorites.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -287,7 +287,7 @@
         <zk:title>Save</zk:title>
         <loc>https://zacharykai.net/save</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Hopefully useful discount and referral codes.</zk:content>
+        <zk:content>hopefully useful discount and referral codes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>useful_things</zk:subcategory>
     </url>
@@ -297,7 +297,7 @@
         <zk:title>Search</zk:title>
         <loc>https://zacharykai.net/search</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Use it to find what you're looking for.</zk:content>
+        <zk:content>use it to find what you're looking for.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -307,7 +307,7 @@
         <zk:title>Sitemap</zk:title>
         <loc>https://zacharykai.net/sitemap</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>A curated index of everything on my site.</zk:content>
+        <zk:content>a curated index of everything on my site.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -317,7 +317,7 @@
         <zk:title>Spotify</zk:title>
         <loc>https://zacharykai.net/spotify</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Interesting listening stats from years past.</zk:content>
+        <zk:content>interesting listening stats from years past.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -327,7 +327,7 @@
         <zk:title>Statistics</zk:title>
         <loc>https://zacharykai.net/statistics</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Numbers and esoterica related to this site.</zk:content>
+        <zk:content>numbers and esoterica related to this site.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -337,7 +337,7 @@
         <zk:title>Subscribe</zk:title>
         <loc>https://zacharykai.net/subscribe</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My RSS Feed and how to subscribe.</zk:content>
+        <zk:content>my RSS Feed and how to subscribe.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -347,7 +347,7 @@
         <zk:title>Top 4</zk:title>
         <loc>https://zacharykai.net/top4</loc>
         <lastmod>2026-01-06</lastmod>
-        <zk:content>Lists of my top three plus one.</zk:content>
+        <zk:content>lists of my top three plus one.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -357,7 +357,7 @@
         <zk:title>Trades</zk:title>
         <loc>https://zacharykai.net/trades</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What I'd love to trade with you and how to organize one.</zk:content>
+        <zk:content>what I'd love to trade with you and how to organize one.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -367,7 +367,7 @@
         <zk:title>UnOffice Hours</zk:title>
         <loc>https://zacharykai.net/unoffice-hours</loc>
         <lastmod>2025-04-14</lastmod>
-        <zk:content>I'd love to meet you for a video or audio call!</zk:content>
+        <zk:content>i'd love to meet you for a video or audio call!</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -377,7 +377,7 @@
         <zk:title>Uses</zk:title>
         <loc>https://zacharykai.net/uses</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>The tech tooks I use + referral links for services I find useful (and you might too!)</zk:content>
+        <zk:content>the tech tooks I use + referral links for services I find useful (and you might too!)</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -387,7 +387,7 @@
         <zk:title>Wants</zk:title>
         <loc>https://zacharykai.net/wants</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Things and concepts I wish to embody.</zk:content>
+        <zk:content>things and concepts I wish to embody.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
     </url>
@@ -397,7 +397,7 @@
         <zk:title>Webmentions</zk:title>
         <loc>https://zacharykai.net/webmentions</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Places the site's been mentioned on the internet.</zk:content>
+        <zk:content>places the site's been mentioned on the internet.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -407,7 +407,7 @@
         <zk:title>Webrings</zk:title>
         <loc>https://zacharykai.net/webrings</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>All the ones this site belongs to.</zk:content>
+        <zk:content>all the ones this site belongs to.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
@@ -417,7 +417,7 @@
         <zk:title>Words</zk:title>
         <loc>https://zacharykai.net/words</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Interesting pieces of the English language.</zk:content>
+        <zk:content>interesting pieces of the English language.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
     </url>
@@ -429,7 +429,7 @@
         <zk:title>Crosswinds + Currents</zk:title>
         <loc>https://zacharykai.net/lists/crosscurrent</loc>
         <lastmod>2026-01-16</lastmod>
-        <zk:content>A directory of sites by people living in or from Asia/the Pacific.</zk:content>
+        <zk:content>a directory of sites by people living in or from Asia/the Pacific.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
     </url>
@@ -439,7 +439,7 @@
         <zk:title>Fanfic Writers Collective</zk:title>
         <loc>https://zacharykai.net/lists/fanfiction</loc>
         <lastmod>2025-04-14</lastmod>
-        <zk:content>A directory of folks with sites writing fanfiction.</zk:content>
+        <zk:content>a directory of folks with sites writing fanfiction.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
     </url>
@@ -449,7 +449,7 @@
         <zk:title>Oceania Web Atlas</zk:title>
         <loc>https://zacharykai.net/lists/oceania</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>A directory of sites by people living in or from Oceania.</zk:content>
+        <zk:content>a directory of sites by people living in or from Oceania.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
     </url>
@@ -459,7 +459,7 @@
         <zk:title>Queer Web Directory</zk:title>
         <loc>https://zacharykai.net/lists/queer</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>A directory of sites by queer folks around the world.</zk:content>
+        <zk:content>a directory of sites by queer folks around the world.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
     </url>
@@ -469,7 +469,7 @@
         <zk:title>Star Wars Webring</zk:title>
         <loc>https://zacharykai.net/lists/starwars</loc>
         <lastmod>2025-07-06</lastmod>
-        <zk:content>For folks who enjoy Star Wars.</zk:content>
+        <zk:content>for folks who enjoy Star Wars.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>webrings</zk:subcategory>
     </url>
@@ -479,7 +479,7 @@
         <zk:title>Static HTML Site Directory</zk:title>
         <loc>https://zacharykai.net/lists/html</loc>
         <lastmod>2025-07-10</lastmod>
-        <zk:content>A directory of sites running on Static HTML files.</zk:content>
+        <zk:content>a directory of sites running on Static HTML files.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
     </url>
@@ -489,7 +489,7 @@
         <zk:title>Vintage Car Webring</zk:title>
         <loc>https://zacharykai.net/lists/vintagecars</loc>
         <lastmod>2026-01-22</lastmod>
-        <zk:content>Connecting vintage car aesthetics and design enthusiasts.</zk:content>
+        <zk:content>connecting vintage car aesthetics and design enthusiasts.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>webrings</zk:subcategory>
     </url>
@@ -501,7 +501,7 @@
         <zk:title>35 Things That Made My 2024</zk:title>
         <loc>https://zacharykai.net/notes/24list</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What I appreciated in the year.</zk:content>
+        <zk:content>what I appreciated in the year.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
@@ -511,7 +511,7 @@
         <zk:title>40 Questions To Ask Every Year (2025)</zk:title>
         <loc>https://zacharykai.net/notes/40qs25</loc>
         <lastmod>2025-12-31</lastmod>
-        <zk:content>A guided list of reflections for the year.</zk:content>
+        <zk:content>a guided list of reflections for the year.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
     </url>
@@ -521,7 +521,7 @@
         <zk:title>100 Things That Made My 2025</zk:title>
         <loc>https://zacharykai.net/notes/25list</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What I’m grateful for in the year.</zk:content>
+        <zk:content>what I'm grateful for in the year.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
@@ -531,7 +531,7 @@
         <zk:title>Authenticity On The Web</zk:title>
         <loc>https://zacharykai.net/notes/authenticity</loc>
         <lastmod>2025-04-19</lastmod>
-        <zk:content>Why does it mean so many conflicting things on the internet?</zk:content>
+        <zk:content>why does it mean so many conflicting things on the internet?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -541,7 +541,7 @@
         <zk:title>A Sense Of Place</zk:title>
         <loc>https://zacharykai.net/notes/place</loc>
         <lastmod>2025-07-05</lastmod>
-        <zk:content>What a strange concept when your existence always oscillates.</zk:content>
+        <zk:content>what a strange concept when your existence always oscillates.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -551,7 +551,7 @@
         <zk:title>Blog Questions Challenge 2025</zk:title>
         <loc>https://zacharykai.net/notes/blogqna25</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My answers to the questions posed.</zk:content>
+        <zk:content>my answers to the questions posed.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
@@ -571,7 +571,7 @@
         <zk:title>Goals For 2025</zk:title>
         <loc>https://zacharykai.net/notes/25goals</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Things I wish to achieve.</zk:content>
+        <zk:content>things I wish to achieve.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>goal_setting</zk:subcategory>
     </url>
@@ -581,7 +581,7 @@
         <zk:title>Goals For 2026</zk:title>
         <loc>https://zacharykai.net/notes/26goals</loc>
         <lastmod>2025-12-31</lastmod>
-        <zk:content>What I want to do.</zk:content>
+        <zk:content>what I want to do.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>goal_setting</zk:subcategory>
     </url>
@@ -591,7 +591,7 @@
         <zk:title>How Travel Is An Engine For Writing</zk:title>
         <loc>https://zacharykai.net/notes/writingengine</loc>
         <lastmod>2025-07-05</lastmod>
-        <zk:content>I thought about how it makes me a better writer.</zk:content>
+        <zk:content>i thought about how it makes me a better writer.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -611,7 +611,7 @@
         <zk:title>The Unexpected Ambassador</zk:title>
         <loc>https://zacharykai.net/notes/icmar25</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>To exist is to explain.</zk:content>
+        <zk:content>to exist is to explain.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
     </url>
@@ -621,7 +621,7 @@
         <zk:title>IndieWeb Carnival: Feb 2026</zk:title>
         <loc>https://zacharykai.net/notes/icfeb26</loc>
         <lastmod>2026-02-01</lastmod>
-        <zk:content>The theme is Intersecting Interests.</zk:content>
+        <zk:content>the theme is Intersecting Interests.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
     </url>
@@ -631,7 +631,7 @@
         <zk:title>IndieWeb Fiction Carnival: Feb 2026</zk:title>
         <loc>https://zacharykai.net/notes/ifcfeb26</loc>
         <lastmod>2026-02-01</lastmod>
-        <zk:content>The prompt is: we've got to dream past it.</zk:content>
+        <zk:content>the prompt is: we've got to dream past it.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
     </url>
@@ -641,7 +641,7 @@
         <zk:title>Indieweb Book Club: Oct 2025</zk:title>
         <loc>https://zacharykai.net/notes/iwboct25</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>The Creative Act by Rick Rubin</zk:content>
+        <zk:content>the Creative Act by Rick Rubin</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
     </url>
@@ -651,7 +651,7 @@
         <zk:title>Indieweb Movie Club: Apr 2025</zk:title>
         <loc>https://zacharykai.net/notes/iwmapr25</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>The Castle (1997)</zk:content>
+        <zk:content>the Castle (1997)</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
     </url>
@@ -661,7 +661,7 @@
         <zk:title>Indieweb Movie Club: Sep 2025</zk:title>
         <loc>https://zacharykai.net/notes/iwmsep25</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>The Wild Robot (2024)</zk:content>
+        <zk:content>the Wild Robot (2024)</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
     </url>
@@ -671,7 +671,7 @@
         <zk:title>Liminal Festival (2024)</zk:title>
         <loc>https://zacharykai.net/notes/lf24</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What I took from the conversations.</zk:content>
+        <zk:content>what I took from the conversations.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
@@ -681,7 +681,7 @@
         <zk:title>Mildura Writers Festival (2024)</zk:title>
         <loc>https://zacharykai.net/notes/mwf24</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What I learned from attending.</zk:content>
+        <zk:content>what I learned from attending.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
@@ -691,7 +691,7 @@
         <zk:title>Minds Within Mine</zk:title>
         <loc>https://zacharykai.net/notes/mwm</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>What my characters might say about me.</zk:content>
+        <zk:content>what my characters might say about me.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
@@ -701,7 +701,7 @@
         <zk:title>Music Questions Challenge</zk:title>
         <loc>https://zacharykai.net/notes/musicqna</loc>
         <lastmod>2025-04-19</lastmod>
-        <zk:content>A little insight into my musical tastes.</zk:content>
+        <zk:content>a little insight into my musical tastes.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
     </url>
@@ -711,7 +711,7 @@
         <zk:title>My 2025 Goals So Far</zk:title>
         <loc>https://zacharykai.net/notes/25qreview</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Let's do a six-month review and see how I went!</zk:content>
+        <zk:content>let's do a six-month review and see how I went!</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -721,7 +721,7 @@
         <zk:title>No Going Back</zk:title>
         <loc>https://zacharykai.net/notes/noreturn</loc>
         <lastmod>2025-04-19</lastmod>
-        <zk:content>If you search for me on social media, you won’t find me.</zk:content>
+        <zk:content>if you search for me on social media, you won't find me.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -731,7 +731,7 @@
         <zk:title>Punchy Prose</zk:title>
         <loc>https://zacharykai.net/notes/pp</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Words I watch for in my writing, to replace/remove for stronger prose.</zk:content>
+        <zk:content>words I watch for in my writing, to replace/remove for stronger prose.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
     </url>
@@ -741,7 +741,7 @@
         <zk:title>Proust's Questionnaire</zk:title>
         <loc>https://zacharykai.net/notes/proust</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>My answers to these time-honored questions.</zk:content>
+        <zk:content>my answers to these time-honored questions.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
     </url>
@@ -751,7 +751,7 @@
         <zk:title>Shot Silk And Sapphire Spiders</zk:title>
         <loc>https://zacharykai.net/notes/silknspiders</loc>
         <lastmod>2025-06-24</lastmod>
-        <zk:content>If there’s one thing I need, it’s finding joy in nuance.</zk:content>
+        <zk:content>if there's one thing I need, it's finding joy in nuance.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -761,7 +761,7 @@
         <zk:title>Site Ideas</zk:title>
         <loc>https://zacharykai.net/notes/site-ideas</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Suggestions for what to put on your site.</zk:content>
+        <zk:content>suggestions for what to put on your site.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
     </url>
@@ -771,7 +771,7 @@
         <zk:title>Syzygy</zk:title>
         <loc>https://zacharykai.net/notes/syzygy</loc>
         <lastmod>2025-07-05</lastmod>
-        <zk:content>When encountering this, I didn’t know its pronunciation, let alone its meaning!</zk:content>
+        <zk:content>when encountering this, I didn't know its pronunciation, let alone its meaning!</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -781,7 +781,7 @@
         <zk:title>Ten Pointless Things About Me</zk:title>
         <loc>https://zacharykai.net/notes/pointless</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>A compilation of useless yet fun facts.</zk:content>
+        <zk:content>a compilation of useless yet fun facts.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
     </url>
@@ -791,7 +791,7 @@
         <zk:title>The Colbert Questionert</zk:title>
         <loc>https://zacharykai.net/notes/colbert</loc>
         <lastmod>2025-04-19</lastmod>
-        <zk:content>My answers to these fifteen questions.</zk:content>
+        <zk:content>my answers to these fifteen questions.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
     </url>
@@ -801,7 +801,7 @@
         <zk:title>The Fictional Worlds I'd Live In</zk:title>
         <loc>https://zacharykai.net/notes/otherworlds</loc>
         <lastmod>2025-06-24</lastmod>
-        <zk:content>If I had a one-way ticket, where would I go?</zk:content>
+        <zk:content>if I had a one-way ticket, where would I go?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -811,7 +811,7 @@
         <zk:title>The Notification I Look Forward To The Most</zk:title>
         <loc>https://zacharykai.net/notes/notifications</loc>
         <lastmod>2025-06-24</lastmod>
-        <zk:content>How do I do this phrase justice?</zk:content>
+        <zk:content>how do I do this phrase justice?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
     </url>
@@ -821,7 +821,7 @@
         <zk:title>Things To Do While Waiting</zk:title>
         <loc>https://zacharykai.net/notes/waiting</loc>
         <lastmod>2025-04-19</lastmod>
-        <zk:content>Liminal time isn't a curse. It's an opportunity.</zk:content>
+        <zk:content>liminal time isn't a curse. It's an opportunity.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
     </url>
@@ -831,7 +831,7 @@
         <zk:title>Things You'd Perhaps Enjoy</zk:title>
         <loc>https://zacharykai.net/notes/rdec24</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Things I wish to share with you, hoping you'll enjoy them.</zk:content>
+        <zk:content>things I wish to share with you, hoping you'll enjoy them.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
     </url>
@@ -841,7 +841,7 @@
         <zk:title>What Is This Feeling, If Not Love?</zk:title>
         <loc>https://zacharykai.net/notes/tooeasily</loc>
         <lastmod>2025-04-19</lastmod>
-        <zk:content>I do this all the time. And not in the conventional sense.</zk:content>
+        <zk:content>i do this all the time. And not in the conventional sense.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
@@ -851,7 +851,7 @@
         <zk:title>Writing Sparks</zk:title>
         <loc>https://zacharykai.net/notes/sparks</loc>
         <lastmod>2025-12-17</lastmod>
-        <zk:content>Prompts for braving the blank page.</zk:content>
+        <zk:content>prompts for braving the blank page.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
     </url>
