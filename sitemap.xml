@@ -103,6 +103,16 @@
     </url>
 
     <url>
+        <!-- Cite -->
+        <zk:title>Cite</zk:title>
+        <loc>https://zacharykai.net/cite</loc>
+        <lastmod>2026-02-01</lastmod>
+        <zk:content>how to cite pages on my site, and how I cite personal sites on my blog.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
+    </url>
+
+    <url>
         <!-- Collages -->
         <zk:title>Collages</zk:title>
         <loc>https://zacharykai.net/collages</loc>
