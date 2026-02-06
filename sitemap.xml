@@ -577,6 +577,16 @@
     </url>
 
     <url>
+        <!-- Facts About Me -->
+        <zk:title>Facts About Me</zk:title>
+        <loc>https://zacharykai.net/notes/facts</loc>
+        <lastmod>2026-02-06</lastmod>
+        <zk:content>twenty facts about me, inspired by Peige and Becky's posts.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>challenges</zk:subcategory>
+    </url>
+
+    <url>
         <!-- Fanfiction Conversation With Sara Jaksa -->
         <zk:title>Fanfiction Conversation With Sara Jaksa</zk:title>
         <loc>https://zacharykai.net/notes/fanfic</loc>
