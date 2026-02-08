@@ -171,6 +171,16 @@
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
     </url>
+
+    <url>
+        <!-- Favorites -->
+        <zk:title>Favorites</zk:title>
+        <loc>https://zacharykai.net/favorites</loc>
+        <lastmod>2026-02-08</lastmod>
+        <zk:content>lists of my loves in various categories.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
+    </url>
     
     <url>
         <!-- Hello -->
