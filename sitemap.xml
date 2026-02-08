@@ -765,13 +765,23 @@
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
     </url>
-    
+
     <url>
         <!-- Proust's Questionnaire -->
         <zk:title>Proust's Questionnaire</zk:title>
         <loc>https://zacharykai.net/notes/proust</loc>
         <lastmod>2025-12-17</lastmod>
         <zk:content>my answers to these time-honored questions.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>challenges</zk:subcategory>
+    </url>
+
+    <url>
+        <!-- Sandwich Questionnaire -->
+        <zk:title>Sandwich Questionnaire</zk:title>
+        <loc>https://zacharykai.net/notes/sandwiches</loc>
+        <lastmod>2026-02-06</lastmod>
+        <zk:content>a questionnaire exploring preferences and the joy of stuff between bread.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
     </url>
