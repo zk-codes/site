@@ -555,7 +555,17 @@
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
     </url>
-    
+
+    <url>
+        <!-- Painting Impressions With James -->
+        <zk:title>Painting Impressions With James</zk:title>
+        <loc>https://zacharykai.net/notes/painting</loc>
+        <lastmod>2025-04-12</lastmod>
+        <zk:content>where we chose and shared our thoughts on artworks.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>collaborative</zk:subcategory>
+    </url>
+
     <url>
         <!-- Authenticity On The Web -->
         <zk:title>Authenticity On The Web</zk:title>
