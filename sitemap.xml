@@ -587,6 +587,16 @@
     </url>
 
     <url>
+        <!-- Emerging Writers Festival 2025 -->
+        <zk:title>Emerging Writers Festival (2025)</zk:title>
+        <loc>https://zacharykai.net/notes/ewf25</loc>
+        <lastmod>2026-02-13</lastmod>
+        <zk:content>notes from attending in September 2025.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
+    </url>
+
+    <url>
         <!-- A Sense Of Place -->
         <zk:title>A Sense Of Place</zk:title>
         <loc>https://zacharykai.net/notes/place</loc>
