@@ -946,4 +946,14 @@
         <zk:subcategory>resources</zk:subcategory>
     </url>
 
+    <url>
+        <!-- Weaving A Closer-Knit Web -->
+        <zk:title>Weaving A Closer-Knit Web</zk:title>
+        <loc>https://zacharykai.net/notes/weaving</loc>
+        <lastmod>2026-02-13</lastmod>
+        <zk:content>on the collaborative nature of the internet.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>trades</zk:subcategory>
+    </url>
+
 </urlset>
