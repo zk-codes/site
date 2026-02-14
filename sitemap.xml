@@ -796,6 +796,16 @@
         <zk:subcategory>trades</zk:subcategory>
     </url>
 
+        <url>
+        <!-- My Fondest Childhood Memory -->
+        <zk:title>My Fondest Childhood Memory</zk:title>
+        <loc>https://zacharykai.net/notes/childhood</loc>
+        <lastmod>2026-02-14</lastmod>
+        <zk:content>on teaching myself history through Horrible Histories.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>trades</zk:subcategory>
+    </url>
+
     <url>
         <!-- No Going Back -->
         <zk:title>No Going Back</zk:title>
