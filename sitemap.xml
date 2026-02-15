@@ -473,7 +473,17 @@
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
     </url>
-    
+
+    <url>
+        <!-- Proust Questionnaire -->
+        <zk:title>Proust Questionnaire</zk:title>
+        <loc>https://zacharykai.net/lists/proust</loc>
+        <lastmod>2026-02-15</lastmod>
+        <zk:content>a directory of sites featuring answers to the Proust Questionnaire.</zk:content>
+        <zk:category>lists</zk:category>
+        <zk:subcategory>site_directories</zk:subcategory>
+    </url>
+
     <url>
         <!-- Queer Web Directory -->
         <zk:title>Queer Web Directory</zk:title>
@@ -542,6 +552,16 @@
         <loc>https://zacharykai.net/notes/40qs25</loc>
         <lastmod>2025-12-31</lastmod>
         <zk:content>a guided list of reflections for the year.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>challenges</zk:subcategory>
+    </url>
+
+    <url>
+        <!-- 50 Tiny Cogs -->
+        <zk:title>50 Tiny Cogs</zk:title>
+        <loc>https://zacharykai.net/notes/50cogs</loc>
+        <lastmod>2026-02-15</lastmod>
+        <zk:content>things that give my life meaning.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
     </url>
@@ -841,7 +861,7 @@
         <zk:title>Sandwich Questionnaire</zk:title>
         <loc>https://zacharykai.net/notes/sandwiches</loc>
         <lastmod>2026-02-06</lastmod>
-        <zk:content>a questionnaire exploring preferences and the joy of stuff between bread.</zk:content>
+        <zk:content>exploring preferences and the joy of stuff between bread.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
     </url>
