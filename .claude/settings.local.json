@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(do grep -q \"Copy + Share\" \"$file\")",
+      "Bash(echo:*)",
+      "Bash(python3:*)",
+      "Bash(powershell:*)"
+    ]
+  }
+}
