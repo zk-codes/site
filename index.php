@@ -146,10 +146,19 @@
                             <li>
                                 <!-- Catppuccin Webring -->
                                 <strong>
-                                    <a href="https://ctp-webr.ing/">Catppuccin Webring</a> →
+                                    <a href="https://ctp-webr.ing/" rel="noopener">Catppuccin Webring</a> →
                                 </strong>
-                                <a href="https://ctp-webr.ing/zacharykai/previous">Previous</a> |
-                                <a href="https://ctp-webr.ing/zacharykai/next">Next</a>
+                                <a href="https://ctp-webr.ing/zacharykai/previous" rel="noopener">Previous</a> |
+                                <a href="https://ctp-webr.ing/zacharykai/next" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Conehead Webring -->
+                                <strong>
+                                    <a href="https://coneheads.netlify.app/" rel="noopener">Conehead Webring</a> →
+                                </strong>
+                                <a href="https://coneheads.n3bula.lol/redirect.html?to=prev&name=zacharykai" rel="noopener">Previous</a> |
+                                <a href="https://coneheads.n3bula.lol/redirect.html?to=random&name=zacharykai" rel="noopener">Random</a> | 
+                                <a href="https://coneheads.n3bula.lol/redirect.html?to=next&name=zacharykai" rel="noopener">Next</a>
                             </li>
                             <li>
                                 <!-- CSS Joy Webring -->
@@ -170,12 +179,39 @@
                                 <a href="https://design-system.club/next" rel="noopener">Next</a>
                             </li>
                             <li>
+                                <!-- Ebil Club Webring -->
+                                <strong>
+                                    <a href="https://ebil.club/webring/" rel="noopener">Ebil Club Webring</a> →
+                                </strong>
+                                <a href="https://ebil.club/webring/zacharykai/prev/" rel="noopener">Previous</a> |
+                                <a href="https://ebil.club/webring/random/" rel="noopener">Random</a> |
+                                <a href="https://ebil.club/webring/zacharykai/next/" rel="noopener">Next</a> 
+                            </li>
+                            <li>
                                 <!-- Ghostring -->
                                 <strong>
                                     <a href="https://ghostring.neocities.org/" rel="noopener">Ghostring</a> →
                                 </strong>
                                 <a href="https://ghostring.neocities.org/zacharykai/previous" rel="noopener">Previous</a> |
                                 <a href="https://ghostring.neocities.org/zacharykai/next" rel="noopener">Next</a> 
+                            </li>
+                            <li id="femslashfans">
+                                <!-- Femslash Webring -->
+                                <strong>
+                                    <a href="https://alien.hospital/femslashring" rel="noopener">Femslash Webring</a> <img src="https://file.garden/Zw17vw8ctXTQw7PV/femslashfansonline.png" width="30"> →
+                                </strong>
+                                <a href="https://alien.hospital/femslashring?action=previous" rel="noopener">Previous</a> |
+                                <a href="https://alien.hospital/femslashring?action=random" rel="noopener">Random</a> |
+                                <a href="https://alien.hospital/femslashring?action=next" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Hacker Webring -->
+                                <strong>
+                                    <a href="https://ring.acab.dev/" rel="noopener">Hacker Webring</a> →
+                                </strong>
+                                <a href="https://ring.acab.dev/prev/ef5cb8df0f" rel="noopener">Previous</a> |
+                                <a href="https://ring.acab.dev/rand/ef5cb8df0f" rel="noopener">Random</a> |
+                                <a href="https://ring.acab.dev/next/ef5cb8df0f" rel="noopener">Next</a> 
                             </li>
                             <li>
                                 <!-- IndieWeb Webring -->
