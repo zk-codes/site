@@ -179,15 +179,6 @@
                                 <a href="https://design-system.club/next" rel="noopener">Next</a>
                             </li>
                             <li>
-                                <!-- Ebil Club Webring -->
-                                <strong>
-                                    <a href="https://ebil.club/webring/" rel="noopener">Ebil Club Webring</a> →
-                                </strong>
-                                <a href="https://ebil.club/webring/zacharykai/prev/" rel="noopener">Previous</a> |
-                                <a href="https://ebil.club/webring/random/" rel="noopener">Random</a> |
-                                <a href="https://ebil.club/webring/zacharykai/next/" rel="noopener">Next</a> 
-                            </li>
-                            <li>
                                 <!-- Ghostring -->
                                 <strong>
                                     <a href="https://ghostring.neocities.org/" rel="noopener">Ghostring</a> →
@@ -245,6 +236,14 @@
                                 </strong>
                                 <a href="https://ring.muhokama.fun/u/zacharykai/pred">Previous</a> |
                                 <a href="https://ring.muhokama.fun/u/zacharykai/succ">Next</a>
+                            </li>
+                            <li>
+                                <!-- Outside Webring -->
+                                <strong>
+                                    <a href="https://0uts1de.hisvirusness.com" rel="noopener">0UTS1DE Webring</a> →
+                                </strong>
+                                <a href="https://0uts1de.hisvirusness.com/?prev=zacharykai.net" rel="noopener">Previous</a> |
+                                <a href="https://0uts1de.hisvirusness.com/?next=zacharykai.net" rel="noopener">Next</a> 
                             </li>
                             <li>
                                 <!-- Retronaut Webring -->
