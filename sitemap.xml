@@ -463,6 +463,16 @@
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
     </url>
+
+    <url>
+        <!-- Guestbook Sites Directory -->
+        <zk:title>Guestbook Sites Directory</zk:title>
+        <loc>https://zacharykai.net/lists/guestbooks</loc>
+        <lastmod>2026-02-21</lastmod>
+        <zk:content>a directory of personal sites that host guestbooks.</zk:content>
+        <zk:category>lists</zk:category>
+        <zk:subcategory>site_directories</zk:subcategory>
+    </url>
     
     <url>
         <!-- Oceania Web Atlas -->
