@@ -1,4 +1,47 @@
-<!DOCTYPE html>
+<?php
+
+// Parse sitemap.xml to build tag index
+$sitemap_path = __DIR__ . '/sitemap.xml';
+$xml = simplexml_load_file($sitemap_path);
+$xml->registerXPathNamespace('zk', 'https://zacharykai.net/sitemap-ext');
+
+$all_tags   = [];
+$tag_pages  = [];
+
+foreach ($xml->url as $url) {
+    $zk       = $url->children('https://zacharykai.net/sitemap-ext');
+    $title    = (string) $zk->title;
+    $tags_raw = (string) $zk->tags;
+    $loc      = (string) $url->loc;
+
+    if (!$tags_raw) continue;
+
+    $tags = array_map('trim', explode(',', $tags_raw));
+    $path = rtrim(parse_url($loc, PHP_URL_PATH), '/') ?: '/';
+
+    foreach ($tags as $tag) {
+        if (!$tag) continue;
+        if (!isset($tag_pages[$tag])) $tag_pages[$tag] = [];
+        $tag_pages[$tag][] = ['title' => $title, 'url' => $path];
+        $all_tags[$tag] = ($all_tags[$tag] ?? 0) + 1;
+    }
+}
+
+ksort($all_tags);
+foreach ($tag_pages as $tag => &$pages) {
+    usort($pages, fn($a, $b) => strcmp($a['title'], $b['title']));
+}
+unset($pages);
+
+// Determine current view
+$current_tag = isset($_GET['tag']) ? trim($_GET['tag']) : '';
+$valid_tag   = $current_tag && isset($tag_pages[$current_tag]);
+
+if ($current_tag && !$valid_tag) {
+    header('HTTP/1.1 404 Not Found');
+}
+
+?><!DOCTYPE html>
 <html lang="en-US">
 
     <!-- Head -->
@@ -11,12 +54,10 @@
         <link rel="stylesheet" href="/assets/style.css">
         <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
-        <link rel="canonical" href="https://zacharykai.net/notes/endlesssummer">
+        <link rel="canonical" href="https://zacharykai.net/tags<?= $valid_tag ? '?tag=' . htmlspecialchars($current_tag) : '' ?>">
         <!-- Page Info -->
-        <title>An Endless Summer Doesn't Seem Romantic Anymore | Zachary Kai</title>
-        <meta name="date" content="2026-02-13">
-        <meta name="last-modified" content="2026-02-13">
-        <meta name="description" content="On missing the mythic American summer break, finding meaning in quieter experiences, and learning that the universal doesn't mean the American.">
+        <title><?= $valid_tag ? htmlspecialchars(ucfirst($current_tag)) . ' — ' : '' ?>Tags | Zachary Kai</title>
+        <meta name="description" content="<?= $valid_tag ? 'Pages tagged &ldquo;' . htmlspecialchars($current_tag) . '&rdquo; on zacharykai.net.' : 'A browsable index of tags across zacharykai.net.' ?>">
     </head>
 
     <!-- Body -->
@@ -33,48 +74,27 @@
         </header>
 
         <!-- Main Content -->
-        <main class="h-entry e-content">
+        <main>
 
             <!-- Page Header -->
             <header>
-                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#notes">Notes</a> ↴</p>
-                <h1 class="p-name">An Endless Summer Doesn't Seem Romantic Anymore</h1>
-                <p class="essentials">
-                    <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
-                    <strong>Published</strong>: <time class="dt-published" datetime="2026-02-13">13 Feb 2026</time> |
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2026-02-13">13 Feb 2026</time>
-                </p>
+                <p class="essentials"><a href="/">Homepage</a> • <a href="/tags">Tags</a><?= $valid_tag ? ' • ' . htmlspecialchars(ucfirst($current_tag)) : '' ?> ↴</p>
+                <h1><?= $valid_tag ? htmlspecialchars(ucfirst($current_tag)) : 'Tags' ?></h1>
             </header>
 
             <!-- Page Body -->
-            <section class="e-content">
+            <section>
 
-                <section>
-                    <!-- Introduction -->
-                    <p id="top" class="p-summary"><em>Here you'll find my attempt at a post with the aforementioned title, as suggested by <a href="https://callmemanatee.neocities.org/">Manatee</a> via our post title trade! Read more about <a href="https://kami.bearblog.dev/lets-trade-blogposts/">the initiative</a>, or <a href="https://zacharykai.net/hello">contact me</a> if you'd also like to trade!</em></p>
-                </section>
+<?php if ($valid_tag): ?>
 
-                <section>
-                    <!-- The Essay -->
-                    <p>In Australia, at least, I feel one's youth for the traditionally schooled is divided neatly: childhood in kindergarten and primary school, then teenagerhood in high school. That didn't happen for me.</p>
-                    <p>I had the 'usual' small town childhood, until I was homeschooled and oscillated between living overseas and in Australia for my teenage years. I still do the latter, but the former was a while ago.</p>
-                    <p>So I never experienced that fabled summer break the way American kids did. If you've never had that, you've perhaps seem it in books, films, and television. Three months of freedom, school letting out the world opening up, staying out until the streetlights come on…the countdown to September.</p>
-                    <p>If you're unfamiliar, the Australian summer is December to February. Christmas is hot (though some of us still eat warm food) and New Years Eve is all sunshine, cicadas, and hours of daylight.</p>
-                    <p>And there's no 'twelve weeks of glorious rest.' It's just six, if you're lucky. And while I enjoyed mine (at least, what I remember from them) once I became homeschooled, the school year fell away. No real sense of what day it was, counting down until the weekend, or anticipating public holidays.</p>
-                    <p>I still had rest days, and study days, but not at the same schedule or pace as 'everyone else.'</p>
-                    <p>And when you read young adult novels as an impressionable kid, where summer break is almost an entire subgenre, it's difficult not to romanticize that season of the year.</p>
-                    <p>In Australia, there's no narrative arc to impose. The air just shimmers until it no longer doesn't.</p>
-                    <p>All that time, I thought I was missing a crucial rite of passage: the endless summer.</p>
-                    <p>Except, as I've come to realize as I've gotten older, the universal doesn't mean the American. Nor the Australian, nor whatever your experience has been. It doesn't seem so romantic anymore.</p>
-                    <p>I had something else, instead: quieter, more fragmented, and less mythic. But…it was always enough.</p>
-                </section>
+                <p id="top">All pages tagged <strong><?= htmlspecialchars($current_tag) ?></strong>. <?= count($tag_pages[$current_tag]) ?> <?= count($tag_pages[$current_tag]) === 1 ? 'entry' : 'entries' ?>.</p>
 
-                <section>
-                    <!-- The Accompanying Trade -->
-                    <p><em>Now go read Manatee's post, with the title: <a href="https://manateeswake.bearblog.dev/ten-pointless-facts/" rel="noopener">ten pointless facts about me</a></em>.</p>
-                </section>
+                <ul>
+<?php foreach ($tag_pages[$current_tag] as $page): ?>
+                    <li><a href="<?= htmlspecialchars($page['url']) ?>"><?= htmlspecialchars($page['title']) ?></a></li>
+<?php endforeach; ?>
+                </ul>
 
-                <!-- Closing -->
                 <p>•--♡--•</p>
 
 
@@ -85,15 +105,66 @@
 
                 <section>
                     <!-- Tags -->
-                    <p class="essentials"><strong>Tags</strong>: <a href="/tags?tag=personal">personal</a> · <a href="/tags?tag=reflection">reflection</a> · <a href="/tags?tag=travel">travel</a></p>
+                    <p class="essentials"><strong>Browse Tags</strong>:
+<?php
+    $tag_links = [];
+    foreach ($all_tags as $tag => $count) {
+        $tag_links[] = '<a href="/tags?tag=' . urlencode($tag) . '">' . htmlspecialchars($tag) . '</a>';
+    }
+    echo implode(' · ', $tag_links);
+?>
+                    </p>
                 </section>
 
                 <section>
                     <!-- Copy + Share -->
-                    <p><strong>Copy + Share</strong>: <a href="/notes/endlesssummer">zacharykai.net/notes/endlesssummer</a></p>
+                    <p><strong>Copy + Share</strong>: <a href="/tags<?= $valid_tag ? '?tag=' . urlencode($current_tag) : '' ?>">zacharykai.net/tags<?= $valid_tag ? '?tag=' . htmlspecialchars($current_tag) : '' ?></a></p>
                 </section>
 
             </section>
+
+<?php else: ?>
+
+            <!-- Page Body -->
+            <section>
+
+                <p id="top">Browse pages by tag. Select any tag to see what's filed under it.</p>
+
+                <ul>
+<?php foreach ($all_tags as $tag => $count): ?>
+                    <li><a href="/tags?tag=<?= urlencode($tag) ?>"><?= htmlspecialchars($tag) ?></a> <span class="essentials">(<?= $count ?>)</span></li>
+<?php endforeach; ?>
+                </ul>
+
+                <p>•--♡--•</p>
+
+
+            </section>
+
+            <section>
+                <!-- Closing Metadata -->
+
+                <section>
+                    <!-- Tags -->
+                    <p class="essentials"><strong>Browse Tags</strong>:
+<?php
+    $tag_links_browse = [];
+    foreach ($all_tags as $tag => $count) {
+        $tag_links_browse[] = '<a href="/tags?tag=' . urlencode($tag) . '">' . htmlspecialchars($tag) . '</a>';
+    }
+    echo implode(' · ', $tag_links_browse);
+?>
+                    </p>
+                </section>
+
+                <section>
+                    <!-- Copy + Share -->
+                    <p><strong>Copy + Share</strong>: <a href="/tags">zacharykai.net/tags</a></p>
+                </section>
+
+            </section>
+
+<?php endif; ?>
 
         </main>
 

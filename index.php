@@ -52,11 +52,13 @@
                 <!-- Introduction -->
                 <p id="top" class="p-summary">Hi! I'm Zachary Kai, a <a href="https://lunaseeker.com/catalog" rel="noopener">space fantasy writer</a>. Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler. An avowed generalist, and learning to be proud of it.</p>
 
+                <p>Want to have look around? See: <a href="/about">about me</a>, <a href="/tags">pages/notes by tag</a>, <a href="/now">what I'm working on</a>, <a href="/search">search the site</a>, and <a href="/sitemap">the sitemap</a> for everything else.</p>
+
                 <!-- More About Me + Links -->
                 <p><strong>I'm seeking remote work! Here's my <a href="https://lunaseeker.com/cv" rel="noopener">CV</a>. If I'd be a good fit, <a href="/hello">contact me</a>.</strong></p>
                 <p>I'm Australian, and oscillate between living there and overseas. Now? I'm in Kosovo.</p>
                 <p>I run <a href="https://www.roadlessread.com/" rel="noopener">Road Less Read</a>, where I compile my book notes. I make <a href="/art">art</a> and <a href="https://lunaseeker.com/catalog/zines" rel="noopener">zines</a>, take <a href="/photos">photos</a>, so I'd love <a href="/hello#trade">to trade</a>! I also have <a href="https://lunaseeker.com/offerings/" rel="noopener">various offerings</a> (which you can partake in!)</p>
-                <p>See: <a href="/about">about me</a>, <a href="/now">what I'm working on</a>, <a href="/search">search the site</a>, and <a href="/sitemap">the sitemap</a> for everything else.</p>
+                
                 <p id="rel-me">Meeting folks is a delight! <a href="/contact">Contact me</a>, <a href="/guestbook">sign the guestbook</a>, or <a href="/unoffice-hours">book an UnOffice Hours call</a>.</p>
                 <p>Want to go for a web wander? Visit the <a href="/blogroll">blogroll</a>, <a href="/bookmarks">my bookmarks</a>, or a <a href="/random">random page</a>.</p>
                 
@@ -299,13 +301,24 @@
                 <!-- Closing -->
                 <p>•--♡--•</p>
 
+
             </section>
 
             <section>
-                <!-- Copy + Share -->
-                <p><strong>Copy + Share</strong>: <a href="/defaults">zacharykai.net</a></p>
+                <!-- Closing Metadata -->
+
+                <section>
+                    <!-- Tags -->
+                    <p class="essentials"><strong>Tags</strong>: <a href="/tags?tag=personal">personal</a> · <a href="/tags?tag=indieweb">indieweb</a> · <a href="/tags?tag=writing">writing</a></p>
+                </section>
+
+                <section>
+                    <!-- Copy + Share -->
+                    <p><strong>Copy + Share</strong>: <a href="/">zacharykai.net</a></p>
+                </section>
+
             </section>
-           
+
         </main>
 
         <!-- Back To Top Link -->

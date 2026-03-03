@@ -266,6 +266,10 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
 
                 <!-- Closing -->
                 <p>•--♡--•</p>
+                <section>
+                    <!-- Tags -->
+                    <p class="essentials"><strong>Tags</strong>: <a href="/tags?tag=community">community</a></p>
+                </section>
 
             </section>
 

@@ -8,6 +8,7 @@
         <zk:content>my site. Explore my space fantasy writing, IndieWeb projects, and more.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>personal,indieweb,writing</zk:tags>
     </url>
 
     <!-- PAGES -->
@@ -20,6 +21,7 @@
         <zk:content>my mini autobiography, press, intentions, and wishes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>personal,queer</zk:tags>
     </url>
 
     <url>
@@ -30,6 +32,7 @@
         <zk:content>what features this site has/are planned.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb,resources</zk:tags>
     </url>
 
     <url>
@@ -40,6 +43,7 @@
         <zk:content>my portfolio of collages, digital art, drawings and gods eyes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>creative</zk:tags>
     </url>
 
     <url>
@@ -50,6 +54,7 @@
         <zk:content>my representative avatars, created for fun's sake.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>creative,personal</zk:tags>
     </url>
 
     <url>
@@ -60,6 +65,7 @@
         <zk:content>would you like to meet for one? I would!</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>community,personal</zk:tags>
     </url>
 
     <url>
@@ -70,6 +76,7 @@
         <zk:content>useful snippets of Javascript.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>useful_things</zk:subcategory>
+        <zk:tags>resources,indieweb</zk:tags>
     </url>
 
     <url>
@@ -80,6 +87,7 @@
         <zk:content>links I've found fascinating.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>resources</zk:tags>
     </url>
     
     <url>
@@ -90,6 +98,7 @@
         <zk:content>little buttons directing you to delightful web corners.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>community,indieweb</zk:tags>
     </url>
 
     <url>
@@ -100,6 +109,7 @@
         <zk:content>all site changes, reverse-chronologically.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
 
     <url>
@@ -110,6 +120,7 @@
         <zk:content>how to cite pages on my site, and how I cite personal sites on my blog.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb,resources</zk:tags>
     </url>
 
     <url>
@@ -120,6 +131,7 @@
         <zk:content>the ones I've made from paper and glue.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>creative</zk:tags>
     </url>
     
     <url>
@@ -130,6 +142,7 @@
         <zk:content>more on this site, accessibility, internet principles, numbers, and esoterica.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
 
     <url>
@@ -140,6 +153,7 @@
         <zk:content>the usual tools I use for various purposes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>personal,resources</zk:tags>
     </url>
 
     <url>
@@ -150,6 +164,7 @@
         <zk:content>pieces I've drawn on the tablet/computer.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>creative</zk:tags>
     </url>
 
     <url>
@@ -160,6 +175,7 @@
         <zk:content>my portfolio of the ones I've made.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>creative</zk:tags>
     </url>
 
     <url>
@@ -170,6 +186,7 @@
         <zk:content>go on, sign it!</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>community</zk:tags>
     </url>
 
     <url>
@@ -180,6 +197,7 @@
         <zk:content>lists of my loves in various categories.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>personal</zk:tags>
     </url>
     
     <url>
@@ -190,6 +208,7 @@
         <zk:content>details on contacting me: email, meet, message, or trade with me (please do!)</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>community</zk:tags>
     </url>
     
     <url>
@@ -200,6 +219,7 @@
         <zk:content>things I'd like to make and concepts that've caught my attention.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>creative,personal</zk:tags>
     </url>
     
     <url>
@@ -210,6 +230,7 @@
         <zk:content>what fascinates me.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>personal</zk:tags>
     </url>
     
     <url>
@@ -220,6 +241,7 @@
         <zk:content>my microblog, with occasional today-I-learned updates.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>personal,indieweb</zk:tags>
     </url>
     
     <url>
@@ -230,6 +252,7 @@
         <zk:content>recording my webmentions: sent and recieved.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb,community</zk:tags>
     </url>
     
     <url>
@@ -240,6 +263,7 @@
         <zk:content>my favorite songs and three years of Spotify listening stats.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>creative</zk:tags>
     </url>
     
     <url>
@@ -250,6 +274,7 @@
         <zk:content>what I'm currently reading and working on.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>personal</zk:tags>
     </url>
     
     <url>
@@ -260,6 +285,7 @@
         <zk:content>my gallery of shots.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>creative,travel</zk:tags>
     </url>
 
     <url>
@@ -270,6 +296,7 @@
         <zk:content>the things that guide my internet existence.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
 
     <url>
@@ -280,6 +307,7 @@
         <zk:content>interesting sayings I've gathered.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>resources</zk:tags>
     </url>
     
     <url>
@@ -290,6 +318,7 @@
         <zk:content>click this link to go to a random page on my site!</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
     
     <url>
@@ -300,6 +329,7 @@
         <zk:content>tested, simplified favorites.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>food</zk:tags>
     </url>
     
     <url>
@@ -310,6 +340,7 @@
         <zk:content>hopefully useful discount and referral codes.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>useful_things</zk:subcategory>
+        <zk:tags>resources</zk:tags>
     </url>
 
     <url>
@@ -320,6 +351,7 @@
         <zk:content>use it to find what you're looking for.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
     
     <url>
@@ -330,6 +362,7 @@
         <zk:content>a curated index of everything on my site.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
 
     <url>
@@ -340,6 +373,7 @@
         <zk:content>interesting listening stats from years past.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>creative</zk:tags>
     </url>
 
     <url>
@@ -350,6 +384,7 @@
         <zk:content>numbers and esoterica related to this site.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
 
     <url>
@@ -360,6 +395,7 @@
         <zk:content>my RSS Feed and how to subscribe.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
 
     <url>
@@ -370,6 +406,7 @@
         <zk:content>lists of my top three plus one.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>personal</zk:tags>
     </url>
 
     <url>
@@ -380,6 +417,7 @@
         <zk:content>what I'd love to trade with you and how to organize one.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>community,indieweb</zk:tags>
     </url>
 
     <url>
@@ -390,6 +428,7 @@
         <zk:content>i'd love to meet you for a video or audio call!</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>community</zk:tags>
     </url>
    
     <url>
@@ -400,6 +439,7 @@
         <zk:content>the tech tooks I use + referral links for services I find useful (and you might too!)</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>resources,indieweb</zk:tags>
     </url>
 
     <url>
@@ -410,6 +450,7 @@
         <zk:content>things and concepts I wish to embody.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>about_me</zk:subcategory>
+        <zk:tags>personal</zk:tags>
     </url>
 
     <url>
@@ -420,6 +461,7 @@
         <zk:content>places the site's been mentioned on the internet.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
 
     <url>
@@ -430,6 +472,7 @@
         <zk:content>all the ones this site belongs to.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>community,indieweb</zk:tags>
     </url>
 
     <url>
@@ -440,6 +483,18 @@
         <zk:content>interesting pieces of the English language.</zk:content>
         <zk:category>pages</zk:category>
         <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>resources</zk:tags>
+    </url>
+
+    <url>
+        <!-- Tags -->
+        <zk:title>Tags</zk:title>
+        <loc>https://zacharykai.net/tags</loc>
+        <lastmod>2026-03-01</lastmod>
+        <zk:content>browse pages by tag.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>site_info</zk:subcategory>
+        <zk:tags>indieweb</zk:tags>
     </url>
 
     <!-- LISTS -->
@@ -452,6 +507,7 @@
         <zk:content>a directory of sites by people living in or from Asia/the Pacific.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+        <zk:tags>community,travel</zk:tags>
     </url>
 
     <url>
@@ -462,16 +518,18 @@
         <zk:content>a directory of folks with sites writing fanfiction.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+        <zk:tags>community,writing</zk:tags>
     </url>
 
     <url>
-        <!-- Guestbook Sites Directory -->
-        <zk:title>Guestbook Sites Directory</zk:title>
+        <!-- Guestbooks Galore -->
+        <zk:title>Guestbooks Galore</zk:title>
         <loc>https://zacharykai.net/lists/guestbooks</loc>
         <lastmod>2026-02-21</lastmod>
         <zk:content>a directory of personal sites that host guestbooks.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+        <zk:tags>community,indieweb</zk:tags>
     </url>
     
     <url>
@@ -482,6 +540,7 @@
         <zk:content>a directory of sites by people living in or from Oceania.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+        <zk:tags>community,travel</zk:tags>
     </url>
 
     <url>
@@ -492,6 +551,7 @@
         <zk:content>a directory of sites featuring answers to the Proust Questionnaire.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+        <zk:tags>community,writing</zk:tags>
     </url>
 
     <url>
@@ -502,6 +562,7 @@
         <zk:content>a directory of sites by queer folks around the world.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+        <zk:tags>community,queer</zk:tags>
     </url>
 
     <url>
@@ -512,6 +573,7 @@
         <zk:content>for folks who enjoy Star Wars.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>webrings</zk:subcategory>
+        <zk:tags>community</zk:tags>
     </url>
 
     <url>
@@ -522,6 +584,7 @@
         <zk:content>a directory of sites running on Static HTML files.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+        <zk:tags>community,indieweb,resources</zk:tags>
     </url>
 
     <url>
@@ -532,6 +595,7 @@
         <zk:content>a directory of folks willing to trade blog post titles as a collaborative effort.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>site_directories</zk:subcategory>
+        <zk:tags>community,writing</zk:tags>
     </url>
 
     <url>
@@ -542,6 +606,7 @@
         <zk:content>connecting vintage car aesthetics and design enthusiasts.</zk:content>
         <zk:category>lists</zk:category>
         <zk:subcategory>webrings</zk:subcategory>
+        <zk:tags>community</zk:tags>
     </url>
 
     <!-- NOTES -->
@@ -554,6 +619,7 @@
         <zk:content>what I appreciated in the year.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -564,6 +630,7 @@
         <zk:content>a guided list of reflections for the year.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -574,6 +641,7 @@
         <zk:content>things that give my life meaning.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -584,6 +652,7 @@
         <zk:content>what I'm grateful for in the year.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -594,6 +663,7 @@
         <zk:content>where we chose and shared our thoughts on artworks.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>collaborative</zk:subcategory>
+        <zk:tags>creative,community</zk:tags>
     </url>
 
     <url>
@@ -604,6 +674,7 @@
         <zk:content>why does it mean so many conflicting things on the internet?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>indieweb,personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -614,6 +685,7 @@
         <zk:content>on the cost of noticing.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -624,6 +696,7 @@
         <zk:content>missing the mythic summer break.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,reflection,travel</zk:tags>
     </url>
 
     <url>
@@ -634,6 +707,7 @@
         <zk:content>notes from attending in September 2025.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>writing,community</zk:tags>
     </url>
 
     <url>
@@ -644,6 +718,7 @@
         <zk:content>what a strange concept when your existence always oscillates.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,reflection,travel</zk:tags>
     </url>
     
     <url>
@@ -654,6 +729,7 @@
         <zk:content>my answers to the questions posed.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>personal,reflection,indieweb</zk:tags>
     </url>
 
     <url>
@@ -664,6 +740,7 @@
         <zk:content>twenty facts about me, inspired by Peige and Becky's posts.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
+        <zk:tags>personal</zk:tags>
     </url>
 
     <url>
@@ -674,6 +751,7 @@
         <zk:content>a discussion of fan culture and writing.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>collaborative</zk:subcategory>
+        <zk:tags>writing,community</zk:tags>
     </url>
     
     <url>
@@ -684,6 +762,7 @@
         <zk:content>things I wish to achieve.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>goal_setting</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -694,6 +773,7 @@
         <zk:content>what I want to do.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>goal_setting</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
     
     <url>
@@ -704,6 +784,7 @@
         <zk:content>i thought about how it makes me a better writer.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>writing,travel,reflection</zk:tags>
     </url>
 
     <url>
@@ -714,6 +795,7 @@
         <zk:content>a bookish discussion.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>collaborative</zk:subcategory>
+        <zk:tags>writing,community</zk:tags>
     </url>
 
     <url>
@@ -724,6 +806,7 @@
         <zk:content>to exist is to explain.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
+        <zk:tags>personal,queer,indieweb</zk:tags>
     </url>
 
     <url>
@@ -734,6 +817,7 @@
         <zk:content>the theme is Intersecting Interests.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
+        <zk:tags>indieweb,community</zk:tags>
     </url>
 
     <url>
@@ -744,6 +828,7 @@
         <zk:content>the prompt is: we've got to dream past it.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
+        <zk:tags>indieweb,writing</zk:tags>
     </url>
 
     <url>
@@ -754,6 +839,7 @@
         <zk:content>the Creative Act by Rick Rubin</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
+        <zk:tags>indieweb,writing</zk:tags>
     </url>
     
     <url>
@@ -764,6 +850,7 @@
         <zk:content>the Castle (1997)</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
+        <zk:tags>indieweb,creative</zk:tags>
     </url>
 
     <url>
@@ -774,6 +861,7 @@
         <zk:content>the Wild Robot (2024)</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>indieweb_carnivals</zk:subcategory>
+        <zk:tags>indieweb,creative</zk:tags>
     </url>
     
     <url>
@@ -784,6 +872,7 @@
         <zk:content>what I took from the conversations.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>writing,community,reflection</zk:tags>
     </url>
     
     <url>
@@ -794,6 +883,7 @@
         <zk:content>what I learned from attending.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>writing,reflection</zk:tags>
     </url>
     
     <url>
@@ -804,6 +894,7 @@
         <zk:content>what my characters might say about me.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>writing,personal,creative</zk:tags>
     </url>
     
     <url>
@@ -814,6 +905,7 @@
         <zk:content>a little insight into my musical tastes.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
+        <zk:tags>creative,personal</zk:tags>
     </url>
 
     <url>
@@ -824,6 +916,7 @@
         <zk:content>let's do a six-month review and see how I went!</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
         <url>
@@ -834,6 +927,7 @@
         <zk:content>on teaching myself history through Horrible Histories.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -844,6 +938,7 @@
         <zk:content>if you search for me on social media, you won't find me.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,reflection,indieweb</zk:tags>
     </url>
     
     <url>
@@ -854,6 +949,7 @@
         <zk:content>words I watch for in my writing, to replace/remove for stronger prose.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
+        <zk:tags>writing,resources</zk:tags>
     </url>
 
     <url>
@@ -864,6 +960,7 @@
         <zk:content>my answers to these time-honored questions.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
 
     <url>
@@ -874,6 +971,7 @@
         <zk:content>exploring preferences and the joy of stuff between bread.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
+        <zk:tags>personal,food</zk:tags>
     </url>
 
     <url>
@@ -884,6 +982,7 @@
         <zk:content>if there's one thing I need, it's finding joy in nuance.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,reflection,creative</zk:tags>
     </url>
     
     <url>
@@ -894,6 +993,7 @@
         <zk:content>suggestions for what to put on your site.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
+        <zk:tags>indieweb,resources,community</zk:tags>
     </url>
 
     <url>
@@ -904,6 +1004,7 @@
         <zk:content>when encountering this, I didn't know its pronunciation, let alone its meaning!</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,writing</zk:tags>
     </url>
 
     <url>
@@ -914,6 +1015,7 @@
         <zk:content>a compilation of useless yet fun facts.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
+        <zk:tags>personal</zk:tags>
     </url>
     
     <url>
@@ -924,6 +1026,7 @@
         <zk:content>my answers to these fifteen questions.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>challenges</zk:subcategory>
+        <zk:tags>personal</zk:tags>
     </url>
 
     <url>
@@ -934,6 +1037,7 @@
         <zk:content>if I had a one-way ticket, where would I go?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>writing,creative,personal</zk:tags>
     </url>
     
     <url>
@@ -944,6 +1048,7 @@
         <zk:content>how do I do this phrase justice?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,community</zk:tags>
     </url>
 
     <url>
@@ -954,6 +1059,7 @@
         <zk:content>liminal time isn't a curse. It's an opportunity.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
+        <zk:tags>personal,reflection,resources</zk:tags>
     </url>
     
     <url>
@@ -964,6 +1070,7 @@
         <zk:content>things I wish to share with you, hoping you'll enjoy them.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
+        <zk:tags>resources,community</zk:tags>
     </url>
     
     <url>
@@ -974,6 +1081,7 @@
         <zk:content>i do this all the time. And not in the conventional sense.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
     </url>
     
     <url>
@@ -984,6 +1092,7 @@
         <zk:content>prompts for braving the blank page.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>resources</zk:subcategory>
+        <zk:tags>writing,resources</zk:tags>
     </url>
 
     <url>
@@ -994,6 +1103,29 @@
         <zk:content>on the collaborative nature of the internet.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>indieweb,community</zk:tags>
+    </url>
+
+    <url>
+        <!-- IndieWeb Carnival Roundup: Feb 2026 -->
+        <zk:title>IndieWeb Carnival Roundup: Feb 2026</zk:title>
+        <loc>https://zacharykai.net/notes/icfeb26roundup</loc>
+        <lastmod>2026-03-01</lastmod>
+        <zk:content>it's come to a close.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>indieweb_carnivals</zk:subcategory>
+        <zk:tags>indieweb,community,roundup</zk:tags>
+    </url>
+
+    <url>
+        <!-- IndieWeb Fiction Carnival Roundup: Feb 2026 -->
+        <zk:title>IndieWeb Fiction Carnival Roundup: Feb 2026</zk:title>
+        <loc>https://zacharykai.net/notes/ifcfeb26roundup</loc>
+        <lastmod>2026-03-01</lastmod>
+        <zk:content>it's come to a close.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>indieweb_carnivals</zk:subcategory>
+        <zk:tags>indieweb,writing,roundup</zk:tags>
     </url>
 
 </urlset>

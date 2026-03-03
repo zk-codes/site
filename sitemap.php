@@ -326,13 +326,24 @@ unset($category); // Unset reference to avoid issues
                 
                 <p>•--♡--•</p>
 
+
             </section>
 
             <section>
-                <!-- Copy + Share -->
-                <p><strong>Copy + Share</strong>: <a href="/sitempa">zacharykai.net/sitemap</a></p>
+                <!-- Closing Metadata -->
+
+                <section>
+                    <!-- Tags -->
+                    <p class="essentials"><strong>Tags</strong>: <a href="/tags?tag=indieweb">indieweb</a></p>
+                </section>
+
+                <section>
+                    <!-- Copy + Share -->
+                    <p><strong>Copy + Share</strong>: <a href="/sitemap">zacharykai.net/sitemap</a></p>
+                </section>
+
             </section>
-           
+
         </main>
 
         <!-- Back To Top Link -->
