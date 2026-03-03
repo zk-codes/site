@@ -1128,4 +1128,15 @@
         <zk:tags>indieweb,writing,roundup</zk:tags>
     </url>
 
+    <url>
+        <!-- The Strangest Thing Happened The Other Day... -->
+        <zk:title>The Strangest Thing Happened The Other Day...</zk:title>
+        <loc>https://zacharykai.net/notes/strangest</loc>
+        <lastmod>2026-03-03</lastmod>
+        <zk:content>a list of things noticed.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>personal</zk:subcategory>
+        <zk:tags>personal,reflection</zk:tags>
+    </url>
+
 </urlset>
