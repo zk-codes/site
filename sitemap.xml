@@ -674,7 +674,7 @@
         <zk:content>why does it mean so many conflicting things on the internet?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>indieweb,personal,reflection</zk:tags>
+        <zk:tags>indieweb,personal,reflection,trades</zk:tags>
     </url>
 
     <url>
@@ -685,7 +685,7 @@
         <zk:content>on the cost of noticing.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>personal,reflection</zk:tags>
+        <zk:tags>personal,reflection,trades</zk:tags>
     </url>
 
     <url>
@@ -696,7 +696,7 @@
         <zk:content>missing the mythic summer break.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>personal,reflection,travel</zk:tags>
+        <zk:tags>personal,reflection,travel,trades</zk:tags>
     </url>
 
     <url>
@@ -784,7 +784,7 @@
         <zk:content>i thought about how it makes me a better writer.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>writing,travel,reflection</zk:tags>
+        <zk:tags>writing,travel,reflection,trades</zk:tags>
     </url>
 
     <url>
@@ -916,7 +916,7 @@
         <zk:content>let's do a six-month review and see how I went!</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>personal,reflection</zk:tags>
+        <zk:tags>personal,reflection,trades</zk:tags>
     </url>
 
         <url>
@@ -927,7 +927,7 @@
         <zk:content>on teaching myself history through Horrible Histories.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>personal,reflection</zk:tags>
+        <zk:tags>personal,reflection,trades</zk:tags>
     </url>
 
     <url>
@@ -938,9 +938,9 @@
         <zk:content>if you search for me on social media, you won't find me.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>personal,reflection,indieweb</zk:tags>
+        <zk:tags>personal,reflection,indieweb,trades</zk:tags>
     </url>
-    
+
     <url>
         <!-- Punchy Prose -->
         <zk:title>Punchy Prose</zk:title>
@@ -982,9 +982,9 @@
         <zk:content>if there's one thing I need, it's finding joy in nuance.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>personal,reflection,creative</zk:tags>
+        <zk:tags>personal,reflection,creative,trades</zk:tags>
     </url>
-    
+
     <url>
         <!-- Site Ideas -->
         <zk:title>Site Ideas</zk:title>
@@ -1004,7 +1004,7 @@
         <zk:content>when encountering this, I didn't know its pronunciation, let alone its meaning!</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>personal,writing</zk:tags>
+        <zk:tags>personal,writing,trades</zk:tags>
     </url>
 
     <url>
@@ -1037,9 +1037,9 @@
         <zk:content>if I had a one-way ticket, where would I go?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>writing,creative,personal</zk:tags>
+        <zk:tags>writing,creative,personal,trades</zk:tags>
     </url>
-    
+
     <url>
         <!-- The Notification I Look Forward To The Most -->
         <zk:title>The Notification I Look Forward To The Most</zk:title>
@@ -1048,7 +1048,7 @@
         <zk:content>how do I do this phrase justice?</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>personal,community</zk:tags>
+        <zk:tags>personal,community,trades</zk:tags>
     </url>
 
     <url>
@@ -1103,7 +1103,7 @@
         <zk:content>on the collaborative nature of the internet.</zk:content>
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
-        <zk:tags>indieweb,community</zk:tags>
+        <zk:tags>indieweb,community,trades</zk:tags>
     </url>
 
     <url>
@@ -1135,8 +1135,8 @@
         <lastmod>2026-03-03</lastmod>
         <zk:content>a list of things noticed.</zk:content>
         <zk:category>notes</zk:category>
-        <zk:subcategory>personal</zk:subcategory>
-        <zk:tags>personal,reflection</zk:tags>
+        <zk:subcategory>trades</zk:subcategory>
+        <zk:tags>personal,reflection,trades</zk:tags>
     </url>
 
 </urlset>
