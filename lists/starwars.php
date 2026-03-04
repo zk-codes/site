@@ -40,6 +40,11 @@ $sites = [
         'id' => 7,
         'site_name' => 'Possumlark',
         'site_url' => 'https://possumlark.org/',
+    ],
+    [
+        'id' => 8,
+        'site_name' => 'Drink More Tea',
+        'site_url' => 'https://drinkmoretea.neocities.org/',
     ]
 ];
 
@@ -151,7 +156,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
         <!-- Page Info -->
         <title>Star Wars Webring | Zachary Kai</title>
         <meta name="date" content="2025-07-05">
-        <meta name="last-modified" content="2026-01-07">
+        <meta name="last-modified" content="2026-03-04">
         <meta name="description" content="A webring connecting Star Wars fans across the internet galaxy.">
     </head>
 
@@ -178,7 +183,7 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
                 <p class="essentials">
                     <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2025-07-05">5 Jul 2025</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2026-01-07">7 Jan 2026</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2026-03-04">4 Mar 2026</time>
                 </p>
             </header>
 
