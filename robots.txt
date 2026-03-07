@@ -1,5 +1,6 @@
 # --- Essentials
 
+Content-signal: search=yes,ai-train=yes,ai-input=yes
 Sitemap: https://zacharykai.net/sitemap.xml
 
 # --- Allows
@@ -8,6 +9,35 @@ User-agent: *
 Allow: /
 
 # --- Disallows
+
+# Crawlers
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ChatGLM-Spider
+Disallow: /
+
+User-agent: DeepSeekBot
+Disallow: /
+
+User-agent: iAskBot
+Disallow: /
+
+User-agent: iaskspider
+Disallow: /
+
+User-agent: iaskspider/2.0
+Disallow: /
+
+User-agent: PanguBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: TikTokSpider
+Disallow: /
 
 # Folders
 
