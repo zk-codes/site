@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/assets/style.css">
         <!-- Page Info -->
         <meta name="date" content="2024-03-25">
-        <meta name="last-modified" content="2025-10-24">
+        <meta name="last-modified" content="2026-03-08">
         <meta name="description" content="Hi! I'm Zachary Kai, a scifi writer, and the sole operator of Road Less Read. Also an offbeat queer, twenty-something, curiosity enthusiast, and traveler.">
         <!-- File Links -->
         <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
@@ -42,7 +42,7 @@
                 <p class="essentials">
                     <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-03-25">25 Mar 2024</time> | 
-                    <strong>Updated</strong>: <time class="dt-modified" datetime="2025-11-08">8 Nov 2025</time>
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2026-03-08">8 Mar 2026</time>
                 </p>
             </header>
 
@@ -254,6 +254,15 @@
                                 </strong>
                                 <a href="https://webring.dinhe.net/prev/zacharykai.net" rel="noopener">Previous</a> |
                                 <a href="https://webring.dinhe.net/next/zacharykai.net" rel="noopener">Next</a>
+                            </li>
+                            <li>
+                                <!-- Simple Chats Webring -->
+                                <strong>
+                                    Simple Chats Webring →
+                                </strong>
+                                <a href="https://sg.kamiscorner.xyz/webring/previous.php?url=https://zacharykai.net" rel="noopener">Previous</a> |
+                                <a href="https://sg.kamiscorner.xyz/webring/random.php" rel="noopener">Random</a> |
+                                <a href="https://sg.kamiscorner.xyz/webring/next.php?url=https://zacharykai.net" rel="noopener">Next</a>
                             </li>
                             <li>
                                 <!-- Star Wars Webring -->
