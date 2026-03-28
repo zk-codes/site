@@ -487,6 +487,17 @@
     </url>
 
     <url>
+        <!-- Wordle -->
+        <zk:title>Wordle</zk:title>
+        <loc>https://zacharykai.net/wordle</loc>
+        <lastmod>2026-03-24</lastmod>
+        <zk:content>a reverse-chronological log of my Wordle results.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>games</zk:tags>
+    </url>
+
+    <url>
         <!-- Tags -->
         <zk:title>Tags</zk:title>
         <loc>https://zacharykai.net/tags</loc>

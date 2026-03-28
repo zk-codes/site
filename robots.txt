@@ -42,6 +42,7 @@ Disallow: /
 # Folders
 
 Disallow: /assets/
+Disallow: /jots/
 
 # Files
 
