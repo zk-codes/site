@@ -1,11 +1,17 @@
 # Folders
 
-git/
+## Admin
+
 .vscode/
 .useradmin/
+.well-known/
+git/
+
+## Assets
+
 assets/scripts
+
+## Contents
+
+bookmarks/
 jots/
-
-# Files
-
-.htaccess
