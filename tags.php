@@ -78,7 +78,9 @@ if ($current_tag && !$valid_tag) {
 
             <!-- Page Header -->
             <header>
+                <!-- Breadcrumbs -->
                 <p class="essentials"><a href="/">Homepage</a> • <a href="/tags">Tags</a><?= $valid_tag ? ' • ' . htmlspecialchars(ucfirst($current_tag)) : '' ?> ↴</p>
+                <!-- Page Title -->
                 <h1><?= $valid_tag ? htmlspecialchars(ucfirst($current_tag)) : 'Tags' ?></h1>
             </header>
 

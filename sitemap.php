@@ -205,13 +205,24 @@ unset($category); // Unset reference to avoid issues
 
             <!-- Page Header -->
             <header>
+                <!-- Breadcrumbs -->
                 <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a></p>
+                <!-- Page Title -->
                 <h1 class="p-name">Sitemap</h1>
+                <!-- Necessary Metadata -->
                 <p class="essentials">
                     <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-06-26">26 Jun 2024</time> | 
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2026-01-06">6 Jan 2026</time>
                 </p>
+                <!-- Other Metadata -->
+                <details class="essentials">
+                    <summary>Expand For Other (Hopefully Useful) Metadata</summary>
+                    <ul>
+                        <li>Reading Time: ~1 min (at 238 WPM)
+                        <li>Word Count: 14</li>
+                    </ul>
+                </details>
             </header>
 
             <!-- Page Body -->

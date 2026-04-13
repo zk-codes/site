@@ -141,13 +141,24 @@ if ($action && in_array($action, ['random', 'next', 'prev', 'previous', 'list', 
 
             <!-- Page Header -->
             <header>
+                <!-- Breadcrumbs -->
                 <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#lists">Lists</a></p>
+                <!-- Page Title -->
                 <h1 class="p-name">Vintage Car Webring</h1>
+                <!-- Necessary Metadata -->
                 <p class="essentials">
                     <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2026-01-22">22 Jan 2026</time> | 
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2026-01-22">22 Jan 2026</time>
                 </p>
+                <!-- Other Metadata -->
+                <details class="essentials">
+                    <summary>Expand For Other (Hopefully Useful) Metadata</summary>
+                    <ul>
+                        <li>Reading Time: ~1 min (at 238 WPM)
+                        <li>Word Count: 90</li>
+                    </ul>
+                </details>
             </header>
 
             <!-- Page Body -->

@@ -54,6 +54,11 @@ pre {
     margin: 1em 0;
 }
 
+main > header {
+    padding-bottom: 0.25em;
+    border-bottom: var(--border-style);
+}
+
 header:not(main > header) {
     font-size: 1.2em;
 }
@@ -248,6 +253,8 @@ blockquote p {
     font-size: 0.75em;
     line-height: 1;
 }
+
+
 
 p:target:not(#top) {
     background-color: var(--highlight-color);

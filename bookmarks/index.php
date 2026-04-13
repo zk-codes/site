@@ -133,13 +133,24 @@ if ($view === 'category') {
 
             <!-- Page Header -->
             <header>
+                <!-- Breadcrumbs -->
                 <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#pages">Pages</a> ↴</p>
+                <!-- Page Title -->
                 <h1 class="p-name">Bookmarks</h1>
+                <!-- Necessary Metadata -->
                 <p class="essentials">
                     <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
                     <strong>Published</strong>: <time class="dt-published" datetime="2024-11-15">15 Nov 2024</time> |
                     <strong>Updated</strong>: <time class="dt-modified" datetime="2026-03-22">22 Mar 2026</time>
                 </p>
+                <!-- Other Metadata -->
+                <details class="essentials">
+                    <summary>Expand For Other (Hopefully Useful) Metadata</summary>
+                    <ul>
+                        <li>Reading Time: ~1 min (at 238 WPM)
+                        <li>Word Count: 40</li>
+                    </ul>
+                </details>
             </header>
 
             <!-- Page Body -->
