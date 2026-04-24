@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;travel&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-travel.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Travel — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>An Endless Summer Doesn&#039;t Seem Romantic Anymore</title>
+      <link>https://zacharykai.net/notes/endlesssummer</link>
+      <description>missing the mythic summer break.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/endlesssummer</guid>
+    </item>
+    <item>
+      <title>Crosswinds + Currents</title>
+      <link>https://zacharykai.net/lists/crosscurrent</link>
+      <description>a directory of sites by people living in or from Asia/the Pacific.</description>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/crosscurrent</guid>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>https://zacharykai.net/photos</link>
+      <description>my gallery of shots.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/photos</guid>
+    </item>
+    <item>
+      <title>Oceania Web Atlas</title>
+      <link>https://zacharykai.net/lists/oceania</link>
+      <description>a directory of sites by people living in or from Oceania.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/oceania</guid>
+    </item>
+    <item>
+      <title>A Sense Of Place</title>
+      <link>https://zacharykai.net/notes/place</link>
+      <description>what a strange concept when your existence always oscillates.</description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/place</guid>
+    </item>
+    <item>
+      <title>How Travel Is An Engine For Writing</title>
+      <link>https://zacharykai.net/notes/writingengine</link>
+      <description>i thought about how it makes me a better writer.</description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/writingengine</guid>
+    </item>
+  </channel>
+</rss>

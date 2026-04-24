@@ -454,6 +454,17 @@
     </url>
 
     <url>
+        <!-- Watched -->
+        <zk:title>Watched</zk:title>
+        <loc>https://zacharykai.net/watched</loc>
+        <lastmod>2026-04-16</lastmod>
+        <zk:content>an organized log of films, tv shows, and online videos I'd recommend.</zk:content>
+        <zk:category>pages</zk:category>
+        <zk:subcategory>collections</zk:subcategory>
+        <zk:tags>film,personal</zk:tags>
+    </url>
+
+    <url>
         <!-- Webmentions -->
         <zk:title>Webmentions</zk:title>
         <loc>https://zacharykai.net/webmentions</loc>
@@ -1148,6 +1159,17 @@
         <zk:category>notes</zk:category>
         <zk:subcategory>trades</zk:subcategory>
         <zk:tags>personal,reflection,trades</zk:tags>
+    </url>
+
+    <url>
+        <!-- Did We Lose Something In The Third Dimension -->
+        <zk:title>Did We Lose Something In The Third Dimension</zk:title>
+        <loc>https://zacharykai.net/notes/third</loc>
+        <lastmod>2026-04-14</lastmod>
+        <zk:content>on 2D animation's quiet disappearance.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>reflections</zk:subcategory>
+        <zk:tags>creative,reflection</zk:tags>
     </url>
 
 </urlset>

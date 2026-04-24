@@ -290,7 +290,38 @@ summary h2, summary h3, summary h4 {
     margin-bottom: 0.5em;
 }
 
-/* Jots — Masonry Columns */
+/* Tag Filter Bar */
+
+.tag-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    margin-top: 0.75em;
+}
+
+.tag-pill {
+    display: inline-block;
+    font-size: 0.68em;
+    line-height: 1;
+    padding: 0.35em 0.65em;
+    border: 1px solid var(--main-color);
+    border-radius: 1em;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.tag-pill:hover,
+.tag-pill.active {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+}
+
+.tag-pill.small {
+    font-size: 0.6em;
+    padding: 0.3em 0.55em;
+}
+
+/* Jots — Masonry Grid */
 
 .jots-grid {
     columns: 3;
@@ -307,28 +338,88 @@ summary h2, summary h3, summary h4 {
 
 .jots-grid article {
     border: var(--border-style);
-    padding: var(--container-padding);
+    padding: 0;
     break-inside: avoid;
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 1em;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
 }
 
-.jots-grid article p,
-.jots-grid article section {
+.jots-grid article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(80, 56, 50, 0.15);
+}
+
+/* Date badge */
+
+.jot-date {
+    font-size: 0.65em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+    margin: 0;
+    padding: var(--container-padding);
+    padding-bottom: 0;
+}
+
+/* Content area with side padding, but images bleed edge-to-edge */
+
+.jots-grid article .e-content {
+    border: none;
+    padding: 0 var(--container-padding);
+    max-width: none;
+    margin: 0;
+}
+
+.jots-grid article .e-content p,
+.jots-grid article .e-content section:not(.image-group) {
     margin: 0 0 0.5em;
 }
 
-.jots-grid article p:last-child,
-.jots-grid article section:last-child {
+.jots-grid article .e-content p:last-child,
+.jots-grid article .e-content section:last-child {
     margin-bottom: 0;
 }
 
-.jots-grid .u-url {
-    font-size: 0.7em;
+/* Edge-to-edge images */
+
+.jots-grid article .e-content img:not(.image-group img),
+.jots-grid article .e-content .image-group {
+    margin-left: calc(-1 * var(--container-padding));
+    margin-right: calc(-1 * var(--container-padding));
+    width: calc(100% + 2 * var(--container-padding));
+    max-width: none;
     display: block;
-    margin-top: 0.5em;
+}
+
+.jots-grid article .e-content .image-group {
+    gap: 2px;
+    border-radius: 0;
+}
+
+/* Tags row */
+
+.jot-tags {
+    padding: 0 var(--container-padding);
+    margin: 0.4em 0 0;
+}
+
+/* Permalink arrow */
+
+.jots-grid .u-url {
+    font-size: 0.75em;
+    display: block;
+    padding: 0.3em var(--container-padding) 0.6em;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.jots-grid article:hover .u-url {
+    opacity: 1;
 }
 
 /* Suppress hr separators — grid gutters replace them */
@@ -355,6 +446,10 @@ summary h2, summary h3, summary h4 {
 
     .jots-grid {
         columns: 2;
+    }
+
+    .tag-filter {
+        gap: 0.3em;
     }
 }
 
@@ -384,6 +479,20 @@ summary h2, summary h3, summary h4 {
 
     a[rel="noopener"]:not(:has(img))::after {
         content: url('/assets/imgs/svg/dark_external_link.svg');
+    }
+
+    .tag-pill {
+        border-color: white;
+    }
+
+    .tag-pill:hover,
+    .tag-pill.active {
+        background-color: white;
+        color: #350046;
+    }
+
+    .jots-grid article:hover {
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
     }
 
 }

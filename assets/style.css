@@ -48,7 +48,7 @@ a {
 header:not(main > header, article > header),
 main,
 footer,
-pre {
+pre, .support {
     border: var(--border-style);
     padding: var(--container-padding);
     margin: 1em 0;
@@ -225,6 +225,10 @@ blockquote p {
     line-height: 1.3em;
     margin-bottom: 0;
 }
+
+/* Support Block */
+
+
 
 /* H-Card */
 

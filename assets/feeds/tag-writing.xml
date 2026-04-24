@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;writing&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-writing.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Writing — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>IndieWeb Fiction Carnival Roundup: Feb 2026</title>
+      <link>https://zacharykai.net/notes/ifcfeb26roundup</link>
+      <description>it&#039;s come to a close.</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/ifcfeb26roundup</guid>
+    </item>
+    <item>
+      <title>Proust Questionnaire</title>
+      <link>https://zacharykai.net/lists/proust</link>
+      <description>a directory of sites featuring answers to the Proust Questionnaire.</description>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/proust</guid>
+    </item>
+    <item>
+      <title>Emerging Writers Festival (2025)</title>
+      <link>https://zacharykai.net/notes/ewf25</link>
+      <description>notes from attending in September 2025.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/ewf25</guid>
+    </item>
+    <item>
+      <title>Title Traders</title>
+      <link>https://zacharykai.net/lists/titletrade</link>
+      <description>a directory of folks willing to trade blog post titles as a collaborative effort.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/titletrade</guid>
+    </item>
+    <item>
+      <title>IndieWeb Fiction Carnival: Feb 2026</title>
+      <link>https://zacharykai.net/notes/ifcfeb26</link>
+      <description>the prompt is: we&#039;ve got to dream past it.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/ifcfeb26</guid>
+    </item>
+    <item>
+      <title>Literature Conversation With Sara Jaksa</title>
+      <link>https://zacharykai.net/notes/literature</link>
+      <description>a bookish discussion.</description>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/literature</guid>
+    </item>
+    <item>
+      <title>Homepage</title>
+      <link>https://zacharykai.net/</link>
+      <description>my site. Explore my space fantasy writing, IndieWeb projects, and more.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/</guid>
+    </item>
+    <item>
+      <title>Indieweb Book Club: Oct 2025</title>
+      <link>https://zacharykai.net/notes/iwboct25</link>
+      <description>the Creative Act by Rick Rubin</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/iwboct25</guid>
+    </item>
+    <item>
+      <title>Liminal Festival (2024)</title>
+      <link>https://zacharykai.net/notes/lf24</link>
+      <description>what I took from the conversations.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/lf24</guid>
+    </item>
+    <item>
+      <title>Mildura Writers Festival (2024)</title>
+      <link>https://zacharykai.net/notes/mwf24</link>
+      <description>what I learned from attending.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/mwf24</guid>
+    </item>
+    <item>
+      <title>Minds Within Mine</title>
+      <link>https://zacharykai.net/notes/mwm</link>
+      <description>what my characters might say about me.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/mwm</guid>
+    </item>
+    <item>
+      <title>Punchy Prose</title>
+      <link>https://zacharykai.net/notes/pp</link>
+      <description>words I watch for in my writing, to replace/remove for stronger prose.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/pp</guid>
+    </item>
+    <item>
+      <title>Writing Sparks</title>
+      <link>https://zacharykai.net/notes/sparks</link>
+      <description>prompts for braving the blank page.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/sparks</guid>
+    </item>
+    <item>
+      <title>Fanfiction Conversation With Sara Jaksa</title>
+      <link>https://zacharykai.net/notes/fanfic</link>
+      <description>a discussion of fan culture and writing.</description>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/fanfic</guid>
+    </item>
+    <item>
+      <title>How Travel Is An Engine For Writing</title>
+      <link>https://zacharykai.net/notes/writingengine</link>
+      <description>i thought about how it makes me a better writer.</description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/writingengine</guid>
+    </item>
+    <item>
+      <title>Syzygy</title>
+      <link>https://zacharykai.net/notes/syzygy</link>
+      <description>when encountering this, I didn&#039;t know its pronunciation, let alone its meaning!</description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/syzygy</guid>
+    </item>
+    <item>
+      <title>The Fictional Worlds I&#039;d Live In</title>
+      <link>https://zacharykai.net/notes/otherworlds</link>
+      <description>if I had a one-way ticket, where would I go?</description>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/otherworlds</guid>
+    </item>
+    <item>
+      <title>Fanfic Writers Collective</title>
+      <link>https://zacharykai.net/lists/fanfiction</link>
+      <description>a directory of folks with sites writing fanfiction.</description>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/fanfiction</guid>
+    </item>
+  </channel>
+</rss>

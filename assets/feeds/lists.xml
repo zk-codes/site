@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lists — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Curated directories and lists from Zachary Kai.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/lists.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Lists — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>Guestbooks Galore</title>
+      <link>https://zacharykai.net/lists/guestbooks</link>
+      <description>a directory of personal sites that host guestbooks.</description>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/guestbooks</guid>
+    </item>
+    <item>
+      <title>Proust Questionnaire</title>
+      <link>https://zacharykai.net/lists/proust</link>
+      <description>a directory of sites featuring answers to the Proust Questionnaire.</description>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/proust</guid>
+    </item>
+    <item>
+      <title>Title Traders</title>
+      <link>https://zacharykai.net/lists/titletrade</link>
+      <description>a directory of folks willing to trade blog post titles as a collaborative effort.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/titletrade</guid>
+    </item>
+    <item>
+      <title>Vintage Car Webring</title>
+      <link>https://zacharykai.net/lists/vintagecars</link>
+      <description>connecting vintage car aesthetics and design enthusiasts.</description>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/vintagecars</guid>
+    </item>
+    <item>
+      <title>Crosswinds + Currents</title>
+      <link>https://zacharykai.net/lists/crosscurrent</link>
+      <description>a directory of sites by people living in or from Asia/the Pacific.</description>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/crosscurrent</guid>
+    </item>
+    <item>
+      <title>Oceania Web Atlas</title>
+      <link>https://zacharykai.net/lists/oceania</link>
+      <description>a directory of sites by people living in or from Oceania.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/oceania</guid>
+    </item>
+    <item>
+      <title>Queer Web Directory</title>
+      <link>https://zacharykai.net/lists/queer</link>
+      <description>a directory of sites by queer folks around the world.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/queer</guid>
+    </item>
+    <item>
+      <title>Static HTML Site Directory</title>
+      <link>https://zacharykai.net/lists/html</link>
+      <description>a directory of sites running on Static HTML files.</description>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/html</guid>
+    </item>
+    <item>
+      <title>Star Wars Webring</title>
+      <link>https://zacharykai.net/lists/starwars</link>
+      <description>for folks who enjoy Star Wars.</description>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/starwars</guid>
+    </item>
+    <item>
+      <title>Fanfic Writers Collective</title>
+      <link>https://zacharykai.net/lists/fanfiction</link>
+      <description>a directory of folks with sites writing fanfiction.</description>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/fanfiction</guid>
+    </item>
+  </channel>
+</rss>

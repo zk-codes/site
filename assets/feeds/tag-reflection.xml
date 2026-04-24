@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reflection — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;reflection&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-reflection.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Reflection — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>The Strangest Thing Happened The Other Day...</title>
+      <link>https://zacharykai.net/notes/strangest</link>
+      <description>a list of things noticed.</description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/strangest</guid>
+    </item>
+    <item>
+      <title>50 Tiny Cogs</title>
+      <link>https://zacharykai.net/notes/50cogs</link>
+      <description>things that give my life meaning.</description>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/50cogs</guid>
+    </item>
+    <item>
+      <title>My Fondest Childhood Memory</title>
+      <link>https://zacharykai.net/notes/childhood</link>
+      <description>on teaching myself history through Horrible Histories.</description>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/childhood</guid>
+    </item>
+    <item>
+      <title>Consciousness Is The Most Expensive Accident</title>
+      <link>https://zacharykai.net/notes/consciousness</link>
+      <description>on the cost of noticing.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/consciousness</guid>
+    </item>
+    <item>
+      <title>An Endless Summer Doesn&#039;t Seem Romantic Anymore</title>
+      <link>https://zacharykai.net/notes/endlesssummer</link>
+      <description>missing the mythic summer break.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/endlesssummer</guid>
+    </item>
+    <item>
+      <title>40 Questions To Ask Every Year (2025)</title>
+      <link>https://zacharykai.net/notes/40qs25</link>
+      <description>a guided list of reflections for the year.</description>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/40qs25</guid>
+    </item>
+    <item>
+      <title>Goals For 2026</title>
+      <link>https://zacharykai.net/notes/26goals</link>
+      <description>what I want to do.</description>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/26goals</guid>
+    </item>
+    <item>
+      <title>35 Things That Made My 2024</title>
+      <link>https://zacharykai.net/notes/24list</link>
+      <description>what I appreciated in the year.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/24list</guid>
+    </item>
+    <item>
+      <title>100 Things That Made My 2025</title>
+      <link>https://zacharykai.net/notes/25list</link>
+      <description>what I&#039;m grateful for in the year.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/25list</guid>
+    </item>
+    <item>
+      <title>Blog Questions Challenge 2025</title>
+      <link>https://zacharykai.net/notes/blogqna25</link>
+      <description>my answers to the questions posed.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/blogqna25</guid>
+    </item>
+    <item>
+      <title>Goals For 2025</title>
+      <link>https://zacharykai.net/notes/25goals</link>
+      <description>things I wish to achieve.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/25goals</guid>
+    </item>
+    <item>
+      <title>Liminal Festival (2024)</title>
+      <link>https://zacharykai.net/notes/lf24</link>
+      <description>what I took from the conversations.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/lf24</guid>
+    </item>
+    <item>
+      <title>Mildura Writers Festival (2024)</title>
+      <link>https://zacharykai.net/notes/mwf24</link>
+      <description>what I learned from attending.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/mwf24</guid>
+    </item>
+    <item>
+      <title>My 2025 Goals So Far</title>
+      <link>https://zacharykai.net/notes/25qreview</link>
+      <description>let&#039;s do a six-month review and see how I went!</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/25qreview</guid>
+    </item>
+    <item>
+      <title>Proust&#039;s Questionnaire</title>
+      <link>https://zacharykai.net/notes/proust</link>
+      <description>my answers to these time-honored questions.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/proust</guid>
+    </item>
+    <item>
+      <title>A Sense Of Place</title>
+      <link>https://zacharykai.net/notes/place</link>
+      <description>what a strange concept when your existence always oscillates.</description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/place</guid>
+    </item>
+    <item>
+      <title>How Travel Is An Engine For Writing</title>
+      <link>https://zacharykai.net/notes/writingengine</link>
+      <description>i thought about how it makes me a better writer.</description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/writingengine</guid>
+    </item>
+    <item>
+      <title>Shot Silk And Sapphire Spiders</title>
+      <link>https://zacharykai.net/notes/silknspiders</link>
+      <description>if there&#039;s one thing I need, it&#039;s finding joy in nuance.</description>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/silknspiders</guid>
+    </item>
+    <item>
+      <title>Authenticity On The Web</title>
+      <link>https://zacharykai.net/notes/authenticity</link>
+      <description>why does it mean so many conflicting things on the internet?</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/authenticity</guid>
+    </item>
+    <item>
+      <title>No Going Back</title>
+      <link>https://zacharykai.net/notes/noreturn</link>
+      <description>if you search for me on social media, you won&#039;t find me.</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/noreturn</guid>
+    </item>
+    <item>
+      <title>Things To Do While Waiting</title>
+      <link>https://zacharykai.net/notes/waiting</link>
+      <description>liminal time isn&#039;t a curse. It&#039;s an opportunity.</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/waiting</guid>
+    </item>
+    <item>
+      <title>What Is This Feeling, If Not Love?</title>
+      <link>https://zacharykai.net/notes/tooeasily</link>
+      <description>i do this all the time. And not in the conventional sense.</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/tooeasily</guid>
+    </item>
+  </channel>
+</rss>
