@@ -1107,6 +1107,17 @@
     </url>
     
     <url>
+        <!-- How To Join The IndieWeb Wiki -->
+        <zk:title>How To Join The IndieWeb Wiki</zk:title>
+        <loc>https://zacharykai.net/notes/wikify</loc>
+        <lastmod>2026-05-07</lastmod>
+        <zk:content>a step-by-step guide to joining.</zk:content>
+        <zk:category>notes</zk:category>
+        <zk:subcategory>resources</zk:subcategory>
+        <zk:tags>indieweb,resources</zk:tags>
+    </url>
+
+    <url>
         <!-- Writing Sparks -->
         <zk:title>Writing Sparks</zk:title>
         <loc>https://zacharykai.net/notes/sparks</loc>
