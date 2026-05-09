@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indieweb — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;indieweb&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-indieweb.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Indieweb — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>Tags</title>
+      <link>https://zacharykai.net/tags</link>
+      <description>browse pages by tag.</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/tags</guid>
+    </item>
+    <item>
+      <title>IndieWeb Carnival Roundup: Feb 2026</title>
+      <link>https://zacharykai.net/notes/icfeb26roundup</link>
+      <description>it&#039;s come to a close.</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/icfeb26roundup</guid>
+    </item>
+    <item>
+      <title>IndieWeb Fiction Carnival Roundup: Feb 2026</title>
+      <link>https://zacharykai.net/notes/ifcfeb26roundup</link>
+      <description>it&#039;s come to a close.</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/ifcfeb26roundup</guid>
+    </item>
+    <item>
+      <title>Guestbooks Galore</title>
+      <link>https://zacharykai.net/lists/guestbooks</link>
+      <description>a directory of personal sites that host guestbooks.</description>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/guestbooks</guid>
+    </item>
+    <item>
+      <title>Weaving A Closer-Knit Web</title>
+      <link>https://zacharykai.net/notes/weaving</link>
+      <description>on the collaborative nature of the internet.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/weaving</guid>
+    </item>
+    <item>
+      <title>Cite</title>
+      <link>https://zacharykai.net/cite</link>
+      <description>how to cite pages on my site, and how I cite personal sites on my blog.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/cite</guid>
+    </item>
+    <item>
+      <title>IndieWeb Carnival: Feb 2026</title>
+      <link>https://zacharykai.net/notes/icfeb26</link>
+      <description>the theme is Intersecting Interests.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/icfeb26</guid>
+    </item>
+    <item>
+      <title>IndieWeb Fiction Carnival: Feb 2026</title>
+      <link>https://zacharykai.net/notes/ifcfeb26</link>
+      <description>the prompt is: we&#039;ve got to dream past it.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/ifcfeb26</guid>
+    </item>
+    <item>
+      <title>Homepage</title>
+      <link>https://zacharykai.net/</link>
+      <description>my site. Explore my space fantasy writing, IndieWeb projects, and more.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/</guid>
+    </item>
+    <item>
+      <title>Accessibility</title>
+      <link>https://zacharykai.net/accessibility</link>
+      <description>what features this site has/are planned.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/accessibility</guid>
+    </item>
+    <item>
+      <title>Bookmarklets</title>
+      <link>https://zacharykai.net/bookmarklets</link>
+      <description>useful snippets of Javascript.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/bookmarklets</guid>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>https://zacharykai.net/changelog</link>
+      <description>all site changes, reverse-chronologically.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/changelog</guid>
+    </item>
+    <item>
+      <title>Colophon</title>
+      <link>https://zacharykai.net/colophon</link>
+      <description>more on this site, accessibility, internet principles, numbers, and esoterica.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/colophon</guid>
+    </item>
+    <item>
+      <title>Jots</title>
+      <link>https://zacharykai.net/jots</link>
+      <description>my microblog, with occasional today-I-learned updates.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/jots</guid>
+    </item>
+    <item>
+      <title>Mentions</title>
+      <link>https://zacharykai.net/mentions</link>
+      <description>recording my webmentions: sent and recieved.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/mentions</guid>
+    </item>
+    <item>
+      <title>Principles</title>
+      <link>https://zacharykai.net/principles</link>
+      <description>the things that guide my internet existence.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/principles</guid>
+    </item>
+    <item>
+      <title>Random</title>
+      <link>https://zacharykai.net/random</link>
+      <description>click this link to go to a random page on my site!</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/random</guid>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://zacharykai.net/search</link>
+      <description>use it to find what you&#039;re looking for.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/search</guid>
+    </item>
+    <item>
+      <title>Sitemap</title>
+      <link>https://zacharykai.net/sitemap</link>
+      <description>a curated index of everything on my site.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/sitemap</guid>
+    </item>
+    <item>
+      <title>Statistics</title>
+      <link>https://zacharykai.net/statistics</link>
+      <description>numbers and esoterica related to this site.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/statistics</guid>
+    </item>
+    <item>
+      <title>Subscribe</title>
+      <link>https://zacharykai.net/subscribe</link>
+      <description>my RSS Feed and how to subscribe.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/subscribe</guid>
+    </item>
+    <item>
+      <title>Trades</title>
+      <link>https://zacharykai.net/trades</link>
+      <description>what I&#039;d love to trade with you and how to organize one.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/trades</guid>
+    </item>
+    <item>
+      <title>Uses</title>
+      <link>https://zacharykai.net/uses</link>
+      <description>the tech tooks I use + referral links for services I find useful (and you might too!)</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/uses</guid>
+    </item>
+    <item>
+      <title>Webmentions</title>
+      <link>https://zacharykai.net/webmentions</link>
+      <description>places the site&#039;s been mentioned on the internet.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/webmentions</guid>
+    </item>
+    <item>
+      <title>Webrings</title>
+      <link>https://zacharykai.net/webrings</link>
+      <description>all the ones this site belongs to.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/webrings</guid>
+    </item>
+    <item>
+      <title>Blog Questions Challenge 2025</title>
+      <link>https://zacharykai.net/notes/blogqna25</link>
+      <description>my answers to the questions posed.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/blogqna25</guid>
+    </item>
+    <item>
+      <title>The Unexpected Ambassador</title>
+      <link>https://zacharykai.net/notes/icmar25</link>
+      <description>to exist is to explain.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/icmar25</guid>
+    </item>
+    <item>
+      <title>Indieweb Book Club: Oct 2025</title>
+      <link>https://zacharykai.net/notes/iwboct25</link>
+      <description>the Creative Act by Rick Rubin</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/iwboct25</guid>
+    </item>
+    <item>
+      <title>Indieweb Movie Club: Apr 2025</title>
+      <link>https://zacharykai.net/notes/iwmapr25</link>
+      <description>the Castle (1997)</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/iwmapr25</guid>
+    </item>
+    <item>
+      <title>Indieweb Movie Club: Sep 2025</title>
+      <link>https://zacharykai.net/notes/iwmsep25</link>
+      <description>the Wild Robot (2024)</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/iwmsep25</guid>
+    </item>
+    <item>
+      <title>Site Ideas</title>
+      <link>https://zacharykai.net/notes/site-ideas</link>
+      <description>suggestions for what to put on your site.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/site-ideas</guid>
+    </item>
+    <item>
+      <title>Buttons</title>
+      <link>https://zacharykai.net/buttons</link>
+      <description>little buttons directing you to delightful web corners.</description>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/buttons</guid>
+    </item>
+    <item>
+      <title>Static HTML Site Directory</title>
+      <link>https://zacharykai.net/lists/html</link>
+      <description>a directory of sites running on Static HTML files.</description>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/html</guid>
+    </item>
+    <item>
+      <title>Authenticity On The Web</title>
+      <link>https://zacharykai.net/notes/authenticity</link>
+      <description>why does it mean so many conflicting things on the internet?</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/authenticity</guid>
+    </item>
+    <item>
+      <title>No Going Back</title>
+      <link>https://zacharykai.net/notes/noreturn</link>
+      <description>if you search for me on social media, you won&#039;t find me.</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/noreturn</guid>
+    </item>
+  </channel>
+</rss>

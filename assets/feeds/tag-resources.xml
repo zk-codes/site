@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;resources&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-resources.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Resources — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>Cite</title>
+      <link>https://zacharykai.net/cite</link>
+      <description>how to cite pages on my site, and how I cite personal sites on my blog.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/cite</guid>
+    </item>
+    <item>
+      <title>Accessibility</title>
+      <link>https://zacharykai.net/accessibility</link>
+      <description>what features this site has/are planned.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/accessibility</guid>
+    </item>
+    <item>
+      <title>Bookmarklets</title>
+      <link>https://zacharykai.net/bookmarklets</link>
+      <description>useful snippets of Javascript.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/bookmarklets</guid>
+    </item>
+    <item>
+      <title>Bookmarks</title>
+      <link>https://zacharykai.net/bookmarks</link>
+      <description>links I&#039;ve found fascinating.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/bookmarks</guid>
+    </item>
+    <item>
+      <title>Defaults</title>
+      <link>https://zacharykai.net/defaults</link>
+      <description>the usual tools I use for various purposes.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/defaults</guid>
+    </item>
+    <item>
+      <title>Quotes</title>
+      <link>https://zacharykai.net/quotes</link>
+      <description>interesting sayings I&#039;ve gathered.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/quotes</guid>
+    </item>
+    <item>
+      <title>Save</title>
+      <link>https://zacharykai.net/save</link>
+      <description>hopefully useful discount and referral codes.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/save</guid>
+    </item>
+    <item>
+      <title>Uses</title>
+      <link>https://zacharykai.net/uses</link>
+      <description>the tech tooks I use + referral links for services I find useful (and you might too!)</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/uses</guid>
+    </item>
+    <item>
+      <title>Words</title>
+      <link>https://zacharykai.net/words</link>
+      <description>interesting pieces of the English language.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/words</guid>
+    </item>
+    <item>
+      <title>Punchy Prose</title>
+      <link>https://zacharykai.net/notes/pp</link>
+      <description>words I watch for in my writing, to replace/remove for stronger prose.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/pp</guid>
+    </item>
+    <item>
+      <title>Site Ideas</title>
+      <link>https://zacharykai.net/notes/site-ideas</link>
+      <description>suggestions for what to put on your site.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/site-ideas</guid>
+    </item>
+    <item>
+      <title>Things You&#039;d Perhaps Enjoy</title>
+      <link>https://zacharykai.net/notes/rdec24</link>
+      <description>things I wish to share with you, hoping you&#039;ll enjoy them.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/rdec24</guid>
+    </item>
+    <item>
+      <title>Writing Sparks</title>
+      <link>https://zacharykai.net/notes/sparks</link>
+      <description>prompts for braving the blank page.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/sparks</guid>
+    </item>
+    <item>
+      <title>Static HTML Site Directory</title>
+      <link>https://zacharykai.net/lists/html</link>
+      <description>a directory of sites running on Static HTML files.</description>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/html</guid>
+    </item>
+    <item>
+      <title>Things To Do While Waiting</title>
+      <link>https://zacharykai.net/notes/waiting</link>
+      <description>liminal time isn&#039;t a curse. It&#039;s an opportunity.</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/waiting</guid>
+    </item>
+  </channel>
+</rss>

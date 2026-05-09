@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creative — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;creative&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-creative.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Creative — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>Art</title>
+      <link>https://zacharykai.net/art</link>
+      <description>my portfolio of collages, digital art, drawings and gods eyes.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/art</guid>
+    </item>
+    <item>
+      <title>Collages</title>
+      <link>https://zacharykai.net/collages</link>
+      <description>the ones I&#039;ve made from paper and glue.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/collages</guid>
+    </item>
+    <item>
+      <title>Digital Art</title>
+      <link>https://zacharykai.net/digital-art</link>
+      <description>pieces I&#039;ve drawn on the tablet/computer.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/digital-art</guid>
+    </item>
+    <item>
+      <title>Gods&#039; Eyes</title>
+      <link>https://zacharykai.net/gods-eyes</link>
+      <description>my portfolio of the ones I&#039;ve made.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/gods-eyes</guid>
+    </item>
+    <item>
+      <title>Ideas</title>
+      <link>https://zacharykai.net/ideas</link>
+      <description>things I&#039;d like to make and concepts that&#039;ve caught my attention.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/ideas</guid>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://zacharykai.net/music</link>
+      <description>my favorite songs and three years of Spotify listening stats.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/music</guid>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>https://zacharykai.net/photos</link>
+      <description>my gallery of shots.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/photos</guid>
+    </item>
+    <item>
+      <title>Spotify</title>
+      <link>https://zacharykai.net/spotify</link>
+      <description>interesting listening stats from years past.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/spotify</guid>
+    </item>
+    <item>
+      <title>Indieweb Movie Club: Apr 2025</title>
+      <link>https://zacharykai.net/notes/iwmapr25</link>
+      <description>the Castle (1997)</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/iwmapr25</guid>
+    </item>
+    <item>
+      <title>Indieweb Movie Club: Sep 2025</title>
+      <link>https://zacharykai.net/notes/iwmsep25</link>
+      <description>the Wild Robot (2024)</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/iwmsep25</guid>
+    </item>
+    <item>
+      <title>Minds Within Mine</title>
+      <link>https://zacharykai.net/notes/mwm</link>
+      <description>what my characters might say about me.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/mwm</guid>
+    </item>
+    <item>
+      <title>Avatars</title>
+      <link>https://zacharykai.net/avatars</link>
+      <description>my representative avatars, created for fun&#039;s sake.</description>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/avatars</guid>
+    </item>
+    <item>
+      <title>Shot Silk And Sapphire Spiders</title>
+      <link>https://zacharykai.net/notes/silknspiders</link>
+      <description>if there&#039;s one thing I need, it&#039;s finding joy in nuance.</description>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/silknspiders</guid>
+    </item>
+    <item>
+      <title>The Fictional Worlds I&#039;d Live In</title>
+      <link>https://zacharykai.net/notes/otherworlds</link>
+      <description>if I had a one-way ticket, where would I go?</description>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/otherworlds</guid>
+    </item>
+    <item>
+      <title>Music Questions Challenge</title>
+      <link>https://zacharykai.net/notes/musicqna</link>
+      <description>a little insight into my musical tastes.</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/musicqna</guid>
+    </item>
+    <item>
+      <title>Painting Impressions With James</title>
+      <link>https://zacharykai.net/notes/painting</link>
+      <description>where we chose and shared our thoughts on artworks.</description>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/painting</guid>
+    </item>
+  </channel>
+</rss>

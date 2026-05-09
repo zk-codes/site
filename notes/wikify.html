@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <!-- Head -->
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- File Links -->
+        <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="alternate" type="application/rss+xml" title="Zachary Kai" href="/assets/rss.xml">
+        <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
+        <link rel="canonical" href="https://zacharykai.net/notes/wikify">
+        <!-- Page Info -->
+        <title>How To Join The IndieWeb Wiki | Zachary Kai</title>
+        <meta name="date" content="2026-05-07">
+        <meta name="last-modified" content="2026-05-07">
+        <meta name="description" content="A step-by-step guide to joining the IndieWeb wiki. The simplest route possible.">
+    </head>
+
+    <!-- Body -->
+    <body>
+
+        <!-- Skip Link -->
+        <p><a href="#top" class="essentials">Begin reading...</a></p>
+
+        <!-- Site Header -->
+        <header><nav><a href="/">Zachary Kai</a></nav></header>
+
+        <!-- Main Content -->
+        <main class="h-entry">
+
+            <!-- Page Header -->
+            <header>
+                <!-- Breadcrumbs -->
+                <p class="essentials"><a href="/">Homepage</a> • <a href="/sitemap#notes">Notes</a></p>
+                <!-- Page Title -->
+                <h1 class="p-name">How To Join The IndieWeb Wiki</h1>
+                <!-- Necessary Metadata -->
+                <p class="essentials">
+                    <strong>Written By</strong>: <a href="/about">Zachary Kai</a> »
+                    <strong>Published</strong>: <time class="dt-published" datetime="2026-05-07">7 May 2026</time> |
+                    <strong>Updated</strong>: <time class="dt-modified" datetime="2026-05-07">7 May 2026</time>
+                </p>
+                <!-- Other Metadata -->
+                <details class="essentials">
+                    <summary>Expand For Other (Hopefully Useful) Metadata</summary>
+                    <ul>
+                        <li>Reading Time: ~3 min (at 238 WPM)</li>
+                        <li>Word Count: 617</li>
+                    </ul>
+                </details>
+            </header>
+
+            <!-- Page Body -->
+            <section class="e-content">
+
+                <!-- Introduction -->
+                <p id="top" class="p-summary">The <a href="https://indieweb.org" rel="noopener">IndieWeb wiki</a> is a collaborative space for people who own their slice of the internet.</p>
+                <p>Joining gives you a profile page, lets you edit articles, and connects you to a community of personal website folks. Here's the simplest way in.</p>
+
+                <details>
+                    <summary><strong>Table Of Contents</strong></summary>
+                    <ul>
+                        <li><a href="#before-you-start">What You Need Before You Start</a></li>
+                        <li><a href="#step-1">Step 1: Link Your Website To A Profile You Control</a></li>
+                        <li><a href="#step-2">Step 2: Add Your Website To That Profile</a></li>
+                        <li><a href="#step-3">Step 3: Test That It Works</a></li>
+                        <li><a href="#step-4">Step 4: Sign Into The IndieWeb Wiki</a></li>
+                        <li><a href="#step-5">Step 5: Create Your Profile Page</a></li>
+                        <li><a href="#alternatives">If You Don't Have GitHub</a></li>
+                    </ul>
+                </details>
+
+                <hr>
+
+                <section>
+                    <h2 id="before-you-start">What You Need Before You Start</h2>
+                    <ul>
+                        <li>A personal website or domain you own (like <code>yourname.com</code>)</li>
+                        <li>An account on GitHub, GitLab, or Codeberg, or just an email address</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 id="step-1">Step 1: Link Your Website To A Profile You Control</h2>
+                    <p>The wiki uses <strong>web sign-in</strong>. Instead of a username and password, it verifies you own your domain by checking for a link on your homepage that points to a profile you control.</p>
+                    <p>Add this to your homepage's HTML:</p>
+                    <pre><code>&lt;a href="https://github.com/yourusername" rel="me"&gt;GitHub&lt;/a&gt;</code></pre>
+                    <p>Replace the URL with your profile. The <code>rel="me"</code> part tells the wiki "this link is <em>me</em>."</p>
+                    <p>Don't want a visible link? Put it in the <code>&lt;head&gt;</code> of your page instead:</p>
+                    <pre><code>&lt;link href="https://github.com/yourusername" rel="me"&gt;</code></pre>
+                </section>
+
+                <section>
+                    <h2 id="step-2">Step 2: Add Your Website To That Profile</h2>
+                    <p>Go to whichever account you linked and add your website URL to your profile bio.</p>
+                    <p>This creates a two-way connection: your site points to GitHub, and GitHub points back. That's how the wiki knows you own the domain.</p>
+                    <p>On <strong>GitHub</strong>: profile → Edit profile → add your URL to the Website field.</p>
+                </section>
+
+                <section>
+                    <h2 id="step-3">Step 3: Test That It Works</h2>
+                    <p>Go to <a href="https://indielogin.com" rel="noopener">IndieLogin.com</a> and enter your domain. If everything's connected, it'll let you sign in using your GitHub (or other) account.</p>
+                    <p>If it doesn't work, check:</p>
+                    <ul>
+                        <li>The <code>rel="me"</code> link on your homepage points to the right profile URL</li>
+                        <li>Your profile on that platform has your website URL listed</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 id="step-4">Step 4: Sign Into The IndieWeb Wiki</h2>
+                    <p>Go to the <a href="https://indieweb.org/wiki/index.php?title=Special:UserLogin" rel="noopener">IndieWeb wiki login page</a> and click <strong>Sign in with your domain</strong>.</p>
+                    <p>Enter your domain (e.g., <code>yourname.com</code>) and follow the prompts. It redirects you through IndieLogin to confirm ownership, then signs you into the wiki.</p>
+                </section>
+
+                <section>
+                    <h2 id="step-5">Step 5: Create Your Profile Page</h2>
+                    <p>Once signed in, the wiki creates a page for you at <code>indieweb.org/User:yourname.com</code>.</p>
+                    <p>Click your name in the top right to visit it, then click <strong>Edit</strong> to fill it in.</p>
+                    <p>There's no required format. Most people add a short bio and a link back to their site. Some list projects they're working on or IndieWeb features their site supports.</p>
+                </section>
+
+                <section>
+                    <h2 id="alternatives">If You Don't Have/Want To Use GitHub</h2>
+                    <p>You can also connect via:</p>
+                    <ul>
+                        <li><strong>GitLab or Codeberg</strong>: same process as GitHub</li>
+                        <li><strong>Email</strong>: add a <code>mailto:</code> link with <code>rel="me"</code> to your homepage, and you'll receive a one-time code when signing in</li>
+                    </ul>
+                    <pre><code>&lt;a href="mailto:you@youremail.com" rel="me"&gt;Email&lt;/a&gt;</code></pre>
+                    <p>If you use <strong>WordPress</strong>, the <a href="https://wordpress.org/plugins/indieauth/" rel="noopener">IndieAuth plugin</a> handles all of this automatically.</p>
+                </section>
+
+                <p>That's it. Once you're in, you can edit any page, add yourself to community lists, and document whatever IndieWeb things you're building or thinking about. Welcome!</p>
+
+                <!-- Closing -->
+                <p>•--♡--•</p>
+
+            </section>
+
+            <section>
+                <!-- Closing Metadata -->
+
+                <section>
+                    <!-- Tags -->
+                    <p class="essentials"><strong>Tags</strong>: <a href="/tags?tag=indieweb">indieweb</a> · <a href="/tags?tag=resources">resources</a> · <a href="/tags?tag=community">community</a> · <a href="/tags?tag=guides">guides</a> · <a class="u-category" href="https://news.indieweb.org/en" rel="noopener">IndieNews</a></p>
+                </section>
+
+                <section>
+                    <!-- Copy + Share -->
+                    <p><strong>Copy + Share</strong>: <a class="u-url" href="https://zacharykai.net/notes/wikify">zacharykai.net/notes/wikify</a></p>
+                </section>
+
+            </section>
+
+        </main>
+
+        <!-- Back To Top Link -->
+        <p><a href="#top" class="essentials">Read again...</a></p>
+
+        <section class="support">
+            <h2>Enjoy What I Do? Find It (Hopefully) Helpful?</h2>
+            <p>I'm so glad! If you feel moved to <a href="/support">support me</a> in making things, I'd most appreciate it!</p>
+        </section>
+
+        <!-- H-Card -->
+        <section class="h-card vcard">
+            <section id="h-card-image">
+                <picture>
+                    <source srcset="/assets/icon.webp" type="image/webp">
+                    <img class="u-photo" loading="lazy" src="/assets/icon.png" alt="Zachary Kai's digital drawing: 5 stacked books (blue/teal/green/purple, black spine designs), green plant behind top book, purple heart on either side.">
+                </picture>
+            </section>
+            <section id="h-card-content">
+                <p><strong><a class="u-url u-id p-name" href="https://zacharykai.net" rel="me"><span class="fn">Zachary Kai</span></a></strong> — <span class="p-pronouns">he/him</span> | <a class="u-email email" href="mailto:hi@zacharykai.net" rel="me">hi@zacharykai.net</a></p>
+                <p class="p-note">Zachary Kai is a space fantasy writer, offbeat queer, traveler, zinester, and avowed generalist. The internet is his livelihood and lifeline.</p>
+            </section>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+
+            <!-- Acknowledgement Of Country -->
+            <p style="margin-top: 0.25em;"><strong>Acknowledgement Of Country</strong>: I owe my existence to the <a href="https://kht.org.au/" rel="noopener">Koori people's</a> lands: tended for millennia by the traditional owners and storytellers. What a legacy. May it prevail.</p>
+
+            <!-- Reply Via -->
+            <p>
+                <strong>Reply Via</strong>:
+                <a href="/contact">Email</a> |
+                <a href="/guestbook">Guestbook</a> |
+                <a href="/unoffice-hours">UnOffice Hours</a> |
+                <a href="/webmention" rel="noopener">Webmention</a>
+            </p>
+
+            <!-- Footer Menu -->
+            <p>
+                <strong>Est. 2024</strong> ||
+                <a href="/about">About</a> |
+                <a href="/art">Art</a> |
+                <a href="/colophon">Accessibility & Colophon</a> |
+                <a href="/changelog">Changelog</a> |
+                <a href="/jots">Jots</a> |
+                <a href="/now">Now</a> |
+                <a href="/random">Random</a> |
+                <a href="/assets/rss.xml">RSS</a> |
+                <a href="/sitemap">Sitemap</a> |
+                <a href="/uses">Uses</a>
+            </p>
+
+            <!-- Elsewhere Links -->
+            <p style="margin-bottom: 0;">
+                <strong>Elsewhere</strong>:
+                <a href="https://roadlessread.com" rel="noopener">Blog</a> |
+                <a href="https://lunaseeker.com/catalog/" rel="noopener">Books</a> |
+                <a href="https://lunaseeker.com/cv" rel="noopener">CV</a> |
+                <a href="/github" rel="noopener">Github</a> |
+                <a href="/linkedin" rel="noopener">Linkedin</a> |
+                <a href="https://lunaseeker.com/newsletter/" rel="noopener">Newsletter</a> |
+                <a href="https://lunaseeker.com/offerings" rel="noopener">Offerings</a> |
+                <a href="https://lunaseeker.com" rel="noopener">Portfolio</a>
+            </p>
+        </footer>
+
+        <p class="essentials" style="margin-top: 2em;">Hi. Yes, you, lovely human. Have a wonderful <a href="https://indieweb.org/Universal_Greeting_Time" rel="noopener">morning</a> and make time for a small moment of joy, wheverever you are. ♡</p>
+
+    </body>
+</html>

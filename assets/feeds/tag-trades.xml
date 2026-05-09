@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trades — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;trades&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-trades.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Trades — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>The Strangest Thing Happened The Other Day...</title>
+      <link>https://zacharykai.net/notes/strangest</link>
+      <description>a list of things noticed.</description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/strangest</guid>
+    </item>
+    <item>
+      <title>My Fondest Childhood Memory</title>
+      <link>https://zacharykai.net/notes/childhood</link>
+      <description>on teaching myself history through Horrible Histories.</description>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/childhood</guid>
+    </item>
+    <item>
+      <title>Consciousness Is The Most Expensive Accident</title>
+      <link>https://zacharykai.net/notes/consciousness</link>
+      <description>on the cost of noticing.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/consciousness</guid>
+    </item>
+    <item>
+      <title>An Endless Summer Doesn&#039;t Seem Romantic Anymore</title>
+      <link>https://zacharykai.net/notes/endlesssummer</link>
+      <description>missing the mythic summer break.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/endlesssummer</guid>
+    </item>
+    <item>
+      <title>Weaving A Closer-Knit Web</title>
+      <link>https://zacharykai.net/notes/weaving</link>
+      <description>on the collaborative nature of the internet.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/weaving</guid>
+    </item>
+    <item>
+      <title>My 2025 Goals So Far</title>
+      <link>https://zacharykai.net/notes/25qreview</link>
+      <description>let&#039;s do a six-month review and see how I went!</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/25qreview</guid>
+    </item>
+    <item>
+      <title>How Travel Is An Engine For Writing</title>
+      <link>https://zacharykai.net/notes/writingengine</link>
+      <description>i thought about how it makes me a better writer.</description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/writingengine</guid>
+    </item>
+    <item>
+      <title>Syzygy</title>
+      <link>https://zacharykai.net/notes/syzygy</link>
+      <description>when encountering this, I didn&#039;t know its pronunciation, let alone its meaning!</description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/syzygy</guid>
+    </item>
+    <item>
+      <title>Shot Silk And Sapphire Spiders</title>
+      <link>https://zacharykai.net/notes/silknspiders</link>
+      <description>if there&#039;s one thing I need, it&#039;s finding joy in nuance.</description>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/silknspiders</guid>
+    </item>
+    <item>
+      <title>The Fictional Worlds I&#039;d Live In</title>
+      <link>https://zacharykai.net/notes/otherworlds</link>
+      <description>if I had a one-way ticket, where would I go?</description>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/otherworlds</guid>
+    </item>
+    <item>
+      <title>The Notification I Look Forward To The Most</title>
+      <link>https://zacharykai.net/notes/notifications</link>
+      <description>how do I do this phrase justice?</description>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/notifications</guid>
+    </item>
+    <item>
+      <title>Authenticity On The Web</title>
+      <link>https://zacharykai.net/notes/authenticity</link>
+      <description>why does it mean so many conflicting things on the internet?</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/authenticity</guid>
+    </item>
+    <item>
+      <title>No Going Back</title>
+      <link>https://zacharykai.net/notes/noreturn</link>
+      <description>if you search for me on social media, you won&#039;t find me.</description>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/noreturn</guid>
+    </item>
+  </channel>
+</rss>

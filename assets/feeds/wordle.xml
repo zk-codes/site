@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordle — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>A log of Wordle results from Zachary Kai.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/wordle.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Wordle — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>Wordle</title>
+      <link>https://zacharykai.net/wordle</link>
+      <description>a reverse-chronological log of my Wordle results.</description>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/wordle</guid>
+    </item>
+  </channel>
+</rss>

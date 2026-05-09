@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roundup — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;roundup&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-roundup.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Roundup — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>IndieWeb Carnival Roundup: Feb 2026</title>
+      <link>https://zacharykai.net/notes/icfeb26roundup</link>
+      <description>it&#039;s come to a close.</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/icfeb26roundup</guid>
+    </item>
+    <item>
+      <title>IndieWeb Fiction Carnival Roundup: Feb 2026</title>
+      <link>https://zacharykai.net/notes/ifcfeb26roundup</link>
+      <description>it&#039;s come to a close.</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/ifcfeb26roundup</guid>
+    </item>
+  </channel>
+</rss>

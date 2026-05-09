@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community — Zachary Kai</title>
+    <link>https://zacharykai.net/</link>
+    <description>Pages tagged &quot;community&quot; on zacharykai.net.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2026 18:26:10 +0000</lastBuildDate>
+    <atom:link href="https://zacharykai.net/assets/feeds/tag-community.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://zacharykai.net/assets/icon.png</url>
+      <title>Community — Zachary Kai</title>
+      <link>https://zacharykai.net/</link>
+    </image>
+    <item>
+      <title>IndieWeb Carnival Roundup: Feb 2026</title>
+      <link>https://zacharykai.net/notes/icfeb26roundup</link>
+      <description>it&#039;s come to a close.</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/icfeb26roundup</guid>
+    </item>
+    <item>
+      <title>Guestbooks Galore</title>
+      <link>https://zacharykai.net/lists/guestbooks</link>
+      <description>a directory of personal sites that host guestbooks.</description>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/guestbooks</guid>
+    </item>
+    <item>
+      <title>Proust Questionnaire</title>
+      <link>https://zacharykai.net/lists/proust</link>
+      <description>a directory of sites featuring answers to the Proust Questionnaire.</description>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/proust</guid>
+    </item>
+    <item>
+      <title>Emerging Writers Festival (2025)</title>
+      <link>https://zacharykai.net/notes/ewf25</link>
+      <description>notes from attending in September 2025.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/ewf25</guid>
+    </item>
+    <item>
+      <title>Weaving A Closer-Knit Web</title>
+      <link>https://zacharykai.net/notes/weaving</link>
+      <description>on the collaborative nature of the internet.</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/weaving</guid>
+    </item>
+    <item>
+      <title>Title Traders</title>
+      <link>https://zacharykai.net/lists/titletrade</link>
+      <description>a directory of folks willing to trade blog post titles as a collaborative effort.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/titletrade</guid>
+    </item>
+    <item>
+      <title>IndieWeb Carnival: Feb 2026</title>
+      <link>https://zacharykai.net/notes/icfeb26</link>
+      <description>the theme is Intersecting Interests.</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/icfeb26</guid>
+    </item>
+    <item>
+      <title>Vintage Car Webring</title>
+      <link>https://zacharykai.net/lists/vintagecars</link>
+      <description>connecting vintage car aesthetics and design enthusiasts.</description>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/vintagecars</guid>
+    </item>
+    <item>
+      <title>Crosswinds + Currents</title>
+      <link>https://zacharykai.net/lists/crosscurrent</link>
+      <description>a directory of sites by people living in or from Asia/the Pacific.</description>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/crosscurrent</guid>
+    </item>
+    <item>
+      <title>Literature Conversation With Sara Jaksa</title>
+      <link>https://zacharykai.net/notes/literature</link>
+      <description>a bookish discussion.</description>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/literature</guid>
+    </item>
+    <item>
+      <title>Guestbook</title>
+      <link>https://zacharykai.net/guestbook</link>
+      <description>go on, sign it!</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/guestbook</guid>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>https://zacharykai.net/hello</link>
+      <description>details on contacting me: email, meet, message, or trade with me (please do!)</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/hello</guid>
+    </item>
+    <item>
+      <title>Mentions</title>
+      <link>https://zacharykai.net/mentions</link>
+      <description>recording my webmentions: sent and recieved.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/mentions</guid>
+    </item>
+    <item>
+      <title>Trades</title>
+      <link>https://zacharykai.net/trades</link>
+      <description>what I&#039;d love to trade with you and how to organize one.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/trades</guid>
+    </item>
+    <item>
+      <title>Webrings</title>
+      <link>https://zacharykai.net/webrings</link>
+      <description>all the ones this site belongs to.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/webrings</guid>
+    </item>
+    <item>
+      <title>Oceania Web Atlas</title>
+      <link>https://zacharykai.net/lists/oceania</link>
+      <description>a directory of sites by people living in or from Oceania.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/oceania</guid>
+    </item>
+    <item>
+      <title>Queer Web Directory</title>
+      <link>https://zacharykai.net/lists/queer</link>
+      <description>a directory of sites by queer folks around the world.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/queer</guid>
+    </item>
+    <item>
+      <title>Liminal Festival (2024)</title>
+      <link>https://zacharykai.net/notes/lf24</link>
+      <description>what I took from the conversations.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/lf24</guid>
+    </item>
+    <item>
+      <title>Site Ideas</title>
+      <link>https://zacharykai.net/notes/site-ideas</link>
+      <description>suggestions for what to put on your site.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/site-ideas</guid>
+    </item>
+    <item>
+      <title>Things You&#039;d Perhaps Enjoy</title>
+      <link>https://zacharykai.net/notes/rdec24</link>
+      <description>things I wish to share with you, hoping you&#039;ll enjoy them.</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/rdec24</guid>
+    </item>
+    <item>
+      <title>Beverage</title>
+      <link>https://zacharykai.net/beverage</link>
+      <description>would you like to meet for one? I would!</description>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/beverage</guid>
+    </item>
+    <item>
+      <title>Buttons</title>
+      <link>https://zacharykai.net/buttons</link>
+      <description>little buttons directing you to delightful web corners.</description>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/buttons</guid>
+    </item>
+    <item>
+      <title>Fanfiction Conversation With Sara Jaksa</title>
+      <link>https://zacharykai.net/notes/fanfic</link>
+      <description>a discussion of fan culture and writing.</description>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/fanfic</guid>
+    </item>
+    <item>
+      <title>Static HTML Site Directory</title>
+      <link>https://zacharykai.net/lists/html</link>
+      <description>a directory of sites running on Static HTML files.</description>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/html</guid>
+    </item>
+    <item>
+      <title>Star Wars Webring</title>
+      <link>https://zacharykai.net/lists/starwars</link>
+      <description>for folks who enjoy Star Wars.</description>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/starwars</guid>
+    </item>
+    <item>
+      <title>The Notification I Look Forward To The Most</title>
+      <link>https://zacharykai.net/notes/notifications</link>
+      <description>how do I do this phrase justice?</description>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/notifications</guid>
+    </item>
+    <item>
+      <title>UnOffice Hours</title>
+      <link>https://zacharykai.net/unoffice-hours</link>
+      <description>i&#039;d love to meet you for a video or audio call!</description>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/unoffice-hours</guid>
+    </item>
+    <item>
+      <title>Fanfic Writers Collective</title>
+      <link>https://zacharykai.net/lists/fanfiction</link>
+      <description>a directory of folks with sites writing fanfiction.</description>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/lists/fanfiction</guid>
+    </item>
+    <item>
+      <title>Painting Impressions With James</title>
+      <link>https://zacharykai.net/notes/painting</link>
+      <description>where we chose and shared our thoughts on artworks.</description>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/painting</guid>
+    </item>
+  </channel>
+</rss>

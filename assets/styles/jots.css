@@ -1,0 +1,653 @@
+/* Base Styles & Variables */
+
+:root {
+    --main-color: #503832;
+    --bg-color: #f6e6cf;
+    --highlight-color: #ffd6a5;
+    --border-style: 0.15em var(--main-color) double;
+    --container-padding: 0.75em;
+    --base-font-size: 1.28em;
+    --font-family: "Palatino Linotype", serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    color: var(--main-color);
+    font-size: var(--base-font-size);
+    line-height: 1.5;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0.15em;
+    margin-bottom: 1em;
+}
+
+/* Typography */
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.1em;
+    margin-top: 0.55em;
+}
+
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.30em; }
+
+a {
+    color: inherit;
+    padding-right: 0;
+}
+
+/* Structural Layout Containers */
+
+header:not(main > header, article > header),
+main > header,
+main > section:not(.e-content),
+.h-card,
+footer {
+    border: var(--border-style);
+    padding: var(--container-padding);
+    max-width: 900px;
+    margin: 1em auto;
+}
+
+.e-content {
+    max-width: 1300px;
+    margin: 1em auto;
+}
+
+article .e-content {
+    border: none;
+    padding: 0;
+    max-width: none;
+    margin: 0;
+}
+
+pre {
+    border: var(--border-style);
+    padding: var(--container-padding);
+    margin: 1em 0;
+}
+
+/* Skip link */
+
+body > p {
+    text-align: center;
+}
+
+/* Site header: centered text */
+
+header:not(main > header, article > header) {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer {
+    font-size: 0.78em;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Lists */
+
+ul, ol {
+    padding-left: 1.8em;
+}
+
+li {
+    padding-bottom: 0.25em;
+}
+
+/* Section Breaks */
+
+hr {
+    border-top: var(--border-style);
+    background-color: var(--bg-color);
+    margin: 0.85em 0;
+}
+
+/* External Links */
+
+a[rel="noopener"]:not(:has(img))::after {
+    content: url('/assets/imgs/svg/external_link.svg');
+    display: inline;
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.25em;
+    vertical-align: middle;
+}
+
+/* Forms */
+
+form {
+    border-top: var(--border-style);
+    border-bottom: var(--border-style);
+    padding: 15px 0;
+}
+
+fieldset {
+    border: none;
+    border-bottom: var(--border-style);
+    margin: 15px 0;
+    padding: 10px 0;
+}
+
+fieldset:first-of-type {
+    margin-top: 0;
+}
+
+textarea,
+select,
+input:not(.button):not([type="radio"]):not([type="checkbox"]) {
+    font-size: 0.95em;
+    line-height: 1.5;
+    font-family: var(--font-family);
+    margin: 15px 0;
+    width: 100%;
+    padding: var(--container-padding);
+    border: 1px solid var(--main-color);
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Radio & Checkboxes */
+
+.radio-group,
+.checkbox-group {
+    margin: 10px 0;
+}
+
+.radio-label, .checkbox-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Buttons */
+
+.button, button {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+    font-size: 1.1em;
+    line-height: 1.5;
+    font-family: var(--font-family);
+    margin: 5px 0;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Media */
+
+img:not(.scaledimg),
+picture:not(.scaledimg) {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.scaledimg {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caption {
+    font-size: 0.85em;
+    color: var(--main-color);
+    text-align: center;
+    font-style: italic;
+}
+
+.image-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
+    gap: 0.5rem;
+    width: 100%;
+}
+
+/* Code Blocks */
+
+code {
+    font-family: monospace, "Courier New", sans-serif;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-x: auto;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+/* Blockquotes */
+
+blockquote {
+    margin-left: 1.5em;
+    padding-left: 1.2em;
+    border-left: var(--border-style);
+}
+
+blockquote p {
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+/* H-Card */
+
+.h-card {
+    display: flex;
+    margin-bottom: 0;
+}
+
+#h-card-image {
+    flex: 0 0 140px;
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+
+#h-card-content {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+/* Utility Classes */
+
+.essentials {
+    font-size: 0.75em;
+    line-height: 1;
+}
+
+p:target:not(#top) {
+    background-color: var(--highlight-color);
+}
+
+/* Details */
+
+details {
+    margin-bottom: 0.5em;
+}
+
+summary h2, summary h3, summary h4 {
+    display: inline;
+    margin-bottom: 0.5em;
+}
+
+/* Tag Filter Bar */
+
+.tag-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    margin-top: 0.75em;
+}
+
+.tag-pill {
+    display: inline-block;
+    font-size: 0.68em;
+    line-height: 1;
+    padding: 0.35em 0.65em;
+    border: 1px solid var(--main-color);
+    border-radius: 1em;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.tag-pill:hover,
+.tag-pill.active {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+}
+
+.tag-pill.small {
+    font-size: 0.6em;
+    padding: 0.3em 0.55em;
+}
+
+/* Jots — Masonry Grid */
+
+.jots-grid {
+    columns: 3;
+    column-gap: 1em;
+}
+
+.jots-grid h2 {
+    column-span: all;
+    border: var(--border-style);
+    padding: var(--container-padding);
+    margin: 1em auto;
+    box-sizing: border-box;
+}
+
+.jots-grid article {
+    border: var(--border-style);
+    padding: 0;
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+}
+
+.jots-grid article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(80, 56, 50, 0.15);
+}
+
+/* Date badge */
+
+.jot-date {
+    font-size: 0.65em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+    margin: 0;
+    padding: var(--container-padding);
+    padding-bottom: 0;
+}
+
+/* Content area with side padding, but images bleed edge-to-edge */
+
+.jots-grid article .e-content {
+    border: none;
+    padding: 0 var(--container-padding);
+    max-width: none;
+    margin: 0;
+}
+
+.jots-grid article .e-content p,
+.jots-grid article .e-content section:not(.image-group) {
+    margin: 0 0 0.5em;
+}
+
+.jots-grid article .e-content p:last-child,
+.jots-grid article .e-content section:last-child {
+    margin-bottom: 0;
+}
+
+/* Edge-to-edge images */
+
+.jots-grid article .e-content img:not(.image-group img),
+.jots-grid article .e-content .image-group {
+    margin-left: calc(-1 * var(--container-padding));
+    margin-right: calc(-1 * var(--container-padding));
+    width: calc(100% + 2 * var(--container-padding));
+    max-width: none;
+    display: block;
+}
+
+.jots-grid article .e-content .image-group {
+    gap: 2px;
+    border-radius: 0;
+}
+
+/* Tags row */
+
+.jot-tags {
+    padding: 0 var(--container-padding);
+    margin: 0.4em 0 0;
+}
+
+/* Permalink arrow */
+
+.jots-grid .u-url {
+    font-size: 0.75em;
+    display: block;
+    padding: 0.3em var(--container-padding) 0.6em;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.jots-grid article:hover .u-url {
+    opacity: 1;
+}
+
+/* Suppress hr separators — grid gutters replace them */
+.e-content hr {
+    display: none;
+}
+
+/* Responsive Overrides (Media Queries) */
+
+@media (max-width: 768px) {
+    .h-card {
+        flex-direction: column;
+    }
+
+    .h-card-image {
+        flex: 0 0 auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .h-card-content {
+        width: 100%;
+    }
+
+    .jots-grid {
+        columns: 2;
+    }
+
+    .tag-filter {
+        gap: 0.3em;
+    }
+}
+
+@media (max-width: 480px) {
+    .jots-grid {
+        columns: 1;
+    }
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #350046;
+        color: white;
+    }
+
+    .caption {
+        color: white;
+    }
+
+    header:not(main > header, article > header),
+    main, footer, pre, .h-card {
+        border-color: var(--border-style);
+    }
+
+    a[rel="noopener"]:not(:has(img))::after {
+        content: url('/assets/imgs/svg/dark_external_link.svg');
+    }
+
+    .tag-pill {
+        border-color: white;
+    }
+
+    .tag-pill:hover,
+    .tag-pill.active {
+        background-color: white;
+        color: #350046;
+    }
+
+    .jots-grid article:hover {
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    }
+
+}
+
+/* Backward Compatibility */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    body {
+        background-color: #f6e6cf;
+        font-family: "Palatino Linotype", serif;
+        color: #503832;
+        font-size: 20px;
+    }
+
+    header, main, footer, pre, .h-card {
+        border: 3px #503832 double;
+        padding: 15px;
+    }
+
+    .button, button {
+        background-color: #503832;
+        color: #f6e6cf;
+    }
+}
+
+.image-duo, .image-trio, .image-group, .h-card {
+    display: block\9;
+}
+
+@supports not (--var: 0) {
+    body {
+        background-color: #f6e6cf;
+        font-family: "Palatino Linotype", serif;
+        color: #503832;
+        font-size: 20px;
+    }
+
+    header, main, footer, pre, .h-card, hr {
+        border: 3px #503832 double;
+    }
+
+    p:target:not(#top) {
+        background-color: #ffd6a5;
+    }
+
+    .button, button {
+        background-color: #503832;
+        color: #f6e6cf;
+    }
+}
+
+/* Print Styles */
+
+@media print {
+
+    /* Base Print Styles */
+
+    body {
+        background-color: #fff;
+        color: #000;
+        font-size: 1.1em;
+        margin: 0;
+        padding-top: 0;
+        padding-left: 0.7cm;
+        padding-right: 0.7cm;
+        padding-bottom: 0.7cm;
+        max-width: none;
+    }
+
+    body, textarea, select, input:not(.button):not([type="radio"]):not([type="checkbox"]), .button, button {
+        font-family: var(--font-family);
+    }
+
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.7em; }
+    h3 { font-size: 1.4em; }
+    h4 { font-size: 1.2em; }
+
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    /* Borders And Separators */
+
+    header, main, footer, form, fieldset, pre, blockquote, hr {
+        border-color: #000 !important;
+        border-style: var(--border-style);
+    }
+
+    /* Code And Blockquotes */
+
+    code, pre {
+        font-size: 0.8em;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        border: 1px solid #ccc;
+        padding: 5px;
+    }
+
+    blockquote {
+        margin-left: 1.5em;
+        padding-left: 1.2em;
+        border-left: 1px solid #ccc;
+    }
+
+    /* Print as single column */
+
+    .jots-grid {
+        columns: 1;
+    }
+
+    /* Hide Non-Essential Elements For Print */
+
+    nav, aside, form, input, button, .button, .radio-group, .checkbox-group, .radio-label, .checkbox-label,
+    #top, p:target:not(#top), .caption, footer, .h-card, .essentials {
+        display: none !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Images */
+
+    img, picture, video, canvas, svg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 1em auto;
+        page-break-inside: avoid;
+    }
+
+    .image-group {
+        display: block;
+        margin: 1em 0;
+    }
+
+    /* Page Breaks */
+
+    h1, h2, h3, h4 {
+        page-break-after: avoid;
+    }
+
+    pre, blockquote {
+        page-break-inside: avoid;
+    }
+
+    /* URLs */
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+    }
+
+    /* Don't Show For Internal Links */
+    a[href^="#"]:after {
+        content: "";
+    }
+}
